@@ -1,0 +1,2363 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{benites2021implementacion}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=be7f8392d87429d5971af2396f3c575e}{%
+           family={Benites\bibnamedelima Sernaqué},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={José\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad Señor de Sipán}%
+      }
+      \strng{namehash}{be7f8392d87429d5971af2396f3c575e}
+      \strng{fullhash}{be7f8392d87429d5971af2396f3c575e}
+      \strng{fullhashraw}{be7f8392d87429d5971af2396f3c575e}
+      \strng{bibnamehash}{be7f8392d87429d5971af2396f3c575e}
+      \strng{authorbibnamehash}{be7f8392d87429d5971af2396f3c575e}
+      \strng{authornamehash}{be7f8392d87429d5971af2396f3c575e}
+      \strng{authorfullhash}{be7f8392d87429d5971af2396f3c575e}
+      \strng{authorfullhashraw}{be7f8392d87429d5971af2396f3c575e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Implementación de un sistema de pronóstico de ventas utilizando redes neuronales artificiales para la empresa Cerámicos Lambayeque SAC}
+      \field{type}{Tesis de grado}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{brockwell2002introduction}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c23a4ba530c4691d74464c64be44c297}{%
+           family={Brockwell},
+           familyi={B\bibinitperiod},
+           given={Peter\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a2bb053c938a3254c68ec9fb886a907}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Richard\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{fe0d0dfe83ec5a9e1b60190b6ef9bc2c}
+      \strng{fullhash}{fe0d0dfe83ec5a9e1b60190b6ef9bc2c}
+      \strng{fullhashraw}{fe0d0dfe83ec5a9e1b60190b6ef9bc2c}
+      \strng{bibnamehash}{fe0d0dfe83ec5a9e1b60190b6ef9bc2c}
+      \strng{authorbibnamehash}{fe0d0dfe83ec5a9e1b60190b6ef9bc2c}
+      \strng{authornamehash}{fe0d0dfe83ec5a9e1b60190b6ef9bc2c}
+      \strng{authorfullhash}{fe0d0dfe83ec5a9e1b60190b6ef9bc2c}
+      \strng{authorfullhashraw}{fe0d0dfe83ec5a9e1b60190b6ef9bc2c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to time series and forecasting}
+      \field{year}{2002}
+    \endentry
+    \entry{brownlee2017long}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f98902cd63327e943d29ddf4bbdaee61}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Machine Learning Mastery}%
+      }
+      \strng{namehash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{fullhash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{fullhashraw}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{bibnamehash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{authorbibnamehash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{authornamehash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{authorfullhash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{authorfullhashraw}{f98902cd63327e943d29ddf4bbdaee61}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Long Short-Term Memory Networks With Python: Develop Sequence Prediction Models with Deep Learning}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://books.google.com.pe/books?id=m7SoDwAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.pe/books?id=m7SoDwAAQBAJ
+      \endverb
+    \endentry
+    \entry{fayyad1996kdd}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b42d184c7549161c8fe0c2d53decab94}{%
+           family={Fayyad},
+           familyi={F\bibinitperiod},
+           given={Usama},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34f8ca71a399161ab92f9d68b804869f}{%
+           family={Piatetsky-Shapiro},
+           familyi={P\bibinithyphendelim S\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4940852a16a84802eb98552d6deace24}{%
+           family={Smyth},
+           familyi={S\bibinitperiod},
+           given={Padhraic},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{d209ee15d1bcdde9f91ef133f1a11cb4}
+      \strng{fullhash}{f401cd48784ca09966764313d60e64c0}
+      \strng{fullhashraw}{f401cd48784ca09966764313d60e64c0}
+      \strng{bibnamehash}{f401cd48784ca09966764313d60e64c0}
+      \strng{authorbibnamehash}{f401cd48784ca09966764313d60e64c0}
+      \strng{authornamehash}{d209ee15d1bcdde9f91ef133f1a11cb4}
+      \strng{authorfullhash}{f401cd48784ca09966764313d60e64c0}
+      \strng{authorfullhashraw}{f401cd48784ca09966764313d60e64c0}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications of the ACM}
+      \field{number}{11}
+      \field{title}{The KDD process for extracting useful knowledge from volumes of data}
+      \field{volume}{39}
+      \field{year}{1996}
+      \true{nocite}
+      \field{pages}{27\bibrangedash 34}
+      \range{pages}{8}
+    \endentry
+    \entry{feng2019big}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=eb9f36dca0e147682dc050aef18fb1f6}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Mingchen},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a876bee3d2679ab276264adbd9a43779}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Jiangbin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5008c183302bcd58423ae8938be69388}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Jinchang},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ad3729a7efea6d2ab38e43640ab6f27}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fc6e03397228de7a406505e9666fe79}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiuxiu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=831de41e87e01bb3bc70ea08819de8b7}{%
+           family={Xi},
+           familyi={X\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20d00b5aed88c323e0823d0367d4257a}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Qiaoyuan},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2d9f2a2ae5819df8b9435e99c9203189}
+      \strng{fullhash}{e98a50618bdbcb5ea27f100d3176aeb0}
+      \strng{fullhashraw}{e98a50618bdbcb5ea27f100d3176aeb0}
+      \strng{bibnamehash}{e98a50618bdbcb5ea27f100d3176aeb0}
+      \strng{authorbibnamehash}{e98a50618bdbcb5ea27f100d3176aeb0}
+      \strng{authornamehash}{2d9f2a2ae5819df8b9435e99c9203189}
+      \strng{authorfullhash}{e98a50618bdbcb5ea27f100d3176aeb0}
+      \strng{authorfullhashraw}{e98a50618bdbcb5ea27f100d3176aeb0}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Big data analytics and mining for effective visualization and trends forecasting of crime data}
+      \field{volume}{7}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{106111\bibrangedash 106123}
+      \range{pages}{13}
+    \endentry
+    \entry{Fierrotorres2022}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3ed34d036226c7db178a45dc693988aa}{%
+           family={Fierro\bibnamedelima Torres},
+           familyi={F\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={César\bibnamedelima Ángel},
+           giveni={C\bibinitperiod\bibinitdelim Á\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10c13a793be1ec0546b3987966ff36f0}{%
+           family={Castillo\bibnamedelima Pérez},
+           familyi={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Velia\bibnamedelima Herminia},
+           giveni={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ba375869331d44127762a5bc7b6ea8b}{%
+           family={Torres\bibnamedelima Saucedo},
+           familyi={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Claudia\bibnamedelima Irene},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{94e02311d2f7017ddfbb1d10b8473eaf}
+      \strng{fullhash}{122d1290c2a0f31c91b259ea88613e01}
+      \strng{fullhashraw}{122d1290c2a0f31c91b259ea88613e01}
+      \strng{bibnamehash}{122d1290c2a0f31c91b259ea88613e01}
+      \strng{authorbibnamehash}{122d1290c2a0f31c91b259ea88613e01}
+      \strng{authornamehash}{94e02311d2f7017ddfbb1d10b8473eaf}
+      \strng{authorfullhash}{122d1290c2a0f31c91b259ea88613e01}
+      \strng{authorfullhashraw}{122d1290c2a0f31c91b259ea88613e01}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Iberoamericana para la Investigación y el Desarrollo Educativo}
+      \field{title}{Análisis comparativo de modelos tradicionales y modernos para pronóstico de la demanda: enfoques y características}
+      \field{volume}{24}
+      \field{year}{2022}
+      \verb{doi}
+      \verb https://doi.org/10.23913/ride.v12i24.1203
+      \endverb
+    \endentry
+    \entry{gupta2022advanced}{book}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e7b48cc37af5f47d086420a6c5c52d4f}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=473b670336b6c9a30a356fff5394c8b1}{%
+           family={Sambyo},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb529d93ab3d7bafa9fffe9ed2e27a0e}{%
+           family={Prasad},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19c371da608bd85e3a0f0b53d2297d45}{%
+           family={Agarwal},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Singapore}%
+      }
+      \strng{namehash}{4671eff865b697146c9c13d911275880}
+      \strng{fullhash}{13b742b82583145a6d9739e3954eb9db}
+      \strng{fullhashraw}{13b742b82583145a6d9739e3954eb9db}
+      \strng{bibnamehash}{13b742b82583145a6d9739e3954eb9db}
+      \strng{authorbibnamehash}{13b742b82583145a6d9739e3954eb9db}
+      \strng{authornamehash}{4671eff865b697146c9c13d911275880}
+      \strng{authorfullhash}{13b742b82583145a6d9739e3954eb9db}
+      \strng{authorfullhashraw}{13b742b82583145a6d9739e3954eb9db}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789811908408}
+      \field{series}{Lecture Notes in Electrical Engineering}
+      \field{title}{Advanced Machine Intelligence and Signal Processing}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://books.google.com.pe/books?id=SUp3EAAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.pe/books?id=SUp3EAAAQBAJ
+      \endverb
+    \endentry
+    \entry{HerediaCEPAL}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed130be3e300692b8f97a63d0dbc9f15}{%
+           family={Heredia},
+           familyi={H\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ed130be3e300692b8f97a63d0dbc9f15}
+      \strng{fullhash}{ed130be3e300692b8f97a63d0dbc9f15}
+      \strng{fullhashraw}{ed130be3e300692b8f97a63d0dbc9f15}
+      \strng{bibnamehash}{ed130be3e300692b8f97a63d0dbc9f15}
+      \strng{authorbibnamehash}{ed130be3e300692b8f97a63d0dbc9f15}
+      \strng{authornamehash}{ed130be3e300692b8f97a63d0dbc9f15}
+      \strng{authorfullhash}{ed130be3e300692b8f97a63d0dbc9f15}
+      \strng{authorfullhashraw}{ed130be3e300692b8f97a63d0dbc9f15}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Comisión Económica para América Latina y el Caribe (CEPAL), {https://repositorio.cepal.org/server/api/core/bitstreams/07bb3712-8dbd-40f9-b527-7fb04e67e435/content}}
+      \field{note}{Accessed: 2024-10-24}
+      \field{title}{Políticas de fomento para la incorporación de las tecnologías digitales en las micro, pequeñas y medianas empresas de América Latina: revisión de experiencias y oportunidades}
+      \field{year}{2020}
+    \endentry
+    \entry{higa2021analisis}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c33cf9870a52e7efdcadfa6461f329e3}{%
+           family={Higa\bibnamedelima Shimabukuro},
+           familyi={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad de Lima}%
+      }
+      \strng{namehash}{c33cf9870a52e7efdcadfa6461f329e3}
+      \strng{fullhash}{c33cf9870a52e7efdcadfa6461f329e3}
+      \strng{fullhashraw}{c33cf9870a52e7efdcadfa6461f329e3}
+      \strng{bibnamehash}{c33cf9870a52e7efdcadfa6461f329e3}
+      \strng{authorbibnamehash}{c33cf9870a52e7efdcadfa6461f329e3}
+      \strng{authornamehash}{c33cf9870a52e7efdcadfa6461f329e3}
+      \strng{authorfullhash}{c33cf9870a52e7efdcadfa6461f329e3}
+      \strng{authorfullhashraw}{c33cf9870a52e7efdcadfa6461f329e3}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Análisis de pronóstico de demanda para poder gestionar el inventario aplicado al sector salud}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{hoarau2022time}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=593368397201da12a5059a206e0de486}{%
+           family={Hoarau},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing}%
+      }
+      \strng{namehash}{593368397201da12a5059a206e0de486}
+      \strng{fullhash}{593368397201da12a5059a206e0de486}
+      \strng{fullhashraw}{593368397201da12a5059a206e0de486}
+      \strng{bibnamehash}{593368397201da12a5059a206e0de486}
+      \strng{authorbibnamehash}{593368397201da12a5059a206e0de486}
+      \strng{authornamehash}{593368397201da12a5059a206e0de486}
+      \strng{authorfullhash}{593368397201da12a5059a206e0de486}
+      \strng{authorfullhashraw}{593368397201da12a5059a206e0de486}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781801814027}
+      \field{title}{Time Series Analysis on AWS: Learn how to build forecasting models and detect anomalies in your time series data}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://books.google.com.pe/books?id=4ohbEAAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.pe/books?id=4ohbEAAAQBAJ
+      \endverb
+    \endentry
+    \entry{diggsalman}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=88bb121934dece183fd09080dd66112b}{%
+           family={Jamali},
+           familyi={J\bibinitperiod},
+           given={Salman},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ff90664306811aa5274b0953c6c1e09}{%
+           family={Rangwala},
+           familyi={R\bibinitperiod},
+           given={Huzefa},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{03fe88a42fa19b66c845744b0e8cfade}
+      \strng{fullhash}{03fe88a42fa19b66c845744b0e8cfade}
+      \strng{fullhashraw}{03fe88a42fa19b66c845744b0e8cfade}
+      \strng{bibnamehash}{03fe88a42fa19b66c845744b0e8cfade}
+      \strng{authorbibnamehash}{03fe88a42fa19b66c845744b0e8cfade}
+      \strng{authornamehash}{03fe88a42fa19b66c845744b0e8cfade}
+      \strng{authorfullhash}{03fe88a42fa19b66c845744b0e8cfade}
+      \strng{authorfullhashraw}{03fe88a42fa19b66c845744b0e8cfade}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2009 International Conference on Web Information Systems and Mining}
+      \field{title}{Digging Digg: Comment Mining, Popularity Prediction, and Social Network Analysis}
+      \field{year}{2009}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1109/WISM.2009.15
+      \endverb
+    \endentry
+    \entry{lauramodelo2020}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1fd7aea196f44eaac49ecdfc309eeb30}{%
+           family={Laura\bibnamedelima Huaita},
+           familyi={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={R.\bibnamedelimi M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad Mayor de San Andres}%
+      }
+      \strng{namehash}{1fd7aea196f44eaac49ecdfc309eeb30}
+      \strng{fullhash}{1fd7aea196f44eaac49ecdfc309eeb30}
+      \strng{fullhashraw}{1fd7aea196f44eaac49ecdfc309eeb30}
+      \strng{bibnamehash}{1fd7aea196f44eaac49ecdfc309eeb30}
+      \strng{authorbibnamehash}{1fd7aea196f44eaac49ecdfc309eeb30}
+      \strng{authornamehash}{1fd7aea196f44eaac49ecdfc309eeb30}
+      \strng{authorfullhash}{1fd7aea196f44eaac49ecdfc309eeb30}
+      \strng{authorfullhashraw}{1fd7aea196f44eaac49ecdfc309eeb30}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Modelo predictivo de demanda basado en redes neuronales para aprovisionamiento en empresas textiles}
+      \field{type}{Tesis doctoral}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+    \entry{MINTARYA202396}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=48f5f191af58a3b7537a738cccf6179d}{%
+           family={Mintarya},
+           familyi={M\bibinitperiod},
+           given={Latrisha\bibnamedelima N.},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=823721cfcf8de1965aa3281ef660b918}{%
+           family={Halim},
+           familyi={H\bibinitperiod},
+           given={Jeta\bibnamedelima N.M.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=631ce612c69410cf0d2c562acf922200}{%
+           family={Angie},
+           familyi={A\bibinitperiod},
+           given={Callista},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ebde004551e8f4f605ea8b769e2d7d6}{%
+           family={Achmad},
+           familyi={A\bibinitperiod},
+           given={Said},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37747f5b301ee2b9e2e2fc401b9af45e}{%
+           family={Kurniawan},
+           familyi={K\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7190759dc89e2b0b4d7f0e8f3eb713e5}
+      \strng{fullhash}{833b8b18972f0f767ef7ef4f75a01b42}
+      \strng{fullhashraw}{833b8b18972f0f767ef7ef4f75a01b42}
+      \strng{bibnamehash}{833b8b18972f0f767ef7ef4f75a01b42}
+      \strng{authorbibnamehash}{833b8b18972f0f767ef7ef4f75a01b42}
+      \strng{authornamehash}{7190759dc89e2b0b4d7f0e8f3eb713e5}
+      \strng{authorfullhash}{833b8b18972f0f767ef7ef4f75a01b42}
+      \strng{authorfullhashraw}{833b8b18972f0f767ef7ef4f75a01b42}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Predicting the stock market has been done for a long time using traditional methods by analyzing fundamental and technical aspects. With machine learning, stock market predictions are made more accessible and more accurate. Various machine learn- ing approaches have been applied in stock market prediction. This study aims to review relevant works about machine learning approaches in stock market prediction. To achieve this aim, we did a systematic literature review. This study review 30 studies regarding machine learning approaches/models in stock market prediction. Approaches that were used included neural networks and support vector machines. The result of this study is that neural networks are the most used model for stock market prediction. However, this does not mean that other models cannot be used for predicting the stock market.}
+      \field{issn}{1877-0509}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{note}{7th International Conference on Computer Science and Computational Intelligence 2022}
+      \field{title}{Machine learning approaches in stock market prediction: A systematic literature review}
+      \field{volume}{216}
+      \field{year}{2023}
+      \field{pages}{96\bibrangedash 102}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.procs.2022.12.115
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1877050922021937
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1877050922021937
+      \endverb
+      \keyw{Machine Learning,Machine Learning Approach,Machine Learning Model,Stock Market,Stock Market Prediction}
+    \endentry
+    \entry{mitchell1997machine}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ef989624fe8cf86408cbf3a495f2a157}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={T.M.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{ef989624fe8cf86408cbf3a495f2a157}
+      \strng{fullhash}{ef989624fe8cf86408cbf3a495f2a157}
+      \strng{fullhashraw}{ef989624fe8cf86408cbf3a495f2a157}
+      \strng{bibnamehash}{ef989624fe8cf86408cbf3a495f2a157}
+      \strng{authorbibnamehash}{ef989624fe8cf86408cbf3a495f2a157}
+      \strng{authornamehash}{ef989624fe8cf86408cbf3a495f2a157}
+      \strng{authorfullhash}{ef989624fe8cf86408cbf3a495f2a157}
+      \strng{authorfullhashraw}{ef989624fe8cf86408cbf3a495f2a157}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780071154673}
+      \field{series}{McGraw-Hill International Editions}
+      \field{title}{Machine Learning}
+      \field{year}{1997}
+      \verb{urlraw}
+      \verb https://books.google.com.pe/books?id=EoYBngEACAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.pe/books?id=EoYBngEACAAJ
+      \endverb
+    \endentry
+    \entry{molina2017modelacion}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=049adcfa650006a80dba9964fef83c04}{%
+           family={Molina},
+           familyi={M\bibinitperiod},
+           given={Javier\bibnamedelima Paniagua},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{049adcfa650006a80dba9964fef83c04}
+      \strng{fullhash}{049adcfa650006a80dba9964fef83c04}
+      \strng{fullhashraw}{049adcfa650006a80dba9964fef83c04}
+      \strng{bibnamehash}{049adcfa650006a80dba9964fef83c04}
+      \strng{authorbibnamehash}{049adcfa650006a80dba9964fef83c04}
+      \strng{authornamehash}{049adcfa650006a80dba9964fef83c04}
+      \strng{authorfullhash}{049adcfa650006a80dba9964fef83c04}
+      \strng{authorfullhashraw}{049adcfa650006a80dba9964fef83c04}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{e-Agronegocios}
+      \field{number}{2}
+      \field{title}{Modelación econométrica de la demanda de semilla de chile dulce Lamuyo y Blocky en Costa Rica mediante series de tiempo univariadas}
+      \field{volume}{3}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{montgomery2013introduction}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=715badfd1c8a22d771ef5233487a019d}{%
+           family={Montgomery},
+           familyi={M\bibinitperiod},
+           given={D.C.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=610f9af1e238ec53903661d1b20571ef}{%
+           family={Peck},
+           familyi={P\bibinitperiod},
+           given={E.A.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e69cb4e5ba602169706304aae5f6821}{%
+           family={Vining},
+           familyi={V\bibinitperiod},
+           given={G.G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{824c4cde043fe5d63170986f4921a33c}
+      \strng{fullhash}{9b3f16c44ec8c51822bef2d9ee2539eb}
+      \strng{fullhashraw}{9b3f16c44ec8c51822bef2d9ee2539eb}
+      \strng{bibnamehash}{9b3f16c44ec8c51822bef2d9ee2539eb}
+      \strng{authorbibnamehash}{9b3f16c44ec8c51822bef2d9ee2539eb}
+      \strng{authornamehash}{824c4cde043fe5d63170986f4921a33c}
+      \strng{authorfullhash}{9b3f16c44ec8c51822bef2d9ee2539eb}
+      \strng{authorfullhashraw}{9b3f16c44ec8c51822bef2d9ee2539eb}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781118627365}
+      \field{series}{Wiley Series in Probability and Statistics}
+      \field{title}{Introduction to Linear Regression Analysis}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://books.google.com.pe/books?id=lSyiRZh09oEC
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.pe/books?id=lSyiRZh09oEC
+      \endverb
+    \endentry
+    \entry{nebacyril2024}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=a34effc7d8249e0d6827b56f4ca39323}{%
+           family={Neba\bibnamedelima Cyril},
+           familyi={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Chenwi},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d4340114312c8a85d8cf33d9e0f88ea}{%
+           family={Shu\bibnamedelima Fuhnwi},
+           familyi={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3ae2df693c1c504af65db40c5f4cc76}{%
+           family={Nsuh},
+           familyi={N\bibinitperiod},
+           given={Gillian},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=389e1ea2939478c61321208fc1b1891e}{%
+           family={Agbara},
+           familyi={A\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=559d7c0d4bc104741c7c5309032b4ad5}{%
+           family={Neba},
+           familyi={N\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=372301892fa3b7f859b2324974850721}{%
+           family={Webnda},
+           familyi={W\bibinitperiod},
+           given={Ferdinand},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc0da720df73b4b48884a83042c37db0}{%
+           family={Ikpe},
+           familyi={I\bibinitperiod},
+           given={Victory},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{96a42295251e9f8891b77cd61a705a45}
+      \strng{fullhash}{17d99395b0b7ba88bb5b258b54298b22}
+      \strng{fullhashraw}{17d99395b0b7ba88bb5b258b54298b22}
+      \strng{bibnamehash}{17d99395b0b7ba88bb5b258b54298b22}
+      \strng{authorbibnamehash}{17d99395b0b7ba88bb5b258b54298b22}
+      \strng{authornamehash}{96a42295251e9f8891b77cd61a705a45}
+      \strng{authorfullhash}{17d99395b0b7ba88bb5b258b54298b22}
+      \strng{authorfullhashraw}{17d99395b0b7ba88bb5b258b54298b22}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Asian Journal of Probability and Statistics}
+      \field{month}{06}
+      \field{title}{Advancing Retail Predictions: Integrating Diverse Machine Learning Models for Accurate Walmart Sales Forecasting}
+      \field{volume}{26}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 23}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.9734/ajpas/2024/v26i7626
+      \endverb
+    \endentry
+    \entry{foodbank}{online}{}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-11-04}
+      \field{title}{New Research Presents Policy Opportunities for China to Reduce Food Loss and Waste | The Global FoodBanking Network}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.foodbanking.org/es/news/new-research-presents-policy-opportunities-for-china-to-reduce-food-loss-and-waste/
+      \endverb
+      \verb{url}
+      \verb https://www.foodbanking.org/es/news/new-research-presents-policy-opportunities-for-china-to-reduce-food-loss-and-waste/
+      \endverb
+    \endentry
+    \entry{ocampo2004pronostico}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7e24da21425ea12d6ce1909111c535b6}{%
+           family={Ocampo},
+           familyi={O\bibinitperiod},
+           given={Eliana\bibnamedelimb M\bibnamedelima Toro},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9a72f01b4dd2b462f4a6ef0b0cc6aa6}{%
+           family={GIRALDO},
+           familyi={G\bibinitperiod},
+           given={DIEGO\bibnamedelimb A\bibnamedelima MEJÍA},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=902837a4b6916485880e3ff47b9fa71a}{%
+           family={Isaza},
+           familyi={I\bibinitperiod},
+           given={Harold\bibnamedelima Salazar},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Tecnológica de Pereira}%
+      }
+      \strng{namehash}{c84b07a6f65fd16731f7bf83f17deb49}
+      \strng{fullhash}{5e5573518f41639e4a2c83fd80cb6b1f}
+      \strng{fullhashraw}{5e5573518f41639e4a2c83fd80cb6b1f}
+      \strng{bibnamehash}{5e5573518f41639e4a2c83fd80cb6b1f}
+      \strng{authorbibnamehash}{5e5573518f41639e4a2c83fd80cb6b1f}
+      \strng{authornamehash}{c84b07a6f65fd16731f7bf83f17deb49}
+      \strng{authorfullhash}{5e5573518f41639e4a2c83fd80cb6b1f}
+      \strng{authorfullhashraw}{5e5573518f41639e4a2c83fd80cb6b1f}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientia et technica}
+      \field{number}{26}
+      \field{title}{Pronóstico de ventas usando redes neuronales}
+      \field{volume}{10}
+      \field{year}{2004}
+      \field{pages}{25\bibrangedash 30}
+      \range{pages}{6}
+    \endentry
+    \entry{Pandasandeep2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=62a906a0845b040e3ed09b9cc81bc725}{%
+           family={Panda},
+           familyi={P\bibinitperiod},
+           given={Sandeep\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4bdc09e596135755571b0de30e37bd47}{%
+           family={Mohanty},
+           familyi={M\bibinitperiod},
+           given={Sachi\bibnamedelima Nandan},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{25fbaa8b437563fbbb6ddab2cf26f34c}
+      \strng{fullhash}{25fbaa8b437563fbbb6ddab2cf26f34c}
+      \strng{fullhashraw}{25fbaa8b437563fbbb6ddab2cf26f34c}
+      \strng{bibnamehash}{25fbaa8b437563fbbb6ddab2cf26f34c}
+      \strng{authorbibnamehash}{25fbaa8b437563fbbb6ddab2cf26f34c}
+      \strng{authornamehash}{25fbaa8b437563fbbb6ddab2cf26f34c}
+      \strng{authorfullhash}{25fbaa8b437563fbbb6ddab2cf26f34c}
+      \strng{authorfullhashraw}{25fbaa8b437563fbbb6ddab2cf26f34c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Time Series Forecasting and Modeling of Food Demand Supply Chain Based on Regressors Analysis}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{42679\bibrangedash 42700}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2023.3266275
+      \endverb
+      \keyw{Predictive models;Time series analysis;Boosting;Demand forecasting;Machine learning;Companies;Raw materials;Deep learning;demand forecasting;machine learning;time series analysis}
+    \endentry
+    \entry{parra2017gestion}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1a4503db66e5b322482a7b3183a97f2b}{%
+           family={Parra\bibnamedelima Ortega},
+           familyi={P\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Mario\bibnamedelima Wilson},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Militar Nueva Granada}%
+      }
+      \strng{namehash}{8ab88a42d8bfe513e977763936278ad6}
+      \strng{fullhash}{8ab88a42d8bfe513e977763936278ad6}
+      \strng{fullhashraw}{8ab88a42d8bfe513e977763936278ad6}
+      \strng{bibnamehash}{8ab88a42d8bfe513e977763936278ad6}
+      \strng{authorbibnamehash}{8ab88a42d8bfe513e977763936278ad6}
+      \strng{authornamehash}{8ab88a42d8bfe513e977763936278ad6}
+      \strng{authorfullhash}{8ab88a42d8bfe513e977763936278ad6}
+      \strng{authorfullhashraw}{8ab88a42d8bfe513e977763936278ad6}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gestión de la cadena de suministro Supply Chain Management y logística en Colombia}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{paul2013methodological}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4be2ca2f2249dac1b97d92bf0d894088}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Liton\bibnamedelima Chandra},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=582514185e49c018082e79d8847f5bcc}{%
+           family={Suman},
+           familyi={S\bibinitperiod},
+           given={Abdulla\bibnamedelima Al},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77ad92332b8cd072f2056e6c3f708ced}{%
+           family={Sultan},
+           familyi={S\bibinitperiod},
+           given={Nahid},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{821f2b4a7cb8fda86e810a89e17046e3}
+      \strng{fullhash}{93a46ab63af7d7cd52b1416f38995425}
+      \strng{fullhashraw}{93a46ab63af7d7cd52b1416f38995425}
+      \strng{bibnamehash}{93a46ab63af7d7cd52b1416f38995425}
+      \strng{authorbibnamehash}{93a46ab63af7d7cd52b1416f38995425}
+      \strng{authornamehash}{821f2b4a7cb8fda86e810a89e17046e3}
+      \strng{authorfullhash}{93a46ab63af7d7cd52b1416f38995425}
+      \strng{authorfullhashraw}{93a46ab63af7d7cd52b1416f38995425}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Computational Engineering \& Management}
+      \field{number}{2}
+      \field{title}{Methodological analysis of principal component analysis (PCA) method}
+      \field{volume}{16}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{32\bibrangedash 38}
+      \range{pages}{7}
+    \endentry
+    \entry{Bancomundial}{online}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2023-01-15}
+      \field{title}{Perú Panorama general}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.bancomundial.org/es/country/peru/overview
+      \endverb
+      \verb{url}
+      \verb https://www.bancomundial.org/es/country/peru/overview
+      \endverb
+    \endentry
+    \entry{robles2021sistema}{thesis}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a86d4b2771023dc1b1f62e2a204de268}{%
+           family={Robles\bibnamedelima Rakov},
+           familyi={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Marcos\bibnamedelima Andrei},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1957dc4d285723ad3b0cc79aeffbcc18}{%
+           family={Valverde\bibnamedelima Campos},
+           familyi={V\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Marilyn\bibnamedelima Ysabel},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad San Martin de Porres}%
+      }
+      \strng{namehash}{d8323cc8562eb3b570dd618851f80749}
+      \strng{fullhash}{d8323cc8562eb3b570dd618851f80749}
+      \strng{fullhashraw}{d8323cc8562eb3b570dd618851f80749}
+      \strng{bibnamehash}{d8323cc8562eb3b570dd618851f80749}
+      \strng{authorbibnamehash}{d8323cc8562eb3b570dd618851f80749}
+      \strng{authornamehash}{d8323cc8562eb3b570dd618851f80749}
+      \strng{authorfullhash}{d8323cc8562eb3b570dd618851f80749}
+      \strng{authorfullhashraw}{d8323cc8562eb3b570dd618851f80749}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sistema de predicción para incrementar las ventas de accesorios y repuestos automotrices en la empresa GGP Automotriz}
+      \field{type}{Tesis de grado}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{rodriguez2021estudio}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dbe9bb04bcf340ab128ff6397a885469}{%
+           family={Rodríguez-León},
+           familyi={R\bibinithyphendelim L\bibinitperiod},
+           given={Johanna},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1adbd2b57c4d3e16020222e7ac162320}{%
+           family={Pachón-Rincón},
+           familyi={P\bibinithyphendelim R\bibinitperiod},
+           given={Mateo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Industrial de Santander}%
+      }
+      \strng{namehash}{2d881417939fadda3beb3029d9b06a95}
+      \strng{fullhash}{2d881417939fadda3beb3029d9b06a95}
+      \strng{fullhashraw}{2d881417939fadda3beb3029d9b06a95}
+      \strng{bibnamehash}{2d881417939fadda3beb3029d9b06a95}
+      \strng{authorbibnamehash}{2d881417939fadda3beb3029d9b06a95}
+      \strng{authornamehash}{2d881417939fadda3beb3029d9b06a95}
+      \strng{authorfullhash}{2d881417939fadda3beb3029d9b06a95}
+      \strng{authorfullhashraw}{2d881417939fadda3beb3029d9b06a95}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista UIS ingenierías}
+      \field{number}{4}
+      \field{title}{Estudio de pronóstico para la planeación, caso de estudio empresa distribuidora del sector farmacéutico}
+      \field{volume}{20}
+      \field{year}{2021}
+      \field{pages}{59\bibrangedash 78}
+      \range{pages}{20}
+    \endentry
+    \entry{villarreal2016introduccion}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f76dc3a7751c123a18b7a80bd9f7157}{%
+           family={Villarreal},
+           familyi={V\bibinitperiod},
+           given={Fernanda},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8f76dc3a7751c123a18b7a80bd9f7157}
+      \strng{fullhash}{8f76dc3a7751c123a18b7a80bd9f7157}
+      \strng{fullhashraw}{8f76dc3a7751c123a18b7a80bd9f7157}
+      \strng{bibnamehash}{8f76dc3a7751c123a18b7a80bd9f7157}
+      \strng{authorbibnamehash}{8f76dc3a7751c123a18b7a80bd9f7157}
+      \strng{authornamehash}{8f76dc3a7751c123a18b7a80bd9f7157}
+      \strng{authorfullhash}{8f76dc3a7751c123a18b7a80bd9f7157}
+      \strng{authorfullhashraw}{8f76dc3a7751c123a18b7a80bd9f7157}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Univ. Nac. del Sur}
+      \field{title}{Introducción a los Modelos de Pronósticos}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 121}
+      \range{pages}{121}
+    \endentry
+    \entry{villarreal2016version}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9fa3eaf1b6830c3667ac23f8d4eaa398}{%
+           family={Villarreal\bibnamedelima Buenaventura},
+           familyi={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Dolly\bibnamedelima E},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=997816baf37f9a57d7d9705b91ac035b}{%
+           family={Prada\bibnamedelima Gómez},
+           familyi={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Yonathan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Ibagué: Universidad del Tolima, 2016}%
+      }
+      \strng{namehash}{ac8490a27926d9b4aa9598074459a494}
+      \strng{fullhash}{ac8490a27926d9b4aa9598074459a494}
+      \strng{fullhashraw}{ac8490a27926d9b4aa9598074459a494}
+      \strng{bibnamehash}{ac8490a27926d9b4aa9598074459a494}
+      \strng{authorbibnamehash}{ac8490a27926d9b4aa9598074459a494}
+      \strng{authornamehash}{ac8490a27926d9b4aa9598074459a494}
+      \strng{authorfullhash}{ac8490a27926d9b4aa9598074459a494}
+      \strng{authorfullhashraw}{ac8490a27926d9b4aa9598074459a494}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Una versión homotópica del teorema de cauchy y su aplicación a los gráficos alfa}
+      \field{year}{2016}
+    \endentry
+    \entry{wang2005support}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9a75ee293f2555f40976345739087998}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{9a75ee293f2555f40976345739087998}
+      \strng{fullhash}{9a75ee293f2555f40976345739087998}
+      \strng{fullhashraw}{9a75ee293f2555f40976345739087998}
+      \strng{bibnamehash}{9a75ee293f2555f40976345739087998}
+      \strng{authorbibnamehash}{9a75ee293f2555f40976345739087998}
+      \strng{authornamehash}{9a75ee293f2555f40976345739087998}
+      \strng{authorfullhash}{9a75ee293f2555f40976345739087998}
+      \strng{authorfullhashraw}{9a75ee293f2555f40976345739087998}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783540243885}
+      \field{series}{Studies in Fuzziness and Soft Computing}
+      \field{title}{Support Vector Machines: Theory and Applications}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb https://books.google.com.pe/books?id=uTzMPJjVjsMC
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.pe/books?id=uTzMPJjVjsMC
+      \endverb
+    \endentry
+    \entry{Zhi-Hua2021machinel}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6b1a37e820a730061851a81dcca2d154}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Zhi-Hua},
+           giveni={Z\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Singapore}%
+      }
+      \strng{namehash}{6b1a37e820a730061851a81dcca2d154}
+      \strng{fullhash}{6b1a37e820a730061851a81dcca2d154}
+      \strng{fullhashraw}{6b1a37e820a730061851a81dcca2d154}
+      \strng{bibnamehash}{6b1a37e820a730061851a81dcca2d154}
+      \strng{authorbibnamehash}{6b1a37e820a730061851a81dcca2d154}
+      \strng{authornamehash}{6b1a37e820a730061851a81dcca2d154}
+      \strng{authorfullhash}{6b1a37e820a730061851a81dcca2d154}
+      \strng{authorfullhashraw}{6b1a37e820a730061851a81dcca2d154}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-981-15-1966-6}
+      \field{series}{Springer Nature Singapore Pte}
+      \field{title}{Machine Learning}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{doi}
+      \verb https://doi.org/10.1007/978-981-15-1967-3
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{benites2021implementacion}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=be7f8392d87429d5971af2396f3c575e}{%
+           family={Benites\bibnamedelima Sernaqué},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={José\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad Señor de Sipán}%
+      }
+      \strng{namehash}{be7f8392d87429d5971af2396f3c575e}
+      \strng{fullhash}{be7f8392d87429d5971af2396f3c575e}
+      \strng{fullhashraw}{be7f8392d87429d5971af2396f3c575e}
+      \strng{bibnamehash}{be7f8392d87429d5971af2396f3c575e}
+      \strng{authorbibnamehash}{be7f8392d87429d5971af2396f3c575e}
+      \strng{authornamehash}{be7f8392d87429d5971af2396f3c575e}
+      \strng{authorfullhash}{be7f8392d87429d5971af2396f3c575e}
+      \strng{authorfullhashraw}{be7f8392d87429d5971af2396f3c575e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Implementación de un sistema de pronóstico de ventas utilizando redes neuronales artificiales para la empresa Cerámicos Lambayeque SAC}
+      \field{type}{Tesis de grado}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{brockwell2002introduction}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c23a4ba530c4691d74464c64be44c297}{%
+           family={Brockwell},
+           familyi={B\bibinitperiod},
+           given={Peter\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a2bb053c938a3254c68ec9fb886a907}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Richard\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{fe0d0dfe83ec5a9e1b60190b6ef9bc2c}
+      \strng{fullhash}{fe0d0dfe83ec5a9e1b60190b6ef9bc2c}
+      \strng{fullhashraw}{fe0d0dfe83ec5a9e1b60190b6ef9bc2c}
+      \strng{bibnamehash}{fe0d0dfe83ec5a9e1b60190b6ef9bc2c}
+      \strng{authorbibnamehash}{fe0d0dfe83ec5a9e1b60190b6ef9bc2c}
+      \strng{authornamehash}{fe0d0dfe83ec5a9e1b60190b6ef9bc2c}
+      \strng{authorfullhash}{fe0d0dfe83ec5a9e1b60190b6ef9bc2c}
+      \strng{authorfullhashraw}{fe0d0dfe83ec5a9e1b60190b6ef9bc2c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to time series and forecasting}
+      \field{year}{2002}
+    \endentry
+    \entry{brownlee2017long}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f98902cd63327e943d29ddf4bbdaee61}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Machine Learning Mastery}%
+      }
+      \strng{namehash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{fullhash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{fullhashraw}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{bibnamehash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{authorbibnamehash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{authornamehash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{authorfullhash}{f98902cd63327e943d29ddf4bbdaee61}
+      \strng{authorfullhashraw}{f98902cd63327e943d29ddf4bbdaee61}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Long Short-Term Memory Networks With Python: Develop Sequence Prediction Models with Deep Learning}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://books.google.com.pe/books?id=m7SoDwAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.pe/books?id=m7SoDwAAQBAJ
+      \endverb
+    \endentry
+    \entry{fayyad1996kdd}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b42d184c7549161c8fe0c2d53decab94}{%
+           family={Fayyad},
+           familyi={F\bibinitperiod},
+           given={Usama},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34f8ca71a399161ab92f9d68b804869f}{%
+           family={Piatetsky-Shapiro},
+           familyi={P\bibinithyphendelim S\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4940852a16a84802eb98552d6deace24}{%
+           family={Smyth},
+           familyi={S\bibinitperiod},
+           given={Padhraic},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{d209ee15d1bcdde9f91ef133f1a11cb4}
+      \strng{fullhash}{f401cd48784ca09966764313d60e64c0}
+      \strng{fullhashraw}{f401cd48784ca09966764313d60e64c0}
+      \strng{bibnamehash}{f401cd48784ca09966764313d60e64c0}
+      \strng{authorbibnamehash}{f401cd48784ca09966764313d60e64c0}
+      \strng{authornamehash}{d209ee15d1bcdde9f91ef133f1a11cb4}
+      \strng{authorfullhash}{f401cd48784ca09966764313d60e64c0}
+      \strng{authorfullhashraw}{f401cd48784ca09966764313d60e64c0}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications of the ACM}
+      \field{number}{11}
+      \field{title}{The KDD process for extracting useful knowledge from volumes of data}
+      \field{volume}{39}
+      \field{year}{1996}
+      \true{nocite}
+      \field{pages}{27\bibrangedash 34}
+      \range{pages}{8}
+    \endentry
+    \entry{feng2019big}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=eb9f36dca0e147682dc050aef18fb1f6}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Mingchen},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a876bee3d2679ab276264adbd9a43779}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Jiangbin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5008c183302bcd58423ae8938be69388}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Jinchang},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ad3729a7efea6d2ab38e43640ab6f27}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fc6e03397228de7a406505e9666fe79}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiuxiu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=831de41e87e01bb3bc70ea08819de8b7}{%
+           family={Xi},
+           familyi={X\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20d00b5aed88c323e0823d0367d4257a}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Qiaoyuan},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2d9f2a2ae5819df8b9435e99c9203189}
+      \strng{fullhash}{e98a50618bdbcb5ea27f100d3176aeb0}
+      \strng{fullhashraw}{e98a50618bdbcb5ea27f100d3176aeb0}
+      \strng{bibnamehash}{e98a50618bdbcb5ea27f100d3176aeb0}
+      \strng{authorbibnamehash}{e98a50618bdbcb5ea27f100d3176aeb0}
+      \strng{authornamehash}{2d9f2a2ae5819df8b9435e99c9203189}
+      \strng{authorfullhash}{e98a50618bdbcb5ea27f100d3176aeb0}
+      \strng{authorfullhashraw}{e98a50618bdbcb5ea27f100d3176aeb0}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Big data analytics and mining for effective visualization and trends forecasting of crime data}
+      \field{volume}{7}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{106111\bibrangedash 106123}
+      \range{pages}{13}
+    \endentry
+    \entry{Fierrotorres2022}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3ed34d036226c7db178a45dc693988aa}{%
+           family={Fierro\bibnamedelima Torres},
+           familyi={F\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={César\bibnamedelima Ángel},
+           giveni={C\bibinitperiod\bibinitdelim Á\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10c13a793be1ec0546b3987966ff36f0}{%
+           family={Castillo\bibnamedelima Pérez},
+           familyi={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Velia\bibnamedelima Herminia},
+           giveni={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ba375869331d44127762a5bc7b6ea8b}{%
+           family={Torres\bibnamedelima Saucedo},
+           familyi={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Claudia\bibnamedelima Irene},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{94e02311d2f7017ddfbb1d10b8473eaf}
+      \strng{fullhash}{122d1290c2a0f31c91b259ea88613e01}
+      \strng{fullhashraw}{122d1290c2a0f31c91b259ea88613e01}
+      \strng{bibnamehash}{122d1290c2a0f31c91b259ea88613e01}
+      \strng{authorbibnamehash}{122d1290c2a0f31c91b259ea88613e01}
+      \strng{authornamehash}{94e02311d2f7017ddfbb1d10b8473eaf}
+      \strng{authorfullhash}{122d1290c2a0f31c91b259ea88613e01}
+      \strng{authorfullhashraw}{122d1290c2a0f31c91b259ea88613e01}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Iberoamericana para la Investigación y el Desarrollo Educativo}
+      \field{title}{Análisis comparativo de modelos tradicionales y modernos para pronóstico de la demanda: enfoques y características}
+      \field{volume}{24}
+      \field{year}{2022}
+      \verb{doi}
+      \verb https://doi.org/10.23913/ride.v12i24.1203
+      \endverb
+    \endentry
+    \entry{gupta2022advanced}{book}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e7b48cc37af5f47d086420a6c5c52d4f}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=473b670336b6c9a30a356fff5394c8b1}{%
+           family={Sambyo},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb529d93ab3d7bafa9fffe9ed2e27a0e}{%
+           family={Prasad},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19c371da608bd85e3a0f0b53d2297d45}{%
+           family={Agarwal},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Singapore}%
+      }
+      \strng{namehash}{4671eff865b697146c9c13d911275880}
+      \strng{fullhash}{13b742b82583145a6d9739e3954eb9db}
+      \strng{fullhashraw}{13b742b82583145a6d9739e3954eb9db}
+      \strng{bibnamehash}{13b742b82583145a6d9739e3954eb9db}
+      \strng{authorbibnamehash}{13b742b82583145a6d9739e3954eb9db}
+      \strng{authornamehash}{4671eff865b697146c9c13d911275880}
+      \strng{authorfullhash}{13b742b82583145a6d9739e3954eb9db}
+      \strng{authorfullhashraw}{13b742b82583145a6d9739e3954eb9db}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789811908408}
+      \field{series}{Lecture Notes in Electrical Engineering}
+      \field{title}{Advanced Machine Intelligence and Signal Processing}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://books.google.com.pe/books?id=SUp3EAAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.pe/books?id=SUp3EAAAQBAJ
+      \endverb
+    \endentry
+    \entry{HerediaCEPAL}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed130be3e300692b8f97a63d0dbc9f15}{%
+           family={Heredia},
+           familyi={H\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ed130be3e300692b8f97a63d0dbc9f15}
+      \strng{fullhash}{ed130be3e300692b8f97a63d0dbc9f15}
+      \strng{fullhashraw}{ed130be3e300692b8f97a63d0dbc9f15}
+      \strng{bibnamehash}{ed130be3e300692b8f97a63d0dbc9f15}
+      \strng{authorbibnamehash}{ed130be3e300692b8f97a63d0dbc9f15}
+      \strng{authornamehash}{ed130be3e300692b8f97a63d0dbc9f15}
+      \strng{authorfullhash}{ed130be3e300692b8f97a63d0dbc9f15}
+      \strng{authorfullhashraw}{ed130be3e300692b8f97a63d0dbc9f15}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Comisión Económica para América Latina y el Caribe (CEPAL), {https://repositorio.cepal.org/server/api/core/bitstreams/07bb3712-8dbd-40f9-b527-7fb04e67e435/content}}
+      \field{note}{Accessed: 2024-10-24}
+      \field{title}{Políticas de fomento para la incorporación de las tecnologías digitales en las micro, pequeñas y medianas empresas de América Latina: revisión de experiencias y oportunidades}
+      \field{year}{2020}
+    \endentry
+    \entry{higa2021analisis}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c33cf9870a52e7efdcadfa6461f329e3}{%
+           family={Higa\bibnamedelima Shimabukuro},
+           familyi={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad de Lima}%
+      }
+      \strng{namehash}{c33cf9870a52e7efdcadfa6461f329e3}
+      \strng{fullhash}{c33cf9870a52e7efdcadfa6461f329e3}
+      \strng{fullhashraw}{c33cf9870a52e7efdcadfa6461f329e3}
+      \strng{bibnamehash}{c33cf9870a52e7efdcadfa6461f329e3}
+      \strng{authorbibnamehash}{c33cf9870a52e7efdcadfa6461f329e3}
+      \strng{authornamehash}{c33cf9870a52e7efdcadfa6461f329e3}
+      \strng{authorfullhash}{c33cf9870a52e7efdcadfa6461f329e3}
+      \strng{authorfullhashraw}{c33cf9870a52e7efdcadfa6461f329e3}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Análisis de pronóstico de demanda para poder gestionar el inventario aplicado al sector salud}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{hoarau2022time}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=593368397201da12a5059a206e0de486}{%
+           family={Hoarau},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing}%
+      }
+      \strng{namehash}{593368397201da12a5059a206e0de486}
+      \strng{fullhash}{593368397201da12a5059a206e0de486}
+      \strng{fullhashraw}{593368397201da12a5059a206e0de486}
+      \strng{bibnamehash}{593368397201da12a5059a206e0de486}
+      \strng{authorbibnamehash}{593368397201da12a5059a206e0de486}
+      \strng{authornamehash}{593368397201da12a5059a206e0de486}
+      \strng{authorfullhash}{593368397201da12a5059a206e0de486}
+      \strng{authorfullhashraw}{593368397201da12a5059a206e0de486}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781801814027}
+      \field{title}{Time Series Analysis on AWS: Learn how to build forecasting models and detect anomalies in your time series data}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://books.google.com.pe/books?id=4ohbEAAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.pe/books?id=4ohbEAAAQBAJ
+      \endverb
+    \endentry
+    \entry{diggsalman}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=88bb121934dece183fd09080dd66112b}{%
+           family={Jamali},
+           familyi={J\bibinitperiod},
+           given={Salman},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ff90664306811aa5274b0953c6c1e09}{%
+           family={Rangwala},
+           familyi={R\bibinitperiod},
+           given={Huzefa},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{03fe88a42fa19b66c845744b0e8cfade}
+      \strng{fullhash}{03fe88a42fa19b66c845744b0e8cfade}
+      \strng{fullhashraw}{03fe88a42fa19b66c845744b0e8cfade}
+      \strng{bibnamehash}{03fe88a42fa19b66c845744b0e8cfade}
+      \strng{authorbibnamehash}{03fe88a42fa19b66c845744b0e8cfade}
+      \strng{authornamehash}{03fe88a42fa19b66c845744b0e8cfade}
+      \strng{authorfullhash}{03fe88a42fa19b66c845744b0e8cfade}
+      \strng{authorfullhashraw}{03fe88a42fa19b66c845744b0e8cfade}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2009 International Conference on Web Information Systems and Mining}
+      \field{title}{Digging Digg: Comment Mining, Popularity Prediction, and Social Network Analysis}
+      \field{year}{2009}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1109/WISM.2009.15
+      \endverb
+    \endentry
+    \entry{lauramodelo2020}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1fd7aea196f44eaac49ecdfc309eeb30}{%
+           family={Laura\bibnamedelima Huaita},
+           familyi={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={R.\bibnamedelimi M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad Mayor de San Andres}%
+      }
+      \strng{namehash}{1fd7aea196f44eaac49ecdfc309eeb30}
+      \strng{fullhash}{1fd7aea196f44eaac49ecdfc309eeb30}
+      \strng{fullhashraw}{1fd7aea196f44eaac49ecdfc309eeb30}
+      \strng{bibnamehash}{1fd7aea196f44eaac49ecdfc309eeb30}
+      \strng{authorbibnamehash}{1fd7aea196f44eaac49ecdfc309eeb30}
+      \strng{authornamehash}{1fd7aea196f44eaac49ecdfc309eeb30}
+      \strng{authorfullhash}{1fd7aea196f44eaac49ecdfc309eeb30}
+      \strng{authorfullhashraw}{1fd7aea196f44eaac49ecdfc309eeb30}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Modelo predictivo de demanda basado en redes neuronales para aprovisionamiento en empresas textiles}
+      \field{type}{Tesis doctoral}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+    \entry{MINTARYA202396}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=48f5f191af58a3b7537a738cccf6179d}{%
+           family={Mintarya},
+           familyi={M\bibinitperiod},
+           given={Latrisha\bibnamedelima N.},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=823721cfcf8de1965aa3281ef660b918}{%
+           family={Halim},
+           familyi={H\bibinitperiod},
+           given={Jeta\bibnamedelima N.M.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=631ce612c69410cf0d2c562acf922200}{%
+           family={Angie},
+           familyi={A\bibinitperiod},
+           given={Callista},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ebde004551e8f4f605ea8b769e2d7d6}{%
+           family={Achmad},
+           familyi={A\bibinitperiod},
+           given={Said},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37747f5b301ee2b9e2e2fc401b9af45e}{%
+           family={Kurniawan},
+           familyi={K\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7190759dc89e2b0b4d7f0e8f3eb713e5}
+      \strng{fullhash}{833b8b18972f0f767ef7ef4f75a01b42}
+      \strng{fullhashraw}{833b8b18972f0f767ef7ef4f75a01b42}
+      \strng{bibnamehash}{833b8b18972f0f767ef7ef4f75a01b42}
+      \strng{authorbibnamehash}{833b8b18972f0f767ef7ef4f75a01b42}
+      \strng{authornamehash}{7190759dc89e2b0b4d7f0e8f3eb713e5}
+      \strng{authorfullhash}{833b8b18972f0f767ef7ef4f75a01b42}
+      \strng{authorfullhashraw}{833b8b18972f0f767ef7ef4f75a01b42}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Predicting the stock market has been done for a long time using traditional methods by analyzing fundamental and technical aspects. With machine learning, stock market predictions are made more accessible and more accurate. Various machine learn- ing approaches have been applied in stock market prediction. This study aims to review relevant works about machine learning approaches in stock market prediction. To achieve this aim, we did a systematic literature review. This study review 30 studies regarding machine learning approaches/models in stock market prediction. Approaches that were used included neural networks and support vector machines. The result of this study is that neural networks are the most used model for stock market prediction. However, this does not mean that other models cannot be used for predicting the stock market.}
+      \field{issn}{1877-0509}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{note}{7th International Conference on Computer Science and Computational Intelligence 2022}
+      \field{title}{Machine learning approaches in stock market prediction: A systematic literature review}
+      \field{volume}{216}
+      \field{year}{2023}
+      \field{pages}{96\bibrangedash 102}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.procs.2022.12.115
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1877050922021937
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1877050922021937
+      \endverb
+      \keyw{Machine Learning,Machine Learning Approach,Machine Learning Model,Stock Market,Stock Market Prediction}
+    \endentry
+    \entry{mitchell1997machine}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ef989624fe8cf86408cbf3a495f2a157}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={T.M.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{ef989624fe8cf86408cbf3a495f2a157}
+      \strng{fullhash}{ef989624fe8cf86408cbf3a495f2a157}
+      \strng{fullhashraw}{ef989624fe8cf86408cbf3a495f2a157}
+      \strng{bibnamehash}{ef989624fe8cf86408cbf3a495f2a157}
+      \strng{authorbibnamehash}{ef989624fe8cf86408cbf3a495f2a157}
+      \strng{authornamehash}{ef989624fe8cf86408cbf3a495f2a157}
+      \strng{authorfullhash}{ef989624fe8cf86408cbf3a495f2a157}
+      \strng{authorfullhashraw}{ef989624fe8cf86408cbf3a495f2a157}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780071154673}
+      \field{series}{McGraw-Hill International Editions}
+      \field{title}{Machine Learning}
+      \field{year}{1997}
+      \verb{urlraw}
+      \verb https://books.google.com.pe/books?id=EoYBngEACAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.pe/books?id=EoYBngEACAAJ
+      \endverb
+    \endentry
+    \entry{molina2017modelacion}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=049adcfa650006a80dba9964fef83c04}{%
+           family={Molina},
+           familyi={M\bibinitperiod},
+           given={Javier\bibnamedelima Paniagua},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{049adcfa650006a80dba9964fef83c04}
+      \strng{fullhash}{049adcfa650006a80dba9964fef83c04}
+      \strng{fullhashraw}{049adcfa650006a80dba9964fef83c04}
+      \strng{bibnamehash}{049adcfa650006a80dba9964fef83c04}
+      \strng{authorbibnamehash}{049adcfa650006a80dba9964fef83c04}
+      \strng{authornamehash}{049adcfa650006a80dba9964fef83c04}
+      \strng{authorfullhash}{049adcfa650006a80dba9964fef83c04}
+      \strng{authorfullhashraw}{049adcfa650006a80dba9964fef83c04}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{e-Agronegocios}
+      \field{number}{2}
+      \field{title}{Modelación econométrica de la demanda de semilla de chile dulce Lamuyo y Blocky en Costa Rica mediante series de tiempo univariadas}
+      \field{volume}{3}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{montgomery2013introduction}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=715badfd1c8a22d771ef5233487a019d}{%
+           family={Montgomery},
+           familyi={M\bibinitperiod},
+           given={D.C.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=610f9af1e238ec53903661d1b20571ef}{%
+           family={Peck},
+           familyi={P\bibinitperiod},
+           given={E.A.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e69cb4e5ba602169706304aae5f6821}{%
+           family={Vining},
+           familyi={V\bibinitperiod},
+           given={G.G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{824c4cde043fe5d63170986f4921a33c}
+      \strng{fullhash}{9b3f16c44ec8c51822bef2d9ee2539eb}
+      \strng{fullhashraw}{9b3f16c44ec8c51822bef2d9ee2539eb}
+      \strng{bibnamehash}{9b3f16c44ec8c51822bef2d9ee2539eb}
+      \strng{authorbibnamehash}{9b3f16c44ec8c51822bef2d9ee2539eb}
+      \strng{authornamehash}{824c4cde043fe5d63170986f4921a33c}
+      \strng{authorfullhash}{9b3f16c44ec8c51822bef2d9ee2539eb}
+      \strng{authorfullhashraw}{9b3f16c44ec8c51822bef2d9ee2539eb}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781118627365}
+      \field{series}{Wiley Series in Probability and Statistics}
+      \field{title}{Introduction to Linear Regression Analysis}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://books.google.com.pe/books?id=lSyiRZh09oEC
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.pe/books?id=lSyiRZh09oEC
+      \endverb
+    \endentry
+    \entry{nebacyril2024}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=a34effc7d8249e0d6827b56f4ca39323}{%
+           family={Neba\bibnamedelima Cyril},
+           familyi={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Chenwi},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d4340114312c8a85d8cf33d9e0f88ea}{%
+           family={Shu\bibnamedelima Fuhnwi},
+           familyi={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3ae2df693c1c504af65db40c5f4cc76}{%
+           family={Nsuh},
+           familyi={N\bibinitperiod},
+           given={Gillian},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=389e1ea2939478c61321208fc1b1891e}{%
+           family={Agbara},
+           familyi={A\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=559d7c0d4bc104741c7c5309032b4ad5}{%
+           family={Neba},
+           familyi={N\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=372301892fa3b7f859b2324974850721}{%
+           family={Webnda},
+           familyi={W\bibinitperiod},
+           given={Ferdinand},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc0da720df73b4b48884a83042c37db0}{%
+           family={Ikpe},
+           familyi={I\bibinitperiod},
+           given={Victory},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{96a42295251e9f8891b77cd61a705a45}
+      \strng{fullhash}{17d99395b0b7ba88bb5b258b54298b22}
+      \strng{fullhashraw}{17d99395b0b7ba88bb5b258b54298b22}
+      \strng{bibnamehash}{17d99395b0b7ba88bb5b258b54298b22}
+      \strng{authorbibnamehash}{17d99395b0b7ba88bb5b258b54298b22}
+      \strng{authornamehash}{96a42295251e9f8891b77cd61a705a45}
+      \strng{authorfullhash}{17d99395b0b7ba88bb5b258b54298b22}
+      \strng{authorfullhashraw}{17d99395b0b7ba88bb5b258b54298b22}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Asian Journal of Probability and Statistics}
+      \field{month}{06}
+      \field{title}{Advancing Retail Predictions: Integrating Diverse Machine Learning Models for Accurate Walmart Sales Forecasting}
+      \field{volume}{26}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 23}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.9734/ajpas/2024/v26i7626
+      \endverb
+    \endentry
+    \entry{foodbank}{online}{}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-11-04}
+      \field{title}{New Research Presents Policy Opportunities for China to Reduce Food Loss and Waste | The Global FoodBanking Network}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.foodbanking.org/es/news/new-research-presents-policy-opportunities-for-china-to-reduce-food-loss-and-waste/
+      \endverb
+      \verb{url}
+      \verb https://www.foodbanking.org/es/news/new-research-presents-policy-opportunities-for-china-to-reduce-food-loss-and-waste/
+      \endverb
+    \endentry
+    \entry{ocampo2004pronostico}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7e24da21425ea12d6ce1909111c535b6}{%
+           family={Ocampo},
+           familyi={O\bibinitperiod},
+           given={Eliana\bibnamedelimb M\bibnamedelima Toro},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9a72f01b4dd2b462f4a6ef0b0cc6aa6}{%
+           family={GIRALDO},
+           familyi={G\bibinitperiod},
+           given={DIEGO\bibnamedelimb A\bibnamedelima MEJÍA},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=902837a4b6916485880e3ff47b9fa71a}{%
+           family={Isaza},
+           familyi={I\bibinitperiod},
+           given={Harold\bibnamedelima Salazar},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Tecnológica de Pereira}%
+      }
+      \strng{namehash}{c84b07a6f65fd16731f7bf83f17deb49}
+      \strng{fullhash}{5e5573518f41639e4a2c83fd80cb6b1f}
+      \strng{fullhashraw}{5e5573518f41639e4a2c83fd80cb6b1f}
+      \strng{bibnamehash}{5e5573518f41639e4a2c83fd80cb6b1f}
+      \strng{authorbibnamehash}{5e5573518f41639e4a2c83fd80cb6b1f}
+      \strng{authornamehash}{c84b07a6f65fd16731f7bf83f17deb49}
+      \strng{authorfullhash}{5e5573518f41639e4a2c83fd80cb6b1f}
+      \strng{authorfullhashraw}{5e5573518f41639e4a2c83fd80cb6b1f}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientia et technica}
+      \field{number}{26}
+      \field{title}{Pronóstico de ventas usando redes neuronales}
+      \field{volume}{10}
+      \field{year}{2004}
+      \field{pages}{25\bibrangedash 30}
+      \range{pages}{6}
+    \endentry
+    \entry{Pandasandeep2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=62a906a0845b040e3ed09b9cc81bc725}{%
+           family={Panda},
+           familyi={P\bibinitperiod},
+           given={Sandeep\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4bdc09e596135755571b0de30e37bd47}{%
+           family={Mohanty},
+           familyi={M\bibinitperiod},
+           given={Sachi\bibnamedelima Nandan},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{25fbaa8b437563fbbb6ddab2cf26f34c}
+      \strng{fullhash}{25fbaa8b437563fbbb6ddab2cf26f34c}
+      \strng{fullhashraw}{25fbaa8b437563fbbb6ddab2cf26f34c}
+      \strng{bibnamehash}{25fbaa8b437563fbbb6ddab2cf26f34c}
+      \strng{authorbibnamehash}{25fbaa8b437563fbbb6ddab2cf26f34c}
+      \strng{authornamehash}{25fbaa8b437563fbbb6ddab2cf26f34c}
+      \strng{authorfullhash}{25fbaa8b437563fbbb6ddab2cf26f34c}
+      \strng{authorfullhashraw}{25fbaa8b437563fbbb6ddab2cf26f34c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Time Series Forecasting and Modeling of Food Demand Supply Chain Based on Regressors Analysis}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{42679\bibrangedash 42700}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2023.3266275
+      \endverb
+      \keyw{Predictive models;Time series analysis;Boosting;Demand forecasting;Machine learning;Companies;Raw materials;Deep learning;demand forecasting;machine learning;time series analysis}
+    \endentry
+    \entry{parra2017gestion}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1a4503db66e5b322482a7b3183a97f2b}{%
+           family={Parra\bibnamedelima Ortega},
+           familyi={P\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Mario\bibnamedelima Wilson},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Militar Nueva Granada}%
+      }
+      \strng{namehash}{8ab88a42d8bfe513e977763936278ad6}
+      \strng{fullhash}{8ab88a42d8bfe513e977763936278ad6}
+      \strng{fullhashraw}{8ab88a42d8bfe513e977763936278ad6}
+      \strng{bibnamehash}{8ab88a42d8bfe513e977763936278ad6}
+      \strng{authorbibnamehash}{8ab88a42d8bfe513e977763936278ad6}
+      \strng{authornamehash}{8ab88a42d8bfe513e977763936278ad6}
+      \strng{authorfullhash}{8ab88a42d8bfe513e977763936278ad6}
+      \strng{authorfullhashraw}{8ab88a42d8bfe513e977763936278ad6}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gestión de la cadena de suministro Supply Chain Management y logística en Colombia}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{paul2013methodological}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4be2ca2f2249dac1b97d92bf0d894088}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Liton\bibnamedelima Chandra},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=582514185e49c018082e79d8847f5bcc}{%
+           family={Suman},
+           familyi={S\bibinitperiod},
+           given={Abdulla\bibnamedelima Al},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77ad92332b8cd072f2056e6c3f708ced}{%
+           family={Sultan},
+           familyi={S\bibinitperiod},
+           given={Nahid},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{821f2b4a7cb8fda86e810a89e17046e3}
+      \strng{fullhash}{93a46ab63af7d7cd52b1416f38995425}
+      \strng{fullhashraw}{93a46ab63af7d7cd52b1416f38995425}
+      \strng{bibnamehash}{93a46ab63af7d7cd52b1416f38995425}
+      \strng{authorbibnamehash}{93a46ab63af7d7cd52b1416f38995425}
+      \strng{authornamehash}{821f2b4a7cb8fda86e810a89e17046e3}
+      \strng{authorfullhash}{93a46ab63af7d7cd52b1416f38995425}
+      \strng{authorfullhashraw}{93a46ab63af7d7cd52b1416f38995425}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Computational Engineering \& Management}
+      \field{number}{2}
+      \field{title}{Methodological analysis of principal component analysis (PCA) method}
+      \field{volume}{16}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{32\bibrangedash 38}
+      \range{pages}{7}
+    \endentry
+    \entry{Bancomundial}{online}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2023-01-15}
+      \field{title}{Perú Panorama general}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.bancomundial.org/es/country/peru/overview
+      \endverb
+      \verb{url}
+      \verb https://www.bancomundial.org/es/country/peru/overview
+      \endverb
+    \endentry
+    \entry{robles2021sistema}{thesis}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a86d4b2771023dc1b1f62e2a204de268}{%
+           family={Robles\bibnamedelima Rakov},
+           familyi={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Marcos\bibnamedelima Andrei},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1957dc4d285723ad3b0cc79aeffbcc18}{%
+           family={Valverde\bibnamedelima Campos},
+           familyi={V\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Marilyn\bibnamedelima Ysabel},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad San Martin de Porres}%
+      }
+      \strng{namehash}{d8323cc8562eb3b570dd618851f80749}
+      \strng{fullhash}{d8323cc8562eb3b570dd618851f80749}
+      \strng{fullhashraw}{d8323cc8562eb3b570dd618851f80749}
+      \strng{bibnamehash}{d8323cc8562eb3b570dd618851f80749}
+      \strng{authorbibnamehash}{d8323cc8562eb3b570dd618851f80749}
+      \strng{authornamehash}{d8323cc8562eb3b570dd618851f80749}
+      \strng{authorfullhash}{d8323cc8562eb3b570dd618851f80749}
+      \strng{authorfullhashraw}{d8323cc8562eb3b570dd618851f80749}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sistema de predicción para incrementar las ventas de accesorios y repuestos automotrices en la empresa GGP Automotriz}
+      \field{type}{Tesis de grado}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{rodriguez2021estudio}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dbe9bb04bcf340ab128ff6397a885469}{%
+           family={Rodríguez-León},
+           familyi={R\bibinithyphendelim L\bibinitperiod},
+           given={Johanna},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1adbd2b57c4d3e16020222e7ac162320}{%
+           family={Pachón-Rincón},
+           familyi={P\bibinithyphendelim R\bibinitperiod},
+           given={Mateo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidad Industrial de Santander}%
+      }
+      \strng{namehash}{2d881417939fadda3beb3029d9b06a95}
+      \strng{fullhash}{2d881417939fadda3beb3029d9b06a95}
+      \strng{fullhashraw}{2d881417939fadda3beb3029d9b06a95}
+      \strng{bibnamehash}{2d881417939fadda3beb3029d9b06a95}
+      \strng{authorbibnamehash}{2d881417939fadda3beb3029d9b06a95}
+      \strng{authornamehash}{2d881417939fadda3beb3029d9b06a95}
+      \strng{authorfullhash}{2d881417939fadda3beb3029d9b06a95}
+      \strng{authorfullhashraw}{2d881417939fadda3beb3029d9b06a95}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista UIS ingenierías}
+      \field{number}{4}
+      \field{title}{Estudio de pronóstico para la planeación, caso de estudio empresa distribuidora del sector farmacéutico}
+      \field{volume}{20}
+      \field{year}{2021}
+      \field{pages}{59\bibrangedash 78}
+      \range{pages}{20}
+    \endentry
+    \entry{villarreal2016introduccion}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f76dc3a7751c123a18b7a80bd9f7157}{%
+           family={Villarreal},
+           familyi={V\bibinitperiod},
+           given={Fernanda},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8f76dc3a7751c123a18b7a80bd9f7157}
+      \strng{fullhash}{8f76dc3a7751c123a18b7a80bd9f7157}
+      \strng{fullhashraw}{8f76dc3a7751c123a18b7a80bd9f7157}
+      \strng{bibnamehash}{8f76dc3a7751c123a18b7a80bd9f7157}
+      \strng{authorbibnamehash}{8f76dc3a7751c123a18b7a80bd9f7157}
+      \strng{authornamehash}{8f76dc3a7751c123a18b7a80bd9f7157}
+      \strng{authorfullhash}{8f76dc3a7751c123a18b7a80bd9f7157}
+      \strng{authorfullhashraw}{8f76dc3a7751c123a18b7a80bd9f7157}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Univ. Nac. del Sur}
+      \field{title}{Introducción a los Modelos de Pronósticos}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 121}
+      \range{pages}{121}
+    \endentry
+    \entry{villarreal2016version}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9fa3eaf1b6830c3667ac23f8d4eaa398}{%
+           family={Villarreal\bibnamedelima Buenaventura},
+           familyi={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Dolly\bibnamedelima E},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=997816baf37f9a57d7d9705b91ac035b}{%
+           family={Prada\bibnamedelima Gómez},
+           familyi={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Yonathan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Ibagué: Universidad del Tolima, 2016}%
+      }
+      \strng{namehash}{ac8490a27926d9b4aa9598074459a494}
+      \strng{fullhash}{ac8490a27926d9b4aa9598074459a494}
+      \strng{fullhashraw}{ac8490a27926d9b4aa9598074459a494}
+      \strng{bibnamehash}{ac8490a27926d9b4aa9598074459a494}
+      \strng{authorbibnamehash}{ac8490a27926d9b4aa9598074459a494}
+      \strng{authornamehash}{ac8490a27926d9b4aa9598074459a494}
+      \strng{authorfullhash}{ac8490a27926d9b4aa9598074459a494}
+      \strng{authorfullhashraw}{ac8490a27926d9b4aa9598074459a494}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Una versión homotópica del teorema de cauchy y su aplicación a los gráficos alfa}
+      \field{year}{2016}
+    \endentry
+    \entry{wang2005support}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9a75ee293f2555f40976345739087998}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{9a75ee293f2555f40976345739087998}
+      \strng{fullhash}{9a75ee293f2555f40976345739087998}
+      \strng{fullhashraw}{9a75ee293f2555f40976345739087998}
+      \strng{bibnamehash}{9a75ee293f2555f40976345739087998}
+      \strng{authorbibnamehash}{9a75ee293f2555f40976345739087998}
+      \strng{authornamehash}{9a75ee293f2555f40976345739087998}
+      \strng{authorfullhash}{9a75ee293f2555f40976345739087998}
+      \strng{authorfullhashraw}{9a75ee293f2555f40976345739087998}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783540243885}
+      \field{series}{Studies in Fuzziness and Soft Computing}
+      \field{title}{Support Vector Machines: Theory and Applications}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb https://books.google.com.pe/books?id=uTzMPJjVjsMC
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.pe/books?id=uTzMPJjVjsMC
+      \endverb
+    \endentry
+    \entry{Zhi-Hua2021machinel}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6b1a37e820a730061851a81dcca2d154}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Zhi-Hua},
+           giveni={Z\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Singapore}%
+      }
+      \strng{namehash}{6b1a37e820a730061851a81dcca2d154}
+      \strng{fullhash}{6b1a37e820a730061851a81dcca2d154}
+      \strng{fullhashraw}{6b1a37e820a730061851a81dcca2d154}
+      \strng{bibnamehash}{6b1a37e820a730061851a81dcca2d154}
+      \strng{authorbibnamehash}{6b1a37e820a730061851a81dcca2d154}
+      \strng{authornamehash}{6b1a37e820a730061851a81dcca2d154}
+      \strng{authorfullhash}{6b1a37e820a730061851a81dcca2d154}
+      \strng{authorfullhashraw}{6b1a37e820a730061851a81dcca2d154}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-981-15-1966-6}
+      \field{series}{Springer Nature Singapore Pte}
+      \field{title}{Machine Learning}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{doi}
+      \verb https://doi.org/10.1007/978-981-15-1967-3
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

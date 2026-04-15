@@ -1,0 +1,99 @@
+\chapter{ANÁLISIS DE RESULTADOS}
+\section{Resultados}
+
+A continuación de muestran los resultados obtenidos a partir de la metodología seguida. Estos resultados abarcan diferentes modelos de predicción como LSTM, Prophet, SVR, ARIMA, Linear Regression, Random Forest, Decision Tree, XGBoost. 
+
+\begin{enumerate}
+	\item \textbf{LSTM (Long Short-Term Memory)}
+		\begin{itemize}
+			\item \textbf{Uso:} Redes neuronales recurrentes diseñadas para analizar datos secuenciales, como series temporales.
+			\item \textbf{Escenarios: } Aplicaciones incluyen pronósticos de series temporales, procesamiento de lenguaje natural (NLP), y reconocimiento de voz.
+			\item \textbf{Predictor: } Destacado por su capacidad para modelar patrones complejos y dependencias a largo plazo en datos de ventas.
+		\end{itemize}
+		
+	\item \textbf{Prophet}
+	\begin{itemize}
+		\item \textbf{Uso: } Modelo de series temporales desarrollado por Facebook para prever datos con estacionalidad y tendencias cambiantes.
+		\item \textbf{Escenarios: } Utilizado en pronósticos de ventas, gestión de inventarios y planificación de recursos.
+		\item \textbf{Predictor: } Eficiente para capturar variaciones estacionales y cambios de tendencia en datos de ventas.
+	\end{itemize}
+	
+	\item \textbf{SVR (Support Vector Regression)}
+	\begin{itemize}
+		\item \textbf{Uso: } Algoritmo de aprendizaje supervisado que encuentra un hiperplano óptimo en un espacio dimensional alto para la regresión.
+		\item \textbf{Escenarios: } Aplicado en predicción de series temporales, análisis financiero y clasificación.
+		\item \textbf{Predictor: } Efectivo cuando hay una separación clara entre los datos de ventas y se necesita evitar el sobreajuste.
+	\end{itemize}
+	
+	\item \textbf{ARIMA (AutoRegressive Integrated Moving Average) }
+	\begin{itemize}
+		\item \textbf{Uso: } Modelo estadístico para analizar y pronosticar series temporales.
+		\item \textbf{Escenarios: } Usado en pronóstico de demanda, análisis económico y finanzas.
+		\item \textbf{Predictor: } Adecuado para datos de ventas con patrones estacionarios lineales o estacionales.
+	\end{itemize}
+	
+	\item \textbf{Linear Regression}
+	\begin{itemize}
+		\item \textbf{Uso: } Modelo básico de regresión que asume una relación lineal entre variables.
+		\item \textbf{Escenarios: } Aplicado en predicción de precios, análisis de mercado y evaluación de impacto.
+		\item \textbf{Predictor: } Simple y rápido, útil cuando se requiere una interpretación clara de las relaciones entre variables.
+	\end{itemize}
+	
+	\item \textbf{Random Forest}
+	\begin{itemize}
+		\item \textbf{Uso: } Método de aprendizaje en conjunto que combina múltiples árboles de decisión para mejorar la precisión.
+		\item \textbf{Escenarios: } Utilizado en clasificación y regresión, detección de anomalías y análisis predictivo de marketing.
+		\item \textbf{Predictor: } Eficiente para grandes conjuntos de datos con muchas variables, capturando relaciones no lineales.
+	\end{itemize}
+	
+	\item \textbf{Decision Tree}
+	\begin{itemize}
+		\item \textbf{Uso: } Modelo que divide el conjunto de datos en subconjuntos más pequeños según características específicas.
+		\item \textbf{Escenarios: } Aplicaciones en análisis de riesgos, diagnósticos médicos y segmentación de mercado.
+		\item \textbf{Predictor: } Fácil de interpretar y visualizar, adecuado para datos estructurados y no estructurados.
+	\end{itemize}
+	
+	\item \textbf{XGBoost (Extreme Gradient Boosting)}
+	\begin{itemize}
+		\item \textbf{Uso: } Algoritmo de aprendizaje en conjunto que utiliza árboles de decisión potenciados con gradientes.
+		\item \textbf{Escenarios: } Utilizado en competiciones de Kaggle, pronóstico de series temporales, clasificación y regresión.
+		\item \textbf{Predictor: } Potente para mejorar la precisión en grandes conjuntos de datos, especialmente en problemas complejos de predicción de ventas.
+	\end{itemize}	
+\end{enumerate}
+
+
+%%%CAMBIO
+En la investigaación sobre la predicción de ventas en Market Donna, se evaluó varios modelos para determinar su eficacia. Tras analizar métricas como MSE, RMSE, R\textsuperscript{2} y MAPE, se encontró que el modelo de Regresión Lineal destacó como el mejor predictor entre los comparados. Con un MSE de 0.282840 y un RMSE de 0.531821, Regresión Lineal demostró una precisión superior en las predicciones en comparación con modelos como Prophet, SVR, ARIMA, LSTM, Random Forest, Decision Tree y XGBoost, los cuales mostraron métricas menos favorables. Este resultado destacó la capacidad de la regresion lineal para capturar patrones complejos en las series temporales de ventas de Market Donna, resaltando su relevancia en aplicaciones donde la exactitud en la predicción era crucial para la toma de decisiones estratégicas y operativas.
+
+
+%%CAMBIO
+\begin{table}[H]
+	\centering
+	\caption{Comparación de metricas}
+	\begin{tabular}{lcccc}
+		\hline
+		& MSE      & RMSE     & R\textsuperscript{2}  & MAPE       \\ \hline
+		LSTM                    & 0.253145 & 0.503135 & 0.311354 & 1.901903   \\
+		Prophet                 & 0.347766 & 0.589717 & 0.053949 & 1.680879   \\
+		SVR                     & 0.261895 & 0.511757 & 0.287550 & 1.435059   \\
+		ARIMA                   & 0.366476 & 0.605372 & 0.003053 & 0.999000   \\
+		Linear Regression       & 0.282840 & 0.531827 & 0.230572 & 1.940515   \\
+		Random Forest           & 0.312075 & 0.558636 & 0.151043 & 3.434788   \\
+		Decision Tree           & 0.350198 & 0.591775 & 0.047334 & 4.422758   \\
+		XGBoost                 & 0.360486 & 0.600405 & 0.019348 & 2.744646  \\ \hline
+	\end{tabular}
+	\newline
+	\newline \textit{Fuente: Elaboración propia}
+	\label{table:models_comparison}
+\end{table}
+
+
+
+%\section{Y}
+%
+%Nisi porta lorem mollis aliquam ut porttitor leo. Aenean pharetra magna ac placerat vestibulum. Est placerat in egestas erat imperdiet sed euismod. Velit euismod in pellentesque massa placerat. Enim praesent elementum facilisis leo vel fringilla. Ante in nibh mauris cursus mattis molestie a iaculis. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Porttitor lacus luctus accumsan tortor posuere ac ut. Tortor at auctor urna nunc id. A iaculis at erat pellentesque adipiscing commodo elit. 
+%
+%
+%\section{Z}
+%
+%Nisi porta lorem mollis aliquam ut porttitor leo. Aenean pharetra magna ac placerat vestibulum. Est placerat in egestas erat imperdiet sed euismod. Velit euismod in pellentesque massa placerat. Enim praesent elementum facilisis leo vel fringilla. Ante in nibh mauris cursus mattis molestie a iaculis. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Porttitor lacus luctus accumsan tortor posuere ac ut. Tortor at auctor urna nunc id. A iaculis at erat pellentesque adipiscing commodo elit.
