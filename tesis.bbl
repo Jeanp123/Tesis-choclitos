@@ -123,6 +123,118 @@
       \verb https://books.google.com.pe/books?id=m7SoDwAAQBAJ
       \endverb
     \endentry
+    \entry{CEPAL2021}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=70f00f277a9dd306c0ae5a8f2823e87a}{%
+           family={Dini},
+           familyi={D\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=341a9f56645027b8d46ff68ce1ae9240}{%
+           family={Gligo},
+           familyi={G\bibinitperiod},
+           given={Nicolo},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b58c96c26202ae9988cd403b5e903aa2}{%
+           family={Patiño},
+           familyi={P\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Santiago}%
+      }
+      \list{publisher}{1}{%
+        {CEPAL}%
+      }
+      \strng{namehash}{5bf348d0286e2b459a9842a8a3e7fd0a}
+      \strng{fullhash}{2e686948377fd479da8c812dedd2420f}
+      \strng{fullhashraw}{2e686948377fd479da8c812dedd2420f}
+      \strng{bibnamehash}{2e686948377fd479da8c812dedd2420f}
+      \strng{authorbibnamehash}{2e686948377fd479da8c812dedd2420f}
+      \strng{authornamehash}{5bf348d0286e2b459a9842a8a3e7fd0a}
+      \strng{authorfullhash}{2e686948377fd479da8c812dedd2420f}
+      \strng{authorfullhashraw}{2e686948377fd479da8c812dedd2420f}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Transformación digital de las mipymes: elementos para el diseño de políticas}
+      \field{year}{2021}
+    \endentry
+    \entry{durrani2026}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bc4437ece54a2e2f56c3c0140035ae9a}{%
+           family={Durrani},
+           familyi={D\bibinitperiod},
+           given={Ali\bibnamedelima Mujtaba},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature}%
+      }
+      \strng{namehash}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{fullhash}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{fullhashraw}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{bibnamehash}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{authorbibnamehash}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{authornamehash}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{authorfullhash}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{authorfullhashraw}{daef4840e338f3ae0636f97bc0451fad}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Lightweight machine learning framework using temporal features for electric vehicle demand response forecasting on edge devices}
+      \field{volume}{16}
+      \field{year}{2026}
+      \field{pages}{947}
+      \range{pages}{1}
+    \endentry
+    \entry{ElMadini2024}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a0aaa5061c49dba2cbbf85cc66e61706}{%
+           family={El\bibnamedelima Madini},
+           familyi={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Fatima\bibnamedelima Ezzahra},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Stockholm University}%
+      }
+      \strng{namehash}{a0aaa5061c49dba2cbbf85cc66e61706}
+      \strng{fullhash}{a0aaa5061c49dba2cbbf85cc66e61706}
+      \strng{fullhashraw}{a0aaa5061c49dba2cbbf85cc66e61706}
+      \strng{bibnamehash}{a0aaa5061c49dba2cbbf85cc66e61706}
+      \strng{authorbibnamehash}{a0aaa5061c49dba2cbbf85cc66e61706}
+      \strng{authornamehash}{a0aaa5061c49dba2cbbf85cc66e61706}
+      \strng{authorfullhash}{a0aaa5061c49dba2cbbf85cc66e61706}
+      \strng{authorfullhashraw}{a0aaa5061c49dba2cbbf85cc66e61706}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Enhancing Fresh-Food Retail Forecasting with Machine Learning and External Factors}
+      \field{type}{mathesis}
+      \field{year}{2024}
+    \endentry
     \entry{fayyad1996kdd}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=b42d184c7549161c8fe0c2d53decab94}{%
@@ -285,6 +397,36 @@
       \verb{doi}
       \verb https://doi.org/10.23913/ride.v12i24.1203
       \endverb
+    \endentry
+    \entry{FAO2011}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=264d9adc36dcc763205708230a469e23}{%
+           family={{Food and Agriculture Organization of the United Nations}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rome}%
+      }
+      \list{publisher}{1}{%
+        {FAO}%
+      }
+      \strng{namehash}{264d9adc36dcc763205708230a469e23}
+      \strng{fullhash}{264d9adc36dcc763205708230a469e23}
+      \strng{fullhashraw}{264d9adc36dcc763205708230a469e23}
+      \strng{bibnamehash}{264d9adc36dcc763205708230a469e23}
+      \strng{authorbibnamehash}{264d9adc36dcc763205708230a469e23}
+      \strng{authornamehash}{264d9adc36dcc763205708230a469e23}
+      \strng{authorfullhash}{264d9adc36dcc763205708230a469e23}
+      \strng{authorfullhashraw}{264d9adc36dcc763205708230a469e23}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global Food Losses and Food Waste: Extent, Causes and Prevention}
+      \field{year}{2011}
     \endentry
     \entry{gupta2022advanced}{book}{}{}
       \name{author}{4}{}{%
@@ -1047,6 +1189,46 @@
       \field{pages}{59\bibrangedash 78}
       \range{pages}{20}
     \endentry
+    \entry{ref_agua}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=505c71538d7092493c977ad539055e3a}{%
+           family={Salman},
+           familyi={S\bibinitperiod},
+           given={Adnan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29ff31b607c6409cb81bb5a15a63ad18}{%
+           family={Shaka’a},
+           familyi={S\bibinitperiod},
+           given={Yamama},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c57301af61a93636910b262abd576572}
+      \strng{fullhash}{c57301af61a93636910b262abd576572}
+      \strng{fullhashraw}{c57301af61a93636910b262abd576572}
+      \strng{bibnamehash}{c57301af61a93636910b262abd576572}
+      \strng{authorbibnamehash}{c57301af61a93636910b262abd576572}
+      \strng{authornamehash}{c57301af61a93636910b262abd576572}
+      \strng{authorfullhash}{c57301af61a93636910b262abd576572}
+      \strng{authorfullhashraw}{c57301af61a93636910b262abd576572}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Automated water demand forecasting for national-scale deployment: a prophet-based framework for Palestinian municipal water management}
+      \field{volume}{16}
+      \field{year}{2026}
+      \field{pages}{3295}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-025-33060-0
+      \endverb
+    \endentry
     \entry{villarreal2016introduccion}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8f76dc3a7751c123a18b7a80bd9f7157}{%
@@ -1112,6 +1294,56 @@
       \field{labeltitlesource}{title}
       \field{title}{Una versión homotópica del teorema de cauchy y su aplicación a los gráficos alfa}
       \field{year}{2016}
+    \endentry
+    \entry{wadalkar2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3978e37bf7dff943136bc87cc06a1338}{%
+           family={Wadalkar},
+           familyi={W\bibinitperiod},
+           given={Yash},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17bda442cd240255bc5f9bad69d1374d}{%
+           family={Sai\bibnamedelima Tarun},
+           familyi={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Yellamraju\bibnamedelimb V\bibnamedelima H},
+           giveni={Y\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1fbf5d43ab55f17e9abbd500adf283d}{%
+           family={Singhal},
+           familyi={S\bibinitperiod},
+           given={Jaiesh},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a28dc8db1cea0e6fb156a34f6485a1c1}{%
+           family={Sonkusare},
+           familyi={S\bibinitperiod},
+           given={Reena},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{67b66a507ba596bf8d12a347bc91d2d1}
+      \strng{fullhash}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{fullhashraw}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{bibnamehash}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{authorbibnamehash}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{authornamehash}{67b66a507ba596bf8d12a347bc91d2d1}
+      \strng{authorfullhash}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{authorfullhashraw}{e243bd602838244f579eb8cbc8d8ee3a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Engineering Research \& Technology (IJERT)}
+      \field{number}{4}
+      \field{title}{A Comparative Analysis based approach for Bitcoin Price Forecasting}
+      \field{volume}{10}
+      \field{year}{2021}
+      \field{pages}{650\bibrangedash 654}
+      \range{pages}{5}
     \endentry
     \entry{wang2005support}{book}{}{}
       \name{author}{1}{}{%
@@ -1293,6 +1525,118 @@
       \verb https://books.google.com.pe/books?id=m7SoDwAAQBAJ
       \endverb
     \endentry
+    \entry{CEPAL2021}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=70f00f277a9dd306c0ae5a8f2823e87a}{%
+           family={Dini},
+           familyi={D\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=341a9f56645027b8d46ff68ce1ae9240}{%
+           family={Gligo},
+           familyi={G\bibinitperiod},
+           given={Nicolo},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b58c96c26202ae9988cd403b5e903aa2}{%
+           family={Patiño},
+           familyi={P\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Santiago}%
+      }
+      \list{publisher}{1}{%
+        {CEPAL}%
+      }
+      \strng{namehash}{5bf348d0286e2b459a9842a8a3e7fd0a}
+      \strng{fullhash}{2e686948377fd479da8c812dedd2420f}
+      \strng{fullhashraw}{2e686948377fd479da8c812dedd2420f}
+      \strng{bibnamehash}{2e686948377fd479da8c812dedd2420f}
+      \strng{authorbibnamehash}{2e686948377fd479da8c812dedd2420f}
+      \strng{authornamehash}{5bf348d0286e2b459a9842a8a3e7fd0a}
+      \strng{authorfullhash}{2e686948377fd479da8c812dedd2420f}
+      \strng{authorfullhashraw}{2e686948377fd479da8c812dedd2420f}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Transformación digital de las mipymes: elementos para el diseño de políticas}
+      \field{year}{2021}
+    \endentry
+    \entry{durrani2026}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bc4437ece54a2e2f56c3c0140035ae9a}{%
+           family={Durrani},
+           familyi={D\bibinitperiod},
+           given={Ali\bibnamedelima Mujtaba},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature}%
+      }
+      \strng{namehash}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{fullhash}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{fullhashraw}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{bibnamehash}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{authorbibnamehash}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{authornamehash}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{authorfullhash}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{authorfullhashraw}{daef4840e338f3ae0636f97bc0451fad}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Lightweight machine learning framework using temporal features for electric vehicle demand response forecasting on edge devices}
+      \field{volume}{16}
+      \field{year}{2026}
+      \field{pages}{947}
+      \range{pages}{1}
+    \endentry
+    \entry{ElMadini2024}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a0aaa5061c49dba2cbbf85cc66e61706}{%
+           family={El\bibnamedelima Madini},
+           familyi={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Fatima\bibnamedelima Ezzahra},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Stockholm University}%
+      }
+      \strng{namehash}{a0aaa5061c49dba2cbbf85cc66e61706}
+      \strng{fullhash}{a0aaa5061c49dba2cbbf85cc66e61706}
+      \strng{fullhashraw}{a0aaa5061c49dba2cbbf85cc66e61706}
+      \strng{bibnamehash}{a0aaa5061c49dba2cbbf85cc66e61706}
+      \strng{authorbibnamehash}{a0aaa5061c49dba2cbbf85cc66e61706}
+      \strng{authornamehash}{a0aaa5061c49dba2cbbf85cc66e61706}
+      \strng{authorfullhash}{a0aaa5061c49dba2cbbf85cc66e61706}
+      \strng{authorfullhashraw}{a0aaa5061c49dba2cbbf85cc66e61706}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Enhancing Fresh-Food Retail Forecasting with Machine Learning and External Factors}
+      \field{type}{mathesis}
+      \field{year}{2024}
+    \endentry
     \entry{fayyad1996kdd}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=b42d184c7549161c8fe0c2d53decab94}{%
@@ -1455,6 +1799,36 @@
       \verb{doi}
       \verb https://doi.org/10.23913/ride.v12i24.1203
       \endverb
+    \endentry
+    \entry{FAO2011}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=264d9adc36dcc763205708230a469e23}{%
+           family={{Food and Agriculture Organization of the United Nations}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rome}%
+      }
+      \list{publisher}{1}{%
+        {FAO}%
+      }
+      \strng{namehash}{264d9adc36dcc763205708230a469e23}
+      \strng{fullhash}{264d9adc36dcc763205708230a469e23}
+      \strng{fullhashraw}{264d9adc36dcc763205708230a469e23}
+      \strng{bibnamehash}{264d9adc36dcc763205708230a469e23}
+      \strng{authorbibnamehash}{264d9adc36dcc763205708230a469e23}
+      \strng{authornamehash}{264d9adc36dcc763205708230a469e23}
+      \strng{authorfullhash}{264d9adc36dcc763205708230a469e23}
+      \strng{authorfullhashraw}{264d9adc36dcc763205708230a469e23}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global Food Losses and Food Waste: Extent, Causes and Prevention}
+      \field{year}{2011}
     \endentry
     \entry{gupta2022advanced}{book}{}{}
       \name{author}{4}{}{%
@@ -2217,6 +2591,46 @@
       \field{pages}{59\bibrangedash 78}
       \range{pages}{20}
     \endentry
+    \entry{ref_agua}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=505c71538d7092493c977ad539055e3a}{%
+           family={Salman},
+           familyi={S\bibinitperiod},
+           given={Adnan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29ff31b607c6409cb81bb5a15a63ad18}{%
+           family={Shaka’a},
+           familyi={S\bibinitperiod},
+           given={Yamama},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c57301af61a93636910b262abd576572}
+      \strng{fullhash}{c57301af61a93636910b262abd576572}
+      \strng{fullhashraw}{c57301af61a93636910b262abd576572}
+      \strng{bibnamehash}{c57301af61a93636910b262abd576572}
+      \strng{authorbibnamehash}{c57301af61a93636910b262abd576572}
+      \strng{authornamehash}{c57301af61a93636910b262abd576572}
+      \strng{authorfullhash}{c57301af61a93636910b262abd576572}
+      \strng{authorfullhashraw}{c57301af61a93636910b262abd576572}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Automated water demand forecasting for national-scale deployment: a prophet-based framework for Palestinian municipal water management}
+      \field{volume}{16}
+      \field{year}{2026}
+      \field{pages}{3295}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-025-33060-0
+      \endverb
+    \endentry
     \entry{villarreal2016introduccion}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8f76dc3a7751c123a18b7a80bd9f7157}{%
@@ -2282,6 +2696,56 @@
       \field{labeltitlesource}{title}
       \field{title}{Una versión homotópica del teorema de cauchy y su aplicación a los gráficos alfa}
       \field{year}{2016}
+    \endentry
+    \entry{wadalkar2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3978e37bf7dff943136bc87cc06a1338}{%
+           family={Wadalkar},
+           familyi={W\bibinitperiod},
+           given={Yash},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17bda442cd240255bc5f9bad69d1374d}{%
+           family={Sai\bibnamedelima Tarun},
+           familyi={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Yellamraju\bibnamedelimb V\bibnamedelima H},
+           giveni={Y\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1fbf5d43ab55f17e9abbd500adf283d}{%
+           family={Singhal},
+           familyi={S\bibinitperiod},
+           given={Jaiesh},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a28dc8db1cea0e6fb156a34f6485a1c1}{%
+           family={Sonkusare},
+           familyi={S\bibinitperiod},
+           given={Reena},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{67b66a507ba596bf8d12a347bc91d2d1}
+      \strng{fullhash}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{fullhashraw}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{bibnamehash}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{authorbibnamehash}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{authornamehash}{67b66a507ba596bf8d12a347bc91d2d1}
+      \strng{authorfullhash}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{authorfullhashraw}{e243bd602838244f579eb8cbc8d8ee3a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Engineering Research \& Technology (IJERT)}
+      \field{number}{4}
+      \field{title}{A Comparative Analysis based approach for Bitcoin Price Forecasting}
+      \field{volume}{10}
+      \field{year}{2021}
+      \field{pages}{650\bibrangedash 654}
+      \range{pages}{5}
     \endentry
     \entry{wang2005support}{book}{}{}
       \name{author}{1}{}{%

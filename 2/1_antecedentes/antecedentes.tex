@@ -70,80 +70,76 @@ En la metodología siguen diversos pasos para el análisis y pronostico.
 %
 %Rodríguez, T (2018), en su estudio, ubicada en la ciudad de Machala. \textbf{Objetivo:} Conocer el pronóstico de ventas del producto en la empresa mediante el uso de series temporales. \textbf{Metodología}: El enfoque utilizado en el estudio fue de campo, empleando un modelo estadístico y técnicas cuantitativas. \textbf{Resultados:} Al aplicar el método del promedio móvil simple, se proyectó que las ventas para noviembre de 2017 alcanzarían los \$ 59352,99, con una desviación estándar de \$2834,61. Se tomaron en cuenta datos históricos desde octubre de 2016 hasta octubre de 2017. \textbf{Conclusiones:} Se llevaron a cabo tres métodos de pronóstico de ventas utilizando series temporales: promedio móvil simple, promedio móvil ponderado y suavización exponencial simple. Mediante diversas proyecciones, se obtuvieron datos significativos para análisis y toma de decisiones precisa.
 
-\subsection{Investigación sobre Implementación de un Sistema de Pronóstico de Ventas utilizando Redes Neuronales Artificiales para la Empresa Cerámicos Lambayeque SAC}
+\subsection{Predicción del precio de Bitcoin mediante análisis comparativo de modelos}
 
+\subsubsection{Planteamiento del Problema y Objetivo}
 
-\subsubsection{Planteamiento del Problema y objetivo}
-La investigación presenta la implementación de un sistema basado en redes neuronales artificiales (RNA) para pronosticar las ventas en la empresa ``Cerámicos Lambayeque SAC''. Para esto, se emplean datos históricos de ventas diarias y mensuales correspondientes a los años 2016 y 2017. Estos datos, obtenidos de los sistemas transaccionales de la empresa, a menudo se encuentran en desorden, incompletos o manipulados. Sin embargo, las RNA son capaces de filtrar el ruido y manejar estos datos de manera efectiva.\\
+En los últimos años, el avance de las tecnologías financieras (FinTech) ha transformado significativamente la manera en que se realizan las transacciones económicas a nivel global. Dentro de este contexto, las criptomonedas han emergido como una alternativa innovadora a los sistemas financieros tradicionales, siendo el Bitcoin una de las más representativas debido a su descentralización, alta capitalización de mercado y creciente adopción por parte de inversionistas y usuarios.
 
-Los datos de ventas se almacenan en un arreglo bidimensional estático de 200 filas por 5 columnas, donde las ventas de 2016 se guardan en las posiciones de 0 a 71, las de 2017 en las posiciones de 72 a 143, y las ventas pronosticadas para 2018 se almacenan desde la posición 144 hasta la 199. Cada venta diaria se normaliza dividiéndola entre 1000.\\
+No obstante, uno de los principales desafíos asociados al Bitcoin es la alta volatilidad de su precio. A diferencia de los activos financieros convencionales, el valor del Bitcoin no está regulado por entidades gubernamentales ni depende directamente de indicadores macroeconómicos tradicionales. En cambio, su comportamiento se ve influenciado por factores como la oferta y demanda, la percepción del mercado, eventos globales, y el sentimiento de los inversionistas, lo que genera fluctuaciones abruptas en cortos periodos de tiempo. Estas características hacen que la predicción de su precio sea una tarea compleja y poco precisa utilizando métodos convencionales.
 
-Durante el entrenamiento de la RNA, se visualizan las ventas pronosticadas y se ajustan los pesos sinápticos iniciales. La estructura de la red neuronal consiste en cuatro neuronas de entrada, doce neuronas ocultas y una neurona de salida. Los atributos de la red se definen y se asignan valores a través de matrices para los pesos sinápticos. El entrenamiento de la RNA incluye la asignación de datos de ventas y un número determinado de iteraciones, así como la definición del ratio de aprendizaje. Durante cada iteración, se obtienen y visualizan los errores de predicción. El software permite al usuario comparar las ventas históricas y pronosticar las ventas diarias desde enero hasta julio de 2018.
+Adicionalmente, los enfoques tradicionales de predicción financiera presentan limitaciones al abordar series temporales altamente no lineales y con patrones impredecibles, como es el caso del Bitcoin. Diversas investigaciones han intentado modelar este comportamiento utilizando técnicas de aprendizaje automático y modelos estadísticos; sin embargo, muchas de ellas se basan en el uso de uno o dos modelos, lo que restringe la capacidad de generalización y reduce la precisión de los resultados obtenidos.
 
-\subsubsection{Base de datos de los autores}
+En este sentido, surge la necesidad de implementar enfoques más robustos que permitan mejorar la exactitud en la predicción del precio del Bitcoin. La integración de múltiples modelos y la comparación de sus resultados se presenta como una alternativa viable para identificar el método más eficiente en escenarios de alta volatilidad.
 
-Las ventas realizadas por la empresa durante los años 2016 y 2017. Esta información, que se encuentra en la base de datos de la empresa, será utilizada para realizar el pronóstico.Las ventas diarias y mensuales de los años 2016 y 2017 se almacenan en un arreglo bidimensional estático de 200 filas por 5 columnas. Las ventas de 2016 se ubican desde el ítem 0 hasta el ítem 71, mientras que las ventas de 2017 se colocan desde la posición 72 hasta la posición 143. Finalmente, las posiciones desde la 144 hasta la 199 se reservan para las ventas diarias y mensuales pronosticadas para el año 2018.
+Por lo tanto, el objetivo principal del estudio es analizar y comparar el desempeño de diferentes modelos de predicción, tanto estadísticos como de aprendizaje automático, con el fin de determinar cuál de ellos ofrece mejores resultados en la estimación del comportamiento futuro del precio del Bitcoin. Asimismo, se busca optimizar la precisión de las predicciones mediante el uso de intervalos de tiempo más cortos, permitiendo una mejor adaptación a la naturaleza dinámica y cambiante del mercado de criptomonedas.
+
+\subsubsection{Base de Datos}
+
+Para el desarrollo del estudio, los autores utilizaron el \textit{Bitcoin Historical Dataset}, el cual contiene información histórica desde el 1 de enero de 2012 hasta el 31 de diciembre de 2020 \cite{wadalkar2021}.
+
+Este conjunto de datos incluye:
+\begin{itemize}
+    \item Precios de apertura (Open)
+    \item Precio máximo (High)
+    \item Precio mínimo (Low)
+    \item Precio de cierre (Close)
+    \item Volumen de transacciones de Bitcoin
+    \item Volumen en moneda correspondiente
+\end{itemize}
+
+Estos datos son fundamentales para el análisis de series temporales, ya que permiten identificar patrones históricos y tendencias del comportamiento del mercado.
 
 \subsubsection{Metodología empleada por los autores}
+
+La metodología aplicada se basó en un enfoque de análisis comparativo, donde se evaluaron cuatro modelos distintos:
+
+\begin{itemize}
+    \item \textbf{LSTM (Long Short-Term Memory):} red neuronal recurrente capaz de capturar dependencias a largo plazo en series temporales.
+    \item \textbf{XGBoost:} algoritmo basado en árboles de decisión que optimiza errores mediante \textit{boosting}.
+    \item \textbf{Facebook Prophet:} modelo aditivo que considera tendencia, estacionalidad y efectos externos.
+    \item \textbf{ARIMA:} modelo estadístico clásico para series temporales basado en autorregresión y promedios móviles.
+\end{itemize}
+
+El proceso metodológico incluyó las siguientes etapas:
+
 \begin{enumerate}
-	\item Definición del Almacén de Ventas:
-	Se estableció una estructura bidimensional para registrar las ventas diarias mensuales, organizadas en filas, con el fin de utilizarlas en el entrenamiento y predicción mediante la red neuronal.
-	\item Creación de la Solución y Proyectos:
-	Se empleó Microsoft Visual C\# 2013 para desarrollar la aplicación, configurando una solución inicial en blanco y proyectos específicos para la red neuronal y la aplicación de consola.
-	\item Codificación del Sistema:
-	Se detallaron los pasos necesarios para la programación del sistema de pronóstico de ventas, abarcando la definición de pesos y la visualización de datos de ventas durante el entrenamiento de la red neuronal.	 
-	
-	\item Entrenamiento de la Red Neuronal:
-	Se realizó el entrenamiento de la red neuronal, estableciendo parámetros como el número máximo de épocas y creando arreglos para manejar los gradientes de salida e entrada, así como las señales de los nodos ocultos y de salida.
-	
-	\item Barajado de Datos:
-	Se implementó un proceso para mezclar aleatoriamente los datos de ventas, visitando cada dato en un orden aleatorio para optimizar el entrenamiento de la red neuronal.
-	
-	\item Fijar Pesos:
-	En esta etapa, se asignan los pesos previamente generados para la red neuronal, asegurando que los valores correctos se apliquen a los nodos de la red.
-	
-	\item Implementación de la Red:
-	Se desarrolló una clase específica para la red neuronal, que incluye todas las funciones y métodos necesarios para predecir las ventas diarias mensuales.
-	
-	\item Definición de Atributos de la Clase:
-	Se establecieron las variables que representan el número de nodos de entrada, nodos ocultos y nodos de salida de la red, además de matrices para almacenar las entradas y los pesos sinápticos.
-	
-	\item Inicialización de Pesos:
-	Se generaron los pesos iniciales necesarios para el funcionamiento de la red neuronal, que se utilizan durante el entrenamiento y la predicción de ventas.
-	
-	\item Cálculo de Salidas Deseadas:
-	Se llevaron a cabo cálculos específicos para determinar las salidas deseadas de la red neuronal, mejorando así la precisión de las predicciones de ventas.
+    \item Selección del dataset
+    \item Preprocesamiento de datos
+    \item División en datos de entrenamiento y prueba
+    \item Entrenamiento de los modelos
+    \item Comparación de resultados mediante métricas de error
 \end{enumerate}
 
-\subsubsection{Resultados obtenidos}
+Además, los autores implementaron una mejora metodológica importante al dividir los datos en intervalos pequeños y realizar predicciones de corto plazo (2 días), lo cual permitió mejorar la precisión de los modelos \cite{wadalkar2021}.
 
+Para evaluar el rendimiento, se utilizaron dos métricas principales:
 
-\begin{table}[H]
-	\caption{Resultados de Ventas pronosticadas}
-	\centering
-	\begin{tabular}{C{2.5cm} C{3cm} C{3cm} C{3cm} }
-		\hline 
-		\textbf{Mes} & \textbf{Venta diaria S/.} & \textbf{Venta pronosticada con la red S/.} & \textbf{Grado de confiabilidad \%} \\
-		\hline
-		Enero & 670675 & 668705 & 99,71 \\
-		\hline
-		Febrero & 678351 & 645902 & 95,22\\
-		\hline
-		Marzo & 708787 & 663617 & 93,63\\
-		\hline
-		Abril & 701295 & 659217 & 94,00\\
-		\hline
-		Mayo & 701760 & 646789 & 92,17\\
-		\hline
-		Junio & 692871 & 650631 & 93,90\\
-		\hline
-		Julio & 704171 & 650239 & 92,34\\
-		\hline
-	\end{tabular}
-	\newline
-	 \newline \textit{Fuente: Benites Sernaqué, J. M. (2021). Implementación de un sistema de pronóstico de ventas utilizando redes neuronales artificiales para la empresa Cerámicos Lambayeque SAC.}
-	\label{tab:reftesis2}
-\end{table}
+\begin{itemize}
+    \item MAE (Error Absoluto Medio)
+    \item MSE (Error Cuadrático Medio)
+\end{itemize}
+
+\subsubsection{Resultados Obtenidos}
+
+Los resultados del estudio demostraron diferencias significativas en el desempeño de los modelos evaluados. Los valores obtenidos fueron los siguientes:
+
+\begin{itemize}
+    \item LSTM: MAE $\approx$ 281.84, MSE $\approx$ 118736.68
+    \item XGBoost: MAE $\approx$ 273.17, MSE $\approx$ 190613.16
+    \item Prophet: MAE $\approx$ 419.39, MSE $\approx$ 334612.50
+    \item \textbf{ARIMA: MAE $\approx$ 153.55, MSE $\approx$ 43231.80}
+\end{itemize}
 
 %\subsubsection{Planteamiento del Problema y objetivo}
 %\subsubsection{Base de datos de los autores}
@@ -151,58 +147,96 @@ Las ventas realizadas por la empresa durante los años 2016 y 2017. Esta informa
 %\subsubsection{Resultados obtenidos}
 
 
-\subsection{Aplicativo Web de Series Temporales para el Pronóstico de Ventas en la Empresa SERMIMIN}
-
-\subsubsection{Planteamiento del Problema y objetivo}
-La tesis trata sobre la imprecisión en los pronósticos de ventas en varias empresas, incluida SERMIMIN, una consultora registrada en OSINERGMIN y OEFA. De acuerdo con varios estudios, muchos ejecutivos no valoran lo suficiente la importancia de predecir ventas, considerándolo impreciso y poco fiable para nuevos productos. No obstante, un pronóstico preciso es fundamental, ya que influye en la planificación de producción, compras, inventarios y ventas.\\
-
-El uso insuficiente de herramientas de pronóstico, especialmente de software especializado, es un problema recurrente. Las empresas que carecen de software adecuado para predecir ventas experimentan deficiencias importantes. La inteligencia artificial (IA) y el aprendizaje automático proporcionan soluciones avanzadas para mejorar la precisión de los pronósticos. La IA permite a las computadoras imitar el pensamiento humano, comprender el lenguaje natural y realizar tareas complejas de manera eficiente. La implementación de modelos matemáticos y algoritmos de IA puede disminuir significativamente los errores de pronóstico.\\
-
-En el caso de SERMIMIN, la empresa realiza sus pronósticos de manera empírica, lo que ha provocado errores y costos adicionales. La ausencia de un sistema de información adecuado para registrar y evaluar sus parámetros de servicio agrava estos problemas. Se desarrolla un aplicativo web utilizando redes neuronales para mejorar la precisión del pronóstico de ventas en SERMIMIN.
-
-\subsubsection{Metodología empleada por los autores}
-En esta investigación sobre el pronóstico de ventas, se registrarán las ventas realizadas por la empresa Sermimin, ingresando estos datos en el sistema para entrenar redes neuronales con información histórica de ventas. Posteriormente, se realiza el pronóstico según los servicios de la empresa. El sistema pasará por una fase de entrenamiento para identificar un modelo de pronóstico óptimo, utilizando indicadores de precisión para generar información confiable en los pronósticos de ventas de la empresa. En cuanto al método de análisis de datos en esta investigación utilizó un enfoque cuantitativo con un diseño pre-experimental. Además, se emplearon métodos estadísticos para validar o refutar las hipótesis planteadas en capítulos anteriores.
-
-\subsubsection{Resultados obtenidos}
-Como resultados se concluye que hubo una mejora significativa en el indicador de desviación media absoluta, que pasó de un valor de 625.83 antes de la incorporación del aplicativo de redes neuronales a 104.58 después de su implementación, reduciéndose en 521.83 puntos.
-Además, se concluye que el indicador de error porcentual medio absoluto también mejoró considerablemente, pasando de un valor de 1568.0 antes de la implementación del sistema de redes neuronales a 2.9167 después, representando una mejora de 1348 puntos.
-Como resultado final, el aplicativo web basado en redes neuronales mejora notablemente ambos indicadores, tanto la desviación media absoluta como el error porcentual medio absoluto, demostrando su efectividad en el pronóstico de ventas para la empresa Sermimin.	
+\subsection{Effects of data time lag in a decision-making system using machine learning for pork price prediction}
 
 
+\subsubsection{Planteamiento del Problema y Objetivo}
 
-\subsection{Análisis de Pronóstico de Demanda para la Gestión del Inventario en el Sector Salud}
+El problema principal identificado en la investigación es la alta volatilidad de los precios en los mercados agrícolas, lo cual genera incertidumbre en los productores y demás agentes de la cadena de suministro. Esta volatilidad impacta directamente en la toma de decisiones económicas y en la estabilidad del mercado.
 
-\subsubsection{Planteamiento del Problema y objetivo}
-En esta investigación optaron por diseñar preliminarmente un aplicativo web destinado a realizar pronósticos de la demanda futura de todos sus productos, utilizando conceptos de Machine Learning. Este enfoque permitiría prever con mayor precisión la demanda futura y serviría como soporte tecnológico para agilizar la toma de decisiones.
+Asimismo, se evidencia una asimetría de información, ya que algunos actores del mercado poseen acceso a información más actualizada que otros, generando desventajas en la negociación de precios. Los sistemas tradicionales de fijación de precios, basados en consenso entre agentes, resultan limitados debido a su carácter subjetivo y dependiente de la información disponible.
 
-Como primer paso, la plataforma web se conectaría con la base de datos proporcionada por Amazon Web Services (AWS), donde se registraría toda la información de los usuarios y los algoritmos, incluidos los resultados de los pronósticos de demanda. Los algoritmos se implementarían utilizando el lenguaje de programación Python, conocido por su uso amplio y versatilidad en diversas industrias debido a su licencia de código abierto. Además, se emplearía Anaconda, una distribución de Python especializada en aplicaciones de ciencia de datos y Machine Learning, capaz de manejar grandes volúmenes de datos.
+En este contexto, el estudio plantea como problema central analizar el impacto del desfase temporal en la adquisición de datos (\textit{time lag}) sobre la precisión de los modelos de predicción de precios.
 
-Para el desarrollo del modelo, se implementarían varios tipos de algoritmos y se seleccionaría el que ofreciera mayor precisión y aplicabilidad en el sector de la empresa. Los resultados se visualizarían mediante el servicio de Power BI, presentando diversos gráficos y tablas, como el plan de compras a futuro, accesibles desde una PC en cualquier momento.
-%\subsubsection{Base de datos de los autores}
+El objetivo principal de la investigación es evaluar cómo el retraso en los datos afecta la calidad de las predicciones de precios utilizando modelos de aprendizaje automático. De manera específica, se busca comparar diferentes modelos predictivos, analizar el rendimiento con datos con y sin retraso, y desarrollar un sistema de apoyo a la toma de decisiones basado en el mejor modelo identificado.
 
-\subsubsection{Metodología empleada por los autores}
+\subsubsection{Base de Datos}
 
-\begin{itemize}
-	\item Etapa 01: \textbf{Empatizar. } 
-	Se centró en comprender el comportamiento del usuario en la gestión de sus inventarios. Se llevaron a cabo diversas encuestas virtuales utilizando Google Forms, dirigidas a importadores y vendedores de materiales del sector salud. Estas encuestas recogieron opiniones sobre la gestión de inventarios, las herramientas utilizadas y la planificación de compras futuras. En total, se realizaron 60 encuestas, de las cuales el 36.6\% de los encuestados reportó contar con un sistema digital de inventarios en sus empresas.
-	\item Etapa 02: \textbf{Definir. }
-	En esta segunda fase, se identificaron las necesidades del cliente mediante encuestas y entrevistas, seleccionando los principales insights y necesidades clave que agregarían valor al proyecto. Descubrieron que el costo mensual o anual de las soluciones de gestión de inventarios era una preocupación importante para los usuarios, ya que a menudo resultaban inviables. Además, los usuarios preferían herramientas con un número reducido de módulos, ya que una complejidad excesiva podría desanimarlos a seguir utilizándolas debido al tiempo requerido para la capacitación.
-	\item Etapa 03: \textbf{Prototipar. }
-	Después de identificar y definir las necesidades de los usuarios, se diseñaron el storyboard y el prototipo, incluyendo capturas de la aplicación web. Estas actividades ayudaron a materializar las ideas seleccionadas mediante sesiones de brainstorming con los usuarios.
-	\item Etapa 04: \textbf{Esquema del Prototipo Inicial. }
-	La arquitectura del prototipo consistió en un aplicativo web que permitía a los usuarios acceder y conectarse al servicio web en la nube a través de Amazon Web Services (AWS) mediante un servicio API. Esto incluía bases de datos de usuarios, algoritmos y resultados. Para la validación de los clientes, se utilizó un servicio web llamado "Validar", donde los usuarios ingresaban su ID y contraseña para acceder al sistema. Una vez autenticados, los usuarios ingresaban datos iniciales a la base de datos de algoritmos a través del servicio web "Pronóstico" para encontrar el algoritmo más adecuado según los datos históricos proporcionados. Los algoritmos fueron desarrollados en Python, y los resultados se almacenaban en la base de datos de resultados, sirviendo de base para cálculos de pronósticos y mostrando diversos dashboards mediante Power BI.
-	\item Etapa 05: \textbf{Evaluar. }
-	Las evaluaciones del prototipo realizadas por los usuarios finales permitieron mejorar constantemente su diseño basado en sus observaciones y sugerencias. Se desarrollaron varias versiones del prototipo, destacando su simplicidad, la disposición de tablas y gráficos, y la importancia de los datos de entrada y salida para un pronóstico adecuado de la demanda futura. Estas mejoras aseguraron que la interacción con la plataforma web fuera ágil y fácil de manejar.
-	
-\end{itemize}
+La investigación emplea datos provenientes de fuentes tanto públicas como privadas relacionadas con el mercado porcino europeo. Los datos públicos son obtenidos del Ministerio de Agricultura de España, los cuales presentan un retraso aproximado de dos semanas en su publicación. Por otro lado, los datos privados se obtienen mediante suscripción y permiten acceder a información sin retraso temporal.
 
+Adicionalmente, se utilizan datos proporcionados por Eurostat, que incluyen precios semanales de mercados porcinos de distintos países europeos, clasificados bajo el sistema S.E.U.R.O.P., el cual categoriza la calidad de la carne según el porcentaje de carne magra.
 
-\subsubsection{Resultados obtenidos}
-La solución se orienta específicamente hacia pequeñas y medianas empresas dedicadas a la importación y venta de productos de salud, así como a cadenas de farmacias y clínicas en las zonas 6, 7 y 8 de Lima Metropolitana, atendiendo a los Niveles Socioeconómicos (NSE) A, B, y C. La propuesta implica la instauración de una plataforma web que utiliza la infraestructura Cloud de almacenamiento de datos y la página web de Amazon Web Services (AWS), junto con un motor generador de información en tiempo real basado en Python, un modelo de aprendizaje supervisado y diversos paneles de control en Power BI para proyectar la demanda futura. El proyecto fue desarrollado en 63 días con una inversión de S/ 65,700 soles. Conclusión: La herramienta ha permitido a los usuarios realizar pronósticos precisos de la demanda futura, lo que ha llevado a una optimización de los niveles de inventario y una reducción de los costos operativos en un 30\%. Esto ha resultado en un aumento del 94\% en las utilidades y en la mejora del nivel de servicio.
+El estudio se centra en el mercado de Lleida, España, debido a su relevancia en la producción porcina. Se emplean un total de 322 semanas de datos históricos, comprendidos entre enero de 2016 y febrero de 2022.
 
+Para la selección de variables, se realizó un análisis de correlación de Pearson, identificando mercados altamente correlacionados (mayores a 0.98) con el mercado de Lleida. Asimismo, se llevó a cabo un proceso de limpieza de datos, incluyendo la corrección de valores atípicos mediante interpolación.
+
+\subsubsection{Metodología Empleada por los Autores}
+
+La metodología utilizada se basa en la comparación de diferentes modelos de predicción de series temporales, incluyendo enfoques estadísticos, de aprendizaje automático y de aprendizaje profundo.
+
+Entre los modelos estadísticos se utilizaron ARIMA y SARIMAX, los cuales son ampliamente aplicados en el análisis de series temporales. En cuanto a los modelos de aprendizaje automático, se incluyeron Random Forest, Support Vector Regression (SVR), XGBoost, LightGBM, CatBoost y Ridge Regression. Finalmente, en la categoría de aprendizaje profundo, se emplearon redes neuronales recurrentes (RNN) y modelos LSTM.
+
+El proceso de entrenamiento de los modelos se realizó dividiendo los datos en un 80\% para entrenamiento y 20\% para prueba. Se utilizaron ventanas temporales de entre 2 y 12 semanas para analizar el impacto del tamaño de la ventana en la precisión del modelo.
+
+Para la evaluación del rendimiento se emplearon las métricas RMSE (Root Mean Square Error) y el coeficiente de determinación R². Además, se utilizó la herramienta Optuna para la optimización de hiperparámetros mediante técnicas de optimización bayesiana.
+
+Se realizaron dos escenarios experimentales: uno utilizando datos públicos con retraso de dos semanas, y otro utilizando datos de suscripción sin retraso. Esto permitió comparar directamente el impacto del desfase temporal en la precisión de las predicciones.
+
+Finalmente, el modelo con mejor desempeño fue integrado en un sistema de soporte a la toma de decisiones (DSS), el cual fue implementado en un entorno real dentro de una “Lonja” (mercado de referencia en España), permitiendo generar predicciones semanales de precios.
+
+\subsubsection{Resultados Obtenidos}
+
+	\begin{itemize}
+
+		\item \textbf{a) Impacto del retraso en los datos}
+		\begin{itemize}
+			\item Los modelos con datos sin retraso (suscripción) presentan mejor rendimiento.
+			\item Existe una diferencia de aproximadamente 0.6 céntimos de euro en el error entre modelos con y sin retraso.
+		\end{itemize}
+
+		\item \textbf{b) Mejor modelo}
+		\begin{itemize}
+			\item El modelo con mejor desempeño fue \textbf{Ridge Regression}:
+			\begin{itemize}
+				\item RMSE $\approx 0.01477$
+				\item $R^2 \approx 0.99342$
+			\end{itemize}
+			\item Con datos públicos:
+			\begin{itemize}
+				\item RMSE $\approx 0.02041$
+			\end{itemize}
+			\item Esto demuestra que el acceso a datos actualizados mejora significativamente la precisión.
+		\end{itemize}
+
+		\item \textbf{c) Importancia económica}
+		\begin{itemize}
+			\item Aunque las diferencias parecen pequeñas, tienen un gran impacto.
+			\item Variaciones de centavos por kilogramo pueden generar grandes pérdidas económicas en producción a gran escala.
+			\item La precisión del modelo mejora la negociación en la cadena de suministro.
+		\end{itemize}
+
+		\item \textbf{d) Hallazgos adicionales}
+		\begin{itemize}
+			\item Los modelos no requieren grandes ventanas de datos: las mejores predicciones se logran con 2 a 4 semanas de información.
+			\item No todos los modelos aprovechan bien múltiples variables: ARIMA funciona bien incluso con una sola serie.
+			\item Los mercados presentan alta correlación regional, no global.
+		\end{itemize}
+
+		\item \textbf{e) Validación en entorno real}
+		\begin{itemize}
+			\item El sistema implementado logró un error máximo de:
+			\[
+			0.02 \,€ \ (\approx 1.2\%)
+			\]
+			\item Considerado adecuado para uso en mercados reales.
+		\end{itemize}
+
+	\end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Artículos relacionados}
+
+
+% \subsection{Artículos relacionados}
 
 \subsection{Time‑series analysis with smoothed Convolutional Neural Network}
 
@@ -292,116 +326,152 @@ Se resalta que los resultados obtenidos en el estudio sugieren que la implementa
 
 %%%%%%%%%%%%%%%%%%%2 
 
-\subsection{Approaching sales forecasting using recurrent neural networks and transformers}
+\subsection{Construction of performance score dynamic prediction system for clinical departments using explainable machine learning}
 
-\subsubsection{Planteamiento del Problema y objetivo }
-Se destaca el crecimiento del comercio electrónico y la importancia de mejorar los sistemas de cadena de suministro para satisfacer la creciente demanda en la industria minorista en línea. Se menciona que la precisión en la predicción de la demanda del cliente es fundamental para optimizar aspectos como la ubicación de inventarios, la expansión de la red y la planificación de entrada y salida. 
-El artículo destaca la importancia de un pronóstico preciso y rápido de la demanda en la cadena de suministro para mejorar la ejecución de los procesos descendentes correspondientes, como la planificación de entrada y salida, la ubicación de inventarios y la planificación de la red. Los autores presentan tres alternativas basadas en técnicas de aprendizaje profundo para predecir las ventas de clientes a nivel de día, tienda y producto. Con esto propone el uso de técnicas de aprendizaje profundo, como redes neuronales recurrentes y transformers, para abordar el problema de pronóstico de la demanda de manera generalizada, permitiendo predecir las ventas para diferentes productos, ubicaciones y momentos con un solo modelo. Esto contrasta con otros enfoques, como los modelos de la familia ARIMA, que solo pueden manejar una serie temporal de producto-ubicación a la vez.
+\subsubsection{Planteamiento del problema y objetivo}
 
+El sector salud enfrenta múltiples desafíos relacionados con la eficiencia operativa, el uso adecuado de recursos y la calidad del servicio. Diversos estudios han evidenciado que entre el 20\% y 40\% de los recursos sanitarios se desaprovechan debido a ineficiencias, lo cual impacta directamente en la gestión hospitalaria. En este contexto, los hospitales —que representan entre el 50\% y 80\% del gasto sanitario en muchos países— requieren herramientas más precisas para evaluar su desempeño.
 
-\subsubsection{Base de datos de los autores}
-El conjunto de datos utilizado en este estudio es el conjunto de datos de ventas de supermercados de Corporación Favorita. Este conjunto de datos fue publicado como parte de una competencia de Kaggle y contiene registros de ventas diarias para 4400 artículos únicos en 54 tiendas ecuatorianas diferentes. Los datos abarcan desde el 1 de enero de 2013 hasta el 15 de agosto de 2017. Además de la información de ventas diarias, se proporcionan datos adicionales que incluyen detalles sobre la cantidad de ventas, las ubicaciones de las tiendas, la fecha, familia del artículo, precio del aceite y días festivos.
+Tradicionalmente, la evaluación del desempeño en hospitales se ha basado en indicadores estáticos y retrospectivos, generalmente calculados al final del año. Este enfoque presenta limitaciones importantes, como la falta de capacidad predictiva, baja cobertura de indicadores y escasa utilidad para la toma de decisiones en tiempo real. Además, los modelos convencionales carecen de interpretabilidad, lo que dificulta entender los factores que influyen en el desempeño.
+
+Frente a esta problemática, el objetivo del estudio fue desarrollar un sistema dinámico de predicción del desempeño anual de los departamentos clínicos, utilizando técnicas de aprendizaje automático explicable. Este sistema busca no solo predecir resultados, sino también permitir una intervención temprana y mejorar la toma de decisiones gerenciales en hospitales.
+
+\subsubsection{Base de datos}
+
+La investigación utilizó datos reales obtenidos del sistema de información hospitalaria (HIS). Específicamente, se recopilaron datos correspondientes al periodo comprendido entre enero de 2023 y diciembre de 2024, abarcando un total de 648 registros provenientes de 27 departamentos clínicos.
+
+El conjunto de datos incluyó:
+
+	\begin{itemize}
+		\item 10 variables independientes (indicadores de desempeño)
+		\item 1 variable dependiente: puntaje anual de desempeño
+	\end{itemize}
+
+Los indicadores estuvieron relacionados principalmente con:
+
+\begin{multicols}{2}
+\begin{itemize}
+    \item Estructura de ingresos
+    \item Control de costos
+\end{itemize}
+\end{multicols}
+
+Los departamentos fueron clasificados en:
+
+\begin{itemize}
+    \item Departamentos médicos
+    \item Departamentos quirúrgicos
+    \item Departamentos de obstetricia y pediatría
+    \item Otros departamentos clínicos
+\end{itemize}
+
+Para el entrenamiento del modelo, los datos se dividieron de manera cronológica:
+
+\begin{itemize}
+    \item Conjunto de entrenamiento: datos del año 2023 (324 registros)
+    \item Conjunto de prueba: datos del año 2024 (324 registros)
+\end{itemize}
+
+Asimismo, los datos fueron normalizados mediante el método \textit{min-max scaling}, con el fin de estandarizar los valores antes del procesamiento.
 
 \subsubsection{Metodología empleada por los autores}
-Se llevó a cabo una metodología experimental detallada que incluye los siguientes pasos:
-Selección del conjunto de datos: Se utilizó el conjunto de datos proporcionado por la Corporación Favorita, que consta de una gran cantidad de muestras (alrededor de 400 Millones) que permiten el uso de modelos de aprendizaje profundo.
-Diseño de arquitecturas: Se diseñaron dos arquitecturas neuronales diferentes para abordar el problema de pronóstico de ventas: un modelo seq2seq y un modelo transformer. Estas arquitecturas fueron adaptadas y modificadas para ajustarse específicamente al problema de pronóstico de ventas en el contexto de la Corporación Favorita.
-Implementación de la arquitectura seq2seq: La arquitectura Seq2seq (sequence-to-sequence) es un modelo diseñado para mapear una secuencia de entrada a una secuencia de salida, sin restricciones en las longitudes de ambas secuencias. En el contexto del pronóstico de ventas, el modelo Seq2seq se utiliza para predecir las ventas diarias de productos en tiendas específicas. La arquitectura Seq2seq consta de dos componentes principales: el codificador y el decodificador. El codificador procesa la secuencia de entrada, que en este caso incluiría datos históricos de ventas y otras características relevantes, y condensa esta información en un vector de contexto de longitud fija. Este vector de contexto captura la información clave de la secuencia de entrada y se utiliza para guiar la generación de la secuencia de salida.
-En el contexto del estudio, se ha modificado la arquitectura Seq2seq original para incluir un módulo de condicionamiento de contexto. Este módulo permite que el modelo se adapte a características estáticas adicionales, como incrustaciones de productos y tiendas, lo que ayuda a mejorar la precisión de las predicciones. Además, se ha utilizado un truco de entrenamiento llamado ''random max time step trick" que permite al modelo adaptarse a diferentes pasos de tiempo sin necesidad de volver a entrenar el modelo cada vez que se requiere una predicción
-Implementación de la arquitectura transformer: La arquitectura Transformer es un modelo de aprendizaje profundo que se introdujo en 2017 y ha demostrado ser altamente efectivo en una variedad de tareas de procesamiento del lenguaje natural y pronóstico de series temporales. En el contexto del pronóstico de ventas, el modelo Transformer se utiliza para predecir las ventas diarias de productos en tiendas específicas sin depender de redes neuronales recurrentes. El Transformer consta de dos componentes principales: el codificador y el decodificador. A diferencia de las arquitecturas basadas en redes neuronales recurrentes, el Transformer utiliza mecanismos de atención y autoatención para capturar las relaciones a largo plazo en las secuencias de entrada y salida. Estos mecanismos permiten al modelo aprender dependencias a diferentes distancias en la secuencia, lo que lo hace especialmente efectivo para pronósticos de series temporales.
-En el contexto del estudio, se implementa la arquitectura Transformer adaptada para el pronóstico de ventas. El modelo Transformer elimina la necesidad de utilizar redes neuronales recurrentes al implementar mecanismos de atención y autoatención. Estos mecanismos permiten al modelo mapear una secuencia de entrada a una secuencia de salida, adaptándose a diferentes longitudes de secuencia y capturando relaciones complejas entre los datos. Además, el modelo Transformer se basa en una función de similitud escalada de producto punto que facilita la comparación de secuencias de diferentes longitudes. Esta función de similitud escalada ayuda al modelo a comparar y relacionar diferentes partes de la secuencia de entrada y salida de manera eficiente, lo que contribuye a su capacidad para realizar pronósticos precisos y generalizables.
 
+La metodología propuesta se basa en el uso de modelos de aprendizaje automático explicable, combinados con un enfoque de predicción dinámica.
+
+\textbf{Modelos utilizados:}
+
+\begin{multicols}{2}
+\begin{itemize}
+    \item Regresión Lineal (LR)
+    \item Árbol de decisión (DT)
+    \item Random Forest (RF)
+    \item Gradient Boosting
+    \item XGBoost
+    \item CatBoost
+\end{itemize}
+\end{multicols}
+
+
+\textbf{Enfoque dinámico:}
+
+Se utilizaron ventanas temporales acumulativas para realizar predicciones progresivas durante el año:
+
+\begin{itemize}
+    \item Enero – Marzo
+    \item Enero – Junio
+    \item Enero – Septiembre
+\end{itemize}
+
+Este enfoque permite monitorear el desempeño de forma continua y no únicamente al final del periodo.
+
+\textbf{Evaluación de modelos:}
+
+Los modelos fueron evaluados utilizando las siguientes métricas:
+
+\begin{multicols}{2}
+\begin{itemize}
+    \item Coeficiente de determinación ($R^2$)
+    \item Error cuadrático medio (RMSE)
+    \item Error absoluto medio (MAE)
+    \item Error cuadrático medio (MSE)
+\end{itemize}
+\end{multicols}
+
+
+\textbf{Interpretabilidad:}
+
+Para mejorar la transparencia del modelo, se aplicó la técnica SHAP (\textit{Shapley Additive Explanations}), la cual permitió identificar la contribución de cada variable en la predicción.
+
+\textbf{Implementación del sistema:}
+
+Finalmente, se desarrolló una herramienta web denominada \textit{ClinDeptPredictor}, la cual permite:
+
+\begin{itemize}
+    \item Ingresar datos mensuales
+    \item Obtener predicciones en tiempo real
+    \item Visualizar la importancia de las variables
+\end{itemize}
 
 \subsubsection{Resultados obtenidos}
-Muestran cómo se puede lograr un buen rendimiento utilizando una arquitectura simple de secuencia a secuencia con un esfuerzo mínimo de preprocesamiento de datos. Además, describimos un truco de entrenamiento para hacer que el modelo sea más independiente del tiempo y, por lo tanto, mejorar la generalización a lo largo del tiempo. La solución propuesta logra un RMSLE de alrededor de 0.54.
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=0.7\textwidth]{2/figures/resul_ant2.png}
-		\caption{Resultado antecedente}
-		\textit{Fuente: Vallés-Pérez, I.(2022). Approaching sales forecasting using recurrent neural networks and transformers. Expert Systems with Applications, 201, 116993.}
-		\label{fig9}
-		
-	\end{center}	
-\end{figure}
+
+Los resultados evidencian que el modelo de Regresión Lineal (LR) obtuvo el mejor desempeño en todas las ventanas temporales evaluadas.
+
+Se obtuvieron los siguientes valores:
+
+\begin{itemize}
+    \item $R^2$: 0.8964, 0.9314 y 0.9640
+    \item Menores valores de RMSE, MAE y MSE en comparación con otros modelos
+\end{itemize}
+
+Esto demuestra que el modelo presenta alta precisión y robustez para la predicción del desempeño hospitalario.
+
+Asimismo, se identificaron los cinco indicadores más influyentes:
+
+\begin{itemize}
+    \item Proporción de ingresos por servicios médicos
+    \item Ingresos por seguro médico (consulta externa)
+    \item Proporción de consumibles
+    \item Ingresos por seguro médico (hospitalización)
+    \item Gasto promedio por paciente hospitalizado
+\end{itemize}
 
 
-%%%%%%%%%%%%%3
 
-\subsection{Prediction Analysis Sales for Corporate Services Telecommunications Company using Gradient Boost Algorithm}
+Estos factores se mantuvieron consistentes en todas las etapas, lo que evidencia la estabilidad del modelo.
 
-\subsubsection{Planteamiento del Problema y objetivo }
-El documento se centra en la importancia de analizar y predecir las ventas en el ámbito empresarial, específicamente en una empresa de telecomunicaciones. Se destaca la relevancia de contar con estimaciones precisas para que la compañía pueda sobrevivir en un mercado competitivo y aumentar su crecimiento. Se menciona que el uso de técnicas de aprendizaje automático es fundamental para mejorar las predicciones futuras de ventas, ya que los sistemas de pronóstico tradicionales enfrentan dificultades al tratar con grandes volúmenes de datos y al intentar mejorar la precisión de las predicciones de ventas.
-Se hace referencia a la necesidad de analizar la confiabilidad de las ventas de empresa a empresa (B2B) utilizando técnicas de aprendizaje automático. Se menciona que a lo largo de los años han surgido varios estudios que buscan predecir y pronosticar las ventas, y se destaca un sistema de análisis desarrollado utilizando métodos predictivos de aprendizaje automático. Se identificaron tres diferencias clave en los métodos alternativos para estimar las ventas de oportunidad, lo que llevó a una mejora significativa en la precisión de las predicciones.
-Además, se menciona que el objetivo de la investigación es evaluar y analizar el uso de técnicas de aprendizaje automático para predecir las ventas, centrándose en las ventas B2B. Se describe el proceso de recopilación y preparación de datos, donde se utilizó información de ventas de tres años consecutivos (2016, 2017 y 2018) para predecir los ingresos B2B. Se destaca la importancia de seleccionar y procesar los datos relevantes para mejorar la precisión de las predicciones de ventas.
+Además, se observó que:
 
+\begin{itemize}
+    \item El rendimiento del modelo mejora conforme se incrementa la cantidad de datos disponibles
+    \item El sistema permite realizar predicciones anticipadas antes de finalizar el año
+    \item Se logra una interpretación clara del modelo, superando el problema de ``caja negra''
+\end{itemize}
 
-\subsubsection{Base de datos de los autores}
-Utilizan un conjunto de datos de ventas anuales por producto para llevar a cabo el análisis de predicción de ventas en el contexto de ventas B2B para una empresa de telecomunicaciones. El conjunto de datos proporciona información detallada sobre las ventas de los productos MIDI y NO-MIDI durante los años 2016, 2017 y 2018, desglosadas por trimestre.
-El conjunto de datos incluye información sobre las ventas en millones para cada trimestre de los años mencionados, tanto para los productos MIDI como para los productos NO-MIDI. Los datos incluían información detallada como categoría, región, tipo de artículo, ID de oportunidad, trimestre, nombre del producto, subcomponente del producto, producto de servicio (MIDI) e ingresos por ventas.
-
-
-\subsubsection{Metodología empleada por los autores}
-
-\begin{enumerate}
-	\item Recopilación y Preparación de Datos: Se recopilaron datos de ventas de tres años consecutivos (2016, 2017 y 2018) para realizar el análisis de predicción de ingresos B2B. Se eliminaron datos no utilizables, redundantes e irrelevantes para obtener un conjunto de datos seleccionado que incluía trimestre, año, y elementos de servicio y cantidad.
-	\item Preprocesamiento de Datos: Después de la preparación de datos, se llevó a cabo un estudio exploratorio para comprender la esencia de los resultados obtenidos. Se realizaron seis medidas esenciales de minería de datos, que incluyen conciencia de datos, planificación, simulación, evaluación e implementación.
-	\item Se llevó a cabo la detección de valores atípicos como parte del proceso de optimización del modelo. La identificación de valores atípicos puede ser útil para mejorar el modelo o como punto de partida para futuras optimizaciones. Se hizo hincapié en la importancia de la calidad de los datos y se sugirió la eliminación de atributos de datos menos críticos.
-	\item Eliminación de Atributos Menos Críticos: Se sugiere la eliminación de atributos de datos menos críticos que pueden no contribuir significativamente a la precisión de las predicciones. Esto ayuda a simplificar el modelo y mejorar su eficacia en la predicción de ventas B2B.
-	\item Se presentan los resultados de la predicción en forma de tablas y gráficos que muestran las proyecciones de ventas para productos MIDI y NO-MIDI durante un período de cinco años. Estos resultados ayudan a visualizar las tendencias futuras y a tomar decisiones informadas sobre estrategias de ventas y presupuestos.
-\end{enumerate}
+Finalmente, la herramienta desarrollada permitió aplicar el modelo en un entorno real, facilitando la toma de decisiones en la gestión hospitalaria.
 
 
-%%%%%%%%%%%%%%%%4
 
-\subsection{Predicting Future Sales of Retail Products using Machine Learning}
-
-\subsubsection{Planteamiento del Problema y objetivo }
-Sobre la predicción de ventas futuras de productos minoristas, se destaca la importancia de la precisión en la predicción de ventas para cualquier organización, ya sea una pequeña empresa o una empresa Fortune 500. Se menciona que esta precisión proporciona una estimación precisa del crecimiento de los ingresos de la empresa y puede utilizarse para planificar acciones de demanda y suministro a corto plazo. Además, sirve como guía para diseñar planes que se alineen con los objetivos organizacionales generales para la prudencia financiera.
-Se menciona que el objetivo del proyecto es predecir las ventas totales de cada producto y tienda para el próximo mes utilizando datos pasados. Se destaca que se trabajó con un conjunto de datos desafiante de series temporales que consiste en datos de ventas diarias proporcionados por una de las mayores empresas de software de Rusia, la empresa 1C. Para realizar las predicciones del próximo mes, se implementaron el algoritmo eXtreme Gradient Boosting (XGBoost) y una arquitectura de red basada en Long Short Term Memory (LSTM) para realizar la tarea de aprendizaje.
-Se menciona que la métrica utilizada para evaluar el rendimiento de los modelos y comparar los algoritmos implementados fue el error cuadrático medio de la raíz (RMSE). Además se destaca que XGBoost tuvo un mejor desempeño que LSTM en este conjunto de datos, lo que se atribuye a su relativa mayor dispersión.
-
-
-\subsubsection{Base de datos de los autores}
-El conjunto de datos es una combinación de datos de series temporales y datos estáticos. Los datos estáticos incluyen columnas como el nombre del artículo, la categoría del artículo, el ID de la tienda, etc., que no cambian con el tiempo, mientras que la cantidad de artículos y el precio del artículo varían con el tiempo. Se menciona que se siguió un proceso convencional de ingeniería de datos que incluyó limpieza de datos, análisis exploratorio de datos y creación de características.
-
-\subsubsection{Metodología empleada por los autores}
-La predicción de ventas futuras de productos minoristas fue un proceso fundamental para crear variables predictivas significativas a partir de los datos disponibles. A continuación, se presenta un resumen detallado de las acciones de ingeniería de características llevadas a cabo:
-
-\begin{enumerate}
-	\item Creación de un Conjunto de Datos Combinado: Se inició el proceso de ingeniería de características combinando todos los conjuntos de datos proporcionados, como los datos de tiendas, artículos y categorías de artículos, en un conjunto de datos maestro. Esta integración permitió tener una visión holística de la información disponible para el modelado predictivo.
-	\item Generación de Características Basadas en Análisis Exploratorio: Se tomaron como base las observaciones del Análisis Exploratorio de Datos (EDA) para crear nuevas características relevantes. Por ejemplo, se crearon características relacionadas con el recuento de cada día de la semana en el bloque de fechas, el recuento de fines de semana y características estacionales basadas en el mes o la temporada.
-	\item Incorporación de Información Temporal: Se extrajeron características temporales como retrasos temporales para capturar patrones de series temporales en los datos de ventas. Estas características incluyeron información sobre las ventas pasadas para cada producto y tienda, lo que permitió al modelo aprender de las tendencias históricas.
-	\item Consideración de Variables Categóricas: Se realizaron transformaciones en variables categóricas, como la codificación one-hot encoding, para representarlas de manera adecuada en los modelos de aprendizaje automático. Esto incluyó la codificación de variables como la categoría del artículo o el ID de la tienda para que fueran interpretables por los algoritmos de predicción.\\
-	
-	\textbf{Modelos utilizados}
-	
-	\item XGBoost: Se seleccionó XGBoost como uno de los algoritmos iniciales debido a su amplia utilización en competiciones de ciencia de datos. XGBoost ofrece ventajas en términos de optimización del sistema a través de la paralelización y la optimización del hardware, así como la capacidad de manejar eficientemente diferentes patrones de esparsidad en los datos.
-	\item ARIMA: Se incluyó el modelo ARIMA, ampliamente utilizado en series temporales, para comparar su rendimiento con otros modelos.
-	\item LSTM: Se implementó una arquitectura basada en LSTM (Long Short-Term Memory) para modelar eficientemente características estáticas y dinámicas, inspirados en trabajos previos que demostraron la eficacia de combinar LSTM con redes neuronales totalmente conectadas.
-	\item División de Datos: Se dividió el conjunto de datos en un conjunto de entrenamiento y un conjunto de validación, utilizando los primeros 32 meses para entrenar los modelos y el mes 33 para validar las predicciones.
-	\item Ajuste de Hiperparámetros: Se realizó una búsqueda de hiperparámetros sobre un espacio de búsqueda utilizando muestreo aleatorio uniforme en el conjunto de validación para optimizar los modelos.
-	\item Evaluación de Modelos: Se evaluaron los modelos en función de su capacidad para predecir las ventas futuras de productos y tiendas, considerando métricas de rendimiento como el error cuadrático medio (MSE) o el error absoluto medio (MAE).
-	 
-\end{enumerate}
-
-\subsubsection{Resultados obtenidos}
-Se encontró que XGBoost superó a los otros modelos, incluyendo ARIMA y LSTM, en la predicción de las ventas futuras de productos y tiendas. Se atribuyó el mejor rendimiento de XGBoost a la buena ingeniería de características y a la capacidad de ajustar una amplia gama de hiperparámetros durante la optimización.
-
-\begin{table}[h!]
-	\centering
-	\begin{tabular}{lccc}
-		\hline
-		Modelo & RMSE de Entrenamiento & RMSE de Validación & RMSE de Prueba \\ \hline
-		XGBoost & 0.76467 & 0.807264 & 0.87815 \\
-		LSTM & 0.804657 & 0.898786 & 0.92417 \\
-		ARIMA & 0.963426 & 0.9823224 & 1.09266 \\ \hline
-	\end{tabular}
-	\caption{Resultados antecedente}
-	\textit{Fuente: Swami, D.(2020). Predicting future sales of retail products using machine learning. arXiv preprint arXiv:2008.07779.}
-
-	\label{tabla:1}
-\end{table}
-
+% ==========================================
 \subsection{Time Series Forecasting and Modelling of Food Demand Supply Chain based on Regressors Analysis}
 
 \subsubsection{Planteamiento del Problema y objetivo }
@@ -504,133 +574,406 @@ Adicionalmente, se realizó un análisis de sesgo y equidad para evaluar el rend
 \end{table}
 
 
-\subsection{Demand Forecasting for Online Market Stock: Case study Cleanroom Apparel}
+\subsection{Deep learning-enabled cherry price forecasting and real-time system deployment across multi-market supply chains in India}
 
-\subsubsection{Planteamiento del Problema y objetivo}
-El problema del estudio se centra en la necesidad de crear un marco de pronóstico apropiado para la planificación de la demanda de producción de las pequeñas y medianas empresas (PYMES). Estas empresas a menudo enfrentan desafíos debido a la variabilidad en las ventas de productos y la falta de técnicas de pronóstico efectivas, lo que puede resultar en exceso de inventario o escasez de productos. Esto se debe a que las decisiones de producción a menudo se basan en la experiencia de los empleados, lo que no siempre responde a la demanda del cliente.
+\subsubsection{Planteamiento del Problema y Objetivo}
 
-El objetivo del estudio es analizar y desarrollar un marco de pronóstico que permita prever la demanda de productos, particularmente para los cinco productos más vendidos por la empresa. Para lograr esto, se utilizan una variedad de técnicas de predicción, como el promedio móvil, el suavizado exponencial y el análisis de regresión, para determinar el método más efectivo para reducir el error de predicción y optimizar la cantidad económica de pedido ademas de los costos totales asociados con la producción y el inventario.
+El estudio aborda la problemática de la alta volatilidad de precios en productos agrícolas perecederos, específicamente las cerezas. Este tipo de productos presenta fluctuaciones significativas debido a factores como la estacionalidad, cambios climáticos, oferta limitada y la ausencia de almacenamiento prolongado.
 
-\subsubsection{Base de datos de los autores}
-El estudio utilizó una base de datos de ventas de productos de una empresa de 2015 a 2017.\\
-Estos son los elementos clave de esta base de datos:
+El problema central radica en que los métodos tradicionales de predicción, tales como ARIMA o SARIMA, presentan limitaciones para capturar comportamientos no lineales y dinámicos en los precios, lo que afecta negativamente la toma de decisiones de agricultores, comerciantes y formuladores de políticas públicas.
 
-\begin{enumerate}
-	\item {Productos Analizados: Se seleccionaron los cinco productos más vendidos, que se denominaron A, B, C, E y L.}
-	\item{Recopilación de información: La base de datos contiene datos sobre:}
-	\begin{itemize}
-		\item{La cantidad de unidades vendidas de cada producto durante el período mencionado se conoce como demanda.}
-		\item{El precio de cada producto es el precio unitario.}
-		\item{El valor total de ventas de cada producto se puede calcular multiplicando la demanda por el precio.}	
-	\end{itemize}
-	
-	\item{Formato de Presentación: Una tabla con columnas para el nombre del producto, la demanda total, el precio por unidad y el valor total de ventas contiene los datos. Por ejemplo, la tabla muestra que el Producto A tuvo una demanda de 14,110 unidades al precio de 530 Baht, lo que resultó en un valor total de ventas de 7,478,300 Baht.}
-	\item{Objetivo de los datos: Estos datos se utilizan para aplicar una variedad de técnicas de pronóstico y determinar cuál es la más efectiva para prever la demanda futura. También se utilizan para determinar la cantidad económica de pedido (EOQ) y los costos totales relacionados con la gestión del inventario.}
-\end{enumerate}
+En este contexto, el objetivo principal del estudio es:
 
+\begin{itemize}
+    \item Evaluar si los modelos de \textbf{Deep Learning (DL)} pueden superar a los métodos tradicionales y de Machine Learning en la predicción de precios.
+    \item Desarrollar un sistema de \textbf{pronóstico en tiempo real} que permita generar predicciones diarias.
+    \item Implementar una herramienta operativa que conecte la inteligencia artificial con el entorno real del mercado agrícola.
+\end{itemize}
+
+Asimismo, el estudio busca cerrar la brecha entre modelos teóricos y aplicaciones prácticas mediante la implementación de un sistema funcional durante una temporada real de comercialización.
+
+\subsubsection{Base de Datos}
+
+La investigación utiliza una base de datos compuesta por precios diarios de cereza en mercados mayoristas de la India, recolectados de registros oficiales de comités agrícolas.
+
+Las principales características de la base de datos son:
+
+\begin{multicols}{2}
+\begin{itemize}
+    \item Cobertura temporal entre los años 2012 y 2024.
+    \item Frecuencia de registro diaria.
+    \item Información proveniente de cinco mercados mayoristas.
+    \item Segmentación por variedad (Makhmali y Mishri).
+    \item Clasificación por calidad (Super, Special y Fancy).
+\end{itemize}
+\end{multicols}
+
+El proceso de recolección de datos incluyó la interacción directa con actores del mercado como comerciantes, agentes y funcionarios. Posteriormente, los datos fueron digitalizados y sometidos a procesos de validación para garantizar su precisión.
+
+Asimismo, se aplicaron técnicas de preprocesamiento tales como:
+\begin{multicols}{2}
+\begin{itemize}
+    \item Imputación de valores faltantes.
+    \item Normalización de datos.
+    \item Pruebas de estacionariedad.
+\end{itemize}
+\end{multicols}
+Esto permitió construir una base de datos robusta y adecuada para el entrenamiento de modelos predictivos.
 
 \subsubsection{Metodología empleada por los autores}
 
-\begin{enumerate}
-	\item Recolección de Datos
-	\begin{itemize}
-		\item Origen de los Datos: Se obtuvieron datos de ventas de productos de una empresa durante los años 2015 a 2017.
-		\item Selección de Productos: Se identificaron los cinco productos más vendidos, denominados Producto A, B, C, E y L.
-	\end{itemize}
-	
-	\item Análisis de la Información
-	\begin{itemize}
-		\item Características de los Datos: Se examinaron aspectos clave de los datos de ventas, tales como la demanda total, el precio unitario y el valor total de ventas para cada producto.
-		\item Organización de los Datos: Los datos fueron presentados en tablas que detallan la demanda, el precio y el valor total de cada producto.
-	\end{itemize}
-	
-	\item Selección de Técnicas de Pronóstico
-	\begin{itemize}
-		\item Métodos Comparados: Se seleccionaron cuatro métodos de pronóstico para evaluar su precisión:
-		\begin{enumerate}
-			\item Promedio Móvil
-			\item Suavizado Exponencial Simple
-			\item Suavizado Exponencial Doble
-			\item Análisis de Regresión
-		\end{enumerate}
-	\end{itemize}
-	
-	\item Aplicación de Técnicas de Pronóstico
-	\begin{itemize}
-		\item Implementación: Se aplicaron los métodos seleccionados a los datos de ventas de los cinco productos para estimar la demanda futura.
-		\item Cálculo de Errores: Se midió la precisión de cada pronóstico utilizando el Error Absoluto Porcentual Medio (MAPE).
-	\end{itemize}
-	
-	\item Identificación del Método Más Eficiente
-	\begin{itemize}
-		\item Comparación de Resultados: Se contrastaron los valores de MAPE para determinar cuál método proporcionó el pronóstico más exacto para cada producto.
-		\item Selección del Método: Se eligió el método con el menor MAPE como el más adecuado para cada producto.
-	\end{itemize}
-	
-	\item Cálculo de la Cantidad Económica de Pedido
-	\begin{itemize}
-		\item Cálculo de EOQ: Después de seleccionar el método de pronóstico más preciso, se determinó la cantidad económica de pedido para cada producto, optimizando la gestión de inventario.
-		\item Evaluación de Costos: Se calcularon los costos totales asociados a la administración del inventario, utilizando los pronósticos y la EOQ obtenidos.
-	\end{itemize}
-	
-	\item Interpretación de Resultados
-	\begin{itemize}
-		\item Visualización: Los resultados fueron representados mediante gráficos que muestran la demanda de cada producto a lo largo del tiempo.
-		\item Conclusiones: Se discutieron las repercusiones de los resultados en la gestión de inventario y la satisfacción del cliente, así como recomendaciones para investigaciones futuras.
-	\end{itemize}
-\end{enumerate}
+El estudio implementa una metodología comparativa multienfoque, combinando modelos estadísticos, de Machine Learning y Deep Learning.
 
+\paragraph{Modelos utilizados}
+
+Se evaluaron los siguientes modelos:
+\begin{multicols}{2}
+\begin{itemize}
+    \item SARIMA
+    \item Prophet
+    \item Random Forest (RF)
+    \item XGBoost
+    \item LSTM (Long Short-Term Memory)
+    \item Transformer
+\end{itemize}
+\end{multicols}
+
+\paragraph{Proceso metodológico}
+
+La metodología se desarrolló en las siguientes etapas:
+
+\begin{itemize}
+    \item \textbf{Preprocesamiento:} limpieza de datos, imputación de valores faltantes, normalización y verificación de estacionariedad.
+    
+    \item \textbf{Entrenamiento y validación:} división cronológica de los datos en conjuntos de entrenamiento, validación y prueba, respetando la naturaleza temporal de la información.
+    
+    \item \textbf{Evaluación:} se utilizaron diversas métricas para medir el desempeño de los modelos:
+    
+	\begin{multicols}{2}
+	\begin{itemize}
+        \item MAE (Error absoluto medio)
+        \item RMSE (Raíz del error cuadrático medio)
+        \item sMAPE (Error porcentual simétrico)
+        \item DA (Exactitud direccional)
+        \item MFE (Error medio de pronóstico)
+        \item NMBE (Error normalizado)
+    \end{itemize}
+	\end{multicols}
+    
+    \item \textbf{Validación estadística:} se aplicó el test de Diebold-Mariano para determinar la significancia de las diferencias entre modelos.
+    
+    \item \textbf{Implementación en tiempo real:} desarrollo de un sistema web que integra modelos predictivos con datos en tiempo real mediante tecnologías como FastAPI y bases de datos.
+\end{itemize}
+
+\subsubsection{Resultados Obtenidos}
+
+Los resultados del estudio evidencian que los modelos de Deep Learning superan significativamente a los métodos tradicionales.
+
+Entre los principales hallazgos se destacan:
+
+	\begin{itemize}
+		\item Los modelos LSTM y Transformer obtuvieron el mejor rendimiento en todas las métricas evaluadas.
+		\item Se alcanzó una precisión superior al 92\% en predicciones reales.
+		\item Los errores fueron bajos, con valores de MAE entre 5 y 8, y RMSE entre 8 y 12.
+		\item El sMAPE se mantuvo entre 5\% y 10\% en mercados principales.
+	\end{itemize}
+
+El test de Diebold-Mariano confirmó que las mejoras de los modelos de Deep Learning son estadísticamente significativas.
+
+En cuanto a la implementación en tiempo real, se obtuvieron los siguientes resultados:
+
+	\begin{itemize}
+		\item El sistema logró 82.3\% de disponibilidad operativa
+		\item Se registraron 348 entradas de datos reales
+		\item Tiempo de respuesta bajo (aproximadamente 250 ms).
+		\item Alta adopción por parte de usuarios institucionales.
+	\end{itemize}
+
+Estos resultados demuestran que los modelos no solo son precisos, sino también viables en entornos reales, consolidándose como herramientas eficaces para la toma de decisiones en mercados agrícolas.
+
+Finalmente, el estudio concluye que el Deep Learning, especialmente los modelos LSTM, constituye una solución robusta para la predicción de precios en mercados volátiles, aportando significativamente al desarrollo de sistemas inteligentes de apoyo a la toma de decisiones.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\subsection{Automated water demand forecasting for national-scale deployment: a prophet-based framework for Palestinian municipal water management}
+
+\subsubsection{Planteamiento del Problema y objetivo}
+
+En las últimas décadas, la gestión eficiente del agua se ha convertido en un problema crítico a nivel mundial debido a factores como el crecimiento poblacional, la urbanización acelerada, el cambio climático y restricciones políticas. Según el estudio analizado, más de 2 mil millones de personas sufren escasez de agua, siendo el Medio Oriente una de las regiones más afectadas, donde aproximadamente el 80\% de la población vive bajo condiciones de estrés hídrico severo \cite{ref_agua}.
+
+En este contexto, la predicción de la demanda de agua es fundamental para mejorar la planificación, distribución y asignación de recursos. Sin embargo, los métodos tradicionales de pronóstico presentan limitaciones importantes, como la necesidad de ajuste manual de parámetros y la dificultad para escalar los modelos a múltiples zonas con características heterogéneas. Esto genera dependencia de especialistas y dificulta la implementación a gran escala \cite{ref_agua}.
+
+El problema central identificado en la investigación radica en la ausencia de sistemas automatizados capaces de realizar predicciones precisas en múltiples áreas sin intervención humana. Los enfoques existentes suelen centrarse en series de tiempo individuales, lo que limita su aplicabilidad en sistemas reales donde se manejan múltiples regiones con diferentes patrones de consumo.
+
+Frente a esta problemática, el objetivo principal del estudio es desarrollar un sistema automatizado de predicción de demanda de agua basado en el modelo Prophet, capaz de:
+
+\begin{itemize}
+    \item Eliminar la necesidad de ajuste manual de parámetros.
+    \item Seleccionar automáticamente variables relevantes.
+    \item Escalar el modelo a múltiples áreas de servicio.
+    \item Mejorar la precisión en la predicción de la demanda.
+\end{itemize}
+
+Adicionalmente, el estudio busca validar este sistema en múltiples zonas reales, evaluar la influencia de variables externas (como clima y eventos culturales) y establecer lineamientos para su implementación a nivel nacional \cite{ref_agua}.
+
+\subsubsection{Base de datos}
+
+La investigación utiliza una base de datos real correspondiente a la ciudad de Nablus, en Palestina, la cual presenta condiciones de alta escasez de agua y complejidad en los patrones de consumo.
+
+El conjunto de datos incluye:
+
+\begin{itemize}
+    \item Información de consumo mensual de agua.
+    \item Datos correspondientes a 29 áreas urbanas.
+    \item Un periodo de estudio de 60 meses (2019--2023).
+    \item Variables externas como condiciones climáticas (temperatura, lluvia, humedad) y eventos culturales (Ramadán, festividades religiosas).
+\end{itemize}
+
+Las áreas analizadas presentan una alta heterogeneidad, incluyendo:
+
+\begin{itemize}
+    \item Zonas urbanas.
+    \item Áreas industriales.
+    \item Centros comerciales.
+    \item Campamentos de refugiados.
+\end{itemize}
+
+Los niveles de consumo varían significativamente entre áreas, desde aproximadamente 1,350 hasta 42,260 m$^3$ por mes, lo que evidencia la complejidad del problema de predicción \cite{ref_agua}.
+
+Además, el estudio considera factores adicionales que afectan el consumo, como el uso de pozos de agua en temporada de lluvias, lo que introduce variaciones no lineales y dificulta la predicción. Esta diversidad convierte a la base de datos en un caso ideal para evaluar modelos de predicción en contextos reales y complejos.
+
+\subsubsection{Metodología empleada por los autores}
+
+La metodología propuesta se basa en el desarrollo de un sistema automatizado de predicción utilizando el modelo Prophet, complementado con técnicas de optimización y selección de variables.
+
+\begin{itemize}
+    \item \textbf{Preprocesamiento de datos:}
+    \begin{itemize}
+        \item Imputación de valores faltantes.
+        \item Detección y tratamiento de valores atípicos.
+        \item Validación de consistencia de datos.
+    \end{itemize}
+
+    \item \textbf{Análisis exploratorio:}
+    \begin{itemize}
+        \item Análisis de tendencia.
+        \item Evaluación de estacionalidad.
+        \item Análisis de variabilidad residual.
+        \item Estudio de estacionariedad y autocorrelación.
+    \end{itemize}
+
+    \item \textbf{Selección de variables (features):}
+    Se empleó un enfoque basado en ensamblaje que combina:
+    \begin{itemize}
+        \item Random Forest.
+        \item Información mutua.
+        \item Importancia por permutación.
+        \item Correlación de Pearson.
+    \end{itemize}
+
+    \item \textbf{Modelo de predicción:}
+    Se utilizó el modelo Prophet debido a sus ventajas:
+    \begin{itemize}
+        \item Manejo de datos no estacionarios.
+        \item Incorporación de estacionalidad y tendencias.
+        \item Inclusión de variables externas.
+        \item Interpretabilidad.
+    \end{itemize}
+
+    \item \textbf{Optimización del modelo:}
+    Se aplicó optimización bayesiana mediante Optuna para ajustar automáticamente los hiperparámetros.
+
+    \item \textbf{Evaluación del modelo:}
+    \begin{itemize}
+        \item MAE (Error absoluto medio).
+        \item RMSE (Raíz del error cuadrático medio).
+        \item MAPE (Error porcentual absoluto medio).
+        \item MASE (Error absoluto escalado medio).
+    \end{itemize}
+
+    También se utilizó validación tipo \textit{walk-forward}, simulando un entorno real de predicción.
+\end{itemize}
 
 \subsubsection{Resultados obtenidos}
-\textbf{Producto A}
+
+Los resultados del estudio demuestran un alto nivel de precisión y eficiencia del modelo propuesto.
+
+Entre los principales hallazgos destacan:
+
 \begin{itemize}
-	\item Método de Pronóstico Utilizado: Análisis de Regresión
-	\item MAPE: 22.03
-	\item Cantidad Económica de Pedido (EOQ): 172 unidades
-	\item Costo Total: 27,345.51 Baht
+    \item El 93.1\% de las áreas alcanzaron un error menor al 10\% (MAPE $<$ 10\%), considerado un nivel de precisión excelente.
+    \item El error promedio fue de aproximadamente 7.3\%, con una mediana de 6.5\%.
+    \item Se logró una mejora del 34.2\% respecto a modelos base tradicionales \cite{ref_agua}.
 \end{itemize}
 
-\textbf{Producto B}
+Además:
+
 \begin{itemize}
-	\item Método de Pronóstico Utilizado: Suavizado Exponencial Simple
-	\item Valor de $\alpha$: 0.056
-	\item MAPE: 72.20
-	\item Cantidad Económica de Pedido (EOQ): 150 unidades
-	\item Costo Total: 23,280.66 Baht
+    \item El modelo logró adaptarse a diferentes tipos de áreas (urbanas, industriales, residenciales).
+    \item Se comprobó que variables como temperatura y tendencias temporales son altamente influyentes.
+    \item El sistema mostró capacidad de escalabilidad para más de 550 regiones.
 \end{itemize}
 
-\textbf{Producto C}
+En términos computacionales:
+
 \begin{itemize}
-	\item Método de Pronóstico Utilizado: Análisis de Regresión
-	\item MAPE: 28.10
-	\item Cantidad Económica de Pedido (EOQ): 193 unidades
-	\item Costo Total: 24,953.52 Baht
+    \item El tiempo promedio de ejecución fue de aproximadamente 22.7 segundos por área.
+    \item El sistema completo procesó las 29 áreas en menos de 11 minutos.
 \end{itemize}
 
-\textbf{Producto E}
+Finalmente, el estudio concluye que el sistema desarrollado es viable para implementación a gran escala, permitiendo mejorar la planificación de recursos hídricos y facilitando la toma de decisiones en contextos de escasez de agua.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Lightweight machine learning framework using temporal features for electric vehicle demand response forecasting on edge devices}
+
+\subsubsection{Planteamiento del problema y objetivo}
+
+El rápido crecimiento del uso de vehículos eléctricos (EV) ha generado nuevos desafíos en la gestión de la demanda energética, especialmente en sistemas eléctricos con recursos limitados. La carga simultánea de múltiples vehículos puede provocar sobrecargas en la red, desequilibrios en la demanda y problemas operativos, particularmente en escenarios de alta penetración de EV \cite{durrani2026}.
+
+Diversos estudios han propuesto soluciones basadas en técnicas avanzadas de aprendizaje automático y aprendizaje profundo para predecir la demanda energética y optimizar estrategias de respuesta a la demanda (Demand Response, DR). Sin embargo, muchos de estos modelos presentan un alto costo computacional, lo que dificulta su implementación en dispositivos con recursos limitados, como sistemas embebidos o dispositivos de borde.
+
+En este contexto, el problema principal abordado por los autores consiste en desarrollar modelos de predicción de demanda energética que sean \textbf{precisos, interpretables y computacionalmente eficientes}, capaces de ser implementados en entornos con restricciones de hardware.
+
+El objetivo de la investigación es proponer un \textbf{framework de machine learning ligero} que permita predecir la carga de vehículos eléctricos y optimizar estrategias de respuesta a la demanda, manteniendo un equilibrio entre precisión predictiva y eficiencia computacional \cite{durrani2026}.
+
+\subsubsection{Base de datos}
+
+La investigación utiliza un conjunto de datos público proveniente de Kaggle denominado \textit{Electric Vehicle Charging Dataset}. Este dataset contiene información realista sobre el comportamiento de carga de vehículos eléctricos, incluyendo variables como:
+
 \begin{itemize}
-	\item Método de Pronóstico Utilizado: Promedio Móvil ($n=3$)
-	\item MAPE: 31.50
-	\item Cantidad Económica de Pedido (EOQ): 336 unidades
-	\item Costo Total: 14,109.57 Baht
+    \item Tiempo de conexión
+    \item Energía suministrada (kWh Delivered)
+    \item Duración de la carga
+    \item Variables temporales (hora, día, mes, día de la semana)
 \end{itemize}
 
-\textbf{Producto L}
+El dataset original contiene más de \textbf{2.1 millones de registros}, lo que representa un volumen significativo de datos para el análisis \cite{durrani2026}.
+
+Sin embargo, debido a la orientación del estudio hacia entornos de bajo consumo computacional, los autores realizaron un proceso de \textbf{downsampling}, seleccionando una muestra representativa de \textbf{50,000 registros}. Esto permitió reducir la carga computacional sin perder la representatividad estadística de los datos.
+
+Además, se llevó a cabo un proceso de \textbf{ingeniería de características}, donde se generaron variables temporales adicionales como:
+
+\begin{multicols}{2}
 \begin{itemize}
-	\item Método de Pronóstico Utilizado: Análisis de Regresión
-	\item MAPE: 47.00
-	\item Cantidad Económica de Pedido (EOQ): 1844 unidades
-	\item Costo Total: 6,639.97 Baht
+    \item Hora del día
+    \item Día de la semana
+    \item Mes
+    \item Día
+\end{itemize}
+\end{multicols}
+
+Estas variables permitieron capturar patrones cíclicos en el comportamiento de carga de los vehículos eléctricos.
+
+\subsubsection{Metodología empleada por los autores}
+
+La metodología propuesta sigue un enfoque estructurado basado en un pipeline de machine learning optimizado para entornos con recursos limitados. Este proceso incluye las siguientes etapas:
+
+\begin{enumerate}
+    \item \textbf{Preprocesamiento de datos}
+
+    Se realizó limpieza de datos, normalización y reducción del tamaño del dataset mediante muestreo aleatorio. No se encontraron valores faltantes significativos, lo que facilitó el proceso de modelado \cite{durrani2026}.
+
+    \item \textbf{Análisis exploratorio de datos (EDA)}
+
+    El análisis reveló que la variable objetivo (kWh Delivered) presenta una distribución sesgada hacia la derecha, indicando que la mayoría de las sesiones de carga consumen poca energía, mientras que pocas sesiones presentan consumos altos.
+
+    Asimismo, se identificaron correlaciones moderadas entre variables temporales y la energía consumida, justificando su inclusión en el modelo.
+
+    \item \textbf{Simulación de estrategias de Demand Response}
+
+    Se incorporaron siete estrategias de respuesta a la demanda como variables categóricas:
+	\begin{multicols}{2}
+    \begin{itemize}
+        \item Peak Clipping
+        \item Valley Filling
+        \item Load Shifting
+        \item Strategic Conservation
+        \item Strategic Load Growth
+        \item Flexible Load Shape
+        \item None
+    \end{itemize}
+	\end{multicols}
+    Estas estrategias permiten modelar diferentes escenarios de gestión energética.
+
+    \item \textbf{Modelos de Machine Learning}
+
+    Se evaluaron cinco modelos de regresión:
+	\begin{multicols}{2}
+    \begin{itemize}
+        \item Regresión Lineal (LR)
+        \item Support Vector Regression (SVR)
+        \item K-Nearest Neighbors (KNN)
+        \item Random Forest (RF)
+        \item XGBoost
+    \end{itemize}
+	\end{multicols}
+
+    Estos modelos fueron seleccionados por su balance entre rendimiento y complejidad computacional.
+
+    \item \textbf{Optimización de hiperparámetros}
+
+    Se utilizó \textbf{Grid Search con validación cruzada (3-fold)} para optimizar parámetros como:
+	\begin{multicols}{2}
+    \begin{itemize}
+        \item Número de estimadores
+        \item Profundidad máxima
+        \item Tasa de aprendizaje
+        \item Número de vecinos
+    \end{itemize}
+	\end{multicols}
+
+    \item \textbf{Métricas de evaluación}
+
+    Los modelos fueron evaluados mediante:
+	\begin{multicols}{2}
+    \begin{itemize}
+        \item MAE (Error absoluto medio)
+        \item MSE (Error cuadrático medio)
+        \item RMSE
+        \item $R^2$
+    \end{itemize}
+	\end{multicols}
+
+\end{enumerate}
+
+Estas métricas permitieron comparar el desempeño predictivo de cada modelo en diferentes estrategias DR.
+
+\subsubsection{Resultados obtenidos}
+
+Los resultados del estudio evidencian diferencias significativas en el desempeño de los modelos evaluados.
+
+El modelo \textbf{XGBoost} obtuvo el mejor rendimiento en la mayoría de las estrategias de respuesta a la demanda, alcanzando valores de:
+
+\begin{itemize}
+    \item $R^2 = 0.975$ en Strategic Conservation
+    \item $R^2 = 0.943$ en Valley Filling
 \end{itemize}
 
-\textbf{Análisis de Resultados}
+lo que indica una alta capacidad predictiva y ajuste del modelo a los datos \cite{durrani2026}.
+
+Por otro lado, el modelo \textbf{Random Forest} también mostró un buen desempeño, con valores de $R^2$ superiores a 0.7 en varias estrategias, posicionándose como una alternativa robusta.
+
+En contraste:
+
 \begin{itemize}
-	\item \textbf{Efectividad de los Métodos}: El análisis de regresión demostró ser el método más efectivo para los Productos A y C, mientras que el suavizado exponencial simple fue el más adecuado para el Producto B. El promedio móvil fue el mejor para el Producto E.
-	\item \textbf{Variación en EOQ}: Las cantidades económicas de pedido (EOQ) varían significativamente entre los productos, con el Producto L requiriendo la mayor cantidad de 1844 unidades, lo que indica una alta demanda o un costo de mantenimiento bajo en comparación con otros productos.
-	\item \textbf{Costos Totales}: Los costos totales asociados a la gestión del inventario también varían, reflejando las diferencias en la demanda y la cantidad de pedido óptima.
+    \item La \textbf{Regresión Lineal} presentó bajo desempeño, con valores de $R^2$ inferiores a 0.5
+    \item El modelo \textbf{KNN} mostró alta sensibilidad al ruido y baja capacidad de generalización
+    \item El modelo \textbf{SVR} logró resultados intermedios, pero con mayor costo computacional
 \end{itemize}
 
+Los resultados demuestran que los modelos basados en \textbf{ensamble (XGBoost y Random Forest)} son más efectivos para la predicción de demanda energética en sistemas de carga de vehículos eléctricos.
 
+Finalmente, la investigación concluye que es posible implementar modelos de machine learning eficientes en entornos con recursos limitados, logrando un balance adecuado entre:
+
+\begin{itemize}
+    \item Precisión
+    \item Interpretabilidad
+    \item Bajo costo computacional
+\end{itemize}
+
+Esto representa un avance importante para la implementación de sistemas inteligentes en redes eléctricas y estaciones de carga de vehículos eléctricos.
 
 %%%%%%%%%%%%%%%%%4
 %\subsection{Inteligencia Empresarial y Análisis de Datos: De Big Data a Gran Impacto}

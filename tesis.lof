@@ -1,47 +1,46 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Metodologia antecedente}}{32}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Resultado antecedente}}{32}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Resultado antecedente}}{33}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Resultado antecedente}}{35}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Árbol de decisión}}{52}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Arquitecura LSTM}}{55}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Series de tiempo}}{58}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Componentes de la serie temporal}}{60}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Aplicaciónes de serie temporal}}{61}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Posibles valores alfa}}{63}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Metodologia antecedente}}{31}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Resultado antecedente}}{32}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Resultado antecedente}}{32}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Árbol de decisión}}{55}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Arquitecura LSTM}}{57}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Series de tiempo}}{61}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Componentes de la serie temporal}}{63}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Aplicaciónes de serie temporal}}{64}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Posibles valores alfa}}{66}{figure.caption.17}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Consulta SQL}}{71}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Tablas de ventas}}{72}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Metodología KDD}}{73}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Selección de tablas SQL}}{78}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Tablas de ventas}}{79}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Descripción cuantitativa}}{80}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Cuantificación de semanas}}{80}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Distribución de precion}}{81}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Correlación de variables}}{81}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Cronograma de actividades}}{92}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Consulta SQL}}{74}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Tablas de ventas}}{75}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Metodología KDD}}{76}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Selección de tablas SQL}}{81}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Tablas de ventas}}{82}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Descripción cuantitativa}}{83}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Cuantificación de semanas}}{83}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Distribución de precion}}{84}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Correlación de variables}}{84}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Cronograma de actividades}}{95}{figure.caption.33}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Organigrama Donna SAC}}{95}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Matriz interna y externa}}{102}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Organigrama Donna SAC}}{98}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Matriz interna y externa}}{105}{figure.caption.36}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Familia de productos}}{104}{figure.caption.38}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Predicción Vs. valores actuales}}{106}{figure.caption.39}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Datos históricos de ventas}}{107}{figure.caption.40}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Datos históricos de ventas con 3 columnas agregadas}}{107}{figure.caption.41}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Ventas de la familia verduras}}{108}{figure.caption.42}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Parametros de los modelos elegidos}}{109}{figure.caption.43}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Identificando las columnas con datos faltantes}}{110}{figure.caption.44}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Columnas de datos}}{111}{figure.caption.45}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Datos históricos de ventas}}{111}{figure.caption.46}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces División de prueba y entrenamiento}}{112}{figure.caption.47}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Modelos elegidos}}{112}{figure.caption.48}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Definicion de modelos y métricas}}{113}{figure.caption.49}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Comparación de resultados}}{113}{figure.caption.50}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Resultados de modelos}}{114}{figure.caption.51}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Predicción numerica del mejor modelo}}{116}{figure.caption.52}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Predicción con el mejor modelo}}{116}{figure.caption.53}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Familia de productos}}{107}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Predicción Vs. valores actuales}}{109}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Datos históricos de ventas}}{110}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Datos históricos de ventas con 3 columnas agregadas}}{110}{figure.caption.40}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Ventas de la familia verduras}}{111}{figure.caption.41}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Parametros de los modelos elegidos}}{112}{figure.caption.42}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Identificando las columnas con datos faltantes}}{113}{figure.caption.43}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Columnas de datos}}{114}{figure.caption.44}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Datos históricos de ventas}}{114}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces División de prueba y entrenamiento}}{115}{figure.caption.46}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Modelos elegidos}}{115}{figure.caption.47}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Definicion de modelos y métricas}}{116}{figure.caption.48}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Comparación de resultados}}{116}{figure.caption.49}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Resultados de modelos}}{117}{figure.caption.50}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Predicción numerica del mejor modelo}}{119}{figure.caption.51}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Predicción con el mejor modelo}}{119}{figure.caption.52}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
