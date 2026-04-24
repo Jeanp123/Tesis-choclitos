@@ -265,12 +265,12 @@ INPUT 1\planteamiento.aux
 INPUT .\2\marco.aux
 INPUT .\2\marco.aux
 INPUT 2\marco.aux
-INPUT .\3\metodologia.aux
-INPUT .\3\metodologia.aux
-INPUT 3\metodologia.aux
 INPUT .\31\empresa.aux
 INPUT .\31\empresa.aux
 INPUT 31\empresa.aux
+INPUT .\3\metodologia.aux
+INPUT .\3\metodologia.aux
+INPUT 3\metodologia.aux
 INPUT .\4\desarrollo.aux
 INPUT .\4\desarrollo.aux
 INPUT 4\desarrollo.aux
@@ -550,6 +550,33 @@ INPUT .\2\3_conceptos\marc_conceptual.tex
 INPUT .\2\3_conceptos\marc_conceptual.tex
 INPUT .\2\3_conceptos\marc_conceptual.tex
 INPUT 2\3_conceptos\marc_conceptual.tex
+INPUT .\31\empresa.tex
+INPUT .\31\empresa.tex
+OUTPUT 31\empresa.aux
+INPUT .\31\empresa.tex
+INPUT .\31\empresa.tex
+INPUT 31\empresa.tex
+INPUT .\31\figures\organigrama.png
+INPUT .\31\figures\organigrama.png
+INPUT .\31\figures\organigrama.png
+INPUT .\31\figures\organigrama.png
+INPUT .\31\figures\organigrama.png
+INPUT .\31\figures\organigrama.png
+INPUT .\31\figures\organigrama.png
+INPUT .\31\figures\Matriz_EFI_EFE.png
+INPUT .\31\figures\Matriz_EFI_EFE.png
+INPUT .\31\figures\Matriz_EFI_EFE.png
+INPUT .\31\figures\Matriz_EFI_EFE.png
+INPUT .\31\figures\Matriz_EFI_EFE.png
+INPUT .\31\figures\Matriz_EFI_EFE.png
+INPUT .\31\figures\Matriz_EFI_EFE.png
+INPUT .\31\figures\B CANVAS.JPG
+INPUT .\31\figures\B CANVAS.JPG
+INPUT .\31\figures\B CANVAS.JPG
+INPUT .\31\figures\B CANVAS.JPG
+INPUT .\31\figures\B CANVAS.JPG
+INPUT .\31\figures\B CANVAS.JPG
+INPUT .\31\figures\B CANVAS.JPG
 INPUT .\3\metodologia.tex
 INPUT .\3\metodologia.tex
 OUTPUT 3\metodologia.aux
@@ -624,26 +651,6 @@ INPUT .\2\figures\crono_activ.png
 INPUT .\2\figures\crono_activ.png
 INPUT .\2\figures\crono_activ.png
 INPUT .\2\figures\crono_activ.png
-INPUT .\31\empresa.tex
-INPUT .\31\empresa.tex
-OUTPUT 31\empresa.aux
-INPUT .\31\empresa.tex
-INPUT .\31\empresa.tex
-INPUT 31\empresa.tex
-INPUT .\31\figures\organigrama.png
-INPUT .\31\figures\organigrama.png
-INPUT .\31\figures\organigrama.png
-INPUT .\31\figures\organigrama.png
-INPUT .\31\figures\organigrama.png
-INPUT .\31\figures\organigrama.png
-INPUT .\31\figures\organigrama.png
-INPUT .\31\figures\Matriz_EFI_EFE.png
-INPUT .\31\figures\Matriz_EFI_EFE.png
-INPUT .\31\figures\Matriz_EFI_EFE.png
-INPUT .\31\figures\Matriz_EFI_EFE.png
-INPUT .\31\figures\Matriz_EFI_EFE.png
-INPUT .\31\figures\Matriz_EFI_EFE.png
-INPUT .\31\figures\Matriz_EFI_EFE.png
 INPUT .\4\desarrollo.tex
 INPUT .\4\desarrollo.tex
 OUTPUT 4\desarrollo.aux
@@ -825,12 +832,12 @@ INPUT 1\planteamiento.aux
 INPUT .\2\marco.aux
 INPUT .\2\marco.aux
 INPUT 2\marco.aux
-INPUT .\3\metodologia.aux
-INPUT .\3\metodologia.aux
-INPUT 3\metodologia.aux
 INPUT .\31\empresa.aux
 INPUT .\31\empresa.aux
 INPUT 31\empresa.aux
+INPUT .\3\metodologia.aux
+INPUT .\3\metodologia.aux
+INPUT 3\metodologia.aux
 INPUT .\4\desarrollo.aux
 INPUT .\4\desarrollo.aux
 INPUT 4\desarrollo.aux
