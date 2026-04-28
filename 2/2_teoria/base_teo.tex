@@ -245,119 +245,119 @@ Las series temporales cumplen dos objetivos principales: comprender las fuerzas 
 	\end{center}	
 \end{figure}
  
-\subsection{Métodos de suavizamiento de la serie}
-Según \cite{villarreal2016introduccion} tenemos a los siguientes:
+% \subsection{Métodos de suavizamiento de la serie}
+% Según \cite{villarreal2016introduccion} tenemos a los siguientes:
 
-\begin{enumerate}
-	\item Promedio móvil: Se obtiene un promedio móvil al sustituir cada valor de una serie con la media calculada a partir de esa observación y algunos de los valores anteriores y posteriores.
-	\item Promedio móvil ponderado: Para ejemplificar la aplicación de esta técnica, se fortalecerá la primera sección del caso anterior acerca de las ventas de gasolina. Este método consiste en asignar un factor de ponderación distinto a cada dato, con frecuencia asignando un peso más significativo a la observación más reciente desde la cual se busca hacer el pronóstico, y este peso disminuye a medida que nos alejamos en el tiempo. 			
-\end{enumerate}
+% \begin{enumerate}
+% 	\item Promedio móvil: Se obtiene un promedio móvil al sustituir cada valor de una serie con la media calculada a partir de esa observación y algunos de los valores anteriores y posteriores.
+% 	\item Promedio móvil ponderado: Para ejemplificar la aplicación de esta técnica, se fortalecerá la primera sección del caso anterior acerca de las ventas de gasolina. Este método consiste en asignar un factor de ponderación distinto a cada dato, con frecuencia asignando un peso más significativo a la observación más reciente desde la cual se busca hacer el pronóstico, y este peso disminuye a medida que nos alejamos en el tiempo. 			
+% \end{enumerate}
  
-\subsection{Técnica de suavizamiento exponencial}
-La simplicidad y el bajo costo de los métodos de suavización exponencial los definidos en una opción atractiva para las empresas grandes y pequeñas, así como para los técnicos que los apoyan. Estos métodos pueden servir como una alternativa de pronóstico accesible. 
-La suavización exponencial es una técnica que emplea un promedio ponderado de valores previos en una serie temporal como pronósticos. La fórmula indica que los pronósticos para el período t+1 se obtienen mediante una combinación ponderada del valor real en el período ty los pronósticos para el período t. Este enfoque constituye una variante particular del método de promedios móviles ponderados, en el cual se asigna un único peso a la observación más reciente.  
+% \subsection{Técnica de suavizamiento exponencial}
+% La simplicidad y el bajo costo de los métodos de suavización exponencial los definidos en una opción atractiva para las empresas grandes y pequeñas, así como para los técnicos que los apoyan. Estos métodos pueden servir como una alternativa de pronóstico accesible. 
+% La suavización exponencial es una técnica que emplea un promedio ponderado de valores previos en una serie temporal como pronósticos. La fórmula indica que los pronósticos para el período t+1 se obtienen mediante una combinación ponderada del valor real en el período ty los pronósticos para el período t. Este enfoque constituye una variante particular del método de promedios móviles ponderados, en el cual se asigna un único peso a la observación más reciente.  
 
-\begin{equation}  
-	\label{eq:suavizacion}
-	F_{t+1} = \alpha Y_t (1 - \alpha) F_t \quad \text{donde} \quad 0 \leq \alpha \leq 1
-\end{equation}
+% \begin{equation}  
+% 	\label{eq:suavizacion}
+% 	F_{t+1} = \alpha Y_t (1 - \alpha) F_t \quad \text{donde} \quad 0 \leq \alpha \leq 1
+% \end{equation}
 
-\subsection{Método de suavización exponencial simple}
-Según \cite{villarreal2016version}, se tiene las siguientes características:
-\begin{enumerate}
-	\item Facilidad de uso, aplicable a corto plazo. 
-	\item La serie carece de tendencias o estacionalidad.
-	\item Modela la serie temporal como una fracción del valor inmediatamente anterior y su complemento estimado.
-	\item Alfa (\(\alpha\)) = constante de atenuación de la serie, se sugiere que esté en el rango de 0 a 1.
+% \subsection{Método de suavización exponencial simple}
+% Según \cite{villarreal2016version}, se tiene las siguientes características:
+% \begin{enumerate}
+% 	\item Facilidad de uso, aplicable a corto plazo. 
+% 	\item La serie carece de tendencias o estacionalidad.
+% 	\item Modela la serie temporal como una fracción del valor inmediatamente anterior y su complemento estimado.
+% 	\item Alfa (\(\alpha\)) = constante de atenuación de la serie, se sugiere que esté en el rango de 0 a 1.
 
 	
-	\begin{equation}  
-		\label{eq:suavizacionexp}
-		\hat{y}_t = \alpha y_{t-1} + (1 - \alpha) \hat{y}_{t-1}
-	\end{equation}				
-\end{enumerate}
+% 	\begin{equation}  
+% 		\label{eq:suavizacionexp}
+% 		\hat{y}_t = \alpha y_{t-1} + (1 - \alpha) \hat{y}_{t-1}
+% 	\end{equation}				
+% \end{enumerate}
 
-\subsection{¿Qué valor de alfa usar?}
-Cuando la serie de tiempo tiene una opción aleatoria considerable, es recomendable utilizar una constante de suavización pequeña. Se opta por esta elección debido a que gran parte del error en el pronóstico se atribuye a la variabilidad aleatoria. Por consiguiente, se busca evitar una reacción exagerada y ajustar los pronósticos de manera demasiado rápida. En contraposición, cuando la serie temporal presenta una variabilidad limitada, la elección de valores más altos para la constante de suavización ofrece la ventaja de adaptar rápidamente los pronósticos en caso de errores, permitiendo así una respuesta más ágil a condiciones cambiantes. La elección del valor se realiza con el objetivo de minimizar el error de pronóstico (\cite{villarreal2016version}).
+% \subsection{¿Qué valor de alfa usar?}
+% Cuando la serie de tiempo tiene una opción aleatoria considerable, es recomendable utilizar una constante de suavización pequeña. Se opta por esta elección debido a que gran parte del error en el pronóstico se atribuye a la variabilidad aleatoria. Por consiguiente, se busca evitar una reacción exagerada y ajustar los pronósticos de manera demasiado rápida. En contraposición, cuando la serie temporal presenta una variabilidad limitada, la elección de valores más altos para la constante de suavización ofrece la ventaja de adaptar rápidamente los pronósticos en caso de errores, permitiendo así una respuesta más ágil a condiciones cambiantes. La elección del valor se realiza con el objetivo de minimizar el error de pronóstico (\cite{villarreal2016version}).
 
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.8\textwidth]{2/figures/val_alfa.png}
-		\caption{Posibles valores alfa}
-		\textit{Fuente: Molina, J. (2017). Modelación econométrica de la demanda de semilla de chile dulce Lamuyo y Blocky en Costa Rica mediante series de tiempo univariadas. e-Agronegocios}
-		\label{fig4}
-	\end{center}	
-\end{figure}
+% \begin{figure}[h]
+% 	\begin{center}
+% 		\includegraphics[width=0.8\textwidth]{2/figures/val_alfa.png}
+% 		\caption{Posibles valores alfa}
+% 		\textit{Fuente: Molina, J. (2017). Modelación econométrica de la demanda de semilla de chile dulce Lamuyo y Blocky en Costa Rica mediante series de tiempo univariadas. e-Agronegocios}
+% 		\label{fig4}
+% 	\end{center}	
+% \end{figure}
 
 
-\subsection{Tipos de suavizado exponencial}
-\begin{enumerate}
-	\item Suavizado exponencial simple (aplicable a series sin tendencia ni estacionalidad). Diversos enfoques de suavizado exponencial actualizan el resultado del valor previo mediante la inclusión del último dato de la serie original. Este proceso combina la información previamente disponible con la contribución proporcionada por el nuevo dato mediante un parámetro, donde \( 0 < \alpha < 1 \).
+% \subsection{Tipos de suavizado exponencial}
+% \begin{enumerate}
+% 	\item Suavizado exponencial simple (aplicable a series sin tendencia ni estacionalidad). Diversos enfoques de suavizado exponencial actualizan el resultado del valor previo mediante la inclusión del último dato de la serie original. Este proceso combina la información previamente disponible con la contribución proporcionada por el nuevo dato mediante un parámetro, donde \( 0 < \alpha < 1 \).
 	
 	
-	\begin{equation}  
-		\label{eq:tipsuavi}
-		\hat{S_i = \alpha x_i + (1 - \alpha) S_{i-1}}
-	\end{equation}
+% 	\begin{equation}  
+% 		\label{eq:tipsuavi}
+% 		\hat{S_i = \alpha x_i + (1 - \alpha) S_{i-1}}
+% 	\end{equation}
 	
 	
-	\item Suavizado exponencial doble (aplicable a series con tendencia, pero sin estacionalidad).
-	El suavizado exponencial doble conserva información acerca de la tendencia mediante la retención de dos señales suavizadas: si para la señal suavizada y ti para la tendencia suavizada. El parámetro \(\beta\) se emplea para aplicar suavizado exponencial a la tendencia.
+% 	\item Suavizado exponencial doble (aplicable a series con tendencia, pero sin estacionalidad).
+% 	El suavizado exponencial doble conserva información acerca de la tendencia mediante la retención de dos señales suavizadas: si para la señal suavizada y ti para la tendencia suavizada. El parámetro \(\beta\) se emplea para aplicar suavizado exponencial a la tendencia.
 	
-	\begin{equation}  
-		\label{eq:tipexp1}
-		\hat{S_i = \alpha x_i + (1 - \alpha) (S_{i-1} + t_{i-1})
-		}
-	\end{equation}
+% 	\begin{equation}  
+% 		\label{eq:tipexp1}
+% 		\hat{S_i = \alpha x_i + (1 - \alpha) (S_{i-1} + t_{i-1})
+% 		}
+% 	\end{equation}
 	
-	\begin{equation}  
-		\label{eq:tipexp2}
-		\hat{t_i = \beta (x_i - S_{i-1}) + (1 - \beta) t_{i-1}
-		}
-	\end{equation}
+% 	\begin{equation}  
+% 		\label{eq:tipexp2}
+% 		\hat{t_i = \beta (x_i - S_{i-1}) + (1 - \beta) t_{i-1}
+% 		}
+% 	\end{equation}
 	
-	\item Suavizado triple exponencial (indicado para series con tendencia y estacionalidad). 
-	En este método, se incorpora un tercer componente para representar la estacionalidad, pudiendo esta ser aditiva o multiplicativa, según la necesidad.
-	\begin{equation}  
-		\label{eq:suavtriple1}
-		\hat{S_i = \alpha (x_i - P_{i-k}) + (1 - \alpha) (S_{i-1} + t_{i-1}))
-		}
-	\end{equation}
+% 	\item Suavizado triple exponencial (indicado para series con tendencia y estacionalidad). 
+% 	En este método, se incorpora un tercer componente para representar la estacionalidad, pudiendo esta ser aditiva o multiplicativa, según la necesidad.
+% 	\begin{equation}  
+% 		\label{eq:suavtriple1}
+% 		\hat{S_i = \alpha (x_i - P_{i-k}) + (1 - \alpha) (S_{i-1} + t_{i-1}))
+% 		}
+% 	\end{equation}
 	
-	\begin{equation}  
-		\label{eq:suavtriple2}
-		\hat{t_i = \beta (S_i - S_{i-1}) + (1 - \beta) t_{i-1}}
-	\end{equation}
+% 	\begin{equation}  
+% 		\label{eq:suavtriple2}
+% 		\hat{t_i = \beta (S_i - S_{i-1}) + (1 - \beta) t_{i-1}}
+% 	\end{equation}
 	
-	\begin{equation}  
-		\label{eq:suavtriple3}
-		\hat{t_i = \beta (S_i - S_{i-1}) + (1 - \beta) t_{i-1}}
-	\end{equation}
+% 	\begin{equation}  
+% 		\label{eq:suavtriple3}
+% 		\hat{t_i = \beta (S_i - S_{i-1}) + (1 - \beta) t_{i-1}}
+% 	\end{equation}
 	
-	\begin{equation}  
-		\label{eq:suavtriple4}
-		\hat{P_i = \gamma (X_i - S_i) + (1 - \gamma) p_{i-k}}
-	\end{equation}
-	\begin{equation}  
-		\label{eq:suavtriple5}
-		\hat{X_{i+h} = S_i + ht_i + p_{i-k+h}}
-	\end{equation}
+% 	\begin{equation}  
+% 		\label{eq:suavtriple4}
+% 		\hat{P_i = \gamma (X_i - S_i) + (1 - \gamma) p_{i-k}}
+% 	\end{equation}
+% 	\begin{equation}  
+% 		\label{eq:suavtriple5}
+% 		\hat{X_{i+h} = S_i + ht_i + p_{i-k+h}}
+% 	\end{equation}
 						
-\end{enumerate}
+% \end{enumerate}
 
 
-\subsection{Ventajas del método de suavización exponencial simple}
-El enfoque de suavización exponencial es extensamente empleado como técnica de pronósticos debido a su sencillez, siendo adoptado tanto por empresas pequeñas como por aquellas de mayor envergadura. Su implementación resulta fácil, ya sea a través de una hoja de cálculo en Excel o mediante software especializado como Forecast Pro. A continuación, se detallan sus beneficios:
+% \subsection{Ventajas del método de suavización exponencial simple}
+% El enfoque de suavización exponencial es extensamente empleado como técnica de pronósticos debido a su sencillez, siendo adoptado tanto por empresas pequeñas como por aquellas de mayor envergadura. Su implementación resulta fácil, ya sea a través de una hoja de cálculo en Excel o mediante software especializado como Forecast Pro. A continuación, se detallan sus beneficios:
 
-\begin{enumerate}
-	\item Formulación simple: Únicamente se requiere el pronóstico anterior, la demanda real del período pronosticado y la constante de suavización. Esto facilita su aplicación y comprensión.
-	\item Requiere pocos datos históricos: A diferencia de otros métodos de pronóstico que pueden necesitar una gran cantidad de datos históricos, la suavización exponencial puede proporcionar pronósticos precisos incluso con un volumen limitado de datos.
-	\item Precisión: Al ser un modelo exponencial, la suavización exponencial tiende a ser más precisa en la predicción de la demanda futura en comparación con otros métodos de pronóstico.
-	\item Flexibilidad: Permite ajustar la importancia relativa de la demanda actual y la demanda antigua al asignar un peso adecuado a cada valor en el cálculo del pronóstico. Esto proporciona flexibilidad para adaptarse a diferentes patrones de demanda.	
+% \begin{enumerate}
+% 	\item Formulación simple: Únicamente se requiere el pronóstico anterior, la demanda real del período pronosticado y la constante de suavización. Esto facilita su aplicación y comprensión.
+% 	\item Requiere pocos datos históricos: A diferencia de otros métodos de pronóstico que pueden necesitar una gran cantidad de datos históricos, la suavización exponencial puede proporcionar pronósticos precisos incluso con un volumen limitado de datos.
+% 	\item Precisión: Al ser un modelo exponencial, la suavización exponencial tiende a ser más precisa en la predicción de la demanda futura en comparación con otros métodos de pronóstico.
+% 	\item Flexibilidad: Permite ajustar la importancia relativa de la demanda actual y la demanda antigua al asignar un peso adecuado a cada valor en el cálculo del pronóstico. Esto proporciona flexibilidad para adaptarse a diferentes patrones de demanda.	
 				
-\end{enumerate}
+% \end{enumerate}
 
-Sin embargo, al igual que los métodos de promedio móvil, la suavización exponencial tiene una desventaja en su respuesta a las tendencias. Aunque un valor de constante de suavización (alfa) puede responder a cambios en el promedio, los cambios sistemáticos en la tendencia pueden generar un error de pronóstico significativo. En estos casos, cuando se obtienen buenos resultados con un valor de alfa mayor a 0.5, puede ser más apropiado considerar el uso del alisado exponencial doble para obtener una mejor precisión en el pronóstico.
+% Sin embargo, al igual que los métodos de promedio móvil, la suavización exponencial tiene una desventaja en su respuesta a las tendencias. Aunque un valor de constante de suavización (alfa) puede responder a cambios en el promedio, los cambios sistemáticos en la tendencia pueden generar un error de pronóstico significativo. En estos casos, cuando se obtienen buenos resultados con un valor de alfa mayor a 0.5, puede ser más apropiado considerar el uso del alisado exponencial doble para obtener una mejor precisión en el pronóstico.
 
 
 

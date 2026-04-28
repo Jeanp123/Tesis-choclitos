@@ -26,7 +26,7 @@ La muestra seleccionada se concentra específicamente en la categoría de Verdur
 
 
 \subsection{Unidad de análisis}
-La unidad de análisis de este estudio se centra en cada transacción individual de venta de productos dentro de la categoría seleccionada, que corresponde a las verduras. Cada transacción registrada en este segmento, desde el año 2023 hasta 2024, se considera como una unidad única de observación. Esto permite una comprensión granular y precisa de los patrones de compra, comportamientos de los clientes y tendencias de demanda asociadas específicamente a estos productos perecibles.
+La unidad de análisis de este estudio se centra en cada transacción individual de venta de productos dentro de la categoría seleccionada, que corresponde a las verduras. Cada transacción registrada en este segmento, desde el año 2012 hasta 2026, se considera como una unidad única de observación. Esto permite una comprensión granular y precisa de los patrones de compra, comportamientos de los clientes y tendencias de demanda asociadas específicamente a estos productos perecibles.
 Al examinar cada transacción de manera individual, el análisis busca capturar variaciones diarias en la demanda, observar los patrones de consumo recurrentes y detectar posibles picos o caídas en las ventas. Este enfoque detallado proporciona información valiosa para construir un modelo predictivo ajustado a las particularidades de la categoría de verduras, permitiendo identificar factores que podrían influir en la demanda, como la estacionalidad, días de la semana, campañas promocionales o eventos externos.
 Además, el análisis de estas transacciones ofrece la oportunidad de estudiar la sensibilidad de la demanda a las variaciones en precios y promociones dentro de esta categoría. Estos datos permitirán una mejor previsión de la demanda en soles y servirán de base para la toma de decisiones estratégicas sobre los volúmenes de compra y la inversión diaria en reposición de inventario, asegurando así la disponibilidad de productos frescos y optimizando la eficiencia operativa de Market Donna SAC en esta categoría de productos perecibles.
 
@@ -132,7 +132,7 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 		La recolección de datos para esta investigación se focalizó en la obtención de información sobre la categoría de verduras, la cual representa en promedio el 33 \% de la demanda diaria en Market Donna SAC. Esta categoría fue seleccionada estratégicamente debido a su relevancia en la demanda diaria y su corta vida útil, lo que la convierte en un componente esencial para el análisis de productos perecibles en la empresa.
 		Para implementar el modelo de series de tiempo y realizar pronósticos de demanda diarios que contribuyan a maximizar los ingresos, se llevó a cabo una recopilación exhaustiva de datos históricos a través de un sistema de administración de bases de datos en SQL Server. Inicialmente, se desarrollaron consultas SQL específicas \ref{fig:querysql} para filtrar y extraer las tablas relevantes, tales como las de productos, precios, familias y códigos. Este proceso permitió estructurar y organizar la información de manera adecuada para su posterior análisis.
 		Posteriormente, se diseñó una consulta SQL \ref{fig:tablasql} avanzada que integró y combinó las tablas requeridas, garantizando la coherencia e integridad de los datos necesarios para construir los modelos de pronóstico de demanda. Esta metodología proporcionó un conjunto de datos preciso y completo, indispensable para la aplicación de técnicas avanzadas de series de tiempo.
-		El análisis incluyó el examen detallado de transacciones de productos de la categoría de verduras desde el año 2023 hasta 2024, brindando una perspectiva temporal amplia para identificar patrones y tendencias de demanda diaria a lo largo del tiempo. Además, se utilizó el sistema de punto de venta (POS) de la empresa para capturar datos en tiempo real sobre las transacciones, lo que permitió un seguimiento constante y detallado de la demanda en esta categoría.
+		El análisis incluyó el examen detallado de transacciones de productos de la categoría de verduras desde el año 2012 hasta 2026, brindando una perspectiva temporal amplia para identificar patrones y tendencias de demanda diaria a lo largo del tiempo. Además, se utilizó el sistema de punto de venta (POS) de la empresa para capturar datos en tiempo real sobre las transacciones, lo que permitió un seguimiento constante y detallado de la demanda en esta categoría.
 		Para mejorar la precisión de los datos, se revisaron registros continuos de los niveles de inventario de la categoría de verduras. Aunque la investigación se centra en la demanda y no en la gestión de inventarios, este seguimiento indirecto permitió observar cómo la demanda afecta la reposición de productos perecibles, lo cual es crucial para la planificación diaria en productos de alta rotación.
 		Estas estrategias de recolección de datos se diseñaron para ofrecer una visión integral y cuantitativa de la demanda de la categoría de verduras en Market Donna SAC, focalizándose en este grupo de productos perecibles que tiene un impacto significativo en las ventas diarias y en la eficiencia operativa general de la empresa.
 		
@@ -196,7 +196,7 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 				\hline 
 				Técnica & Instrumento & Origen & Principales ventajas & Principales desventajas\\
 				\hline \hline
-				Datos de ventas históricas & Registro de ventas(2023-2024) & Registro de la empresa & Obtiene datos cuantitativos sobre las ventas históricas de productos perecibles & No proporciona informacion cualitativa sobre los patrones de la demanda  \\
+				Datos de ventas históricas & Registro de ventas(2012-2026) & Registro de la empresa & Obtiene datos cuantitativos sobre las ventas históricas de productos perecibles & No proporciona informacion cualitativa sobre los patrones de la demanda  \\
 				\hline
 				Sistemas de punto de venta (POS) & Hardware POS & Registro en tiempo real de transacciones & Ofrece datos continuos y actualizados sobre las ventas & Dependencia de la confiabilidad del sistema \\
 				\hline
@@ -263,7 +263,7 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 		
 		
 		\subsection{Comprensión de los datos}
-		La investigación incluyó un proceso exhaustivo de exploración, análisis e interpretación de la información recopilada, con el objetivo de identificar patrones, tendencias y relaciones significativas. Este paso es fundamental para garantizar que los datos sean relevantes, precisos y útiles para responder a las preguntas de investigación y alcanzar los objetivos del estudio. El conjunto de datos utilizado abarca 525 mil registros de ventas, organizados por familia de productos, correspondientes a los años 2023 al 2024. Para mayor claridad, se elaboró una tabla que presenta las actividades y tareas realizadas. \ref{tab:compredatos}
+		La investigación incluyó un proceso exhaustivo de exploración, análisis e interpretación de la información recopilada, con el objetivo de identificar patrones, tendencias y relaciones significativas. Este paso es fundamental para garantizar que los datos sean relevantes, precisos y útiles para responder a las preguntas de investigación y alcanzar los objetivos del estudio. El conjunto de datos utilizado abarca 7,340,659 registros de ventas, organizados por familia de productos, correspondientes a los años 2012 al 2026. Para mayor claridad, se elaboró una tabla que presenta las actividades y tareas realizadas. \ref{tab:compredatos}
 		
 		\begin{table}[H]
 			\centering
@@ -347,7 +347,7 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 		\begin{figure}[H]
 			\begin{center}
 				\includegraphics[width=0.6\textwidth]{3/figures/distr_precios.png}
-				\caption{Distribución de precion}
+				\caption{Distribución de precio}
 				\textit{Fuente: Elaboración propia}
 				\label{fig:distr_precios}
 			\end{center}	
@@ -417,6 +417,15 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 			\item \textbf{RANDOM FOREST: } Random Forest es un conjunto de árboles de decisión, donde cada árbol es construido de manera independiente y con muestras de datos aleatorias. La predicción final se obtiene por votación o promediando las predicciones individuales de los árboles, lo que mejora la precisión y reduce el sobreajuste.
 			\item \textbf{DECISION TREE: } Un árbol de decisión es una estructura de modelo de aprendizaje automático que divide un conjunto de datos en subconjuntos más pequeños basados en características específicas de las variables predictoras. Cada nodo representa una característica y cada hoja representa un resultado o decisión.
 			\item \textbf{PROPHET: } Prophet es un modelo desarrollado por Facebook para realizar pronósticos de series temporales. Es especialmente útil cuando se cuenta con datos estacionales, festivos o fluctuaciones regulares, y permite manejar datos con puntos faltantes o valores atípicos. Es fácil de usar y flexible para ajustar tendencias y patrones estacionales.
+			\item \textbf{GRADIENT BOOSTING: } Gradient Boosting es un algoritmo de aprendizaje supervisado que construye modelos de forma secuencial, donde cada nuevo modelo corrige los errores del anterior. Utiliza árboles de decisión como modelos base y optimiza una función de pérdida mediante el descenso de gradiente, logrando alta precisión en tareas de regresión y clasificación.
+
+\item \textbf{KNN (K-Nearest Neighbors): } KNN es un algoritmo de aprendizaje basado en instancias que realiza predicciones basándose en los datos más cercanos en el espacio de características. Para regresión, el valor predicho se obtiene como el promedio de los valores de sus vecinos más cercanos, lo que lo hace simple pero efectivo en ciertos contextos.
+
+\item \textbf{HOLT-WINTERS: } Holt-Winters es un método de suavizamiento exponencial utilizado para series temporales que presentan tendencia y estacionalidad. Este modelo combina componentes de nivel, tendencia y estacionalidad para realizar predicciones más precisas en datos con patrones periódicos.
+
+\item \textbf{NAIVE: } El modelo Naive es un enfoque simple de pronóstico en series temporales que asume que el valor futuro será igual al último valor observado. A pesar de su simplicidad, se utiliza como modelo base para comparar el rendimiento de modelos más complejos.
+
+\item \textbf{SARIMA: } SARIMA (Seasonal ARIMA) es una extensión del modelo ARIMA que incorpora componentes estacionales. Permite modelar tanto patrones no estacionales como estacionales en series temporales, siendo útil cuando los datos presentan ciclos repetitivos a lo largo del tiempo.
 		\end{itemize}
 		
 		Con base en la revisión de estudios previos, se observó que los modelos LSTM, Regresión Lineal y Árbol de Decisión ofrecieron los mejores resultados en experimentos similares. Dado que el objetivo de la investigación era implementar un modelo de regresión, se decidió utilizar Regresion Lineal para el análisis de los datos estructurados.
@@ -534,6 +543,14 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 		
 		\textbf{Entregable: } Modelo LSTM entrenado con sus respectivas métricas.
 		
+		%%%%%%%%%%%%%%%%%%%
+		\textbf{MAE (Mean Absolute Error): } El MAE es una métrica utilizada para evaluar la precisión de modelos de regresión. Mide el promedio de los errores absolutos entre los valores reales y los valores predichos, sin considerar la dirección del error. Es fácil de interpretar, ya que expresa el error promedio en las mismas unidades que la variable objetivo.
+		\textbf{Fórmula del MAE: }
+		\[
+		MAE = \frac{1}{n} \sum_{i=1}^{n} \left| y_i - \hat{y}_i \right|
+\]
+
+
 		\subsection{Evaluación}
 		Esta fase comprende la evaluación de los modelos desarrollados en la investigación a través de las métricas de regresión seleccionadas y explicadas en la sección 3.3.6. En la Tabla \ref{tab:act_eva} se indican las actividades y tareas seguidas para esta etapa.
 		
@@ -658,6 +675,14 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 		\text{MAPE} = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \cdot 100
 		\end{equation}
 		
+
+		\subsection{MAE (Mean Absolute Error): } El MAE es una métrica de evaluación para modelos de regresión que cuantifica el error promedio absoluto entre los valores reales y los valores predichos. Su funcionamiento consiste en calcular la diferencia entre cada valor real y su predicción, tomar el valor absoluto de cada error (para evitar cancelaciones entre errores positivos y negativos) y luego promediarlos. De esta manera, el MAE refleja la magnitud promedio del error del modelo, penalizando todos los errores de forma lineal y manteniendo las mismas unidades de la variable objetivo.
+
+		\begin{equation}
+		MAE = \frac{1}{n} \sum_{i=1}^{n} \left| y_i - \hat{y}_i \right|
+		\end{equation}
+
+
 		\subsection{Coeficiente de determinación}
 		El valor del coeficiente de determinación (R2) oscila entre 0 y 1, reflejando la fracción de puntos en un conjunto de datos que se ajustan a la línea de regresión. Este coeficiente es una medida de la cantidad de variabilidad de la variable dependiente que puede ser explicada por el modelo de regresión. En el contexto de modelos estadísticos, R2 se emplea para predecir resultados futuros o validar hipótesis, siendo una herramienta crucial para evaluar la calidad del modelo y la proporción de variación en los resultados que este puede explicar. La formulación de R2 se presenta en la siguiente línea. (Bruce, P. et al. 2020)
 		
@@ -688,7 +713,12 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 				Laptop & Equipo & Equipo de procesamiento del modelo de ML & 3000 \\
 				Internet & Servicio & Servicio básico para el uso del estudio & 100\\
 				Electricidad  & Servicio & Servicio básico para el uso del estudio  & 200\\
-				Python & Software & Lenguaje de programación de alto nivel  & -
+				Python & Software & Lenguaje de programación de alto nivel  & -\\
+				Servicio en la nube & Servicio & Alojar backend & 100 \\
+				Dominio web & Servicio & Dirección web personalizada & 50 \\
+				Mantenimiento Sistema & Servicio & Ajustes, pruebas y monitoreo del sistema & 150 \\
+				Almacenamiento nube & Servicio & Espacio virtual para respaldos del proyecto & 50 \\
+				 \hline
 			\end{tabular}
 			\newline
 			\newline

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.22)  24 APR 2026 11:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.22)  27 APR 2026 17:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1131,7 +1131,7 @@ Package hyperref Info: Link coloring ON on input line 174.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<images_repo/esanlogomin.png, id=691, 100.6962pt x 100.2144pt>
+<images_repo/esanlogomin.png, id=667, 100.6962pt x 100.2144pt>
 File: images_repo/esanlogomin.png Graphic file (type png)
 <use images_repo/esanlogomin.png>
 Package pdftex.def Info: images_repo/esanlogomin.png  used on input line 178.
@@ -1225,20 +1225,15 @@ LaTeX Info: Redefining \. on input line 95.
 LaTeX Info: Redefining \% on input line 95.
 [5]
 
-LaTeX Info: Redefining \sptext on input line 121.
-LaTeX Info: Redefining \. on input line 121.
-LaTeX Info: Redefining \% on input line 121.
+LaTeX Info: Redefining \sptext on input line 124.
+LaTeX Info: Redefining \. on input line 124.
+LaTeX Info: Redefining \% on input line 124.
 [6]
 
-LaTeX Info: Redefining \sptext on input line 150.
-LaTeX Info: Redefining \. on input line 150.
-LaTeX Info: Redefining \% on input line 150.
-[7]
-
-LaTeX Info: Redefining \sptext on input line 174.
-LaTeX Info: Redefining \. on input line 174.
-LaTeX Info: Redefining \% on input line 174.
-[8])
+LaTeX Info: Redefining \sptext on input line 149.
+LaTeX Info: Redefining \. on input line 149.
+LaTeX Info: Redefining \% on input line 149.
+[7])
 \tf@toc=\write5
 \openout5 = `tesis.toc'.
 
@@ -1246,13 +1241,13 @@ LaTeX Info: Redefining \% on input line 174.
 
 LaTeX Info: Redefining \. on input line 220.
 LaTeX Info: Redefining \% on input line 220.
-[9] (tesis.lof
+[8] (tesis.lof
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
 
-[10
+[9
 
 ])
 \tf@lof=\write6
@@ -1262,7 +1257,7 @@ LaTeX Info: Redefining \% on input line 1.
 
 LaTeX Info: Redefining \. on input line 222.
 LaTeX Info: Redefining \% on input line 222.
-[11] (tesis.lot
+[10] (tesis.lot
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1272,7 +1267,7 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 
-[12
+[11
 
 ]
 \openout2 = `1/planteamiento.aux'.
@@ -1284,41 +1279,41 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 5.
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
-[13
+[12
 
 
 ]
 
 LaTeX Info: Redefining \. on input line 16.
 LaTeX Info: Redefining \% on input line 16.
-[14]
+[13]
 
 LaTeX Info: Redefining \. on input line 124.
 LaTeX Info: Redefining \% on input line 124.
-[15]
+[14]
 
 LaTeX Info: Redefining \. on input line 156.
 LaTeX Info: Redefining \% on input line 156.
-[16]
+[15]
 
 LaTeX Info: Redefining \. on input line 188.
 LaTeX Info: Redefining \% on input line 188.
-[17]
+[16]
 
 LaTeX Info: Redefining \. on input line 206.
 LaTeX Info: Redefining \% on input line 206.
-[18])
+[17])
 
 LaTeX Info: Redefining \. on input line 226.
 LaTeX Info: Redefining \% on input line 226.
-[19]
+[18]
 \openout2 = `2/marco.aux'.
 
  (2/marco.tex
 Cap\'{\i }tulo 2.
 (2/1_antecedentes/antecedentes.tex
 
-[20
+[19
 
 
 
@@ -1332,7 +1327,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
 LaTeX Info: Redefining \. on input line 33.
 LaTeX Info: Redefining \% on input line 33.
-[21]
+[20]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 54.
  (C:\Users\jpca0\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -1340,27 +1335,27 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 LaTeX Info: Redefining \. on input line 61.
 LaTeX Info: Redefining \% on input line 61.
-[22]
+[21]
 
 LaTeX Info: Redefining \. on input line 84.
 LaTeX Info: Redefining \% on input line 84.
-[23]
+[22]
 
 LaTeX Info: Redefining \. on input line 110.
 LaTeX Info: Redefining \% on input line 110.
-[24]
+[23]
 
 LaTeX Info: Redefining \. on input line 156.
 LaTeX Info: Redefining \% on input line 156.
-[25]
+[24]
 
 LaTeX Info: Redefining \. on input line 170.
 LaTeX Info: Redefining \% on input line 170.
-[26]
+[25]
 
 LaTeX Info: Redefining \. on input line 195.
 LaTeX Info: Redefining \% on input line 195.
-[27]
+[26]
 
 LaTeX Warning: Command \texteuro invalid in math mode on input line 229.
 
@@ -1377,7 +1372,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--247
 
 LaTeX Info: Redefining \. on input line 247.
 LaTeX Info: Redefining \% on input line 247.
-[28]
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
@@ -1386,17 +1381,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
 LaTeX Info: Redefining \. on input line 272.
 LaTeX Info: Redefining \% on input line 272.
-[29]
+[28]
 
 LaTeX Info: Redefining \. on input line 285.
 LaTeX Info: Redefining \% on input line 285.
-[30]
-<2/figures/ant1_time-series.png, id=1100, 342.5297pt x 213.04594pt>
+[29]
+<2/figures/ant1_time-series.png, id=1063, 342.5297pt x 213.04594pt>
 File: 2/figures/ant1_time-series.png Graphic file (type png)
 <use 2/figures/ant1_time-series.png>
 Package pdftex.def Info: 2/figures/ant1_time-series.png  used on input line 297.
 (pdftex.def)             Requested size: 317.0764pt x 197.2302pt.
-<2/figures/resul_ant1.png, id=1101, 426.84468pt x 160.34906pt>
+<2/figures/resul_ant1.png, id=1064, 426.84468pt x 160.34906pt>
 File: 2/figures/resul_ant1.png Graphic file (type png)
 <use 2/figures/resul_ant1.png>
 Package pdftex.def Info: 2/figures/resul_ant1.png  used on input line 309.
@@ -1405,8 +1400,8 @@ Package pdftex.def Info: 2/figures/resul_ant1.png  used on input line 309.
 
 LaTeX Info: Redefining \. on input line 315.
 LaTeX Info: Redefining \% on input line 315.
-[31 <./2/figures/ant1_time-series.png>]
-<2/figures/resul_ant11.png, id=1110, 426.84468pt x 164.11313pt>
+[30 <./2/figures/ant1_time-series.png>]
+<2/figures/resul_ant11.png, id=1074, 426.84468pt x 164.11313pt>
 File: 2/figures/resul_ant11.png Graphic file (type png)
 <use 2/figures/resul_ant11.png>
 Package pdftex.def Info: 2/figures/resul_ant11.png  used on input line 318.
@@ -1415,27 +1410,27 @@ Package pdftex.def Info: 2/figures/resul_ant11.png  used on input line 318.
 
 LaTeX Info: Redefining \. on input line 336.
 LaTeX Info: Redefining \% on input line 336.
-[32 <./2/figures/resul_ant1.png> <./2/figures/resul_ant11.png>]
+[31 <./2/figures/resul_ant1.png> <./2/figures/resul_ant11.png>]
 
 LaTeX Info: Redefining \. on input line 376.
 LaTeX Info: Redefining \% on input line 376.
-[33]
+[32]
 
 LaTeX Info: Redefining \. on input line 427.
 LaTeX Info: Redefining \% on input line 427.
-[34]
+[33]
 
 LaTeX Info: Redefining \. on input line 466.
 LaTeX Info: Redefining \% on input line 466.
-[35]
+[34]
 
 LaTeX Info: Redefining \. on input line 486.
 LaTeX Info: Redefining \% on input line 486.
-[36]
+[35]
 
 LaTeX Info: Redefining \. on input line 494.
 LaTeX Info: Redefining \% on input line 494.
-[37]
+[36]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1443,15 +1438,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 528.
 LaTeX Info: Redefining \% on input line 528.
-[38]
+[37]
 
 LaTeX Info: Redefining \. on input line 534.
 LaTeX Info: Redefining \% on input line 534.
-[39]
+[38]
 
 LaTeX Info: Redefining \. on input line 545.
 LaTeX Info: Redefining \% on input line 545.
-[40]
+[39]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1459,19 +1454,19 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \. on input line 582.
 LaTeX Info: Redefining \% on input line 582.
-[41]
+[40]
 
 LaTeX Info: Redefining \. on input line 594.
 LaTeX Info: Redefining \% on input line 594.
-[42]
+[41]
 
 LaTeX Info: Redefining \. on input line 631.
 LaTeX Info: Redefining \% on input line 631.
-[43]
+[42]
 
 LaTeX Info: Redefining \. on input line 682.
 LaTeX Info: Redefining \% on input line 682.
-[44]
+[43]
 Overfull \hbox (7.18398pt too wide) in paragraph at lines 694--695
 []\OT1/ptm/m/n/12 Finalmente, el es-tu-dio con-clu-ye que el Deep Lear-ning, es-pe-cial-men-te los mo-de-los LSTM,
  []
@@ -1480,23 +1475,23 @@ Overfull \hbox (7.18398pt too wide) in paragraph at lines 694--695
 
 LaTeX Info: Redefining \. on input line 706.
 LaTeX Info: Redefining \% on input line 706.
-[45]
+[44]
 
 LaTeX Info: Redefining \. on input line 737.
 LaTeX Info: Redefining \% on input line 737.
-[46]
+[45]
 
 LaTeX Info: Redefining \. on input line 772.
 LaTeX Info: Redefining \% on input line 772.
-[47]
+[46]
 
 LaTeX Info: Redefining \. on input line 814.
 LaTeX Info: Redefining \% on input line 814.
-[48]
+[47]
 
 LaTeX Info: Redefining \. on input line 840.
 LaTeX Info: Redefining \% on input line 840.
-[49]
+[48]
 Overfull \hbox (2.19212pt too wide) in paragraph at lines 854--855
 []\OT1/ptm/m/n/12 Sin em-bar-go, de-bi-do a la orien-ta-ci[]on del es-tu-dio ha-cia en-tor-nos de ba-jo con-su-mo compu-
  []
@@ -1505,7 +1500,7 @@ Overfull \hbox (2.19212pt too wide) in paragraph at lines 854--855
 
 LaTeX Info: Redefining \. on input line 874.
 LaTeX Info: Redefining \% on input line 874.
-[50]
+[49]
 Overfull \hbox (7.58621pt too wide) in paragraph at lines 882--883
 []\OT1/ptm/m/n/12 Asimismo, se iden-ti-fi-ca-ron co-rre-la-cio-nes mo-de-ra-das en-tre va-ria-bles tem-po-ra-les y la energ[]^^Pa
  []
@@ -1514,16 +1509,16 @@ Overfull \hbox (7.58621pt too wide) in paragraph at lines 882--883
 
 LaTeX Info: Redefining \. on input line 919.
 LaTeX Info: Redefining \% on input line 919.
-[51]
+[50]
 
 LaTeX Info: Redefining \. on input line 969.
 LaTeX Info: Redefining \% on input line 969.
-[52]) (2/2_teoria/base_teo.tex
+[51]) (2/2_teoria/base_teo.tex
 
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
-[53]
-<2/figures/arbol_decision_mitchell.png, id=1243, 335.75438pt x 210.03468pt>
+[52]
+<2/figures/arbol_decision_mitchell.png, id=1207, 335.75438pt x 210.03468pt>
 File: 2/figures/arbol_decision_mitchell.png Graphic file (type png)
 <use 2/figures/arbol_decision_mitchell.png>
 Package pdftex.def Info: 2/figures/arbol_decision_mitchell.png  used on input line 24.
@@ -1532,16 +1527,16 @@ Package pdftex.def Info: 2/figures/arbol_decision_mitchell.png  used on input li
 
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
-[54]
+[53]
 
 LaTeX Info: Redefining \. on input line 45.
 LaTeX Info: Redefining \% on input line 45.
-[55 <./2/figures/arbol_decision_mitchell.png>]
+[54 <./2/figures/arbol_decision_mitchell.png>]
 
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
-[56]
-<2/figures/LSTM_arquitectura.png, id=1273, 302.63063pt x 150.5625pt>
+[55]
+<2/figures/LSTM_arquitectura.png, id=1237, 302.63063pt x 150.5625pt>
 File: 2/figures/LSTM_arquitectura.png Graphic file (type png)
 <use 2/figures/LSTM_arquitectura.png>
 Package pdftex.def Info: 2/figures/LSTM_arquitectura.png  used on input line 83.
@@ -1550,16 +1545,16 @@ Package pdftex.def Info: 2/figures/LSTM_arquitectura.png  used on input line 83.
 
 LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
-[57 <./2/figures/LSTM_arquitectura.png>]
+[56 <./2/figures/LSTM_arquitectura.png>]
 
 LaTeX Info: Redefining \. on input line 142.
 LaTeX Info: Redefining \% on input line 142.
-[58]
+[57]
 
 LaTeX Info: Redefining \. on input line 174.
 LaTeX Info: Redefining \% on input line 174.
-[59]
-<2/figures/graf_series_tiempo.png, id=1297, 341.02406pt x 188.95593pt>
+[58]
+<2/figures/graf_series_tiempo.png, id=1261, 341.02406pt x 188.95593pt>
 File: 2/figures/graf_series_tiempo.png Graphic file (type png)
 <use 2/figures/graf_series_tiempo.png>
 Package pdftex.def Info: 2/figures/graf_series_tiempo.png  used on input line 194.
@@ -1572,16 +1567,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Info: Redefining \. on input line 204.
 LaTeX Info: Redefining \% on input line 204.
-[60]
+[59]
 
 LaTeX Info: Redefining \. on input line 209.
 LaTeX Info: Redefining \% on input line 209.
-[61 <./2/figures/graf_series_tiempo.png>]
+[60 <./2/figures/graf_series_tiempo.png>]
 Overfull \hbox (2.22432pt too wide) in paragraph at lines 221--222
 []\OT1/ptm/m/n/12 Variaciones ge-ne-ra-das por even-tos par-ti-cu-la-res cla-ra-men-te iden-ti-fi-ca-bles, co-mo elec-
  []
 
-<2/figures/compon_serie_temp.png, id=1313, 432.11438pt x 285.31593pt>
+<2/figures/compon_serie_temp.png, id=1277, 432.11438pt x 285.31593pt>
 File: 2/figures/compon_serie_temp.png Graphic file (type png)
 <use 2/figures/compon_serie_temp.png>
 Package pdftex.def Info: 2/figures/compon_serie_temp.png  used on input line 229.
@@ -1590,8 +1585,8 @@ Package pdftex.def Info: 2/figures/compon_serie_temp.png  used on input line 229
 
 LaTeX Info: Redefining \. on input line 234.
 LaTeX Info: Redefining \% on input line 234.
-[62]
-<2/figures/aplic_serie_temp.png, id=1321, 454.69875pt x 218.31563pt>
+[61]
+<2/figures/aplic_serie_temp.png, id=1285, 454.69875pt x 218.31563pt>
 File: 2/figures/aplic_serie_temp.png Graphic file (type png)
 <use 2/figures/aplic_serie_temp.png>
 Package pdftex.def Info: 2/figures/aplic_serie_temp.png  used on input line 241.
@@ -1600,49 +1595,23 @@ Package pdftex.def Info: 2/figures/aplic_serie_temp.png  used on input line 241.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+) (2/3_conceptos/marc_conceptual.tex
 
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+[62 <./2/figures/compon_serie_temp.png>]
 
-LaTeX Info: Redefining \. on input line 253.
-LaTeX Info: Redefining \% on input line 253.
-[63 <./2/figures/compon_serie_temp.png>]
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
+[63 <./2/figures/aplic_serie_temp.png>]
 
-LaTeX Info: Redefining \. on input line 268.
-LaTeX Info: Redefining \% on input line 268.
-[64 <./2/figures/aplic_serie_temp.png>]
-<2/figures/val_alfa.png, id=1341, 423.83344pt x 295.1025pt>
-File: 2/figures/val_alfa.png Graphic file (type png)
-<use 2/figures/val_alfa.png>
-Package pdftex.def Info: 2/figures/val_alfa.png  used on input line 285.
-(pdftex.def)             Requested size: 362.37598pt x 252.31975pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-LaTeX Info: Redefining \. on input line 306.
-LaTeX Info: Redefining \% on input line 306.
-[65]
-
-LaTeX Info: Redefining \. on input line 351.
-LaTeX Info: Redefining \% on input line 351.
-[66 <./2/figures/val_alfa.png>]) (2/3_conceptos/marc_conceptual.tex
-
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
-[67]
-
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
-[68]
-
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
-[69]))
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
+[64]))
 
 LaTeX Info: Redefining \. on input line 227.
 LaTeX Info: Redefining \% on input line 227.
-[70]
+[65]
 \openout2 = `31/empresa.aux'.
 
  (31/empresa.tex
@@ -1659,7 +1628,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
 
 
-[71
+[66
 
 
 
@@ -1674,7 +1643,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
  []
 
-<31/figures/organigrama.png, id=1407, 424.58624pt x 253.69781pt>
+<31/figures/organigrama.png, id=1324, 424.58624pt x 253.69781pt>
 File: 31/figures/organigrama.png Graphic file (type png)
 <use 31/figures/organigrama.png>
 Package pdftex.def Info: 31/figures/organigrama.png  used on input line 29.
@@ -1686,7 +1655,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
-[72]
+[67]
 Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
@@ -1695,26 +1664,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
 LaTeX Info: Redefining \. on input line 54.
 LaTeX Info: Redefining \% on input line 54.
-[73 <./31/figures/organigrama.png>]
+[68 <./31/figures/organigrama.png>]
 
 LaTeX Info: Redefining \. on input line 84.
 LaTeX Info: Redefining \% on input line 84.
-[74]
+[69]
 LaTeX Info: Redefining \. on input line 123.
 LaTeX Info: Redefining \% on input line 123.
- [75]
+ [70]
 
 LaTeX Info: Redefining \. on input line 148.
 LaTeX Info: Redefining \% on input line 148.
-[76]
+[71]
 
 LaTeX Info: Redefining \. on input line 151.
 LaTeX Info: Redefining \% on input line 151.
-[77]
+[72]
 LaTeX Info: Redefining \. on input line 173.
 LaTeX Info: Redefining \% on input line 173.
- [78]
-<31/figures/Matriz_EFI_EFE.png, id=1439, 470.412pt x 326.529pt>
+ [73]
+<31/figures/Matriz_EFI_EFE.png, id=1355, 470.412pt x 326.529pt>
 File: 31/figures/Matriz_EFI_EFE.png Graphic file (type png)
 <use 31/figures/Matriz_EFI_EFE.png>
 Package pdftex.def Info: 31/figures/Matriz_EFI_EFE.png  used on input line 203.
@@ -1723,8 +1692,8 @@ Package pdftex.def Info: 31/figures/Matriz_EFI_EFE.png  used on input line 203.
 
 LaTeX Info: Redefining \. on input line 208.
 LaTeX Info: Redefining \% on input line 208.
-[79]
-<31/figures/B CANVAS.JPG, id=1444, 1149.69525pt x 585.387pt>
+[74]
+<31/figures/B CANVAS.JPG, id=1360, 1149.69525pt x 585.387pt>
 File: 31/figures/B CANVAS.JPG Graphic file (type jpg)
 <use 31/figures/B CANVAS.JPG>
 Package pdftex.def Info: 31/figures/B CANVAS.JPG  used on input line 216.
@@ -1733,18 +1702,18 @@ Package pdftex.def Info: 31/figures/B CANVAS.JPG  used on input line 216.
 
 LaTeX Info: Redefining \. on input line 221.
 LaTeX Info: Redefining \% on input line 221.
-[80 <./31/figures/Matriz_EFI_EFE.png>])
+[75 <./31/figures/Matriz_EFI_EFE.png>])
 
 LaTeX Info: Redefining \. on input line 228.
 LaTeX Info: Redefining \% on input line 228.
-[81 <./31/figures/B CANVAS.JPG>]
+[76 <./31/figures/B CANVAS.JPG>]
 \openout2 = `3/metodologia.aux'.
 
  (3/metodologia.tex
 Cap\'{\i }tulo 4.
 
 
-[82
+[77
 
 
 
@@ -1753,8 +1722,8 @@ Cap\'{\i }tulo 4.
 
 LaTeX Info: Redefining \. on input line 32.
 LaTeX Info: Redefining \% on input line 32.
-[83]
-<3/figures/querysql.jpg, id=1464, 963.6pt x 327.47343pt>
+[78]
+<3/figures/querysql.jpg, id=1381, 963.6pt x 327.47343pt>
 File: 3/figures/querysql.jpg Graphic file (type jpg)
 <use 3/figures/querysql.jpg>
 Package pdftex.def Info: 3/figures/querysql.jpg  used on input line 143.
@@ -1763,8 +1732,8 @@ Package pdftex.def Info: 3/figures/querysql.jpg  used on input line 143.
 
 LaTeX Info: Redefining \. on input line 149.
 LaTeX Info: Redefining \% on input line 149.
-[84]
-<3/figures/tablaSQL.jpg, id=1470, 333.245pt x 658.46pt>
+[79]
+<3/figures/tablaSQL.jpg, id=1386, 333.245pt x 658.46pt>
 File: 3/figures/tablaSQL.jpg Graphic file (type jpg)
 <use 3/figures/tablaSQL.jpg>
 Package pdftex.def Info: 3/figures/tablaSQL.jpg  used on input line 153.
@@ -1773,12 +1742,12 @@ Package pdftex.def Info: 3/figures/tablaSQL.jpg  used on input line 153.
 
 LaTeX Info: Redefining \. on input line 159.
 LaTeX Info: Redefining \% on input line 159.
-[85 <./3/figures/querysql.jpg>]
+[80 <./3/figures/querysql.jpg>]
 
 LaTeX Info: Redefining \. on input line 181.
 LaTeX Info: Redefining \% on input line 181.
-[86 <./3/figures/tablaSQL.jpg>]
-<2/figures/KDD.png, id=1479, 539.01375pt x 116.68594pt>
+[81 <./3/figures/tablaSQL.jpg>]
+<2/figures/KDD.png, id=1395, 539.01375pt x 116.68594pt>
 File: 2/figures/KDD.png Graphic file (type png)
 <use 2/figures/KDD.png>
 Package pdftex.def Info: 2/figures/KDD.png  used on input line 185.
@@ -1792,20 +1761,20 @@ Overfull \hbox (13.46071pt too wide) in paragraph at lines 195--211
 
 LaTeX Info: Redefining \. on input line 212.
 LaTeX Info: Redefining \% on input line 212.
-[87 <./2/figures/KDD.png>]
+[82 <./2/figures/KDD.png>]
 
 LaTeX Info: Redefining \. on input line 250.
 LaTeX Info: Redefining \% on input line 250.
-[88]
+[83]
 
 LaTeX Info: Redefining \. on input line 259.
 LaTeX Info: Redefining \% on input line 259.
-[89]
+[84]
 
 LaTeX Info: Redefining \. on input line 298.
 LaTeX Info: Redefining \% on input line 298.
-[90]
-<3/figures/select_tablas.png, id=1499, 369.63094pt x 300.3722pt>
+[85]
+<3/figures/select_tablas.png, id=1415, 369.63094pt x 300.3722pt>
 File: 3/figures/select_tablas.png Graphic file (type png)
 <use 3/figures/select_tablas.png>
 Package pdftex.def Info: 3/figures/select_tablas.png  used on input line 305.
@@ -1814,7 +1783,7 @@ Package pdftex.def Info: 3/figures/select_tablas.png  used on input line 305.
 
 LaTeX Info: Redefining \. on input line 311.
 LaTeX Info: Redefining \% on input line 311.
-[91]
+[86]
 File: 3/figures/tablaSQL.jpg Graphic file (type jpg)
 <use 3/figures/tablaSQL.jpg>
 Package pdftex.def Info: 3/figures/tablaSQL.jpg  used on input line 314.
@@ -1823,22 +1792,22 @@ Package pdftex.def Info: 3/figures/tablaSQL.jpg  used on input line 314.
 
 LaTeX Info: Redefining \. on input line 320.
 LaTeX Info: Redefining \% on input line 320.
-[92 <./3/figures/select_tablas.png>]
+[87 <./3/figures/select_tablas.png>]
 
 LaTeX Info: Redefining \. on input line 326.
 LaTeX Info: Redefining \% on input line 326.
-[93]
-<3/figures/descrip_var.png, id=1513, 377.15906pt x 192.72pt>
+[88]
+<3/figures/descrip_var.png, id=1429, 377.15906pt x 192.72pt>
 File: 3/figures/descrip_var.png Graphic file (type png)
 <use 3/figures/descrip_var.png>
 Package pdftex.def Info: 3/figures/descrip_var.png  used on input line 331.
 (pdftex.def)             Requested size: 271.7837pt x 138.8759pt.
-<3/figures/cant_sem.png, id=1514, 627.3036pt x 324.4923pt>
+<3/figures/cant_sem.png, id=1430, 627.3036pt x 324.4923pt>
 File: 3/figures/cant_sem.png Graphic file (type png)
 <use 3/figures/cant_sem.png>
 Package pdftex.def Info: 3/figures/cant_sem.png  used on input line 340.
 (pdftex.def)             Requested size: 271.7837pt x 140.58855pt.
-<3/figures/distr_precios.png, id=1515, 633.8079pt x 338.2236pt>
+<3/figures/distr_precios.png, id=1431, 633.8079pt x 338.2236pt>
 File: 3/figures/distr_precios.png Graphic file (type png)
 <use 3/figures/distr_precios.png>
 Package pdftex.def Info: 3/figures/distr_precios.png  used on input line 349.
@@ -1847,8 +1816,8 @@ Package pdftex.def Info: 3/figures/distr_precios.png  used on input line 349.
 
 LaTeX Info: Redefining \. on input line 355.
 LaTeX Info: Redefining \% on input line 355.
-[94 <./3/figures/descrip_var.png> <./3/figures/cant_sem.png>]
-<3/figures/corr_var.png, id=1522, 915.42pt x 744.7825pt>
+[89 <./3/figures/descrip_var.png> <./3/figures/cant_sem.png>]
+<3/figures/corr_var.png, id=1438, 915.42pt x 744.7825pt>
 File: 3/figures/corr_var.png Graphic file (type png)
 <use 3/figures/corr_var.png>
 Package pdftex.def Info: 3/figures/corr_var.png  used on input line 358.
@@ -1857,98 +1826,114 @@ Package pdftex.def Info: 3/figures/corr_var.png  used on input line 358.
 
 LaTeX Info: Redefining \. on input line 374.
 LaTeX Info: Redefining \% on input line 374.
-[95 <./3/figures/distr_precios.png> <./3/figures/corr_var.png (PNG copy)>]
+[90 <./3/figures/distr_precios.png> <./3/figures/corr_var.png (PNG copy)>]
 
 LaTeX Info: Redefining \. on input line 408.
 LaTeX Info: Redefining \% on input line 408.
-[96]
+[91]
 
 LaTeX Info: Redefining \. on input line 417.
 LaTeX Info: Redefining \% on input line 417.
-[97]
+[92]
 
-LaTeX Info: Redefining \. on input line 439.
-LaTeX Info: Redefining \% on input line 439.
-[98]
+LaTeX Info: Redefining \. on input line 429.
+LaTeX Info: Redefining \% on input line 429.
+[93]
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 470.
+            Default family used instead on input line 479.
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--488
+
+LaTeX Info: Redefining \. on input line 484.
+LaTeX Info: Redefining \% on input line 484.
+[94]
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--499
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 489.
-LaTeX Info: Redefining \% on input line 489.
+LaTeX Info: Redefining \. on input line 512.
+LaTeX Info: Redefining \% on input line 512.
+[95]
+
+LaTeX Info: Redefining \. on input line 556.
+LaTeX Info: Redefining \% on input line 556.
+[96]
+Underfull \hbox (badness 10000) in paragraph at lines 576--581
+
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 584.
+LaTeX Info: Redefining \% on input line 584.
+[97]
+Underfull \hbox (badness 10000) in paragraph at lines 584--589
+
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 621.
+LaTeX Info: Redefining \% on input line 621.
+[98]
+
+LaTeX Info: Redefining \. on input line 631.
+LaTeX Info: Redefining \% on input line 631.
 [99]
-Underfull \hbox (badness 10000) in paragraph at lines 489--490
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 491--492
-
- []
-
-
-
-LaTeX Info: Redefining \. on input line 531.
-LaTeX Info: Redefining \% on input line 531.
+LaTeX Info: Redefining \. on input line 671.
+LaTeX Info: Redefining \% on input line 671.
 [100]
-Underfull \hbox (badness 10000) in paragraph at lines 559--564
-
- []
-
-
-
-LaTeX Info: Redefining \. on input line 564.
-LaTeX Info: Redefining \% on input line 564.
-[101]
-Underfull \hbox (badness 10000) in paragraph at lines 567--572
-
- []
-
-
-
-LaTeX Info: Redefining \. on input line 577.
-LaTeX Info: Redefining \% on input line 577.
-[102]
-
-LaTeX Info: Redefining \. on input line 610.
-LaTeX Info: Redefining \% on input line 610.
-[103]
-
-LaTeX Info: Redefining \. on input line 645.
-LaTeX Info: Redefining \% on input line 645.
-[104]
-<2/figures/crono_activ.png, id=1580, 456.95718pt x 392.96812pt>
+<2/figures/crono_activ.png, id=1501, 456.95718pt x 392.96812pt>
 File: 2/figures/crono_activ.png Graphic file (type png)
 <use 2/figures/crono_activ.png>
-Package pdftex.def Info: 2/figures/crono_activ.png  used on input line 675.
+Package pdftex.def Info: 2/figures/crono_activ.png  used on input line 700.
 (pdftex.def)             Requested size: 407.66867pt x 350.59198pt.
 
 
-LaTeX Info: Redefining \. on input line 681.
-LaTeX Info: Redefining \% on input line 681.
-[105])
+LaTeX Info: Redefining \. on input line 706.
+LaTeX Info: Redefining \% on input line 706.
+[101]
+Overfull \hbox (41.51122pt too wide) in paragraph at lines 711--727
+ [][]  
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
 
 LaTeX Info: Redefining \. on input line 229.
 LaTeX Info: Redefining \% on input line 229.
-[106 <./2/figures/crono_activ.png>]
+[102 <./2/figures/crono_activ.png>]
+
+LaTeX Info: Redefining \. on input line 229.
+LaTeX Info: Redefining \% on input line 229.
+[103]
 \openout2 = `4/desarrollo.aux'.
 
  (4/desarrollo.tex
 Cap\'{\i }tulo 5.
-<2/figures/resul1_paper.jpg, id=1593, 453.19313pt x 276.28218pt>
+<2/figures/resul1_paper.jpg, id=1519, 453.19313pt x 276.28218pt>
 File: 2/figures/resul1_paper.jpg Graphic file (type jpg)
 <use 2/figures/resul1_paper.jpg>
 Package pdftex.def Info: 2/figures/resul1_paper.jpg  used on input line 8.
 (pdftex.def)             Requested size: 407.66867pt x 248.52939pt.
 
 
-[107
+[104
 
 
 
@@ -1957,12 +1942,12 @@ Package pdftex.def Info: 2/figures/resul1_paper.jpg  used on input line 8.
 
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
-[108 <./2/figures/resul1_paper.jpg>]
+[105 <./2/figures/resul1_paper.jpg>]
 
 LaTeX Info: Redefining \. on input line 52.
 LaTeX Info: Redefining \% on input line 52.
-[109]
-<2/figures/modelos_completo.png, id=1609, 676.77844pt x 495.35063pt>
+[106]
+<2/figures/modelos_completo.png, id=1534, 676.77844pt x 495.35063pt>
 File: 2/figures/modelos_completo.png Graphic file (type png)
 <use 2/figures/modelos_completo.png>
 Package pdftex.def Info: 2/figures/modelos_completo.png  used on input line 60.
@@ -1971,18 +1956,18 @@ Package pdftex.def Info: 2/figures/modelos_completo.png  used on input line 60.
 
 LaTeX Info: Redefining \. on input line 71.
 LaTeX Info: Redefining \% on input line 71.
-[110 <./2/figures/modelos_completo.png>]
-<2/figures/df_completa.png, id=1615, 1305.37688pt x 359.09157pt>
+[107 <./2/figures/modelos_completo.png>]
+<2/figures/df_completa.png, id=1540, 1305.37688pt x 359.09157pt>
 File: 2/figures/df_completa.png Graphic file (type png)
 <use 2/figures/df_completa.png>
 Package pdftex.def Info: 2/figures/df_completa.png  used on input line 74.
 (pdftex.def)             Requested size: 407.66867pt x 112.1446pt.
-<2/figures/df_agregada.png, id=1616, 774.64406pt x 360.59718pt>
+<2/figures/df_agregada.png, id=1541, 774.64406pt x 360.59718pt>
 File: 2/figures/df_agregada.png Graphic file (type png)
 <use 2/figures/df_agregada.png>
 Package pdftex.def Info: 2/figures/df_agregada.png  used on input line 85.
 (pdftex.def)             Requested size: 407.66867pt x 189.77304pt.
-<2/figures/df_verduras_completa.png, id=1617, 865.73438pt x 536.0025pt>
+<2/figures/df_verduras_completa.png, id=1542, 865.73438pt x 536.0025pt>
 File: 2/figures/df_verduras_completa.png Graphic file (type png)
 <use 2/figures/df_verduras_completa.png>
 Package pdftex.def Info: 2/figures/df_verduras_completa.png  used on input line 98.
@@ -1991,12 +1976,12 @@ Package pdftex.def Info: 2/figures/df_verduras_completa.png  used on input line 
 
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
-[111 <./2/figures/df_completa.png> <./2/figures/df_agregada.png>]
+[108 <./2/figures/df_completa.png> <./2/figures/df_agregada.png>]
 
 LaTeX Info: Redefining \. on input line 120.
 LaTeX Info: Redefining \% on input line 120.
-[112 <./2/figures/df_verduras_completa.png>]
-<2/figures/parametros_modelo.png, id=1631, 587.19376pt x 557.83406pt>
+[109 <./2/figures/df_verduras_completa.png>]
+<2/figures/parametros_modelo.png, id=1557, 587.19376pt x 557.83406pt>
 File: 2/figures/parametros_modelo.png Graphic file (type png)
 <use 2/figures/parametros_modelo.png>
 Package pdftex.def Info: 2/figures/parametros_modelo.png  used on input line 123.
@@ -2005,8 +1990,8 @@ Package pdftex.def Info: 2/figures/parametros_modelo.png  used on input line 123
 
 LaTeX Info: Redefining \. on input line 140.
 LaTeX Info: Redefining \% on input line 140.
-[113 <./2/figures/parametros_modelo.png>]
-<2/figures/df_verdura_isnull.png, id=1637, 217.5628pt x 328.22626pt>
+[110 <./2/figures/parametros_modelo.png>]
+<2/figures/df_verdura_isnull.png, id=1563, 217.5628pt x 328.22626pt>
 File: 2/figures/df_verdura_isnull.png Graphic file (type png)
 <use 2/figures/df_verdura_isnull.png>
 Package pdftex.def Info: 2/figures/df_verdura_isnull.png  used on input line 147.
@@ -2015,13 +2000,13 @@ Package pdftex.def Info: 2/figures/df_verdura_isnull.png  used on input line 147
 
 LaTeX Info: Redefining \. on input line 165.
 LaTeX Info: Redefining \% on input line 165.
-[114 <./2/figures/df_verdura_isnull.png>]
-<2/figures/variables_dfverdura.png, id=1644, 965.10562pt x 593.96906pt>
+[111 <./2/figures/df_verdura_isnull.png>]
+<2/figures/variables_dfverdura.png, id=1569, 965.10562pt x 593.96906pt>
 File: 2/figures/variables_dfverdura.png Graphic file (type png)
 <use 2/figures/variables_dfverdura.png>
 Package pdftex.def Info: 2/figures/variables_dfverdura.png  used on input line 172.
 (pdftex.def)             Requested size: 317.0764pt x 195.14032pt.
-<2/figures/historico_ventas.png, id=1645, 577.40718pt x 321.45094pt>
+<2/figures/historico_ventas.png, id=1570, 577.40718pt x 321.45094pt>
 File: 2/figures/historico_ventas.png Graphic file (type png)
 <use 2/figures/historico_ventas.png>
 Package pdftex.def Info: 2/figures/historico_ventas.png  used on input line 182.
@@ -2030,18 +2015,18 @@ Package pdftex.def Info: 2/figures/historico_ventas.png  used on input line 182.
 
 LaTeX Info: Redefining \. on input line 193.
 LaTeX Info: Redefining \% on input line 193.
-[115 <./2/figures/variables_dfverdura.png> <./2/figures/historico_ventas.png>]
-<2/figures/train_test.png, id=1652, 584.1825pt x 162.6075pt>
+[112 <./2/figures/variables_dfverdura.png> <./2/figures/historico_ventas.png>]
+<2/figures/train_test.png, id=1577, 584.1825pt x 162.6075pt>
 File: 2/figures/train_test.png Graphic file (type png)
 <use 2/figures/train_test.png>
 Package pdftex.def Info: 2/figures/train_test.png  used on input line 196.
 (pdftex.def)             Requested size: 317.0764pt x 88.26079pt.
-<2/figures/modelos.png, id=1653, 338.01282pt x 132.495pt>
+<2/figures/modelos.png, id=1578, 338.01282pt x 132.495pt>
 File: 2/figures/modelos.png Graphic file (type png)
 <use 2/figures/modelos.png>
 Package pdftex.def Info: 2/figures/modelos.png  used on input line 205.
 (pdftex.def)             Requested size: 317.0764pt x 124.29259pt.
-<2/figures/metricas_df.png, id=1654, 498.36188pt x 208.52907pt>
+<2/figures/metricas_df.png, id=1579, 498.36188pt x 208.52907pt>
 File: 2/figures/metricas_df.png Graphic file (type png)
 <use 2/figures/metricas_df.png>
 Package pdftex.def Info: 2/figures/metricas_df.png  used on input line 217.
@@ -2050,8 +2035,8 @@ Package pdftex.def Info: 2/figures/metricas_df.png  used on input line 217.
 
 LaTeX Info: Redefining \. on input line 224.
 LaTeX Info: Redefining \% on input line 224.
-[116 <./2/figures/train_test.png> <./2/figures/modelos.png>]
-<2/figures/comparacion_modelos.png, id=1661, 555.57562pt x 426.84468pt>
+[113 <./2/figures/train_test.png> <./2/figures/modelos.png>]
+<2/figures/comparacion_modelos.png, id=1586, 555.57562pt x 426.84468pt>
 File: 2/figures/comparacion_modelos.png Graphic file (type png)
 <use 2/figures/comparacion_modelos.png>
 Package pdftex.def Info: 2/figures/comparacion_modelos.png  used on input line 239.
@@ -2064,12 +2049,12 @@ Package pdftex.def Info: 2/figures/modelos_completo.png  used on input line 249.
 
 LaTeX Info: Redefining \. on input line 264.
 LaTeX Info: Redefining \% on input line 264.
-[117 <./2/figures/metricas_df.png> <./2/figures/comparacion_modelos.png>]
+[114 <./2/figures/metricas_df.png> <./2/figures/comparacion_modelos.png>]
 
 LaTeX Info: Redefining \. on input line 285.
 LaTeX Info: Redefining \% on input line 285.
-[118]
-<2/figures/resultadofinal_numerico.png, id=1673, 213.04594pt x 299.61937pt>
+[115]
+<2/figures/resultadofinal_numerico.png, id=1599, 213.04594pt x 299.61937pt>
 File: 2/figures/resultadofinal_numerico.png Graphic file (type png)
 <use 2/figures/resultadofinal_numerico.png>
 Package pdftex.def Info: 2/figures/resultadofinal_numerico.png  used on input line 310.
@@ -2078,8 +2063,8 @@ Package pdftex.def Info: 2/figures/resultadofinal_numerico.png  used on input li
 
 LaTeX Info: Redefining \. on input line 316.
 LaTeX Info: Redefining \% on input line 316.
-[119]
-<2/figures/resultadofinal.png, id=1681, 911.65594pt x 321.45094pt>
+[116]
+<2/figures/resultadofinal.png, id=1607, 911.65594pt x 321.45094pt>
 File: 2/figures/resultadofinal.png Graphic file (type png)
 <use 2/figures/resultadofinal.png>
 Package pdftex.def Info: 2/figures/resultadofinal.png  used on input line 320.
@@ -2088,14 +2073,14 @@ Package pdftex.def Info: 2/figures/resultadofinal.png  used on input line 320.
 
 LaTeX Info: Redefining \. on input line 230.
 LaTeX Info: Redefining \% on input line 230.
-[120 <./2/figures/resultadofinal_numerico.png> <./2/figures/resultadofinal.png>]
+[117 <./2/figures/resultadofinal_numerico.png> <./2/figures/resultadofinal.png>]
 \openout2 = `5/resultados.aux'.
 
  (5/resultados.tex
 Cap\'{\i }tulo 6.
 
 
-[121
+[118
 
 
 
@@ -2104,25 +2089,25 @@ Cap\'{\i }tulo 6.
 
 LaTeX Info: Redefining \. on input line 59.
 LaTeX Info: Redefining \% on input line 59.
-[122])
+[119])
 
 LaTeX Info: Redefining \. on input line 231.
 LaTeX Info: Redefining \% on input line 231.
-[123]
+[120]
 \openout2 = `6/conclusion.aux'.
 
  (6/conclusion.tex
 Cap\'{\i }tulo 7.
 )
 
-[124
+[121
 
 
 
 
 ]
 
-[125
+[122
 
 
 
@@ -2153,26 +2138,11 @@ Underfull \hbox (badness 1072) in paragraph at lines 22--23
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 24--24
-\OT1/ptm/m/n/10.95 de-man-da in-flu-yen en pre-de-cir
- []
-
-
 Overfull \hbox (11.42305pt too wide) in paragraph at lines 7--31
  [][] 
  []
 
-
-
-[126
-
-]
-Overfull \vbox (29.13742pt too high) has occurred while \output is active []
-
-
-
-[127]
-<anexos/arquitectura.pdf, id=1726, 597.19106pt x 845.07718pt>
+<anexos/arquitectura.pdf, id=1643, 597.19106pt x 845.07718pt>
 File: anexos/arquitectura.pdf Graphic file (type pdf)
 <use anexos/arquitectura.pdf>
 Package pdftex.def Info: anexos/arquitectura.pdf  used on input line 41.
@@ -2183,13 +2153,17 @@ Overfull \hbox (22.64978pt too wide) in paragraph at lines 41--42
  []
 
 
+
+[123
+
+]
 Overfull \vbox (5.18309pt too high) has occurred while \output is active []
 
 
 
-[128 <./anexos/arquitectura.pdf>])
+[124 <./anexos/arquitectura.pdf>])
 
-[129
+[125
 
 
 
@@ -2197,11 +2171,11 @@ Overfull \vbox (5.18309pt too high) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 249.
 LaTeX Info: Redefining \% on input line 249.
-[130]
+[126]
 
 LaTeX Info: Redefining \. on input line 252.
 LaTeX Info: Redefining \% on input line 252.
-[131] (tesis.aux
+[127] (tesis.aux
 LaTeX Info: Redefining \sptext on input line 13.
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
@@ -2215,23 +2189,23 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6F396007C3B99E406DF46C971471D76E;38724.
+(rerunfilecheck)             Checksum: 20000E74678E27034F69E86ECF0C4061;37171.
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31201 strings out of 473522
- 611891 string characters out of 5714609
- 1555214 words of memory out of 5000000
- 53439 multiletter control sequences out of 15000+600000
+ 31136 strings out of 473522
+ 610974 string characters out of 5714609
+ 1554314 words of memory out of 5000000
+ 53407 multiletter control sequences out of 15000+600000
  600163 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,14n,90p,1923b,3192s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,14n,90p,1923b,3167s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\jpca0\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (132 pages, 3132570 bytes).
+Output written on tesis.pdf (128 pages, 2969730 bytes).
 PDF statistics:
- 1937 PDF objects out of 2073 (max. 8388607)
- 490 named destinations out of 1000 (max. 500000)
- 1567 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1855 PDF objects out of 2073 (max. 8388607)
+ 457 named destinations out of 1000 (max. 500000)
+ 1514 words of extra memory for PDF output out of 10000 (max. 10000000)
 

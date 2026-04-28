@@ -1256,6 +1256,7 @@
       \field{journaltitle}{Univ. Nac. del Sur}
       \field{title}{Introducción a los Modelos de Pronósticos}
       \field{year}{2016}
+      \true{nocite}
       \field{pages}{1\bibrangedash 121}
       \range{pages}{121}
     \endentry
@@ -1294,6 +1295,7 @@
       \field{labeltitlesource}{title}
       \field{title}{Una versión homotópica del teorema de cauchy y su aplicación a los gráficos alfa}
       \field{year}{2016}
+      \true{nocite}
     \endentry
     \entry{wadalkar2021}{article}{}{}
       \name{author}{4}{}{%
@@ -2658,6 +2660,7 @@
       \field{journaltitle}{Univ. Nac. del Sur}
       \field{title}{Introducción a los Modelos de Pronósticos}
       \field{year}{2016}
+      \true{nocite}
       \field{pages}{1\bibrangedash 121}
       \range{pages}{121}
     \endentry
@@ -2696,6 +2699,7 @@
       \field{labeltitlesource}{title}
       \field{title}{Una versión homotópica del teorema de cauchy y su aplicación a los gráficos alfa}
       \field{year}{2016}
+      \true{nocite}
     \endentry
     \entry{wadalkar2021}{article}{}{}
       \name{author}{4}{}{%
