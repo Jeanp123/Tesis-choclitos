@@ -1,169 +1,169 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{Índice de Figuras}{9}{chapter*.2}%
-\contentsline {chapter}{Índice de Tablas}{11}{chapter*.3}%
-\contentsline {chapter}{\numberline {1}PLANTEAMIENTO DEL PROBLEMA}{12}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Descripción de la Realidad Problemática}{12}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Formulación del Problema}{14}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Problema General}{14}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Problemas Espec\'{i}ficos}{14}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Objetivos de la Investigación}{15}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Objetivo General}{15}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Objetivos Espec\'{i}ficos}{15}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Justificación de la Investigación}{15}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Teórica}{15}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Práctica}{16}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Metodológica}{16}{subsection.1.4.3}%
-\contentsline {section}{\numberline {1.5}Delimitación del Estudio}{17}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Espacial}{17}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Temporal}{17}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Conceptual}{17}{subsection.1.5.3}%
-\contentsline {section}{\numberline {1.6}Hipótesis}{18}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Hipótesis General}{18}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Hipótesis Específicas}{18}{subsection.1.6.2}%
-\contentsline {subsection}{\numberline {1.6.3}Matriz de Consistencia}{18}{subsection.1.6.3}%
-\contentsline {chapter}{\numberline {2}MARCO TEÓRICO}{19}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{19}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Tesis relacionadas}{19}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Sales forecasting using long short term memory networks}{19}{subsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.2.1}Planteamiento del Problema y objetivo }{19}{subsubsection.2.1.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.2.2}Base de datos de los autores}{20}{subsubsection.2.1.2.2}%
-\contentsline {subsubsection}{\numberline {2.1.2.3}Metodología empleada por los autores}{20}{subsubsection.2.1.2.3}%
-\contentsline {subsubsection}{\numberline {2.1.2.4}Resultados obtenidos}{21}{subsubsection.2.1.2.4}%
-\contentsline {subsection}{\numberline {2.1.3}Predicción del precio de Bitcoin mediante análisis comparativo de modelos}{22}{subsection.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.3.1}Planteamiento del Problema y Objetivo}{22}{subsubsection.2.1.3.1}%
-\contentsline {subsubsection}{\numberline {2.1.3.2}Base de Datos}{23}{subsubsection.2.1.3.2}%
-\contentsline {subsubsection}{\numberline {2.1.3.3}Metodología empleada por los autores}{23}{subsubsection.2.1.3.3}%
-\contentsline {subsubsection}{\numberline {2.1.3.4}Resultados Obtenidos}{24}{subsubsection.2.1.3.4}%
-\contentsline {subsection}{\numberline {2.1.4}Effects of data time lag in a decision-making system using machine learning for pork price prediction}{25}{subsection.2.1.4}%
-\contentsline {subsubsection}{\numberline {2.1.4.1}Planteamiento del Problema y Objetivo}{25}{subsubsection.2.1.4.1}%
-\contentsline {subsubsection}{\numberline {2.1.4.2}Base de Datos}{25}{subsubsection.2.1.4.2}%
-\contentsline {subsubsection}{\numberline {2.1.4.3}Metodología Empleada por los Autores}{26}{subsubsection.2.1.4.3}%
-\contentsline {subsubsection}{\numberline {2.1.4.4}Resultados Obtenidos}{26}{subsubsection.2.1.4.4}%
-\contentsline {subsection}{\numberline {2.1.5}Time‑series analysis with smoothed Convolutional Neural Network}{28}{subsection.2.1.5}%
-\contentsline {subsubsection}{\numberline {2.1.5.1}Planteamiento del Problema y objetivo }{28}{subsubsection.2.1.5.1}%
-\contentsline {subsubsection}{\numberline {2.1.5.2}Base de datos de los autores}{29}{subsubsection.2.1.5.2}%
-\contentsline {subsubsection}{\numberline {2.1.5.3}Metodología empleada por los autores}{29}{subsubsection.2.1.5.3}%
-\contentsline {subsubsection}{\numberline {2.1.5.4}Resultados obtenidos}{30}{subsubsection.2.1.5.4}%
-\contentsline {subsection}{\numberline {2.1.6}Construction of performance score dynamic prediction system for clinical departments using explainable machine learning}{31}{subsection.2.1.6}%
-\contentsline {subsubsection}{\numberline {2.1.6.1}Planteamiento del problema y objetivo}{31}{subsubsection.2.1.6.1}%
-\contentsline {subsubsection}{\numberline {2.1.6.2}Base de datos}{32}{subsubsection.2.1.6.2}%
-\contentsline {subsubsection}{\numberline {2.1.6.3}Metodología empleada por los autores}{33}{subsubsection.2.1.6.3}%
-\contentsline {subsubsection}{\numberline {2.1.6.4}Resultados obtenidos}{34}{subsubsection.2.1.6.4}%
-\contentsline {subsection}{\numberline {2.1.7}Time Series Forecasting and Modelling of Food Demand Supply Chain based on Regressors Analysis}{35}{subsection.2.1.7}%
-\contentsline {subsubsection}{\numberline {2.1.7.1}Planteamiento del Problema y objetivo }{35}{subsubsection.2.1.7.1}%
-\contentsline {subsubsection}{\numberline {2.1.7.2}Base de datos de los autores}{36}{subsubsection.2.1.7.2}%
-\contentsline {subsubsection}{\numberline {2.1.7.3}Metodología empleada por los autores}{36}{subsubsection.2.1.7.3}%
-\contentsline {subsubsection}{\numberline {2.1.7.4}Resultados obtenidos}{37}{subsubsection.2.1.7.4}%
-\contentsline {subsection}{\numberline {2.1.8}Advancing Retail Predictions: Integrating Diverse Machine Learning Models for Accurate Walmart Sales Forecasting}{38}{subsection.2.1.8}%
-\contentsline {subsubsection}{\numberline {2.1.8.1}Planteamiento del Problema y objetivo}{38}{subsubsection.2.1.8.1}%
-\contentsline {subsubsection}{\numberline {2.1.8.2}Base de datos de los autores}{39}{subsubsection.2.1.8.2}%
-\contentsline {subsubsection}{\numberline {2.1.8.3}Metodología empleada por los autores}{39}{subsubsection.2.1.8.3}%
-\contentsline {subsubsection}{\numberline {2.1.8.4}Resultados obtenidos}{40}{subsubsection.2.1.8.4}%
-\contentsline {subsection}{\numberline {2.1.9}Deep learning-enabled cherry price forecasting and real-time system deployment across multi-market supply chains in India}{41}{subsection.2.1.9}%
-\contentsline {subsubsection}{\numberline {2.1.9.1}Planteamiento del Problema y Objetivo}{41}{subsubsection.2.1.9.1}%
-\contentsline {subsubsection}{\numberline {2.1.9.2}Base de Datos}{42}{subsubsection.2.1.9.2}%
-\contentsline {subsubsection}{\numberline {2.1.9.3}Metodología empleada por los autores}{42}{subsubsection.2.1.9.3}%
-\contentsline {paragraph}{Modelos utilizados}{42}{paragraph*.10}%
-\contentsline {paragraph}{Proceso metodológico}{43}{paragraph*.11}%
-\contentsline {subsubsection}{\numberline {2.1.9.4}Resultados Obtenidos}{43}{subsubsection.2.1.9.4}%
-\contentsline {subsection}{\numberline {2.1.10}Automated water demand forecasting for national-scale deployment: a prophet-based framework for Palestinian municipal water management}{44}{subsection.2.1.10}%
-\contentsline {subsubsection}{\numberline {2.1.10.1}Planteamiento del Problema y objetivo}{44}{subsubsection.2.1.10.1}%
-\contentsline {subsubsection}{\numberline {2.1.10.2}Base de datos}{45}{subsubsection.2.1.10.2}%
-\contentsline {subsubsection}{\numberline {2.1.10.3}Metodología empleada por los autores}{46}{subsubsection.2.1.10.3}%
-\contentsline {subsubsection}{\numberline {2.1.10.4}Resultados obtenidos}{47}{subsubsection.2.1.10.4}%
-\contentsline {subsection}{\numberline {2.1.11}Lightweight machine learning framework using temporal features for electric vehicle demand response forecasting on edge devices}{48}{subsection.2.1.11}%
-\contentsline {subsubsection}{\numberline {2.1.11.1}Planteamiento del problema y objetivo}{48}{subsubsection.2.1.11.1}%
-\contentsline {subsubsection}{\numberline {2.1.11.2}Base de datos}{49}{subsubsection.2.1.11.2}%
-\contentsline {subsubsection}{\numberline {2.1.11.3}Metodología empleada por los autores}{49}{subsubsection.2.1.11.3}%
-\contentsline {subsubsection}{\numberline {2.1.11.4}Resultados obtenidos}{51}{subsubsection.2.1.11.4}%
-\contentsline {section}{\numberline {2.2}Bases Teóricas}{52}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Gestión de la cadena de suministro de productos perecibles}{52}{subsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}Logística de mercancías en descomposición}{52}{subsubsection.2.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.2}Administración de existencias}{52}{subsubsection.2.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.2.1.3}Control de calidad y seguridad alimentaria}{53}{subsubsection.2.2.1.3}%
-\contentsline {subsection}{\numberline {2.2.2}Machine Learning}{53}{subsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.2.1}Árboles de decisión}{53}{subsubsection.2.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2.2}Regresión lineal}{54}{subsubsection.2.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.2.3}Support Vector Regression}{54}{subsubsection.2.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.2.4}Long Short-Term Memory Network (LSTM)}{55}{subsubsection.2.2.2.4}%
-\contentsline {subsubsection}{\numberline {2.2.2.5}Prophet}{57}{subsubsection.2.2.2.5}%
-\contentsline {subsubsection}{\numberline {2.2.2.6}Autoregressive Integrated Moving Average (ARIMA)}{58}{subsubsection.2.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.3}Modelos predictivos de demanda}{58}{subsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.3.1}Análisis de secuencias temporales}{58}{subsubsection.2.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.2.3.2}Inteligencia artificial y exploración de datos}{59}{subsubsection.2.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.2.3.3}Confirmación y optimización de modelos}{59}{subsubsection.2.2.3.3}%
-\contentsline {subsection}{\numberline {2.2.4}Series de tiempo}{59}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Tipos de series temporales}{60}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Elementos de la serie de tiempo}{61}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Aplicación de las series de tiempo}{62}{subsection.2.2.7}%
-\contentsline {section}{\numberline {2.3}Marco Conceptual}{63}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Predicción}{63}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Modelos de regresión}{63}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Abastecimiento}{63}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Precisión del modelo}{64}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Aprovisionamiento}{64}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Eficiencia}{64}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.3.7}Gestión logística}{64}{subsection.2.3.7}%
-\contentsline {subsection}{\numberline {2.3.8}Eficacia}{64}{subsection.2.3.8}%
-\contentsline {subsection}{\numberline {2.3.9}Series temporales}{64}{subsection.2.3.9}%
-\contentsline {subsection}{\numberline {2.3.10}Especificidad}{65}{subsection.2.3.10}%
-\contentsline {subsection}{\numberline {2.3.11}Automatización}{65}{subsection.2.3.11}%
-\contentsline {subsection}{\numberline {2.3.12}Validación cruzada}{65}{subsection.2.3.12}%
-\contentsline {subsection}{\numberline {2.3.13}Algoritmo de pronóstico}{65}{subsection.2.3.13}%
-\contentsline {subsection}{\numberline {2.3.14}Red neuronal artificial}{65}{subsection.2.3.14}%
-\contentsline {subsection}{\numberline {2.3.15}Datos históricos}{65}{subsection.2.3.15}%
-\contentsline {chapter}{\numberline {3}ENTORNO EMPRESARIAL}{66}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Descripción de la empresa}{66}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Reseña histórica y actividad económica}{66}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Descripción de la organización}{67}{subsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.2.1}Organigrama}{67}{subsubsection.3.1.2.1}%
-\contentsline {subsection}{\numberline {3.1.3}Datos generales estratégicos de la empresa}{68}{subsection.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.3.1}Visión, misión y valores o principios}{68}{subsubsection.3.1.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.3.2}Objetivos estratégicos}{69}{subsubsection.3.1.3.2}%
-\contentsline {subsubsection}{\numberline {3.1.3.3}Evaluación interna y externa. FODA}{70}{subsubsection.3.1.3.3}%
-\contentsline {subsection}{\numberline {3.1.4}Modelo de negocio actual (CANVAS)}{76}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}Mapa de procesos actual}{76}{subsection.3.1.5}%
-\contentsline {chapter}{\numberline {4}METODOLOGÍA DE LA INVESTIGACIÓN}{77}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Diseño de la investigación}{77}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Enfoque}{77}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Alcance}{77}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Tipo}{78}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Población y muestra}{78}{subsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.1.5}Unidad de análisis}{78}{subsection.4.1.5}%
-\contentsline {section}{\numberline {4.2}Técnicas de recolección de datos}{79}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Técnicas para el procesamiento y análisis de la información}{81}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Metodología de la implementación de la solución}{82}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Comprensión del negocio}{83}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Comprensión de los datos}{85}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Procesamiento}{91}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Transformación}{91}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}Modelamiento}{91}{subsection.4.3.6}%
-\contentsline {subsection}{\numberline {4.3.7}Evaluación}{97}{subsection.4.3.7}%
-\contentsline {subsection}{\numberline {4.3.8}Despliegue}{98}{subsection.4.3.8}%
-\contentsline {section}{\numberline {4.4}Metodología para la medición de resultados de la implementación}{100}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Raíz del error cuadrático medio (RMSE)}{100}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Error cuadrático medio (MSE)}{100}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Error Porcentual Absoluto Medio (MAPE)}{101}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}MAE (Mean Absolute Error): }{101}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}Coeficiente de determinación}{101}{subsection.4.4.5}%
-\contentsline {section}{\numberline {4.5}Cronograma de actividades y presupuesto}{102}{section.4.5}%
-\contentsline {chapter}{\numberline {5}DESARROLLO DEL EXPERIMENTO}{104}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Determinación y evaluación de alternativas de solución}{104}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Propuesta solución}{106}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Planeamiento y descripción de actividades}{107}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Adquirir Base de Datos}{107}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Preprocesamiento de datos}{108}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Selección de algoritmos a utilizar}{109}{subsection.5.3.3}%
-\contentsline {subsubsection}{\numberline {5.3.3.1}Proceso de Entrenamiento y Evaluación de Modelos}{109}{subsubsection.5.3.3.1}%
-\contentsline {subsection}{\numberline {5.3.4}Definir parámetros}{110}{subsection.5.3.4}%
-\contentsline {section}{\numberline {5.4}Desarrollo de actividades. Aplicación de herramientas de solución}{111}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Preprocesamiento de datos}{111}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Selección de Columnas relevantes}{111}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Seleccionamos los modelos a utilizar}{113}{subsection.5.4.3}%
-\contentsline {section}{\numberline {5.5}Medición de la solución}{115}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Simulación de la predicción}{116}{subsection.5.5.1}%
-\contentsline {chapter}{\numberline {6}ANÁLISIS DE RESULTADOS}{118}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Resultados}{118}{section.6.1}%
-\contentsline {chapter}{\numberline {7}CONCLUSIONES}{121}{chapter.7}%
-\contentsline {chapter}{Anexos}{122}{section*.54}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{125}{appendix*.57}%
+\contentsline {chapter}{Índice de Figuras}{10}{chapter*.2}%
+\contentsline {chapter}{Índice de Tablas}{12}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}PLANTEAMIENTO DEL PROBLEMA}{13}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Descripción de la Realidad Problemática}{13}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Formulación del Problema}{15}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Problema General}{15}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Problemas Espec\'{i}ficos}{15}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Objetivos de la Investigación}{16}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Objetivo General}{16}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Objetivos Espec\'{i}ficos}{16}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Justificación de la Investigación}{16}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Teórica}{16}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Práctica}{17}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Metodológica}{17}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1.5}Delimitación del Estudio}{18}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Espacial}{18}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Temporal}{18}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Conceptual}{18}{subsection.1.5.3}%
+\contentsline {section}{\numberline {1.6}Hipótesis}{19}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Hipótesis General}{19}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Hipótesis Específicas}{19}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Matriz de Consistencia}{19}{subsection.1.6.3}%
+\contentsline {chapter}{\numberline {2}MARCO TEÓRICO}{20}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{20}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Tesis relacionadas}{20}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Sales forecasting using long short term memory networks}{20}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}Planteamiento del Problema y objetivo }{20}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}Base de datos de los autores}{21}{subsubsection.2.1.2.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.3}Metodología empleada por los autores}{21}{subsubsection.2.1.2.3}%
+\contentsline {subsubsection}{\numberline {2.1.2.4}Resultados obtenidos}{22}{subsubsection.2.1.2.4}%
+\contentsline {subsection}{\numberline {2.1.3} Comparative Analysis based approach for Bitcoin Price Forecasting \citep {wadalkar2021bitcoin} }{23}{subsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.1}Planteamiento del Problema y Objetivo}{23}{subsubsection.2.1.3.1}%
+\contentsline {subsubsection}{\numberline {2.1.3.2}Base de Datos}{24}{subsubsection.2.1.3.2}%
+\contentsline {subsubsection}{\numberline {2.1.3.3}Metodología empleada por los autores}{24}{subsubsection.2.1.3.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.4}Resultados Obtenidos}{25}{subsubsection.2.1.3.4}%
+\contentsline {subsection}{\numberline {2.1.4}Effects of data time lag in a decision-making system using machine learning for pork price prediction \citep {suaza2023pork} }{26}{subsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.4.1}Planteamiento del Problema y Objetivo}{26}{subsubsection.2.1.4.1}%
+\contentsline {subsubsection}{\numberline {2.1.4.2}Base de Datos}{26}{subsubsection.2.1.4.2}%
+\contentsline {subsubsection}{\numberline {2.1.4.3}Metodología Empleada por los Autores}{27}{subsubsection.2.1.4.3}%
+\contentsline {subsubsection}{\numberline {2.1.4.4}Resultados Obtenidos}{28}{subsubsection.2.1.4.4}%
+\contentsline {subsection}{\numberline {2.1.5}Time‑series analysis with smoothed Convolutional Neural Network}{29}{subsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.5.1}Planteamiento del Problema y objetivo }{29}{subsubsection.2.1.5.1}%
+\contentsline {subsubsection}{\numberline {2.1.5.2}Base de datos de los autores}{30}{subsubsection.2.1.5.2}%
+\contentsline {subsubsection}{\numberline {2.1.5.3}Metodología empleada por los autores}{30}{subsubsection.2.1.5.3}%
+\contentsline {subsubsection}{\numberline {2.1.5.4}Resultados obtenidos}{31}{subsubsection.2.1.5.4}%
+\contentsline {subsection}{\numberline {2.1.6}Construction of performance score dynamic prediction system for clinical departments using explainable machine learning \citep {wen2026clinical} }{32}{subsection.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.1.6.1}Planteamiento del problema y objetivo}{32}{subsubsection.2.1.6.1}%
+\contentsline {subsubsection}{\numberline {2.1.6.2}Base de datos}{33}{subsubsection.2.1.6.2}%
+\contentsline {subsubsection}{\numberline {2.1.6.3}Metodología empleada por los autores}{34}{subsubsection.2.1.6.3}%
+\contentsline {subsubsection}{\numberline {2.1.6.4}Resultados obtenidos}{35}{subsubsection.2.1.6.4}%
+\contentsline {subsection}{\numberline {2.1.7}Time Series Forecasting and Modelling of Food Demand Supply Chain based on Regressors Analysis}{36}{subsection.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.1.7.1}Planteamiento del Problema y objetivo }{36}{subsubsection.2.1.7.1}%
+\contentsline {subsubsection}{\numberline {2.1.7.2}Base de datos de los autores}{37}{subsubsection.2.1.7.2}%
+\contentsline {subsubsection}{\numberline {2.1.7.3}Metodología empleada por los autores}{37}{subsubsection.2.1.7.3}%
+\contentsline {subsubsection}{\numberline {2.1.7.4}Resultados obtenidos}{38}{subsubsection.2.1.7.4}%
+\contentsline {subsection}{\numberline {2.1.8}Advancing Retail Predictions: Integrating Diverse Machine Learning Models for Accurate Walmart Sales Forecasting \citep {wen2026clinical}}{39}{subsection.2.1.8}%
+\contentsline {subsubsection}{\numberline {2.1.8.1}Planteamiento del Problema y objetivo}{39}{subsubsection.2.1.8.1}%
+\contentsline {subsubsection}{\numberline {2.1.8.2}Base de datos de los autores}{40}{subsubsection.2.1.8.2}%
+\contentsline {subsubsection}{\numberline {2.1.8.3}Metodología empleada por los autores}{40}{subsubsection.2.1.8.3}%
+\contentsline {subsubsection}{\numberline {2.1.8.4}Resultados obtenidos}{41}{subsubsection.2.1.8.4}%
+\contentsline {subsection}{\numberline {2.1.9}Deep learning-enabled cherry price forecasting and real-time system deployment across multi-market supply chains in India \citep {shaheen2026cherry}}{42}{subsection.2.1.9}%
+\contentsline {subsubsection}{\numberline {2.1.9.1}Planteamiento del Problema y Objetivo}{42}{subsubsection.2.1.9.1}%
+\contentsline {subsubsection}{\numberline {2.1.9.2}Base de Datos}{43}{subsubsection.2.1.9.2}%
+\contentsline {subsubsection}{\numberline {2.1.9.3}Metodología empleada por los autores}{43}{subsubsection.2.1.9.3}%
+\contentsline {paragraph}{Modelos utilizados}{43}{paragraph*.10}%
+\contentsline {paragraph}{Proceso metodológico}{44}{paragraph*.11}%
+\contentsline {subsubsection}{\numberline {2.1.9.4}Resultados Obtenidos}{44}{subsubsection.2.1.9.4}%
+\contentsline {subsection}{\numberline {2.1.10}Automated water demand forecasting for national-scale deployment: a prophet-based framework for Palestinian municipal water management \citep {salman2026water}}{45}{subsection.2.1.10}%
+\contentsline {subsubsection}{\numberline {2.1.10.1}Planteamiento del Problema y objetivo}{45}{subsubsection.2.1.10.1}%
+\contentsline {subsubsection}{\numberline {2.1.10.2}Base de datos}{46}{subsubsection.2.1.10.2}%
+\contentsline {subsubsection}{\numberline {2.1.10.3}Metodología empleada por los autores}{47}{subsubsection.2.1.10.3}%
+\contentsline {subsubsection}{\numberline {2.1.10.4}Resultados obtenidos}{48}{subsubsection.2.1.10.4}%
+\contentsline {subsection}{\numberline {2.1.11}Lightweight machine learning framework using temporal features for electric vehicle demand response forecasting on edge devices \citep {durrani2026ev}}{49}{subsection.2.1.11}%
+\contentsline {subsubsection}{\numberline {2.1.11.1}Planteamiento del problema y objetivo}{49}{subsubsection.2.1.11.1}%
+\contentsline {subsubsection}{\numberline {2.1.11.2}Base de datos}{50}{subsubsection.2.1.11.2}%
+\contentsline {subsubsection}{\numberline {2.1.11.3}Metodología empleada por los autores}{50}{subsubsection.2.1.11.3}%
+\contentsline {subsubsection}{\numberline {2.1.11.4}Resultados obtenidos}{52}{subsubsection.2.1.11.4}%
+\contentsline {section}{\numberline {2.2}Bases Teóricas}{53}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Gestión de la cadena de suministro de productos perecibles}{53}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Logística de mercancías en descomposición}{53}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Administración de existencias}{53}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Control de calidad y seguridad alimentaria}{54}{subsubsection.2.2.1.3}%
+\contentsline {subsection}{\numberline {2.2.2}Machine Learning}{54}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Árboles de decisión}{54}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Regresión lineal}{55}{subsubsection.2.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.3}Support Vector Regression}{55}{subsubsection.2.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.2.4}Long Short-Term Memory Network (LSTM)}{56}{subsubsection.2.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.2.5}Prophet}{58}{subsubsection.2.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.2.6}Autoregressive Integrated Moving Average (ARIMA)}{59}{subsubsection.2.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.3}Modelos predictivos de demanda}{59}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Análisis de secuencias temporales}{59}{subsubsection.2.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}Inteligencia artificial y exploración de datos}{60}{subsubsection.2.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.2.3.3}Confirmación y optimización de modelos}{60}{subsubsection.2.2.3.3}%
+\contentsline {subsection}{\numberline {2.2.4}Series de tiempo}{60}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Tipos de series temporales}{61}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Elementos de la serie de tiempo}{62}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Aplicación de las series de tiempo}{63}{subsection.2.2.7}%
+\contentsline {section}{\numberline {2.3}Marco Conceptual}{64}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Predicción}{64}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Modelos de regresión}{64}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Abastecimiento}{64}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Precisión del modelo}{65}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Aprovisionamiento}{65}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Eficiencia}{65}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Gestión logística}{65}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.8}Eficacia}{65}{subsection.2.3.8}%
+\contentsline {subsection}{\numberline {2.3.9}Series temporales}{65}{subsection.2.3.9}%
+\contentsline {subsection}{\numberline {2.3.10}Especificidad}{66}{subsection.2.3.10}%
+\contentsline {subsection}{\numberline {2.3.11}Automatización}{66}{subsection.2.3.11}%
+\contentsline {subsection}{\numberline {2.3.12}Validación cruzada}{66}{subsection.2.3.12}%
+\contentsline {subsection}{\numberline {2.3.13}Algoritmo de pronóstico}{66}{subsection.2.3.13}%
+\contentsline {subsection}{\numberline {2.3.14}Red neuronal artificial}{66}{subsection.2.3.14}%
+\contentsline {subsection}{\numberline {2.3.15}Datos históricos}{66}{subsection.2.3.15}%
+\contentsline {chapter}{\numberline {3}ENTORNO EMPRESARIAL}{67}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Descripción de la empresa}{67}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Reseña histórica y actividad económica}{67}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Descripción de la organización}{68}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Organigrama}{68}{subsubsection.3.1.2.1}%
+\contentsline {subsection}{\numberline {3.1.3}Datos generales estratégicos de la empresa}{69}{subsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}Visión, misión y valores o principios}{69}{subsubsection.3.1.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.3.2}Objetivos estratégicos}{70}{subsubsection.3.1.3.2}%
+\contentsline {subsubsection}{\numberline {3.1.3.3}Evaluación interna y externa. FODA}{71}{subsubsection.3.1.3.3}%
+\contentsline {subsection}{\numberline {3.1.4}Modelo de negocio actual (CANVAS)}{77}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Mapa de procesos actual}{77}{subsection.3.1.5}%
+\contentsline {chapter}{\numberline {4}METODOLOGÍA DE LA INVESTIGACIÓN}{78}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Diseño de la investigación}{78}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Enfoque}{78}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Alcance}{78}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Tipo}{79}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Población y muestra}{79}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Unidad de análisis}{79}{subsection.4.1.5}%
+\contentsline {section}{\numberline {4.2}Técnicas de recolección de datos}{80}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Técnicas para el procesamiento y análisis de la información}{82}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Metodología de la implementación de la solución}{83}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Comprensión del negocio}{84}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Comprensión de los datos}{86}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Procesamiento}{92}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Transformación}{92}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Modelamiento}{92}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}Evaluación}{98}{subsection.4.3.7}%
+\contentsline {subsection}{\numberline {4.3.8}Despliegue}{99}{subsection.4.3.8}%
+\contentsline {section}{\numberline {4.4}Metodología para la medición de resultados de la implementación}{101}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Raíz del error cuadrático medio (RMSE)}{101}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Error cuadrático medio (MSE)}{101}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Error Porcentual Absoluto Medio (MAPE)}{102}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}MAE (Mean Absolute Error): }{102}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Coeficiente de determinación}{102}{subsection.4.4.5}%
+\contentsline {section}{\numberline {4.5}Cronograma de actividades y presupuesto}{103}{section.4.5}%
+\contentsline {chapter}{\numberline {5}DESARROLLO DEL EXPERIMENTO}{105}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Determinación y evaluación de alternativas de solución}{105}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Propuesta solución}{107}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Planeamiento y descripción de actividades}{108}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Adquirir Base de Datos}{108}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Preprocesamiento de datos}{109}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Selección de algoritmos a utilizar}{110}{subsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.3.1}Proceso de Entrenamiento y Evaluación de Modelos}{110}{subsubsection.5.3.3.1}%
+\contentsline {subsection}{\numberline {5.3.4}Definir parámetros}{111}{subsection.5.3.4}%
+\contentsline {section}{\numberline {5.4}Desarrollo de actividades. Aplicación de herramientas de solución}{112}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Preprocesamiento de datos}{112}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Selección de Columnas relevantes}{112}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Seleccionamos los modelos a utilizar}{114}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}Medición de la solución}{116}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Simulación de la predicción}{117}{subsection.5.5.1}%
+\contentsline {chapter}{\numberline {6}ANÁLISIS DE RESULTADOS}{119}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Resultados}{119}{section.6.1}%
+\contentsline {chapter}{\numberline {7}CONCLUSIONES}{122}{chapter.7}%
+\contentsline {chapter}{Anexos}{123}{section*.54}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{126}{appendix*.57}%

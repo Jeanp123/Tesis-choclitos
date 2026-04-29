@@ -190,8 +190,10 @@
       \strng{authornamehash}{daef4840e338f3ae0636f97bc0451fad}
       \strng{authorfullhash}{daef4840e338f3ae0636f97bc0451fad}
       \strng{authorfullhashraw}{daef4840e338f3ae0636f97bc0451fad}
+      \field{extraname}{1}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -203,6 +205,90 @@
       \field{year}{2026}
       \field{pages}{947}
       \range{pages}{1}
+    \endentry
+    \entry{durrani2026ev}{article}{}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=bc4437ece54a2e2f56c3c0140035ae9a}{%
+           family={Durrani},
+           familyi={D\bibinitperiod},
+           given={Ali\bibnamedelima Mujtaba},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=428978866bc05a60a8d707a7d3817005}{%
+           family={UlAsar},
+           familyi={U\bibinitperiod},
+           given={Azzam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b83ee3bfba541429b8528558f31b837}{%
+           family={Aziz},
+           familyi={A\bibinitperiod},
+           given={Abdul},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e58b0183f33c199ca02d3fc59cdeecb}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Wajid},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d50934e7abe2ebf018d2f3de66bc0c6f}{%
+           family={Yousaf},
+           familyi={Y\bibinitperiod},
+           given={Muhammad\bibnamedelima Zain},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50ef7ba01533a2dbf2977ec9ab16ed9a}{%
+           family={Anjam},
+           familyi={A\bibinitperiod},
+           given={Fakhar},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7056e7f23698b9dd7b8ddf8bd05f418}{%
+           family={Farooq},
+           familyi={F\bibinitperiod},
+           given={Umar},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bfb62eaa6d92d009ec2a2f7c3ab1a836}{%
+           family={Abdullah},
+           familyi={A\bibinitperiod},
+           given={Mustafa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c634f1a4f79dd7a84be1abc2b3190676}{%
+           family={Shabaz},
+           familyi={S\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{fullhash}{1c2602b1cd7d95236bafc407e4ef6cd6}
+      \strng{fullhashraw}{1c2602b1cd7d95236bafc407e4ef6cd6}
+      \strng{bibnamehash}{1c2602b1cd7d95236bafc407e4ef6cd6}
+      \strng{authorbibnamehash}{1c2602b1cd7d95236bafc407e4ef6cd6}
+      \strng{authornamehash}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{authorfullhash}{1c2602b1cd7d95236bafc407e4ef6cd6}
+      \strng{authorfullhashraw}{1c2602b1cd7d95236bafc407e4ef6cd6}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Lightweight machine learning framework using temporal features for electric vehicle demand response forecasting on edge devices}
+      \field{volume}{16}
+      \field{year}{2026}
+      \field{pages}{947}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-025-30465-9
+      \endverb
     \endentry
     \entry{ElMadini2024}{thesis}{}{}
       \name{author}{1}{}{%
@@ -1189,6 +1275,48 @@
       \field{pages}{59\bibrangedash 78}
       \range{pages}{20}
     \endentry
+    \entry{salman2026water}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=505c71538d7092493c977ad539055e3a}{%
+           family={Salman},
+           familyi={S\bibinitperiod},
+           given={Adnan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29ff31b607c6409cb81bb5a15a63ad18}{%
+           family={Shaka’a},
+           familyi={S\bibinitperiod},
+           given={Yamama},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c57301af61a93636910b262abd576572}
+      \strng{fullhash}{c57301af61a93636910b262abd576572}
+      \strng{fullhashraw}{c57301af61a93636910b262abd576572}
+      \strng{bibnamehash}{c57301af61a93636910b262abd576572}
+      \strng{authorbibnamehash}{c57301af61a93636910b262abd576572}
+      \strng{authornamehash}{c57301af61a93636910b262abd576572}
+      \strng{authorfullhash}{c57301af61a93636910b262abd576572}
+      \strng{authorfullhashraw}{c57301af61a93636910b262abd576572}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Automated water demand forecasting for national-scale deployment: a prophet-based framework for Palestinian municipal water management}
+      \field{volume}{16}
+      \field{year}{2026}
+      \field{pages}{3295}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-025-33060-0
+      \endverb
+    \endentry
     \entry{ref_agua}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=505c71538d7092493c977ad539055e3a}{%
@@ -1212,8 +1340,10 @@
       \strng{authornamehash}{c57301af61a93636910b262abd576572}
       \strng{authorfullhash}{c57301af61a93636910b262abd576572}
       \strng{authorfullhashraw}{c57301af61a93636910b262abd576572}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1227,6 +1357,125 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1038/s41598-025-33060-0
+      \endverb
+    \endentry
+    \entry{shaheen2026cherry}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=1a2591114ef110fdb7f1127cbe8c7735}{%
+           family={Shaheen},
+           familyi={S\bibinitperiod},
+           given={F.\bibnamedelimi A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e26fc8ab8007c2b9d8f1a1320b6bca1}{%
+           family={Gul},
+           familyi={G\bibinitperiod},
+           given={Aqib},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e975d98bd85a539dcf54309be008b7b5}{%
+           family={Ganai},
+           familyi={G\bibinitperiod},
+           given={Nazir},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2dbe0824d2856ab4e7c6c0648ccffe60}{%
+           family={Majid},
+           familyi={M\bibinitperiod},
+           given={Masroor},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5366cfd5a671c1da7fba1e226c372c83}{%
+           family={Rashid},
+           familyi={R\bibinitperiod},
+           given={Mudasir},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=798dea4d78d2bd1336880460452ce935}{%
+           family={Sultan},
+           familyi={S\bibinitperiod},
+           given={Abid},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5fbaa0eba3bfdcb5e006a86dc40dfda2}
+      \strng{fullhash}{86276812ccb3fddd76a5785412a9bca7}
+      \strng{fullhashraw}{86276812ccb3fddd76a5785412a9bca7}
+      \strng{bibnamehash}{86276812ccb3fddd76a5785412a9bca7}
+      \strng{authorbibnamehash}{86276812ccb3fddd76a5785412a9bca7}
+      \strng{authornamehash}{5fbaa0eba3bfdcb5e006a86dc40dfda2}
+      \strng{authorfullhash}{86276812ccb3fddd76a5785412a9bca7}
+      \strng{authorfullhashraw}{86276812ccb3fddd76a5785412a9bca7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Deep learning-enabled cherry price forecasting and real-time system deployment across multi-market supply chains in India}
+      \field{volume}{16}
+      \field{year}{2026}
+      \field{pages}{1582}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-025-30980-9
+      \endverb
+    \endentry
+    \entry{suaza2023pork}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=b0dddaad2312d05f7003ce44ddf5805c}{%
+           family={Suaza-Medina},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Mario\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f109604a804cb4449d0cf80570af895}{%
+           family={Zarazaga-Soria},
+           familyi={Z\bibinithyphendelim S\bibinitperiod},
+           given={F.\bibnamedelimi Javier},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5745c7d1334fd9cd633f55b808676685}{%
+           family={Pinilla-Lopez},
+           familyi={P\bibinithyphendelim L\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b293577ff651c2b01ef4ce05c336ed1}{%
+           family={Lopez-Pellicer},
+           familyi={L\bibinithyphendelim P\bibinitperiod},
+           given={Francisco\bibnamedelima J.},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d72768093c4b3914529d118d8a1812c}{%
+           family={Lacasta},
+           familyi={L\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cf8a8ae82465507cb30217790f1e5ec6}
+      \strng{fullhash}{d8b37e5fcadbf448729471e45b0572c8}
+      \strng{fullhashraw}{d8b37e5fcadbf448729471e45b0572c8}
+      \strng{bibnamehash}{d8b37e5fcadbf448729471e45b0572c8}
+      \strng{authorbibnamehash}{d8b37e5fcadbf448729471e45b0572c8}
+      \strng{authornamehash}{cf8a8ae82465507cb30217790f1e5ec6}
+      \strng{authorfullhash}{d8b37e5fcadbf448729471e45b0572c8}
+      \strng{authorfullhashraw}{d8b37e5fcadbf448729471e45b0572c8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Computing and Applications}
+      \field{title}{Effects of data time lag in a decision-making system using machine learning for pork price prediction}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1007/s00521-023-08730-7
       \endverb
     \endentry
     \entry{villarreal2016introduccion}{article}{}{}
@@ -1332,8 +1581,10 @@
       \strng{authornamehash}{67b66a507ba596bf8d12a347bc91d2d1}
       \strng{authorfullhash}{e243bd602838244f579eb8cbc8d8ee3a}
       \strng{authorfullhashraw}{e243bd602838244f579eb8cbc8d8ee3a}
+      \field{extraname}{1}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1346,6 +1597,56 @@
       \field{year}{2021}
       \field{pages}{650\bibrangedash 654}
       \range{pages}{5}
+    \endentry
+    \entry{wadalkar2021bitcoin}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3978e37bf7dff943136bc87cc06a1338}{%
+           family={Wadalkar},
+           familyi={W\bibinitperiod},
+           given={Yash},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17bda442cd240255bc5f9bad69d1374d}{%
+           family={Sai\bibnamedelima Tarun},
+           familyi={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Yellamraju\bibnamedelimb V.\bibnamedelimi H.},
+           giveni={Y\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1fbf5d43ab55f17e9abbd500adf283d}{%
+           family={Singhal},
+           familyi={S\bibinitperiod},
+           given={Jaiesh},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a28dc8db1cea0e6fb156a34f6485a1c1}{%
+           family={Sonkusare},
+           familyi={S\bibinitperiod},
+           given={Reena},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{67b66a507ba596bf8d12a347bc91d2d1}
+      \strng{fullhash}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{fullhashraw}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{bibnamehash}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{authorbibnamehash}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{authornamehash}{67b66a507ba596bf8d12a347bc91d2d1}
+      \strng{authorfullhash}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{authorfullhashraw}{e243bd602838244f579eb8cbc8d8ee3a}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Engineering Research and Technology (IJERT)}
+      \field{number}{4}
+      \field{title}{A comparative analysis based approach for Bitcoin price forecasting}
+      \field{volume}{10}
+      \field{year}{2021}
     \endentry
     \entry{wang2005support}{book}{}{}
       \name{author}{1}{}{%
@@ -1383,6 +1684,70 @@
       \endverb
       \verb{url}
       \verb https://books.google.com.pe/books?id=uTzMPJjVjsMC
+      \endverb
+    \endentry
+    \entry{wen2026clinical}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=97931337ccf2052b86613fe8a8616419}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Huashu},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6684eba4a426125650cb145d676e7c0d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiaohua},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=12d5bd361a67782a83f2153f76f1e4fe}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Haibo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a52d415c9228f49132dd56260fa1e972}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Birong},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b64aa9fe9e22da10cf2f733e96e259bf}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Yaying},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29c0a5ec6f98ede6be6caecc7b5d1fae}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Xia},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ffc3690628ef4d589ad7e24c16bfb543}
+      \strng{fullhash}{5fa8531377a7ca20799426ebf8e956b9}
+      \strng{fullhashraw}{5fa8531377a7ca20799426ebf8e956b9}
+      \strng{bibnamehash}{5fa8531377a7ca20799426ebf8e956b9}
+      \strng{authorbibnamehash}{5fa8531377a7ca20799426ebf8e956b9}
+      \strng{authornamehash}{ffc3690628ef4d589ad7e24c16bfb543}
+      \strng{authorfullhash}{5fa8531377a7ca20799426ebf8e956b9}
+      \strng{authorfullhashraw}{5fa8531377a7ca20799426ebf8e956b9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Health Information Science and Systems}
+      \field{title}{Construction of performance score dynamic prediction system for clinical departments using explainable machine learning}
+      \field{volume}{14}
+      \field{year}{2026}
+      \field{pages}{8}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s13755-025-00394-y
       \endverb
     \endentry
     \entry{Zhi-Hua2021machinel}{book}{}{}
@@ -1594,8 +1959,10 @@
       \strng{authornamehash}{daef4840e338f3ae0636f97bc0451fad}
       \strng{authorfullhash}{daef4840e338f3ae0636f97bc0451fad}
       \strng{authorfullhashraw}{daef4840e338f3ae0636f97bc0451fad}
+      \field{extraname}{1}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1607,6 +1974,90 @@
       \field{year}{2026}
       \field{pages}{947}
       \range{pages}{1}
+    \endentry
+    \entry{durrani2026ev}{article}{}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=bc4437ece54a2e2f56c3c0140035ae9a}{%
+           family={Durrani},
+           familyi={D\bibinitperiod},
+           given={Ali\bibnamedelima Mujtaba},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=428978866bc05a60a8d707a7d3817005}{%
+           family={UlAsar},
+           familyi={U\bibinitperiod},
+           given={Azzam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b83ee3bfba541429b8528558f31b837}{%
+           family={Aziz},
+           familyi={A\bibinitperiod},
+           given={Abdul},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e58b0183f33c199ca02d3fc59cdeecb}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Wajid},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d50934e7abe2ebf018d2f3de66bc0c6f}{%
+           family={Yousaf},
+           familyi={Y\bibinitperiod},
+           given={Muhammad\bibnamedelima Zain},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50ef7ba01533a2dbf2977ec9ab16ed9a}{%
+           family={Anjam},
+           familyi={A\bibinitperiod},
+           given={Fakhar},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7056e7f23698b9dd7b8ddf8bd05f418}{%
+           family={Farooq},
+           familyi={F\bibinitperiod},
+           given={Umar},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bfb62eaa6d92d009ec2a2f7c3ab1a836}{%
+           family={Abdullah},
+           familyi={A\bibinitperiod},
+           given={Mustafa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c634f1a4f79dd7a84be1abc2b3190676}{%
+           family={Shabaz},
+           familyi={S\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{fullhash}{1c2602b1cd7d95236bafc407e4ef6cd6}
+      \strng{fullhashraw}{1c2602b1cd7d95236bafc407e4ef6cd6}
+      \strng{bibnamehash}{1c2602b1cd7d95236bafc407e4ef6cd6}
+      \strng{authorbibnamehash}{1c2602b1cd7d95236bafc407e4ef6cd6}
+      \strng{authornamehash}{daef4840e338f3ae0636f97bc0451fad}
+      \strng{authorfullhash}{1c2602b1cd7d95236bafc407e4ef6cd6}
+      \strng{authorfullhashraw}{1c2602b1cd7d95236bafc407e4ef6cd6}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Lightweight machine learning framework using temporal features for electric vehicle demand response forecasting on edge devices}
+      \field{volume}{16}
+      \field{year}{2026}
+      \field{pages}{947}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-025-30465-9
+      \endverb
     \endentry
     \entry{ElMadini2024}{thesis}{}{}
       \name{author}{1}{}{%
@@ -2593,6 +3044,48 @@
       \field{pages}{59\bibrangedash 78}
       \range{pages}{20}
     \endentry
+    \entry{salman2026water}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=505c71538d7092493c977ad539055e3a}{%
+           family={Salman},
+           familyi={S\bibinitperiod},
+           given={Adnan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29ff31b607c6409cb81bb5a15a63ad18}{%
+           family={Shaka’a},
+           familyi={S\bibinitperiod},
+           given={Yamama},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c57301af61a93636910b262abd576572}
+      \strng{fullhash}{c57301af61a93636910b262abd576572}
+      \strng{fullhashraw}{c57301af61a93636910b262abd576572}
+      \strng{bibnamehash}{c57301af61a93636910b262abd576572}
+      \strng{authorbibnamehash}{c57301af61a93636910b262abd576572}
+      \strng{authornamehash}{c57301af61a93636910b262abd576572}
+      \strng{authorfullhash}{c57301af61a93636910b262abd576572}
+      \strng{authorfullhashraw}{c57301af61a93636910b262abd576572}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Automated water demand forecasting for national-scale deployment: a prophet-based framework for Palestinian municipal water management}
+      \field{volume}{16}
+      \field{year}{2026}
+      \field{pages}{3295}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-025-33060-0
+      \endverb
+    \endentry
     \entry{ref_agua}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=505c71538d7092493c977ad539055e3a}{%
@@ -2616,8 +3109,10 @@
       \strng{authornamehash}{c57301af61a93636910b262abd576572}
       \strng{authorfullhash}{c57301af61a93636910b262abd576572}
       \strng{authorfullhashraw}{c57301af61a93636910b262abd576572}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -2631,6 +3126,125 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1038/s41598-025-33060-0
+      \endverb
+    \endentry
+    \entry{shaheen2026cherry}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=1a2591114ef110fdb7f1127cbe8c7735}{%
+           family={Shaheen},
+           familyi={S\bibinitperiod},
+           given={F.\bibnamedelimi A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e26fc8ab8007c2b9d8f1a1320b6bca1}{%
+           family={Gul},
+           familyi={G\bibinitperiod},
+           given={Aqib},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e975d98bd85a539dcf54309be008b7b5}{%
+           family={Ganai},
+           familyi={G\bibinitperiod},
+           given={Nazir},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2dbe0824d2856ab4e7c6c0648ccffe60}{%
+           family={Majid},
+           familyi={M\bibinitperiod},
+           given={Masroor},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5366cfd5a671c1da7fba1e226c372c83}{%
+           family={Rashid},
+           familyi={R\bibinitperiod},
+           given={Mudasir},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=798dea4d78d2bd1336880460452ce935}{%
+           family={Sultan},
+           familyi={S\bibinitperiod},
+           given={Abid},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5fbaa0eba3bfdcb5e006a86dc40dfda2}
+      \strng{fullhash}{86276812ccb3fddd76a5785412a9bca7}
+      \strng{fullhashraw}{86276812ccb3fddd76a5785412a9bca7}
+      \strng{bibnamehash}{86276812ccb3fddd76a5785412a9bca7}
+      \strng{authorbibnamehash}{86276812ccb3fddd76a5785412a9bca7}
+      \strng{authornamehash}{5fbaa0eba3bfdcb5e006a86dc40dfda2}
+      \strng{authorfullhash}{86276812ccb3fddd76a5785412a9bca7}
+      \strng{authorfullhashraw}{86276812ccb3fddd76a5785412a9bca7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Deep learning-enabled cherry price forecasting and real-time system deployment across multi-market supply chains in India}
+      \field{volume}{16}
+      \field{year}{2026}
+      \field{pages}{1582}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-025-30980-9
+      \endverb
+    \endentry
+    \entry{suaza2023pork}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=b0dddaad2312d05f7003ce44ddf5805c}{%
+           family={Suaza-Medina},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Mario\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f109604a804cb4449d0cf80570af895}{%
+           family={Zarazaga-Soria},
+           familyi={Z\bibinithyphendelim S\bibinitperiod},
+           given={F.\bibnamedelimi Javier},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5745c7d1334fd9cd633f55b808676685}{%
+           family={Pinilla-Lopez},
+           familyi={P\bibinithyphendelim L\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b293577ff651c2b01ef4ce05c336ed1}{%
+           family={Lopez-Pellicer},
+           familyi={L\bibinithyphendelim P\bibinitperiod},
+           given={Francisco\bibnamedelima J.},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d72768093c4b3914529d118d8a1812c}{%
+           family={Lacasta},
+           familyi={L\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cf8a8ae82465507cb30217790f1e5ec6}
+      \strng{fullhash}{d8b37e5fcadbf448729471e45b0572c8}
+      \strng{fullhashraw}{d8b37e5fcadbf448729471e45b0572c8}
+      \strng{bibnamehash}{d8b37e5fcadbf448729471e45b0572c8}
+      \strng{authorbibnamehash}{d8b37e5fcadbf448729471e45b0572c8}
+      \strng{authornamehash}{cf8a8ae82465507cb30217790f1e5ec6}
+      \strng{authorfullhash}{d8b37e5fcadbf448729471e45b0572c8}
+      \strng{authorfullhashraw}{d8b37e5fcadbf448729471e45b0572c8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Computing and Applications}
+      \field{title}{Effects of data time lag in a decision-making system using machine learning for pork price prediction}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1007/s00521-023-08730-7
       \endverb
     \endentry
     \entry{villarreal2016introduccion}{article}{}{}
@@ -2736,8 +3350,10 @@
       \strng{authornamehash}{67b66a507ba596bf8d12a347bc91d2d1}
       \strng{authorfullhash}{e243bd602838244f579eb8cbc8d8ee3a}
       \strng{authorfullhashraw}{e243bd602838244f579eb8cbc8d8ee3a}
+      \field{extraname}{1}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -2750,6 +3366,56 @@
       \field{year}{2021}
       \field{pages}{650\bibrangedash 654}
       \range{pages}{5}
+    \endentry
+    \entry{wadalkar2021bitcoin}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3978e37bf7dff943136bc87cc06a1338}{%
+           family={Wadalkar},
+           familyi={W\bibinitperiod},
+           given={Yash},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17bda442cd240255bc5f9bad69d1374d}{%
+           family={Sai\bibnamedelima Tarun},
+           familyi={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Yellamraju\bibnamedelimb V.\bibnamedelimi H.},
+           giveni={Y\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1fbf5d43ab55f17e9abbd500adf283d}{%
+           family={Singhal},
+           familyi={S\bibinitperiod},
+           given={Jaiesh},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a28dc8db1cea0e6fb156a34f6485a1c1}{%
+           family={Sonkusare},
+           familyi={S\bibinitperiod},
+           given={Reena},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{67b66a507ba596bf8d12a347bc91d2d1}
+      \strng{fullhash}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{fullhashraw}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{bibnamehash}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{authorbibnamehash}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{authornamehash}{67b66a507ba596bf8d12a347bc91d2d1}
+      \strng{authorfullhash}{e243bd602838244f579eb8cbc8d8ee3a}
+      \strng{authorfullhashraw}{e243bd602838244f579eb8cbc8d8ee3a}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Engineering Research and Technology (IJERT)}
+      \field{number}{4}
+      \field{title}{A comparative analysis based approach for Bitcoin price forecasting}
+      \field{volume}{10}
+      \field{year}{2021}
     \endentry
     \entry{wang2005support}{book}{}{}
       \name{author}{1}{}{%
@@ -2787,6 +3453,70 @@
       \endverb
       \verb{url}
       \verb https://books.google.com.pe/books?id=uTzMPJjVjsMC
+      \endverb
+    \endentry
+    \entry{wen2026clinical}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=97931337ccf2052b86613fe8a8616419}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Huashu},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6684eba4a426125650cb145d676e7c0d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiaohua},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=12d5bd361a67782a83f2153f76f1e4fe}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Haibo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a52d415c9228f49132dd56260fa1e972}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Birong},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b64aa9fe9e22da10cf2f733e96e259bf}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Yaying},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29c0a5ec6f98ede6be6caecc7b5d1fae}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Xia},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ffc3690628ef4d589ad7e24c16bfb543}
+      \strng{fullhash}{5fa8531377a7ca20799426ebf8e956b9}
+      \strng{fullhashraw}{5fa8531377a7ca20799426ebf8e956b9}
+      \strng{bibnamehash}{5fa8531377a7ca20799426ebf8e956b9}
+      \strng{authorbibnamehash}{5fa8531377a7ca20799426ebf8e956b9}
+      \strng{authornamehash}{ffc3690628ef4d589ad7e24c16bfb543}
+      \strng{authorfullhash}{5fa8531377a7ca20799426ebf8e956b9}
+      \strng{authorfullhashraw}{5fa8531377a7ca20799426ebf8e956b9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Health Information Science and Systems}
+      \field{title}{Construction of performance score dynamic prediction system for clinical departments using explainable machine learning}
+      \field{volume}{14}
+      \field{year}{2026}
+      \field{pages}{8}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s13755-025-00394-y
       \endverb
     \endentry
     \entry{Zhi-Hua2021machinel}{book}{}{}
