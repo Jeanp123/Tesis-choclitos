@@ -1,91 +1,40 @@
-\subsection{Gestión de la cadena de suministro de productos perecibles}
-  
-\subsubsection{Logística de mercancías en descomposición}
-Se aborda una serie de consideraciones logísticas específicas para productos que tienen un tiempo de vida limitado. Por ejemplo, el manejo de la temperatura durante el transporte y almacenamiento es crucial para preservar la frescura y calidad de los productos. Esto puede involucrar el empleo de recipientes refrigerados, sistemas de vigilancia de temperatura en tiempo real y la selección de rutas que reduzcan al mínimo los tiempos de tránsito y los peligros de exposición a condiciones adversas.
 
-\subsubsection{Administración de existencias}
-En el ámbito de los productos perecibles, la gestión de existencias debe equilibrar la necesidad de mantener niveles adecuados de inventario para satisfacer la demanda con el riesgo de excesos y obsolescencia. Estrategias como el análisis predictivo de inventarios, la gestión colaborativa de la demanda y la optimización de la rotación de existencias son esenciales para aumentar la eficacia y reducir el desperdicio.
+\subsubsection{Gradient Boosting}
+El Gradient Boosting es un algoritmo de aprendizaje supervisado perteneciente a la familia de los métodos de ensamble (ensemble methods), específicamente basado en el enfoque de boosting. Su objetivo principal es construir un modelo predictivo fuerte a partir de la combinación de múltiples modelos débiles, generalmente árboles de decisión de baja profundidad.
+El objetivo del Gradient Boosting es minimizar una función de pérdida $L(y, F(x))$, donde $y$ representa el valor real y $F(x)$ la predicción del modelo.(\cite{friedman2001})
 
-\subsubsection{Control de calidad y seguridad alimentaria}
-La seguridad y calidad de los productos perecederos son elementos vitales de la cadena de suministro. Esto implica implementar prácticas de higiene y manipulación adecuadas en todas las fases del proceso, además de cumplir con regulaciones y estándares de seguridad alimentaria. La trazabilidad de los productos también resulta crucial para identificar y gestionar eficientemente cualquier problema relacionado con la calidad o seguridad que pueda surgir.
+El modelo se construye de manera aditiva como:
 
-\subsection{Machine Learning}
-El aprendizaje automático se basa en desarrollar algoritmos que permiten a los programas mejorar su rendimiento de manera autónoma a través de la experiencia. Estos algoritmos procesan grandes volúmenes de datos, identifican patrones y ajustan sus propios parámetros para realizar predicciones o tomar decisiones. A medida que el sistema se expone a más datos, afina su capacidad para realizar tareas específicas sin que sea necesario modificar su programación manualmente (\cite{mitchell1997machine}).
-
-El proceso de aprendizaje automático implica etapas como la recopilación de datos, su procesamiento, el entrenamiento del modelo y la evaluación de su precisión. Durante el entrenamiento, el algoritmo ajusta sus parámetros para reducir el error y mejorar el desempeño. El objetivo es que el sistema sea capaz de generalizar a partir de ejemplos previos y realizar predicciones precisas cuando se le presenten nuevos datos.
-
-\subsubsection{Árboles de decisión}
-Un árbol de decisión es un método de aprendizaje utilizado para aproximar funciones que devuelven valores discretos. La estructura del modelo resultante se representa como un árbol de decisión, aunque también puede transformarse en un conjunto de reglas tipo "si-entonces" para facilitar su interpretación. Este enfoque es uno de los más populares en la inferencia inductiva y ha sido aplicado con éxito en diversas áreas, como el diagnóstico médico y la evaluación de riesgo crediticio.
-
-El funcionamiento de un árbol de decisión consiste en clasificar instancias ordenándolas desde el nodo raíz hasta un nodo hoja. Cada nodo del árbol representa una prueba o condición sobre un atributo específico de la instancia, y cada rama corresponde a un posible valor de dicho atributo. Para clasificar una instancia, se empieza en el nodo raíz, se evalúa el atributo correspondiente y se sigue la rama que coincide con el valor de este atributo. Este proceso se repite de manera recursiva en los subárboles hasta llegar a un nodo hoja, que proporciona el resultado final de la clasificación. (\cite{mitchell1997machine})
-
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.8\textwidth]{2/figures/arbol_decision_mitchell.png}
-		\caption{Árbol de decisión}
-		\textit{Fuente: Mitchell, T. M. (1997). Machine learning (Vol. 1, No. 9). New York: McGraw-hill.}
-		\label{fig111}
-	\end{center}	
-\end{figure}
-
-\subsubsection{Regresión lineal}
-El modelo de regresión lineal simple describe la relación entre una variable predictora \( x \) y una respuesta \( y \), donde dicha relación sigue una línea recta. En este modelo, el intercepto \( \beta_0 \) y la pendiente \( \beta_1 \) son parámetros desconocidos, y \( \varepsilon \) representa un término de error aleatorio. Se asume que los errores tienen una media cero y una varianza desconocida \( \sigma^2 \). Además, comúnmente se supone que los errores no están correlacionados, lo que significa que el valor de un error no depende del valor de otro.
-
-En este contexto, es habitual considerar que el regresor \( x \) es controlado por el analista de datos y que se mide con un error despreciable, mientras que la respuesta \( y \) se trata como una variable aleatoria. Esto implica que existe una distribución de probabilidad para \( y \) en cada valor posible de \( x \). (\cite{montgomery2013introduction})
-
-
-\begin{equation}  
-	\label{eq:linealr}
-	y = \beta_0 + \beta_1 x + \varepsilon
-\end{equation}
-
-\subsubsection{Support Vector Regression}
-
-Support Vector Regression (SVR) es una técnica de aprendizaje supervisado basada en máquinas de soporte vectorial (Support Vector Machines, SVM) utilizada para resolver problemas de regresión. A diferencia de la clasificación, donde el objetivo es encontrar una frontera de decisión que separe las clases, el objetivo de SVR es encontrar una función que prediga el valor de una variable continua. En lugar de clasificar, SVR busca una línea (o hiperplano en dimensiones superiores) que se ajuste a los datos dentro de un margen de error controlado.
-
-El principio clave detrás de SVR es encontrar una función \( f(x) = w \cdot x + b \) que se mantenga dentro de una tolerancia de error \(\epsilon\) para todos los puntos de datos, minimizando al mismo tiempo la complejidad de la función (medida por la norma de \(w\)). Para aquellos puntos que no pueden mantenerse dentro del margen \(\epsilon\), se introduce una variable de error que permite una penalización. (\cite{wang2005support})
-
-Dado un conjunto de datos de entrenamiento \(\{(x_i, y_i)\}_{i=1}^n\), donde \(x_i\) son las entradas y \(y_i\) son los valores de salida correspondientes, SVR minimiza la función de costo:
-
-\begin{equation} 
-	\label{eq:}
-\frac{1}{2} \| w \|^2 + C \sum_{i=1}^n (\xi_i + \xi_i^*)
-\end{equation}
-
-sujeto a:
-
-\begin{equation}  
-	\label{eq:}
-	y_i - (w \cdot x_i + b) \leq \epsilon + \xi_i
-\end{equation}
-\begin{equation} 
-(w \cdot x_i + b) - y_i \leq \epsilon + \xi_i^*
-\end{equation}
 \begin{equation}
-\xi_i, \xi_i^* \geq 0
+	F_m(x) = F_{m-1}(x) + \gamma_m h_m(x)
 \end{equation}
 
-Aquí:
-- \(w\) y \(b\) son los parámetros del modelo (el peso y el sesgo).
-- \(\epsilon\) define un margen de tolerancia alrededor de la línea de predicción.
-- \(C\) es un parámetro de penalización que controla el equilibrio entre el margen de error \(\epsilon\) y las desviaciones permitidas.
-- \(\xi_i\) y \(\xi_i^*\) son variables de error que permiten algunos puntos fuera del margen de tolerancia. (\cite{wang2005support})
+donde:
+\begin{itemize}
+	\item $F_m(x)$ es el modelo en la iteración $m$
+	\item $h_m(x)$ es el modelo débil en la iteración $m$
+	\item $\gamma_m$ es el coeficiente de ajuste (learning rate)
+\end{itemize}
 
-\subsubsection{Long Short-Term Memory Network (LSTM)}
-(\cite{brownlee2017long}) La red LSTM se diferencia de una red MLP (Multi Layer Perceptron) clásica en varios aspectos fundamentales. Aunque, como en una MLP, la LSTM se organiza en capas de neuronas y los datos de entrada atraviesan la red para generar una predicción, comparte también la característica de conexiones recurrentes propias de las redes RNN. Esto significa que las activaciones de un paso anterior se usan como contexto en el siguiente paso temporal. Sin embargo, a diferencia de las RNN convencionales, las LSTM tienen una estructura particular que les permite sortear los obstáculos típicos de entrenamiento y escalado en las RNN. Esta capacidad para superar tales limitaciones y sus notables resultados hacen de las LSTM una técnica especialmente popular.
+En cada iteración, el modelo se ajusta a los pseudo-residuos, definidos como el gradiente negativo de la función de pérdida:
 
-Uno de los problemas principales de las RNN tradicionales es la dificultad para entrenarlas de manera efectiva. Con frecuencia, el ajuste de pesos resultaba problemático, ya que las actualizaciones se volvían tan pequeñas que carecían de impacto (conocido como "gradientes que desaparecen") o tan grandes que llevaban a cambios abruptos e incluso errores (los llamados "gradientes que explotan"). Las LSTM, gracias a su diseño particular, logran evitar este problema, lo que amplía su capacidad para manejar información de contexto. En las RNN estándar, la influencia de una entrada sobre la capa oculta y, en última instancia, sobre la salida, tiende a decaer o aumentar exponencialmente al pasar a través de múltiples conexiones recurrentes, limitando la capacidad de acceso a la información previa. Este problema, conocido como "gradiente evanescente", es uno de los desafíos que las LSTM solucionan.
+\begin{equation}
+	r_{im} = -\left[ \frac{\partial L(y_i, F(x_i))}{\partial F(x_i)} \right]_{F(x)=F_{m-1}(x)}
+\end{equation}
 
-La unidad básica en la red LSTM (\cite{gupta2022advanced}), conocida como célula de memoria, se considera la unidad de procesamiento fundamental, similar a la neurona en redes MLP. Cada célula LSTM incluye pesos y tres puertas especializadas (entrada, salida y olvido), que operan de forma continua de manera similar a los procesos de lectura, escritura y reinicio en un sistema de memoria. Inspirada en el análisis del flujo de error en redes recurrentes previas, la arquitectura de memoria a largo plazo se diseñó para hacer accesibles los retrasos temporales largos, manteniendo el flujo de información estable. Una capa de LSTM está compuesta por bloques de memoria conectados de forma recurrente, lo que permite el aprendizaje eficiente de secuencias y dependencias prolongadas al evitar la rápida degradación o aumento de los gradientes en el tiempo.
+donde:
+\begin{itemize}
+	\item $r_{im}$ es el pseudo-residuo para la observación $i$ en la iteración $m$
+\end{itemize}
 
-\begin{figure}[H]
-	\begin{center}		
-		\includegraphics[width=0.8\textwidth]{2/figures/LSTM_arquitectura.png}
-		\caption{Arquitecura LSTM}	
-		\textit{Fuente: D. Gupta et. al, Advanced Machine Intelligence and Signal Processing. (2022). Singapur: Springer Nature Singapore.}
-		\label{fig88}
-	\end{center}	
-\end{figure}
+El valor óptimo de $\gamma_m$ se obtiene resolviendo:
+
+\begin{equation}
+	\gamma_m = \arg\min_{\gamma} \sum_{i=1}^{n} L\left(y_i, F_{m-1}(x_i) + \gamma h_m(x_i)\right)
+\end{equation}
+
+Finalmente, el modelo se actualiza iterativamente hasta alcanzar el número de iteraciones deseado o un criterio de convergencia.
+
 
 \subsubsection{Prophet}
 
@@ -147,230 +96,357 @@ Donde:
 \( \text{evento}_i \) representa un evento particular.
 \( \beta_i \) es la magnitud del impacto causado por dicho evento.
 
-\subsubsection{Autoregressive Integrated Moving Average (ARIMA)}
-
-ARIMA es un modelo estadístico ampliamente utilizado en series temporales para predecir valores futuros basándose en patrones observados en datos históricos. Es particularmente útil para datos que no son estacionarios, ya que incluye un componente de diferenciación para convertirlos en estacionarios.
-
-El modelo ARIMA está compuesto por tres partes principales:
-
-AR (Autoregressive): La parte autorregresiva indica que los valores pasados de la serie tienen un impacto directo en el valor actual. Está definido por un orden \( p \), que representa el número de rezagos incluidos.
-
-I (Integrated): La parte integrada implica la diferenciación de la serie para eliminar tendencias y hacerla estacionaria. El orden \( d \) especifica cuántas veces se diferencia la serie.
-
-MA (Moving Average): La parte de promedio móvil indica que los errores pasados (residuos) afectan al valor actual. El orden \( q \) determina el número de términos de error pasados que se usan.
-
-%\subsection{Principal Component Analysis (PCA)}
-%El \textit{Análisis de Componentes Principales} (PCA, por sus siglas en inglés), también conocido como \textit{Transformación de Hotelling} o \textit{Método de Karhunen-Loève (KL)}, es una técnica comúnmente utilizada en análisis multivariado. Su objetivo es proyectar observaciones de un espacio de \(p\) dimensiones (con \(p\) variables) a un espacio de \(k\) dimensiones (\(k < p\)) mientras se conserva la mayor cantidad posible de información, medida como la varianza total. Matemáticamente, PCA transforma un conjunto de variables correlacionadas en componentes principales no correlacionadas mediante la descomposición en valores propios (\textit{eigenanalysis}). Esto implica calcular los autovalores (\(\lambda_1, \lambda_2, \dots, \lambda_p\)) y los autovectores (\(q_1, q_2, \dots, q_p\)) de la matriz de covarianza (\(\Sigma\)), definida como \(\Sigma = Q \Lambda Q^T\), donde \(Q\) es la matriz ortogonal de autovectores y \(\Lambda\) es la matriz diagonal de autovalores ordenados en orden descendente. La primera componente principal corresponde al autovector asociado al mayor autovalor y captura la mayor varianza, mientras que las componentes subsiguientes explican la varianza restante en orden decreciente. La proyección de los datos en este nuevo espacio se define como \(Z = X Q_k\), donde \(X\) son los datos centrados y \(Q_k\) contiene los \(k\) primeros autovectores. Además, la suma de los autovalores equivale a la traza de \(\Sigma\), es decir, \(\sum_{i=1}^p \lambda_i = \text{tr}(\Sigma)\). Si los primeros dos o tres ejes explican un porcentaje significativo de la varianza, las observaciones pueden representarse en gráficos de 2 o 3 dimensiones para facilitar la interpretación. (\cite{paul2013methodological})
 
 
-\subsection{Modelos predictivos de demanda}
+\subsubsection{XGBoost}
+XGBoost (Extreme Gradient Boosting) es un algoritmo de aprendizaje supervisado basado en árboles de decisión y técnicas de boosting. Fue desarrollado como una implementación optimizada del método Gradient Boosting, con mejoras orientadas al rendimiento computacional, regularización del modelo y escalabilidad para grandes volúmenes de datos.
+Este algoritmo ha sido ampliamente utilizado en problemas de clasificación, regresión y ranking, debido a su capacidad para obtener alta precisión predictiva y manejar eficientemente datos de gran dimensión. Una de sus principales ventajas consiste en incorporar mecanismos de penalización de complejidad que permiten controlar el sobreajuste y mejorar la capacidad de generalización del modelo. (\cite{chen2016xgboost})
 
-\subsubsection{Análisis de secuencias temporales}
-Las herramientas de modelado de secuencias temporales son esenciales para anticipar la demanda de productos que tienen una vida útil limitada. Estos modelos tienen la capacidad de detectar patrones estacionales, tendencias a largo plazo y efectos cíclicos en los datos históricos de ventas. Es crucial considerar factores como eventos estacionales, promociones de ventas y cambios en las preferencias del consumidor al desarrollar y ajustar estos modelos.
+XGBoost construye un modelo de manera secuencial, donde cada nuevo árbol se incorpora con el propósito de corregir los errores generados por los árboles previamente entrenados.
 
+A diferencia del Gradient Boosting tradicional, XGBoost utiliza una expansión de segundo orden de la función de pérdida mediante gradiente y hessiano. Esto permite una optimización más precisa y estable durante el entrenamiento.
 
-\subsubsection{Inteligencia artificial y exploración de datos}
-Las técnicas de inteligencia artificial y exploración de datos ofrecen la capacidad de analizar grandes cantidades de datos de manera eficiente y descubrir patrones complejos que pueden no ser evidentes para los métodos tradicionales de análisis. Al emplear algoritmos de inteligencia artificial como regresión, agrupamiento o clasificación, es factible construir modelos predictivos más avanzados y adaptables que puedan identificar relaciones no lineales e interacciones entre variables.
-\subsubsection{Confirmación y optimización de modelos}
-La validación y optimización de modelos son procedimientos continuos e iterativos que aseguran la precisión y relevancia de los modelos predictivos de demanda. Esto implica comparar las proyecciones del modelo con datos reales y ajustar los parámetros del modelo según sea necesario para mejorar su rendimiento. La validación cruzada, la confirmación de hipótesis y el seguimiento constante de las métricas de rendimiento son prácticas convencionales en este proceso.
+El modelo final se expresa como la suma de árboles de decisión:
 
-%\subsection{Big Data}
-%
-%\subsubsection{Fuentes de información}
-%La era del Big Data en el ámbito de la demanda de productos perecederos comprende una amplia variedad de fuentes de datos, tanto estructuradas como no estructuradas. Además de los registros convencionales de ventas e inventario, se pueden incorporar datos provenientes de sensores IoT en la cadena de frío, información de redes sociales que revele tendencias y preferencias de los consumidores, datos meteorológicos que impacten la demanda, y otros datos de terceros pertinentes para el comportamiento del mercado.
-%\subsubsection{Procesamiento y almacenaje}
-%La capacidad de procesamiento y almacenaje de Big Data es esencial para gestionar eficazmente grandes volúmenes de datos en tiempo real. Esto puede involucrar el uso de plataformas de almacenamiento distribuido como Hadoop o sistemas de bases de datos NoSQL que permitan el procesamiento paralelo y la escalabilidad horizontal para manejar conjuntos de datos masivos.
-%\subsubsection{Análisis avanzado}
-%El análisis avanzado de Big Data implica la aplicación de técnicas estadísticas y algoritmos de aprendizaje automático para extraer conocimientos significativos de los datos. Esto puede incluir análisis de tendencias y correlaciones, detección de anomalías, segmentación de clientes y personalización de ofertas, entre otros. Herramientas como Apache Spark, TensorFlow y scikit-learn son ampliamente utilizadas para llevar a cabo este tipo de análisis.
+\begin{equation}
+\hat{y}_i = \sum_{k=1}^{K} f_k(x_i), \qquad f_k \in \mathcal{F}
+\end{equation}
 
-\subsection{Series de tiempo}
+donde:
 
-Las series temporales representan secuencias de datos dispuestos en orden cronológico, recolectados a lo largo de un periodo de tiempo. Estos datos pueden abarcar una amplia gama de fenómenos, tales como el valor de acciones, la temperatura diaria, las ventas mensuales, el tráfico diario, la demanda de productos, entre otros. El análisis de series temporales tiene como objetivo comprender y modelar la estructura, patrones y tendencias presentes en los datos a lo largo del tiempo. A diferencia de otros tipos de datos, como los datos de corte transversal, las series temporales poseen una dimensión temporal intrínseca y se emplean para realizar predicciones o inferir información sobre el futuro o el comportamiento de la serie. (\cite{ocampo2004pronostico}).
-Según Toro Ocampo, Mejía Giraldo y Salazar Isaza (2004), las series temporales comúnmente presentan ciertas características, tales como la tendencia (una dirección general de cambio a lo largo del tiempo), la estacionalidad (patrones recurrentes que se repiten en intervalos regulares) y la autocorrelación. 
-El análisis de series temporales comprende el uso de técnicas y modelos específicos para descomponer y visualizar la serie, identificar patrones, modelar la tendencia y la estacionalidad, así como realizar pronósticos y predicciones.
-
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.8\textwidth]{2/figures/graf_series_tiempo.png}
-		\caption{Series de tiempo}
-		\textit{Fuente: P, Molina. et al., (2017). Modelación econométrica de la demanda de semilla de chile dulce Lamuyo y Blocky en Costa Rica mediante series de tiempo univariadas}
-		\label{fig1}
-	\end{center}	
-\end{figure}
-
-\subsection{Tipos de series temporales}
-Según \cite{ocampo2004pronostico}, hay varios tipos de series temporales que se clasifican según sus características y propiedades. A continuación, se describen algunos tipos comunes:
 \begin{itemize}
-	\item Tendencia: Una serie temporal con tendencia muestra un cambio sistemático y sostenido en una dirección a lo largo del tiempo, ya sea ascendente (crecimiento) o descendente (decrecimiento).
-	\item Estacionalidad: Las series temporales con estacionalidad exhiben patrones recurrentes que se repiten en intervalos regulares, como estacionalidad diaria, mensual o anual. Por ejemplo, la demanda de helados puede mostrar un patrón estacional con un aumento en los meses de verano.
-	\item Ciclos: Los ciclos representan fluctuaciones recurrentes que no siguen un patrón de estacionalidad fijo. Estas fluctuaciones pueden tener una duración más larga que los patrones estacionales y no ocurren en intervalos regulares.
-	\item Ruido o componente aleatorio: El ruido o componente aleatorio en una serie temporal representa la variabilidad aleatoria o irregular que no se puede atribuir a ninguna tendencia, estacionalidad o ciclo específico. Puede deberse a factores aleatorios, eventos imprevistos o errores de medición.
-	\item Serie temporal estacionaria: No muestra una tendencia sistemática a lo largo del tiempo y tiene una varianza constante en diferentes períodos. Esto implica que la media y la autocorrelación no dependen del tiempo.
-	\item Serie temporal no estacionaria: Muestra una tendencia, es decir, un cambio sistemático en la media o en la varianza a lo largo del tiempo  (\cite{ocampo2004pronostico}). 
+\item $\hat{y}_i$ es la predicción para la observación $i$
+\item $f_k$ representa el árbol $k$
+\item $\mathcal{F}$ es el espacio de árboles de regresión
+\item $K$ es el número total de árboles
 \end{itemize}
 
-\subsection{Elementos de la serie de tiempo}
-Según \cite{Fierrotorres2022}, tenemos las siguientes:
+
+El objetivo de XGBoost es minimizar una función objetivo compuesta por una función de pérdida y un término de regularización:
+
+\begin{equation}
+\mathcal{L}(\phi) = \sum_{i=1}^{n} l(y_i,\hat{y}_i) + \sum_{k=1}^{K} \Omega(f_k)
+\end{equation}
+
+donde:
+
 \begin{itemize}
-	\item Tendencia secular: La influencia en la tendencia a largo plazo de una serie de datos se deriva de diversos factores que operan a lo largo de períodos extensos. En términos simples, la tendencia de una serie temporal representa el gradual y constante patrón de sus fluctuaciones, originado por fuerzas duraderas asociadas con el crecimiento o declive, como cambios en la población, demografía, ingresos, salud, educación y tecnología. Dichas tendencias pueden manifestarse de distintas maneras: algunas incrementan de forma continua, otras decrecen, y algunas se mantienen estables durante períodos específicos.
-	\item Variación estacional: El componente estacional en una serie de tiempo se refiere a las fluctuaciones en los datos causadas por influencias estacionales, las cuales se caracterizan por patrones repetitivos que se repiten. Por ejemplo, un fabricante de piscinas inflables espera una disminución en las ventas durante los meses de otoño e invierno, con picos de ventas durante la primavera y el verano. 
-	\item Variación cíclica: Las series temporales suelen mostrar patrones alternados de puntos ubicados tanto por encima como por debajo de la línea de tendencia, los cuales se extienden por más de un año, incluso después de haber eliminado los componentes estacionales e irregulares. Un ejemplo de esta variación son los ciclos económicos, que representan períodos recurrentes asociados con fases de prosperidad, recesión, depresión. 
-	\item Variación irregular: Se atribuye la existencia del componente irregular en una serie temporal a factores de corto plazo que son impredecibles y no se repiten en la serie. Este componente es responsable de la variabilidad aleatoria de la serie y su impacto no puede ser previsto.
-	
-	\begin{enumerate}
-		\item Variaciones generadas por eventos particulares claramente identificables, como elecciones, inundaciones, huelgas o terremotos.
-		\item Variaciones aleatorias o casuales, razones no se pueden determinar de manera precisa, pero son propensas a igualarse a largo plazo. 			
-	\end{enumerate}
-	
+\item $l(y_i,\hat{y}_i)$ es la función de pérdida
+\item $\Omega(f_k)$ es el término de regularización del árbol
 \end{itemize}
 
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.8\textwidth]{2/figures/compon_serie_temp.png}
-		\caption{Componentes de la serie temporal}
-		\textit{Fuente: F, Torres. et al., (2022). Análisis comparativo de modelos tradicionales y modernos para pronóstico de la demanda: enfoques y características. RIDE. Revista Iberoamericana para la Investigación y el Desarrollo Educativo}
-		\label{fig1}
-	\end{center}	
-\end{figure}
+La función de regularización está definida como:
 
-\subsection{Aplicación de las series de tiempo}
-Las series temporales cumplen dos objetivos principales: comprender las fuerzas que afectan a los datos e identificar la estructura que seguirán los datos observados. Este proceso implica ajustar modelos y emplearlos para efectuar pronósticos, llevar a cabo seguimientos, obtener retroalimentación y ejercer control en tiempo real o en el futuro. En resumen, permite tanto comprender las causas subyacentes de los datos como utilizar ese conocimiento para realizar predicciones y tomar decisiones informadas. (\cite{brockwell2002introduction})
+\begin{equation}
+\Omega(f) = \gamma T + \frac{1}{2}\lambda \sum_{j=1}^{T} w_j^2
+\end{equation}
 
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.8\textwidth]{2/figures/aplic_serie_temp.png}
-		\caption{Aplicaciónes de serie temporal}
-		\textit{Fuente: Brockwell, P. et al., (2002). Introduction to time series and forecasting. New York, NY: Springer New York}
-		\label{fig1}
-	\end{center}	
-\end{figure}
- 
-% \subsection{Métodos de suavizamiento de la serie}
-% Según \cite{villarreal2016introduccion} tenemos a los siguientes:
+donde:
 
-% \begin{enumerate}
-% 	\item Promedio móvil: Se obtiene un promedio móvil al sustituir cada valor de una serie con la media calculada a partir de esa observación y algunos de los valores anteriores y posteriores.
-% 	\item Promedio móvil ponderado: Para ejemplificar la aplicación de esta técnica, se fortalecerá la primera sección del caso anterior acerca de las ventas de gasolina. Este método consiste en asignar un factor de ponderación distinto a cada dato, con frecuencia asignando un peso más significativo a la observación más reciente desde la cual se busca hacer el pronóstico, y este peso disminuye a medida que nos alejamos en el tiempo. 			
-% \end{enumerate}
- 
-% \subsection{Técnica de suavizamiento exponencial}
-% La simplicidad y el bajo costo de los métodos de suavización exponencial los definidos en una opción atractiva para las empresas grandes y pequeñas, así como para los técnicos que los apoyan. Estos métodos pueden servir como una alternativa de pronóstico accesible. 
-% La suavización exponencial es una técnica que emplea un promedio ponderado de valores previos en una serie temporal como pronósticos. La fórmula indica que los pronósticos para el período t+1 se obtienen mediante una combinación ponderada del valor real en el período ty los pronósticos para el período t. Este enfoque constituye una variante particular del método de promedios móviles ponderados, en el cual se asigna un único peso a la observación más reciente.  
+\begin{itemize}
+\item $T$ es el número de hojas del árbol
+\item $w_j$ es el peso asociado a la hoja $j$
+\item $\gamma$ penaliza el número de hojas
+\item $\lambda$ controla la magnitud de los pesos
+\end{itemize}
 
-% \begin{equation}  
-% 	\label{eq:suavizacion}
-% 	F_{t+1} = \alpha Y_t (1 - \alpha) F_t \quad \text{donde} \quad 0 \leq \alpha \leq 1
-% \end{equation}
+En la iteración $t$, el modelo se actualiza agregando un nuevo árbol:
 
-% \subsection{Método de suavización exponencial simple}
-% Según \cite{villarreal2016version}, se tiene las siguientes características:
-% \begin{enumerate}
-% 	\item Facilidad de uso, aplicable a corto plazo. 
-% 	\item La serie carece de tendencias o estacionalidad.
-% 	\item Modela la serie temporal como una fracción del valor inmediatamente anterior y su complemento estimado.
-% 	\item Alfa (\(\alpha\)) = constante de atenuación de la serie, se sugiere que esté en el rango de 0 a 1.
+\begin{equation}
+\hat{y}_i^{(t)} = \hat{y}_i^{(t-1)} + f_t(x_i)
+\end{equation}
 
-	
-% 	\begin{equation}  
-% 		\label{eq:suavizacionexp}
-% 		\hat{y}_t = \alpha y_{t-1} + (1 - \alpha) \hat{y}_{t-1}
-% 	\end{equation}				
-% \end{enumerate}
+Para facilitar la optimización, XGBoost utiliza una aproximación de segundo orden de la función objetivo:
 
-% \subsection{¿Qué valor de alfa usar?}
-% Cuando la serie de tiempo tiene una opción aleatoria considerable, es recomendable utilizar una constante de suavización pequeña. Se opta por esta elección debido a que gran parte del error en el pronóstico se atribuye a la variabilidad aleatoria. Por consiguiente, se busca evitar una reacción exagerada y ajustar los pronósticos de manera demasiado rápida. En contraposición, cuando la serie temporal presenta una variabilidad limitada, la elección de valores más altos para la constante de suavización ofrece la ventaja de adaptar rápidamente los pronósticos en caso de errores, permitiendo así una respuesta más ágil a condiciones cambiantes. La elección del valor se realiza con el objetivo de minimizar el error de pronóstico (\cite{villarreal2016version}).
+\begin{equation}
+\mathcal{L}^{(t)} \approx \sum_{i=1}^{n}
+\left[
+l(y_i,\hat{y}_i^{(t-1)})
++ g_i f_t(x_i)
++ \frac{1}{2} h_i f_t^2(x_i)
+\right]
++ \Omega(f_t)
+\end{equation}
 
-% \begin{figure}[h]
-% 	\begin{center}
-% 		\includegraphics[width=0.8\textwidth]{2/figures/val_alfa.png}
-% 		\caption{Posibles valores alfa}
-% 		\textit{Fuente: Molina, J. (2017). Modelación econométrica de la demanda de semilla de chile dulce Lamuyo y Blocky en Costa Rica mediante series de tiempo univariadas. e-Agronegocios}
-% 		\label{fig4}
-% 	\end{center}	
-% \end{figure}
+donde:
 
+\begin{equation}
+g_i = \frac{\partial l(y_i,\hat{y}_i^{(t-1)})}{\partial \hat{y}_i^{(t-1)}}
+\end{equation}
 
-% \subsection{Tipos de suavizado exponencial}
-% \begin{enumerate}
-% 	\item Suavizado exponencial simple (aplicable a series sin tendencia ni estacionalidad). Diversos enfoques de suavizado exponencial actualizan el resultado del valor previo mediante la inclusión del último dato de la serie original. Este proceso combina la información previamente disponible con la contribución proporcionada por el nuevo dato mediante un parámetro, donde \( 0 < \alpha < 1 \).
-	
-	
-% 	\begin{equation}  
-% 		\label{eq:tipsuavi}
-% 		\hat{S_i = \alpha x_i + (1 - \alpha) S_{i-1}}
-% 	\end{equation}
-	
-	
-% 	\item Suavizado exponencial doble (aplicable a series con tendencia, pero sin estacionalidad).
-% 	El suavizado exponencial doble conserva información acerca de la tendencia mediante la retención de dos señales suavizadas: si para la señal suavizada y ti para la tendencia suavizada. El parámetro \(\beta\) se emplea para aplicar suavizado exponencial a la tendencia.
-	
-% 	\begin{equation}  
-% 		\label{eq:tipexp1}
-% 		\hat{S_i = \alpha x_i + (1 - \alpha) (S_{i-1} + t_{i-1})
-% 		}
-% 	\end{equation}
-	
-% 	\begin{equation}  
-% 		\label{eq:tipexp2}
-% 		\hat{t_i = \beta (x_i - S_{i-1}) + (1 - \beta) t_{i-1}
-% 		}
-% 	\end{equation}
-	
-% 	\item Suavizado triple exponencial (indicado para series con tendencia y estacionalidad). 
-% 	En este método, se incorpora un tercer componente para representar la estacionalidad, pudiendo esta ser aditiva o multiplicativa, según la necesidad.
-% 	\begin{equation}  
-% 		\label{eq:suavtriple1}
-% 		\hat{S_i = \alpha (x_i - P_{i-k}) + (1 - \alpha) (S_{i-1} + t_{i-1}))
-% 		}
-% 	\end{equation}
-	
-% 	\begin{equation}  
-% 		\label{eq:suavtriple2}
-% 		\hat{t_i = \beta (S_i - S_{i-1}) + (1 - \beta) t_{i-1}}
-% 	\end{equation}
-	
-% 	\begin{equation}  
-% 		\label{eq:suavtriple3}
-% 		\hat{t_i = \beta (S_i - S_{i-1}) + (1 - \beta) t_{i-1}}
-% 	\end{equation}
-	
-% 	\begin{equation}  
-% 		\label{eq:suavtriple4}
-% 		\hat{P_i = \gamma (X_i - S_i) + (1 - \gamma) p_{i-k}}
-% 	\end{equation}
-% 	\begin{equation}  
-% 		\label{eq:suavtriple5}
-% 		\hat{X_{i+h} = S_i + ht_i + p_{i-k+h}}
-% 	\end{equation}
-						
-% \end{enumerate}
+\begin{equation}
+h_i = \frac{\partial^2 l(y_i,\hat{y}_i^{(t-1)})}{\partial (\hat{y}_i^{(t-1)})^2}
+\end{equation}
 
-
-% \subsection{Ventajas del método de suavización exponencial simple}
-% El enfoque de suavización exponencial es extensamente empleado como técnica de pronósticos debido a su sencillez, siendo adoptado tanto por empresas pequeñas como por aquellas de mayor envergadura. Su implementación resulta fácil, ya sea a través de una hoja de cálculo en Excel o mediante software especializado como Forecast Pro. A continuación, se detallan sus beneficios:
-
-% \begin{enumerate}
-% 	\item Formulación simple: Únicamente se requiere el pronóstico anterior, la demanda real del período pronosticado y la constante de suavización. Esto facilita su aplicación y comprensión.
-% 	\item Requiere pocos datos históricos: A diferencia de otros métodos de pronóstico que pueden necesitar una gran cantidad de datos históricos, la suavización exponencial puede proporcionar pronósticos precisos incluso con un volumen limitado de datos.
-% 	\item Precisión: Al ser un modelo exponencial, la suavización exponencial tiende a ser más precisa en la predicción de la demanda futura en comparación con otros métodos de pronóstico.
-% 	\item Flexibilidad: Permite ajustar la importancia relativa de la demanda actual y la demanda antigua al asignar un peso adecuado a cada valor en el cálculo del pronóstico. Esto proporciona flexibilidad para adaptarse a diferentes patrones de demanda.	
-				
-% \end{enumerate}
-
-% Sin embargo, al igual que los métodos de promedio móvil, la suavización exponencial tiene una desventaja en su respuesta a las tendencias. Aunque un valor de constante de suavización (alfa) puede responder a cambios en el promedio, los cambios sistemáticos en la tendencia pueden generar un error de pronóstico significativo. En estos casos, cuando se obtienen buenos resultados con un valor de alfa mayor a 0.5, puede ser más apropiado considerar el uso del alisado exponencial doble para obtener una mejor precisión en el pronóstico.
+Aquí, $g_i$ representa el gradiente de primer orden y $h_i$ el hessiano o derivada de segundo orden.
 
 
 
+\subsubsection{Random Forest}
 
-%\subsection{¿Qué valor de alfa usar?}
-%
-%\subsection{¿Qué valor de alfa usar?}
-%
-%\subsubsection{rellenar}
-%bl22222
-%%%Figura
-% \subsection{Natural Language Processing (NLP)}
-% Naturalmano \parencite{bk_goyal2018deep}. Otra definición para este término implica que es un campo especializado de la informática que es
-%
-% De acuerdo con \citet{bk_goyal2018deep}, e
- 
+Random Forest es un algoritmo de aprendizaje supervisado basado en técnicas de ensamble, propuesto por Leo Breiman en 2001. Su principio fundamental consiste en construir múltiples árboles de decisión durante el entrenamiento y combinar sus predicciones para obtener un modelo más robusto y con mayor capacidad de generalización.
+
+Este algoritmo es ampliamente utilizado en problemas de clasificación y regresión debido a su capacidad para reducir el sobreajuste que suele presentarse en árboles de decisión individuales. Además, Random Forest presenta buen desempeño frente a datos con alta dimensionalidad, ruido y relaciones no lineales entre variables.(\cite{breiman2001randomforest})
+
+
+Random Forest pertenece a la familia de métodos \textit{bagging} (\textit{bootstrap aggregating}). El procedimiento consiste en generar múltiples subconjuntos de entrenamiento mediante muestreo aleatorio con reemplazo a partir del conjunto de datos original.
+
+Para cada subconjunto se entrena un árbol de decisión independiente. Durante la construcción de cada nodo, el algoritmo selecciona aleatoriamente un subconjunto de variables predictoras, lo cual introduce diversidad entre los árboles.
+
+En problemas de clasificación, la predicción final se obtiene mediante votación mayoritaria entre los árboles. En problemas de regresión, la salida final corresponde al promedio de las predicciones individuales.
+
+
+Sea un conjunto de entrenamiento:
+
+\begin{equation}
+	D = \{(x_i, y_i)\}_{i=1}^{n}
+\end{equation}
+
+donde $x_i$ representa el vector de variables de entrada y $y_i$ la variable objetivo.
+
+Se generan $B$ muestras bootstrap del conjunto de entrenamiento, y para cada muestra se entrena un árbol de decisión $h_b(x)$.
+
+En problemas de clasificación, la predicción final se define como:
+
+\begin{equation}
+	\hat{y} = \operatorname{mode}\{h_1(x), h_2(x), \dots, h_B(x)\}
+\end{equation}
+
+donde $\operatorname{mode}$ representa la clase más frecuentemente predicha por los árboles.
+
+En problemas de regresión, la predicción final se obtiene mediante el promedio:
+
+\begin{equation}
+	\hat{y} = \frac{1}{B}\sum_{b=1}^{B} h_b(x)
+\end{equation}
+
+Durante la construcción de cada árbol, en cada nodo se selecciona aleatoriamente un subconjunto de $m$ variables entre las $p$ variables disponibles, con la restricción:
+
+\begin{equation}
+	m < p
+\end{equation}
+
+Este proceso reduce la correlación entre los árboles y mejora la capacidad de generalización del modelo.
+
+\subsubsection{K-Nearest Neighbors}
+
+K-Nearest Neighbors (KNN) es un algoritmo de aprendizaje supervisado utilizado en problemas de clasificación y regresión. Fue propuesto como un método no paramétrico basado en la similitud entre observaciones, donde la predicción de una nueva instancia se realiza a partir de los ejemplos más cercanos presentes en el conjunto de entrenamiento.Una de las principales características de KNN es que no construye explícitamente un modelo durante la fase de entrenamiento. En lugar de ello, almacena los datos observados y realiza el proceso de inferencia cuando se presenta una nueva observación. Debido a su simplicidad conceptual y facilidad de implementación, es uno de los algoritmos fundamentales dentro del aprendizaje automático.
+
+El principio de funcionamiento de KNN consiste en identificar las $k$ observaciones del conjunto de entrenamiento más cercanas a una nueva observación, de acuerdo con una medida de distancia definida previamente.
+En problemas de clasificación, la clase asignada corresponde a la categoría mayoritaria entre los vecinos más próximos. En problemas de regresión, la predicción se obtiene como el promedio de los valores de dichos vecinos.
+El desempeño del algoritmo depende principalmente de tres factores: el valor de $k$, la métrica de distancia utilizada y la escala de las variables predictoras. (\cite{hastie2009elementsKNN})
+
+
+Sea un conjunto de entrenamiento definido como:
+
+\begin{equation}
+	D = \{(x_i, y_i)\}_{i=1}^{n}
+\end{equation}
+
+donde $x_i \in \mathbb{R}^{p}$ representa el vector de características y $y_i$ la variable objetivo asociada.
+
+Dada una nueva observación $x$, se calcula la distancia entre $x$ y cada observación del conjunto de entrenamiento. Una de las métricas más utilizadas es la distancia euclidiana:
+
+\begin{equation}
+	d(x, x_i) = \sqrt{\sum_{j=1}^{p}(x_j - x_{ij})^2}
+\end{equation}
+
+Posteriormente, se seleccionan los $k$ vecinos más cercanos:
+
+\begin{equation}
+	N_k(x) = \{x_{(1)}, x_{(2)}, \dots, x_{(k)}\}
+\end{equation}
+
+donde $x_{(j)}$ representa la observación correspondiente al $j$-ésimo vecino más próximo.
+
+En problemas de clasificación, la predicción se obtiene mediante votación mayoritaria:
+
+\begin{equation}
+	\hat{y} = \operatorname{mode}\{y_i : x_i \in N_k(x)\}
+\end{equation}
+
+En problemas de regresión, la predicción se define como el promedio de las respuestas de los vecinos seleccionados:
+
+\begin{equation}
+	\hat{y} = \frac{1}{k} \sum_{x_i \in N_k(x)} y_i
+\end{equation}
+
+El valor de $k$ controla el grado de suavizado del modelo. Valores pequeños pueden generar alta sensibilidad al ruido, mientras que valores grandes tienden a producir fronteras de decisión más estables.
+
+
+
+\subsubsection{Holt-Winters}
+
+El método de Holt-Winters es una técnica de suavizamiento exponencial utilizada para el análisis y pronóstico de series temporales que presentan tendencia y estacionalidad. Fue desarrollado como una extensión del método de suavizamiento exponencial de Holt, incorporando un componente adicional que permite modelar patrones estacionales recurrentes.
+
+Este método es ampliamente utilizado en problemas de pronóstico de demanda, ventas, consumo energético y otras aplicaciones donde los datos presentan comportamiento temporal estructurado. Su principal ventaja radica en su capacidad para capturar simultáneamente nivel, tendencia y estacionalidad dentro de una misma formulación.(\cite{hyndman2018forecastingHW})
+
+
+El método de Holt-Winters descompone una serie temporal en tres componentes fundamentales:
+
+\begin{itemize}
+	\item nivel (\(l_t\))
+	\item tendencia (\(b_t\))
+	\item estacionalidad (\(s_t\))
+\end{itemize}
+
+En cada instante de tiempo, estos componentes se actualizan utilizando ponderaciones exponenciales, otorgando mayor importancia a las observaciones recientes.
+
+Existen dos variantes principales del método: aditiva y multiplicativa. La versión aditiva se utiliza cuando la magnitud de la estacionalidad permanece aproximadamente constante en el tiempo, mientras que la versión multiplicativa es apropiada cuando la amplitud estacional varía proporcionalmente con el nivel de la serie.
+
+
+Sea \(y_t\) una serie temporal observada en el instante \(t\), y sea \(m\) la longitud del período estacional.
+
+En la versión aditiva, las ecuaciones de actualización son las siguientes.
+
+Actualización del nivel:
+
+\begin{equation}
+	l_t = \alpha (y_t - s_{t-m}) + (1-\alpha)(l_{t-1} + b_{t-1})
+\end{equation}
+
+Actualización de la tendencia:
+
+\begin{equation}
+	b_t = \beta (l_t - l_{t-1}) + (1-\beta)b_{t-1}
+\end{equation}
+
+Actualización de la estacionalidad:
+
+\begin{equation}
+	s_t = \gamma (y_t - l_t) + (1-\gamma)s_{t-m}
+\end{equation}
+
+donde:
+
+\begin{itemize}
+	\item \(l_t\) representa el nivel de la serie en el instante \(t\)
+	\item \(b_t\) representa la tendencia
+	\item \(s_t\) representa el componente estacional
+	\item \(\alpha\), \(\beta\) y \(\gamma\) son parámetros de suavizamiento tales que \(0 < \alpha, \beta, \gamma < 1\)
+\end{itemize}
+
+El pronóstico para \(h\) períodos hacia adelante se calcula mediante:
+
+\begin{equation}
+	\hat{y}_{t+h} = l_t + hb_t + s_{t-m+h_m}
+\end{equation}
+
+donde:
+
+\begin{equation}
+	h_m = ((h-1) \bmod m) + 1
+\end{equation}
+
+En la variante multiplicativa, el componente estacional interviene de forma proporcional.
+
+Actualización del nivel:
+
+\begin{equation}
+	l_t = \alpha \left(\frac{y_t}{s_{t-m}}\right) + (1-\alpha)(l_{t-1}+b_{t-1})
+\end{equation}
+
+Actualización de la estacionalidad:
+
+\begin{equation}
+	s_t = \gamma \left(\frac{y_t}{l_t}\right) + (1-\gamma)s_{t-m}
+\end{equation}
+
+Pronóstico:
+
+\begin{equation}
+	\hat{y}_{t+h} = (l_t + hb_t)\, s_{t-m+h_m}
+\end{equation}
+
+
+
+\subsubsection{Naive}
+
+El método Naive es una técnica básica de pronóstico de series temporales utilizada como referencia en modelos de predicción. Su principio consiste en asumir que el valor futuro de una variable será igual al valor observado en el período inmediatamente anterior.
+
+A pesar de su simplicidad, el método Naive posee gran importancia práctica, ya que suele emplearse como modelo base de comparación para evaluar el desempeño de métodos de pronóstico más complejos. En numerosas aplicaciones, especialmente cuando la serie presenta alta persistencia temporal, puede producir resultados competitivos.(\cite{hyndman2018forecastingNV})
+
+
+El enfoque del método Naive parte del supuesto de que la mejor estimación del siguiente valor observado es el último valor disponible de la serie.
+
+Este procedimiento no requiere estimación de parámetros ni entrenamiento de modelos. La información histórica se resume únicamente en la observación más reciente.
+
+En series temporales con estacionalidad también existe una variante denominada \textit{Seasonal Naive}, en la cual el valor futuro se estima utilizando el valor correspondiente al mismo período estacional anterior.
+
+
+Sea \(y_t\) una serie temporal observada en el instante \(t\).
+
+El pronóstico de un período hacia adelante se define como:
+
+\begin{equation}
+	\hat{y}_{t+1} = y_t
+\end{equation}
+
+De forma general, el pronóstico para \(h\) períodos hacia adelante está dado por:
+
+\begin{equation}
+	\hat{y}_{t+h} = y_t
+\end{equation}
+
+Esto implica que todas las predicciones futuras corresponden al último valor observado de la serie.
+
+En el caso de series temporales estacionales, sea \(m\) la longitud del período estacional. El método Seasonal Naive se define como:
+
+\begin{equation}
+	\hat{y}_{t+h} = y_{t+h-m}
+\end{equation}
+
+donde el pronóstico se obtiene utilizando el valor observado en el mismo período de la estación anterior.
+
+Este método es especialmente útil como línea base de comparación, ya que permite determinar si modelos más sofisticados aportan mejoras reales en capacidad predictiva.
+
+\subsection{Computación en la nube}
+
+
+La computación en la nube (\textit{cloud computing}) es un modelo de provisión de recursos informáticos bajo demanda a través de internet. Permite acceder a capacidad de procesamiento, almacenamiento, redes y servicios de software sin necesidad de que la organización mantenga infraestructura física propia.
+
+De acuerdo con el National Institute of Standards and Technology (NIST), este paradigma se caracteriza por acceso ubicuo a recursos compartidos, aprovisionamiento rápido, elasticidad y escalabilidad. Estas propiedades permiten que los sistemas se adapten dinámicamente a variaciones en carga de trabajo, volumen de datos y número de usuarios.
+
+En proyectos de analítica de datos y pronóstico, la computación en la nube facilita el despliegue de aplicaciones que integran procesamiento, visualización y acceso remoto a resultados. Además, favorece la reproducibilidad, la disponibilidad y la colaboración entre usuarios, lo cual resulta especialmente relevante en entornos de investigación aplicada.
+
+\subsection{Streamlit}
+
+Streamlit es un framework de código abierto orientado al desarrollo de aplicaciones web interactivas para ciencia de datos y aprendizaje automático utilizando el lenguaje Python.
+
+Su principal característica consiste en permitir la construcción de interfaces de usuario de manera declarativa y con bajo nivel de complejidad técnica. A partir de scripts en Python, es posible integrar visualizaciones, tablas, métricas, formularios y componentes interactivos que facilitan la exploración de datos y la presentación de resultados analíticos.
+
+En el contexto de una investigación orientada a pronóstico, Streamlit permite materializar los modelos desarrollados en una aplicación accesible mediante navegador web, facilitando la interacción con usuarios finales y la consulta de resultados en tiempo real.
+
+\subsection{Gestión de inventarios}
+
+La gestión de inventarios comprende el conjunto de actividades orientadas a planificar, controlar y administrar los niveles de existencias dentro de una organización. Su finalidad consiste en asegurar la disponibilidad de productos para atender la demanda, minimizando simultáneamente costos asociados al almacenamiento, reposición, faltantes y pérdidas.(\cite{chopra2019supply})
+
+En empresas comerciales, una adecuada gestión de inventarios permite mantener equilibrio entre el nivel de servicio al cliente y la eficiencia operativa. Cuando los niveles de inventario son insuficientes pueden producirse quiebres de stock y pérdida de ventas; por el contrario, cuando los niveles son excesivos se incrementan los costos de almacenamiento, inmovilización de capital y riesgo de obsolescencia o deterioro.
+
+\subsubsection{Abastecimiento}
+
+El abastecimiento es el proceso mediante el cual una organización planifica, adquiere y repone los bienes necesarios para garantizar la continuidad de sus operaciones. Este proceso comprende actividades como la planificación de requerimientos, selección de proveedores, programación de pedidos y seguimiento de entregas.
+
+En el contexto comercial, las decisiones de abastecimiento dependen en gran medida de la estimación de la demanda futura. Un proceso de abastecimiento basado en información predictiva permite reducir incertidumbre, mejorar la disponibilidad de productos y optimizar la asignación de recursos destinados a compras.
+
+\subsubsection{Productos perecibles}
+
+Los productos perecibles son bienes que presentan una vida útil limitada y cuya calidad se deteriora progresivamente con el transcurso del tiempo. Debido a esta característica, su almacenamiento prolongado incrementa la probabilidad de pérdidas económicas asociadas a vencimiento, deterioro físico o reducción de valor comercial.
+
+La gestión de productos perecibles requiere especial atención en la planificación de inventarios, ya que las decisiones de reposición deben considerar simultáneamente la demanda esperada, la frecuencia de abastecimiento y el horizonte de conservación del producto.
+
+En empresas dedicadas a la comercialización de productos perecibles, un pronóstico adecuado de la demanda permite reducir desperdicios, mejorar la disponibilidad y contribuir a una operación más eficiente.
+
+
+\subsubsection{Rotación de inventarios}
+
+La rotación de inventarios es un indicador que mide la frecuencia con que los productos son vendidos y repuestos durante un período determinado. Este indicador permite evaluar la velocidad de movimiento de los inventarios y el grado de eficiencia en la utilización de los recursos almacenados.\cite{heizer2017operations}
+
+Matemáticamente, la rotación de inventarios puede expresarse como:
+
+\begin{equation}
+	\text{Rotación de inventarios} =
+	\frac{\text{Costo de ventas}}{\text{Inventario promedio}}
+\end{equation}
+
+Un valor alto de rotación generalmente indica que los productos tienen mayor dinamismo comercial y menor permanencia en almacén. En productos perecibles, una adecuada rotación contribuye a disminuir riesgos de vencimiento y deterioro.
