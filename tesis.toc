@@ -38,7 +38,7 @@
 \contentsline {subsubsection}{\numberline {2.1.4.1}Planteamiento del Problema y Objetivo}{26}{subsubsection.2.1.4.1}%
 \contentsline {subsubsection}{\numberline {2.1.4.2}Base de Datos}{26}{subsubsection.2.1.4.2}%
 \contentsline {subsubsection}{\numberline {2.1.4.3}Metodología Empleada por los Autores}{27}{subsubsection.2.1.4.3}%
-\contentsline {subsubsection}{\numberline {2.1.4.4}Resultados Obtenidos}{28}{subsubsection.2.1.4.4}%
+\contentsline {subsubsection}{\numberline {2.1.4.4}Resultados Obtenidos}{27}{subsubsection.2.1.4.4}%
 \contentsline {subsection}{\numberline {2.1.5}Time‑series analysis with smoothed Convolutional Neural Network}{29}{subsection.2.1.5}%
 \contentsline {subsubsection}{\numberline {2.1.5.1}Planteamiento del Problema y objetivo }{29}{subsubsection.2.1.5.1}%
 \contentsline {subsubsection}{\numberline {2.1.5.2}Base de datos de los autores}{30}{subsubsection.2.1.5.2}%
@@ -77,93 +77,112 @@
 \contentsline {subsubsection}{\numberline {2.1.11.3}Metodología empleada por los autores}{50}{subsubsection.2.1.11.3}%
 \contentsline {subsubsection}{\numberline {2.1.11.4}Resultados obtenidos}{52}{subsubsection.2.1.11.4}%
 \contentsline {section}{\numberline {2.2}Bases Teóricas}{53}{section.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.0.1}Gradient Boosting}{53}{subsubsection.2.2.0.1}%
-\contentsline {subsubsection}{\numberline {2.2.0.2}Prophet}{54}{subsubsection.2.2.0.2}%
-\contentsline {subsubsection}{\numberline {2.2.0.3}XGBoost}{55}{subsubsection.2.2.0.3}%
-\contentsline {subsubsection}{\numberline {2.2.0.4}Random Forest}{57}{subsubsection.2.2.0.4}%
-\contentsline {subsubsection}{\numberline {2.2.0.5}K-Nearest Neighbors}{58}{subsubsection.2.2.0.5}%
-\contentsline {subsubsection}{\numberline {2.2.0.6}Holt-Winters}{60}{subsubsection.2.2.0.6}%
-\contentsline {subsubsection}{\numberline {2.2.0.7}Naive}{62}{subsubsection.2.2.0.7}%
-\contentsline {subsection}{\numberline {2.2.1}Computación en la nube}{63}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Streamlit}{63}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Gestión de inventarios}{63}{subsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.3.1}Abastecimiento}{64}{subsubsection.2.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.2.3.2}Productos perecibles}{64}{subsubsection.2.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.2.3.3}Rotación de inventarios}{65}{subsubsection.2.2.3.3}%
-\contentsline {section}{\numberline {2.3}Marco Conceptual}{65}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Predicción}{65}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Pronóstico de demanda}{65}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Sobrestock}{65}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Toma de decisiones}{66}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Quiebre de stock}{66}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Modelos de regresión}{66}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.3.7}Modelos de clasificación}{66}{subsection.2.3.7}%
-\contentsline {subsection}{\numberline {2.3.8}Abastecimiento}{66}{subsection.2.3.8}%
-\contentsline {subsection}{\numberline {2.3.9}Precisión del modelo}{66}{subsection.2.3.9}%
-\contentsline {subsection}{\numberline {2.3.10}Aprovisionamiento}{67}{subsection.2.3.10}%
-\contentsline {subsection}{\numberline {2.3.11}Eficiencia}{67}{subsection.2.3.11}%
-\contentsline {subsection}{\numberline {2.3.12}Gestión logística}{67}{subsection.2.3.12}%
-\contentsline {subsection}{\numberline {2.3.13}Eficacia}{67}{subsection.2.3.13}%
-\contentsline {subsection}{\numberline {2.3.14}Series temporales}{67}{subsection.2.3.14}%
-\contentsline {subsection}{\numberline {2.3.15}Especificidad}{68}{subsection.2.3.15}%
-\contentsline {subsection}{\numberline {2.3.16}Automatización}{68}{subsection.2.3.16}%
-\contentsline {subsection}{\numberline {2.3.17}Validación cruzada}{68}{subsection.2.3.17}%
-\contentsline {section}{\numberline {2.4}Machine Learning}{68}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Algoritmo de pronóstico}{68}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Red neuronal artificial}{68}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Datos históricos}{69}{subsection.2.4.3}%
-\contentsline {chapter}{\numberline {3}ENTORNO EMPRESARIAL}{70}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Descripción de la empresa}{70}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Reseña histórica y actividad económica}{70}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Descripción de la organización}{71}{subsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.2.1}Organigrama}{71}{subsubsection.3.1.2.1}%
-\contentsline {subsection}{\numberline {3.1.3}Datos generales estratégicos de la empresa}{72}{subsection.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.3.1}Visión, misión y valores o principios}{72}{subsubsection.3.1.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.3.2}Objetivos estratégicos}{73}{subsubsection.3.1.3.2}%
-\contentsline {subsubsection}{\numberline {3.1.3.3}Evaluación interna y externa. FODA}{74}{subsubsection.3.1.3.3}%
-\contentsline {subsection}{\numberline {3.1.4}Modelo de negocio actual (CANVAS)}{80}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}Mapa de procesos actual}{80}{subsection.3.1.5}%
-\contentsline {chapter}{\numberline {4}METODOLOGÍA DE LA INVESTIGACIÓN}{81}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Diseño de la investigación}{81}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Enfoque}{81}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Alcance}{81}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Tipo}{82}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Población y muestra}{82}{subsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.1.5}Unidad de análisis}{82}{subsection.4.1.5}%
-\contentsline {section}{\numberline {4.2}Técnicas de recolección de datos}{83}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Técnicas para el procesamiento y análisis de la información}{85}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Metodología de la implementación de la solución}{86}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Comprensión del negocio}{87}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Comprensión de los datos}{89}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Procesamiento}{95}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Transformación}{95}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}Modelamiento}{95}{subsection.4.3.6}%
-\contentsline {subsection}{\numberline {4.3.7}Evaluación}{101}{subsection.4.3.7}%
-\contentsline {subsection}{\numberline {4.3.8}Despliegue}{102}{subsection.4.3.8}%
-\contentsline {section}{\numberline {4.4}Metodología para la medición de resultados de la implementación}{104}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Raíz del error cuadrático medio (RMSE)}{104}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Error cuadrático medio (MSE)}{104}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Error Porcentual Absoluto Medio (MAPE)}{105}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}MAE (Mean Absolute Error): }{105}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}Coeficiente de determinación}{105}{subsection.4.4.5}%
-\contentsline {section}{\numberline {4.5}Cronograma de actividades y presupuesto}{106}{section.4.5}%
-\contentsline {chapter}{\numberline {5}DESARROLLO DEL EXPERIMENTO}{108}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Determinación y evaluación de alternativas de solución}{108}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Propuesta solución}{110}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Planeamiento y descripción de actividades}{111}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Adquirir Base de Datos}{111}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Preprocesamiento de datos}{112}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Selección de algoritmos a utilizar}{113}{subsection.5.3.3}%
-\contentsline {subsubsection}{\numberline {5.3.3.1}Proceso de Entrenamiento y Evaluación de Modelos}{113}{subsubsection.5.3.3.1}%
-\contentsline {subsection}{\numberline {5.3.4}Definir parámetros}{114}{subsection.5.3.4}%
-\contentsline {section}{\numberline {5.4}Desarrollo de actividades. Aplicación de herramientas de solución}{115}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Preprocesamiento de datos}{115}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Selección de Columnas relevantes}{115}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Seleccionamos los modelos a utilizar}{117}{subsection.5.4.3}%
-\contentsline {section}{\numberline {5.5}Medición de la solución}{119}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Simulación de la predicción}{120}{subsection.5.5.1}%
-\contentsline {chapter}{\numberline {6}ANÁLISIS DE RESULTADOS}{122}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Resultados}{122}{section.6.1}%
-\contentsline {chapter}{\numberline {7}CONCLUSIONES}{125}{chapter.7}%
-\contentsline {chapter}{Anexos}{126}{section*.49}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{129}{appendix*.52}%
+\contentsline {subsection}{\numberline {2.2.1}Gestión de la cadena de suministro de productos perecibles}{53}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Logística de mercancías en descomposición}{53}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Administración de existencias}{53}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Control de calidad y seguridad alimentaria}{53}{subsubsection.2.2.1.3}%
+\contentsline {subsection}{\numberline {2.2.2}Machine Learning}{54}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Árboles de decisión}{54}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Regresión lineal}{54}{subsubsection.2.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.3}Support Vector Regression}{55}{subsubsection.2.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.2.4}Long Short-Term Memory Network (LSTM)}{56}{subsubsection.2.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.2.5}Prophet}{57}{subsubsection.2.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.2.6}Autoregressive Integrated Moving Average (ARIMA)}{59}{subsubsection.2.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.3}Modelos predictivos de demanda}{59}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Análisis de secuencias temporales}{59}{subsubsection.2.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}Inteligencia artificial y exploración de datos}{59}{subsubsection.2.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.2.3.3}Confirmación y optimización de modelos}{60}{subsubsection.2.2.3.3}%
+\contentsline {subsection}{\numberline {2.2.4}Series de tiempo}{60}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Tipos de series temporales}{60}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Elementos de la serie de tiempo}{61}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Aplicación de las series de tiempo}{62}{subsection.2.2.7}%
+\contentsline {subsubsection}{\numberline {2.2.7.1}Gradient Boosting}{63}{subsubsection.2.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.2.7.2}Prophet}{64}{subsubsection.2.2.7.2}%
+\contentsline {subsubsection}{\numberline {2.2.7.3}XGBoost}{66}{subsubsection.2.2.7.3}%
+\contentsline {subsubsection}{\numberline {2.2.7.4}Random Forest}{67}{subsubsection.2.2.7.4}%
+\contentsline {subsubsection}{\numberline {2.2.7.5}K-Nearest Neighbors}{69}{subsubsection.2.2.7.5}%
+\contentsline {subsubsection}{\numberline {2.2.7.6}Holt-Winters}{70}{subsubsection.2.2.7.6}%
+\contentsline {subsubsection}{\numberline {2.2.7.7}Naive}{72}{subsubsection.2.2.7.7}%
+\contentsline {subsection}{\numberline {2.2.8}Computación en la nube}{73}{subsection.2.2.8}%
+\contentsline {subsection}{\numberline {2.2.9}Streamlit}{73}{subsection.2.2.9}%
+\contentsline {subsection}{\numberline {2.2.10}Gestión de inventarios}{74}{subsection.2.2.10}%
+\contentsline {subsubsection}{\numberline {2.2.10.1}Abastecimiento}{74}{subsubsection.2.2.10.1}%
+\contentsline {subsubsection}{\numberline {2.2.10.2}Productos perecibles}{74}{subsubsection.2.2.10.2}%
+\contentsline {subsubsection}{\numberline {2.2.10.3}Rotación de inventarios}{75}{subsubsection.2.2.10.3}%
+\contentsline {section}{\numberline {2.3}Marco Conceptual}{75}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Predicción}{75}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Pronóstico de demanda}{75}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Sobrestock}{76}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Toma de decisiones}{76}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Quiebre de stock}{76}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Modelos de regresión}{76}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Modelos de clasificación}{76}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.8}Abastecimiento}{76}{subsection.2.3.8}%
+\contentsline {subsection}{\numberline {2.3.9}Precisión del modelo}{77}{subsection.2.3.9}%
+\contentsline {subsection}{\numberline {2.3.10}Aprovisionamiento}{77}{subsection.2.3.10}%
+\contentsline {subsection}{\numberline {2.3.11}Eficiencia}{77}{subsection.2.3.11}%
+\contentsline {subsection}{\numberline {2.3.12}Gestión logística}{77}{subsection.2.3.12}%
+\contentsline {subsection}{\numberline {2.3.13}Eficacia}{77}{subsection.2.3.13}%
+\contentsline {subsection}{\numberline {2.3.14}Series temporales}{78}{subsection.2.3.14}%
+\contentsline {subsection}{\numberline {2.3.15}Especificidad}{78}{subsection.2.3.15}%
+\contentsline {subsection}{\numberline {2.3.16}Automatización}{78}{subsection.2.3.16}%
+\contentsline {subsection}{\numberline {2.3.17}Validación cruzada}{78}{subsection.2.3.17}%
+\contentsline {section}{\numberline {2.4}Machine Learning}{78}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Algoritmo de pronóstico}{78}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Red neuronal artificial}{79}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Datos históricos}{79}{subsection.2.4.3}%
+\contentsline {chapter}{\numberline {3}ENTORNO EMPRESARIAL}{80}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Descripción de la empresa}{80}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Reseña histórica y actividad económica}{80}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Descripción de la organización}{81}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Organigrama}{81}{subsubsection.3.1.2.1}%
+\contentsline {subsection}{\numberline {3.1.3}Datos generales estratégicos de la empresa}{82}{subsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}Visión, misión y valores o principios}{82}{subsubsection.3.1.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.3.2}Objetivos estratégicos}{83}{subsubsection.3.1.3.2}%
+\contentsline {subsubsection}{\numberline {3.1.3.3}Evaluación interna y externa. FODA}{84}{subsubsection.3.1.3.3}%
+\contentsline {subsection}{\numberline {3.1.4}Modelo de negocio actual (CANVAS)}{90}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Mapa de procesos actual}{90}{subsection.3.1.5}%
+\contentsline {chapter}{\numberline {4}METODOLOGÍA DE LA INVESTIGACIÓN}{91}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Diseño de la investigación}{91}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Enfoque}{91}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Alcance}{91}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Tipo}{92}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Población y muestra}{92}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Unidad de análisis}{92}{subsection.4.1.5}%
+\contentsline {section}{\numberline {4.2}Técnicas de recolección de datos}{93}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Técnicas para el procesamiento y análisis de la información}{95}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Metodología de la implementación de la solución}{96}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Comprensión del negocio}{97}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Comprensión de los datos}{99}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Procesamiento}{105}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Transformación}{105}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Modelamiento}{105}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}Evaluación}{111}{subsection.4.3.7}%
+\contentsline {subsection}{\numberline {4.3.8}Despliegue}{112}{subsection.4.3.8}%
+\contentsline {section}{\numberline {4.4}Metodología para la medición de resultados de la implementación}{114}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Raíz del error cuadrático medio (RMSE)}{114}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Error cuadrático medio (MSE)}{114}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Error Porcentual Absoluto Medio (MAPE)}{115}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}MAE (Mean Absolute Error): }{115}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Coeficiente de determinación}{115}{subsection.4.4.5}%
+\contentsline {section}{\numberline {4.5}Cronograma de actividades y presupuesto}{116}{section.4.5}%
+\contentsline {chapter}{\numberline {5}DESARROLLO DEL EXPERIMENTO}{118}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Determinación y evaluación de alternativas de solución}{118}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Propuesta solución}{120}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Planeamiento y descripción de actividades}{121}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Adquirir Base de Datos}{121}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Preprocesamiento de datos}{122}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Selección de algoritmos a utilizar}{123}{subsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.3.1}Proceso de Entrenamiento y Evaluación de Modelos}{123}{subsubsection.5.3.3.1}%
+\contentsline {subsection}{\numberline {5.3.4}Definir parámetros}{124}{subsection.5.3.4}%
+\contentsline {section}{\numberline {5.4}Desarrollo de actividades. Aplicación de herramientas de solución}{125}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Preprocesamiento de datos}{125}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Selección de Columnas relevantes}{125}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Seleccionamos los modelos a utilizar}{127}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}Medición de la solución}{129}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Simulación de la predicción}{130}{subsection.5.5.1}%
+\contentsline {chapter}{\numberline {6}ANÁLISIS DE RESULTADOS}{132}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Resultados}{132}{section.6.1}%
+\contentsline {chapter}{\numberline {7}CONCLUSIONES}{135}{chapter.7}%
+\contentsline {chapter}{Anexos}{136}{section*.54}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{139}{appendix*.57}%

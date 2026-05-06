@@ -121,7 +121,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Introduction to time series and forecasting}
       \field{year}{2002}
-      \true{nocite}
     \endentry
     \entry{brownlee2017long}{book}{}{}
       \name{author}{1}{}{%
@@ -152,7 +151,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Long Short-Term Memory Networks With Python: Develop Sequence Prediction Models with Deep Learning}
       \field{year}{2017}
-      \true{nocite}
       \verb{urlraw}
       \verb https://books.google.com.pe/books?id=m7SoDwAAQBAJ
       \endverb
@@ -705,7 +703,6 @@
       \field{series}{Lecture Notes in Electrical Engineering}
       \field{title}{Advanced Machine Intelligence and Signal Processing}
       \field{year}{2022}
-      \true{nocite}
       \verb{urlraw}
       \verb https://books.google.com.pe/books?id=SUp3EAAAQBAJ
       \endverb
@@ -1239,7 +1236,6 @@
       \field{series}{McGraw-Hill International Editions}
       \field{title}{Machine Learning}
       \field{year}{1997}
-      \true{nocite}
       \verb{urlraw}
       \verb https://books.google.com.pe/books?id=EoYBngEACAAJ
       \endverb
@@ -1321,7 +1317,6 @@
       \field{series}{Wiley Series in Probability and Statistics}
       \field{title}{Introduction to Linear Regression Analysis}
       \field{year}{2013}
-      \true{nocite}
       \verb{urlraw}
       \verb https://books.google.com.pe/books?id=lSyiRZh09oEC
       \endverb
@@ -1460,7 +1455,6 @@
       \field{title}{Pronóstico de ventas usando redes neuronales}
       \field{volume}{10}
       \field{year}{2004}
-      \true{nocite}
       \field{pages}{25\bibrangedash 30}
       \range{pages}{6}
     \endentry
@@ -2111,7 +2105,6 @@
       \field{series}{Studies in Fuzziness and Soft Computing}
       \field{title}{Support Vector Machines: Theory and Applications}
       \field{year}{2005}
-      \true{nocite}
       \verb{urlraw}
       \verb https://books.google.com.pe/books?id=uTzMPJjVjsMC
       \endverb
@@ -2323,7 +2316,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Introduction to time series and forecasting}
       \field{year}{2002}
-      \true{nocite}
     \endentry
     \entry{brownlee2017long}{book}{}{}
       \name{author}{1}{}{%
@@ -2354,7 +2346,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Long Short-Term Memory Networks With Python: Develop Sequence Prediction Models with Deep Learning}
       \field{year}{2017}
-      \true{nocite}
       \verb{urlraw}
       \verb https://books.google.com.pe/books?id=m7SoDwAAQBAJ
       \endverb
@@ -2907,7 +2898,6 @@
       \field{series}{Lecture Notes in Electrical Engineering}
       \field{title}{Advanced Machine Intelligence and Signal Processing}
       \field{year}{2022}
-      \true{nocite}
       \verb{urlraw}
       \verb https://books.google.com.pe/books?id=SUp3EAAAQBAJ
       \endverb
@@ -3441,7 +3431,6 @@
       \field{series}{McGraw-Hill International Editions}
       \field{title}{Machine Learning}
       \field{year}{1997}
-      \true{nocite}
       \verb{urlraw}
       \verb https://books.google.com.pe/books?id=EoYBngEACAAJ
       \endverb
@@ -3523,7 +3512,6 @@
       \field{series}{Wiley Series in Probability and Statistics}
       \field{title}{Introduction to Linear Regression Analysis}
       \field{year}{2013}
-      \true{nocite}
       \verb{urlraw}
       \verb https://books.google.com.pe/books?id=lSyiRZh09oEC
       \endverb
@@ -3662,7 +3650,6 @@
       \field{title}{Pronóstico de ventas usando redes neuronales}
       \field{volume}{10}
       \field{year}{2004}
-      \true{nocite}
       \field{pages}{25\bibrangedash 30}
       \range{pages}{6}
     \endentry
@@ -4313,7 +4300,6 @@
       \field{series}{Studies in Fuzziness and Soft Computing}
       \field{title}{Support Vector Machines: Theory and Applications}
       \field{year}{2005}
-      \true{nocite}
       \verb{urlraw}
       \verb https://books.google.com.pe/books?id=uTzMPJjVjsMC
       \endverb

@@ -1,20 +1,20 @@
-[0] Config.pm:308> INFO - This is Biber 2.20
-[0] Config.pm:311> INFO - Logfile is 'tesis.blg'
-[222] biber-MSWIN64:340> INFO - === 
-[282] Biber.pm:420> INFO - Reading 'tesis.bcf'
-[538] Biber.pm:991> INFO - Using all citekeys in bib section 0
-[575] Biber.pm:4463> INFO - Processing section 0
-[611] Biber.pm:4654> INFO - Looking for bibtex file 'tesisblx.bib' for section 0
-[688] bibtex.pm:1713> INFO - LaTeX decoding ...
-[799] bibtex.pm:1519> INFO - Found BibTeX data source 'tesisblx.bib'
-[1424] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1424] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1424] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[1631] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1631] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1631] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[1758] bbl.pm:676> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
-[1884] bbl.pm:779> INFO - Output to tesis.bbl
-[1884] Biber.pm:131> WARN - Duplicate entry key: 'brownlee2017long' in file 'tesisblx.bib', skipping ...
-[1884] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\jpca0\AppData\Local\Temp\biber_tmp_mDCf\46924ae3baff336aad9f6db1308bd2e7_37452.utf8, line 429, warning: 52 characters of junk seen at toplevel
-[1884] Biber.pm:133> INFO - WARNINGS: 2
+[1] Config.pm:308> INFO - This is Biber 2.20
+[2] Config.pm:311> INFO - Logfile is 'tesis.blg'
+[1443] biber-MSWIN64:340> INFO - === 
+[1905] Biber.pm:420> INFO - Reading 'tesis.bcf'
+[2967] Biber.pm:991> INFO - Using all citekeys in bib section 0
+[3118] Biber.pm:4463> INFO - Processing section 0
+[3273] Biber.pm:4654> INFO - Looking for bibtex file 'tesisblx.bib' for section 0
+[3552] bibtex.pm:1713> INFO - LaTeX decoding ...
+[3951] bibtex.pm:1519> INFO - Found BibTeX data source 'tesisblx.bib'
+[6355] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[6355] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[6356] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[7014] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[7014] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[7015] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[7521] bbl.pm:676> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
+[7939] bbl.pm:779> INFO - Output to tesis.bbl
+[7940] Biber.pm:131> WARN - Duplicate entry key: 'brownlee2017long' in file 'tesisblx.bib', skipping ...
+[7940] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\jpca0\AppData\Local\Temp\biber_tmp_luU2\46924ae3baff336aad9f6db1308bd2e7_21964.utf8, line 429, warning: 52 characters of junk seen at toplevel
+[7941] Biber.pm:133> INFO - WARNINGS: 2

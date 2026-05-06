@@ -89,6 +89,7 @@ Por lo tanto, el objetivo principal del estudio es analizar y comparar el desemp
 Para el desarrollo del estudio, los autores utilizaron el \textit{Bitcoin Historical Dataset}, el cual contiene información histórica desde el 1 de enero de 2012 hasta el 31 de diciembre de 2020 \cite{wadalkar2021}.
 
 Este conjunto de datos incluye:
+\begin{multicols}{2}
 \begin{itemize}
     \item Precios de apertura (Open)
     \item Precio máximo (High)
@@ -97,6 +98,7 @@ Este conjunto de datos incluye:
     \item Volumen de transacciones de Bitcoin
     \item Volumen en moneda correspondiente
 \end{itemize}
+\end{multicols}
 
 Estos datos son fundamentales para el análisis de series temporales, ya que permiten identificar patrones históricos y tendencias del comportamiento del mercado.
 
@@ -124,11 +126,12 @@ El proceso metodológico incluyó las siguientes etapas:
 Además, los autores implementaron una mejora metodológica importante al dividir los datos en intervalos pequeños y realizar predicciones de corto plazo (2 días), lo cual permitió mejorar la precisión de los modelos \cite{wadalkar2021}.
 
 Para evaluar el rendimiento, se utilizaron dos métricas principales:
-
+\begin{multicols}{2}    
 \begin{itemize}
     \item MAE (Error Absoluto Medio)
     \item MSE (Error Cuadrático Medio)
 \end{itemize}
+\end{multicols}
 
 \subsubsection{Resultados Obtenidos}
 
@@ -267,7 +270,7 @@ La motivación principal del estudio es explorar cómo la combinación de técni
 
 
 \subsubsection{Base de datos de los autores}
-Se presentan 4 conjuntos de datos diferentes, cada uno con características específicas:\\
+Se presentan 4 conjuntos de datos diferentes, cada uno con características específicas:
 \begin{enumerate}
 	\item Dataset 1: Se trata de una serie temporal de un año de visitantes diarios a un sitio web de la Universidad Negri Malang. Este conjunto de datos es multivariado y consta de 365 instancias con 4 atributos diferentes, como sesiones, visitas a páginas, visitantes y nuevos visitantes. 
 	\item Dataset 2: Este conjunto de datos también es multivariado y consiste en datos diarios de visitantes a un sitio web, pero con diferentes atributos en comparación con el Dataset 1. Incluye información sobre cargas de página, visitas únicas, visitas por primera vez y visitas recurrentes.
@@ -358,13 +361,14 @@ Los indicadores estuvieron relacionados principalmente con:
 
 Los departamentos fueron clasificados en:
 
+\begin{multicols}{2}
 \begin{itemize}
     \item Departamentos médicos
     \item Departamentos quirúrgicos
     \item Departamentos de obstetricia y pediatría
     \item Otros departamentos clínicos
 \end{itemize}
-
+\end{multicols}
 Para el entrenamiento del modelo, los datos se dividieron de manera cronológica:
 
 \begin{itemize}
@@ -396,12 +400,13 @@ La metodología propuesta se basa en el uso de modelos de aprendizaje automátic
 
 Se utilizaron ventanas temporales acumulativas para realizar predicciones progresivas durante el año:
 
+\begin{multicols}{2}
 \begin{itemize}
     \item Enero – Marzo
     \item Enero – Junio
     \item Enero – Septiembre
 \end{itemize}
-
+\end{multicols}
 Este enfoque permite monitorear el desempeño de forma continua y no únicamente al final del periodo.
 
 \textbf{Evaluación de modelos:}
@@ -732,14 +737,14 @@ El conjunto de datos incluye:
 \end{itemize}
 
 Las áreas analizadas presentan una alta heterogeneidad, incluyendo:
-
+\begin{multicols}{2}
 \begin{itemize}
     \item Zonas urbanas.
     \item Áreas industriales.
     \item Centros comerciales.
     \item Campamentos de refugiados.
 \end{itemize}
-
+\end{multicols}
 Los niveles de consumo varían significativamente entre áreas, desde aproximadamente 1,350 hasta 42,260 m$^3$ por mes, lo que evidencia la complejidad del problema de predicción \cite{ref_agua}.
 
 Además, el estudio considera factores adicionales que afectan el consumo, como el uso de pozos de agua en temporada de lluvias, lo que introduce variaciones no lineales y dificulta la predicción. Esta diversidad convierte a la base de datos en un caso ideal para evaluar modelos de predicción en contextos reales y complejos.
@@ -757,21 +762,25 @@ La metodología propuesta se basa en el desarrollo de un sistema automatizado de
     \end{itemize}
 
     \item \textbf{Análisis exploratorio:}
+    \begin{multicols}{2}
     \begin{itemize}
         \item Análisis de tendencia.
         \item Evaluación de estacionalidad.
         \item Análisis de variabilidad residual.
         \item Estudio de estacionariedad y autocorrelación.
     \end{itemize}
-
+    \end{multicols}
     \item \textbf{Selección de variables (features):}
     Se empleó un enfoque basado en ensamblaje que combina:
+    
+    \begin{multicols}{2}
     \begin{itemize}
         \item Random Forest.
         \item Información mutua.
         \item Importancia por permutación.
         \item Correlación de Pearson.
     \end{itemize}
+    \end{multicols}
 
     \item \textbf{Modelo de predicción:}
     Se utilizó el modelo Prophet debido a sus ventajas:

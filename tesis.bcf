@@ -3109,23 +3109,36 @@
     <bcf:citekey order="37" intorder="1">durrani2026</bcf:citekey>
     <bcf:citekey order="38" intorder="1">durrani2026</bcf:citekey>
     <bcf:citekey order="39" intorder="1">durrani2026</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">friedman2001</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">hoarau2022time</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">chen2016xgboost</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">breiman2001randomforest</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">hastie2009elementsKNN</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">hyndman2018forecastingHW</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">hyndman2018forecastingNV</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">chopra2019supply</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">heizer2017operations</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">lauramodelo2020</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">Fierrotorres2022</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">benites2021implementacion</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">Fierrotorres2022</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">hastie2009elements</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">rodriguez2021estudio</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">benites2021implementacion</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">robles2021sistema</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">mitchell1997machine</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">mitchell1997machine</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">montgomery2013introduction</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">wang2005support</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">wang2005support</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">brownlee2017long</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">gupta2022advanced</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">hoarau2022time</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">ocampo2004pronostico</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">ocampo2004pronostico</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">ocampo2004pronostico</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">Fierrotorres2022</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">brockwell2002introduction</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">friedman2001</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">hoarau2022time</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">chen2016xgboost</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">breiman2001randomforest</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">hastie2009elementsKNN</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">hyndman2018forecastingHW</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">hyndman2018forecastingNV</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">chopra2019supply</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">heizer2017operations</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">lauramodelo2020</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">Fierrotorres2022</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">benites2021implementacion</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">Fierrotorres2022</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">hastie2009elements</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">rodriguez2021estudio</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">benites2021implementacion</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">robles2021sistema</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
