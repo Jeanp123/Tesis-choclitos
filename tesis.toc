@@ -158,7 +158,7 @@
 \contentsline {subsection}{\numberline {4.3.5}Transformación}{105}{subsection.4.3.5}%
 \contentsline {subsection}{\numberline {4.3.6}Modelamiento}{105}{subsection.4.3.6}%
 \contentsline {subsection}{\numberline {4.3.7}Evaluación}{111}{subsection.4.3.7}%
-\contentsline {subsection}{\numberline {4.3.8}Despliegue}{112}{subsection.4.3.8}%
+\contentsline {subsection}{\numberline {4.3.8}Despliegue}{113}{subsection.4.3.8}%
 \contentsline {section}{\numberline {4.4}Metodología para la medición de resultados de la implementación}{114}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Raíz del error cuadrático medio (RMSE)}{114}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Error cuadrático medio (MSE)}{114}{subsection.4.4.2}%
@@ -176,13 +176,14 @@
 \contentsline {subsubsection}{\numberline {5.3.3.1}Proceso de Entrenamiento y Evaluación de Modelos}{124}{subsubsection.5.3.3.1}%
 \contentsline {subsection}{\numberline {5.3.4}Definir parámetros}{125}{subsection.5.3.4}%
 \contentsline {section}{\numberline {5.4}Desarrollo de actividades. Aplicación de herramientas de solución}{126}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Preprocesamiento de datos}{126}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Selección de Columnas relevantes}{127}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Seleccionamos los modelos a utilizar}{127}{subsection.5.4.3}%
-\contentsline {section}{\numberline {5.5}Medición de la solución}{132}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Simulación de la predicción}{133}{subsection.5.5.1}%
-\contentsline {chapter}{\numberline {6}ANÁLISIS DE RESULTADOS}{135}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Resultados}{135}{section.6.1}%
-\contentsline {chapter}{\numberline {7}CONCLUSIONES}{138}{chapter.7}%
-\contentsline {chapter}{Anexos}{139}{section*.54}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{142}{appendix*.57}%
+\contentsline {subsection}{\numberline {5.4.1}Adquisicion de datos}{126}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Preprocesamiento de datos}{127}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Selección de Columnas relevantes}{128}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Seleccionamos los modelos a utilizar}{129}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}Medición de la solución}{134}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Simulación de la predicción}{135}{subsection.5.5.1}%
+\contentsline {chapter}{\numberline {6}ANÁLISIS DE RESULTADOS}{137}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Resultados}{137}{section.6.1}%
+\contentsline {chapter}{\numberline {7}CONCLUSIONES}{140}{chapter.7}%
+\contentsline {chapter}{Anexos}{141}{section*.56}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{146}{appendix*.62}%

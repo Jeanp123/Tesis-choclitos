@@ -483,6 +483,7 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 			\item \textbf{RMSE: } Calcula la raíz cuadrada de la media de los cuadrados de los errores entre las predicciones de un modelo y los valores reales. Es útil para medir el nivel de error promedio de las predicciones en la misma unidad que los datos originales.
 			\item \textbf{MSE: } Calcula el promedio de los cuadrados de los errores entre las predicciones de un modelo y los valores reales. Proporciona una medida de la varianza de los errores, penalizando más fuertemente los errores grandes.
 			\item \textbf{MAPE: } Calcula el promedio del porcentaje absoluto de los errores entre las predicciones de un modelo y los valores reales. Es útil para evaluar la precisión relativa de un modelo, especialmente en situaciones donde se desea conocer el error porcentual promedio. 
+		\item \textbf{R2: } Calcula el coeficiente de determinación, que mide la proporción de la variabilidad en los datos que es explicada por el modelo. Un valor de R2 cercano a 1 indica un buen ajuste del modelo a los datos, mientras que un valor cercano a 0 indica un ajuste pobre.
 		\end{itemize}
 		
 		De acuerdo a la anterior lista, estas métricas ayudarán a:
@@ -549,7 +550,12 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 		\[
 		MAE = \frac{1}{n} \sum_{i=1}^{n} \left| y_i - \hat{y}_i \right|
 \]
-
+\textbf{R2 (Coeficiente de Determinación): } El R2 es una métrica que mide la proporción de la variabilidad en los datos que es explicada por el modelo de regresión. Un valor de R2 cercano a 1 indica que el modelo explica la mayor parte de la variabilidad, mientras que un valor cercano a 0 indica que el modelo no explica bien los datos.
+\textbf{Fórmula del R2: }
+\[
+R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}
+\]
+Donde \( \bar{y} \) es la media de los valores reales \( y_i \).
 
 		\subsection{Evaluación}
 		Esta fase comprende la evaluación de los modelos desarrollados en la investigación a través de las métricas de regresión seleccionadas y explicadas en la sección 3.3.6. En la Tabla \ref{tab:act_eva} se indican las actividades y tareas seguidas para esta etapa.

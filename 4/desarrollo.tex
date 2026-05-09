@@ -159,7 +159,7 @@ Una vez seleccionados los modelos, se procederá a definir los parámetros inici
 
 \section{Desarrollo de actividades. Aplicación de herramientas de solución}
 
-\subsection{Preprocesamiento de datos}
+\subsection{Adquisicion de datos}
 
 En esta etapa inicial del proyecto se realiza la carga y lectura del conjunto de datos principal utilizado para el desarrollo del sistema predictivo de ventas. Para ello, se emplea la librería Polars, seleccionada por su alta eficiencia en el procesamiento de grandes volúmenes de información. El archivo cargado corresponde al historial de ventas denominado “tabla detalle.csv”, el cual contiene información histórica relacionada con las diferentes familias de productos analizadas en el estudio.
 
@@ -175,6 +175,50 @@ Finalmente, se verifica la correcta carga del dataset mostrando sus dimensiones 
 		\label{fig11}
 	\end{center}	
 \end{figure}
+
+\subsection{Preprocesamiento de datos}
+
+Durante la etapa de preprocesamiento se realizaron diversas técnicas orientadas a mejorar la calidad de la información y optimizar el rendimiento de los modelos predictivos. En primer lugar, se efectuó la limpieza de datos, eliminando registros duplicados, corrigiendo inconsistencias y tratando valores nulos presentes en la base de datos histórica de ventas.
+Posteriormente, se realizó el agrupamiento de productos por familias, permitiendo consolidar la información comercial según categorías de productos perecibles, especialmente en la familia de verduras, con el objetivo de facilitar el análisis del comportamiento de la demanda y reducir la complejidad de los datos.
+Asimismo, se aplicó la transformación de variables temporales mediante la extracción de atributos relevantes de la fecha, tales como día, mes, año y día de la semana, permitiendo identificar patrones de estacionalidad y tendencias en las ventas.
+Adicionalmente, se implementó la generación de variables derivadas o lag features, utilizando información de ventas de períodos anteriores para mejorar la capacidad predictiva de los modelos de forecasting.
+También se efectuó el tratamiento de valores atípicos (outliers), con la finalidad de disminuir el impacto de registros anormales que pudieran afectar la precisión del modelo. Finalmente, se aplicaron técnicas de normalización sobre las variables numéricas para estandarizar los datos y mejorar el desempeño de los algoritmos de aprendizaje automático utilizados en la investigación.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\textwidth]{4/Desa_ima/11.jpeg}
+		\caption{preprocesamiento de la data}
+		\textit{Fuente: Elaboración propia}
+		\label{fig21}
+	\end{center}	
+\end{figure}
+
+
+En esa gráfica se observa claramente un outlier extremo alrededor del año 2018.
+
+La mayoría de las ventas se mantienen dentro de un rango relativamente estable, mientras que existe un pico aislado que supera ampliamente el comportamiento normal de la serie. Ese valor anómalo rompe el patrón histórico de las ventas y podría estar asociado a:
+\begin{multicols}{2}
+\begin{itemize}
+	\item errores de digitación,
+	\item duplicidad de registros,
+	\item fallas en el sistema de captura,
+	\item carga incorrecta de información,
+	\item o un evento extraordinario no representativo del comportamiento real de la demanda.
+\end{itemize}
+\end{multicols}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\textwidth]{4/Desa_ima/12.jpeg}
+		\caption{Gráfico de Outliers}
+		\textit{Fuente: Elaboración propia}
+		\label{fig22}
+	\end{center}	
+\end{figure}
+
+
+
+
 
 \subsection{Selección de Columnas relevantes}
 
@@ -192,9 +236,6 @@ Asimismo, esta validación preliminar permite confirmar que los datos fueron est
 	\end{center}	
 \end{figure}
 
-
-\subsection{Seleccionamos los modelos a utilizar}
-
 En esta etapa se realiza una agregación de las ventas totales por familia de productos. Para ello, la información es agrupada utilizando la variable “FAMILIA”, permitiendo calcular la suma acumulada de ventas de cada categoría presente en el dataset.
 
 Posteriormente, los resultados son ordenados de forma descendente con el objetivo de identificar cuáles son las familias con mayor volumen de ingresos dentro de la empresa. Este análisis exploratorio resulta importante porque permite reconocer qué categorías poseen mayor participación en las ventas totales y cuáles tienen mayor relevancia para el proceso predictivo.
@@ -210,6 +251,9 @@ Los resultados muestran que familias como “FRUTA”, “ABARRO”, “VERDUR�
 	\end{center}	
 \end{figure}
 
+\subsection{Seleccionamos los modelos a utilizar}
+
+
 
 En esta etapa se desarrolla un análisis visual de la evolución histórica de las ventas por familia de productos a lo largo del tiempo. Para ello, se construye un gráfico de barras agrupadas que permite comparar el comportamiento anual de las cinco familias con mayor volumen de ventas.
 
@@ -221,7 +265,7 @@ Por otro lado, se observa una disminución en los valores correspondientes al a�
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.4\textwidth]{4/Desa_ima/4.jpeg}
+		\includegraphics[width=0.7\textwidth]{4/Desa_ima/4.jpeg}
 		\caption{Evolución histórica de ventas por año}
 		\textit{Fuente: Elaboración propia}
 		\label{fig14}
@@ -239,7 +283,7 @@ Finalmente, se observa la presencia de valores nulos en los primeros registros d
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.4\textwidth]{4/Desa_ima/5.jpeg}
+		\includegraphics[width=0.7\textwidth]{4/Desa_ima/5.jpeg}
 		\caption{Ingeniería de características y construcción de variables temporales}
 		\textit{Fuente: Elaboración propia}
 		\label{fig15}
@@ -272,7 +316,7 @@ Los resultados muestran que el modelo XGBoost obtuvo el mejor desempeño general
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.4\textwidth]{4/Desa_ima/7.jpeg}
+		\includegraphics[width=0.7\textwidth]{4/Desa_ima/7.jpeg}
 		\caption{Evaluación comparativa de modelos predictivos}
 		\textit{Fuente: Elaboración propia}
 		\label{fig17}
@@ -289,7 +333,7 @@ El sistema implementado fue diseñado para realizar un proceso automático de se
 En este caso, el modelo ganador fue utilizado para generar las predicciones mostradas en el gráfico. Asimismo, puede observarse que las predicciones siguen de manera aproximada la tendencia general de las ventas reales, demostrando la capacidad del modelo para aprender patrones históricos y utilizarlos para estimar escenarios futuros.
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.4\textwidth]{4/Desa_ima/8.jpeg}
+		\includegraphics[width=0.7\textwidth]{4/Desa_ima/8.jpeg}
 		\caption{Comparación entre ventas reales y predicciones}
 		\textit{Fuente: Elaboración propia}
 		\label{fig18}
@@ -476,7 +520,7 @@ Este tipo de proyección resulta útil para la toma de decisiones relacionadas c
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.4\textwidth]{4/Desa_ima/9.jpeg}
+		\includegraphics[width=0.7\textwidth]{4/Desa_ima/9.jpeg}
 		\caption{Proyección de ventas a 30 días}
 		\textit{Fuente: Elaboración propia}
 		\label{fig19}
@@ -492,7 +536,7 @@ La tabla permite visualizar detalladamente las proyecciones día por día, facil
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.4\textwidth]{4/Desa_ima/10.jpeg}
+		\includegraphics[width=0.7\textwidth]{4/Desa_ima/10.jpeg}
 		\caption{Tabla detallada del pronóstico}
 		\textit{Fuente: Elaboración propia}
 		\label{fig20}
