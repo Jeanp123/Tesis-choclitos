@@ -26,21 +26,21 @@
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Cronograma de actividades}}{116}{figure.caption.35}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Familia de productos}}{119}{figure.caption.37}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Predicción Vs. valores actuales}}{121}{figure.caption.38}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Datos históricos de ventas}}{122}{figure.caption.39}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Datos históricos de ventas con 3 columnas agregadas}}{122}{figure.caption.40}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Ventas de la familia verduras}}{123}{figure.caption.41}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Parametros de los modelos elegidos}}{124}{figure.caption.42}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Identificando las columnas con datos faltantes}}{125}{figure.caption.43}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Columnas de datos}}{126}{figure.caption.44}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Datos históricos de ventas}}{126}{figure.caption.45}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces División de prueba y entrenamiento}}{127}{figure.caption.46}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Modelos elegidos}}{127}{figure.caption.47}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Definicion de modelos y métricas}}{128}{figure.caption.48}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Comparación de resultados}}{128}{figure.caption.49}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Resultados de modelos}}{129}{figure.caption.50}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Predicción numerica del mejor modelo}}{131}{figure.caption.51}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Predicción con el mejor modelo}}{131}{figure.caption.52}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Predicción Vs. valores actuales}}{122}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Datos históricos de ventas}}{123}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Datos históricos de ventas con 3 columnas agregadas}}{123}{figure.caption.40}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Ventas de la familia verduras}}{124}{figure.caption.41}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Parametros de los modelos elegidos}}{125}{figure.caption.42}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Carga y lectura del dataset}}{126}{figure.caption.43}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Visualización preliminar del dataset procesado}}{127}{figure.caption.44}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Análisis de ventas por familia de productos}}{128}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Evolución histórica de ventas por año}}{129}{figure.caption.46}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Ingeniería de características y construcción de variables temporales}}{130}{figure.caption.47}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Preparación de datos para el entrenamiento}}{130}{figure.caption.48}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Evaluación comparativa de modelos predictivos}}{131}{figure.caption.49}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Comparación entre ventas reales y predicciones}}{132}{figure.caption.50}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Proyección de ventas a 30 días}}{134}{figure.caption.51}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Tabla detallada del pronóstico}}{134}{figure.caption.52}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Arquitectura de Software}}{138}{figure.caption.56}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Arquitectura de Software}}{141}{figure.caption.56}%

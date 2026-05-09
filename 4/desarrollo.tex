@@ -36,22 +36,46 @@ Las familias de productos seleccionadas para el análisis representan una parte 
 %\end{table}
 
 \section{Propuesta solución}
+Esta propuesta, como se explicó anteriormente, implica un enfoque más granular y específico para cada familia de productos seleccionada. En lugar de aplicar un único modelo de predicción a todas las familias, se evalúa la idoneidad de múltiples modelos para cada una, considerando sus características individuales y su comportamiento histórico de ventas.
 
-Esta propuesta, como se explicó anteriormente, implica un enfoque más granular y específico para cada familia de productos seleccionada. En lugar de aplicar un único modelo de predicción a todas las familias, se explorará la idoneidad de múltiples modelos para cada una, teniendo en cuenta sus características individuales y su historial de ventas. Entre estos modelos se encuentran los siguientes:
+Para ello, se emplea un conjunto diverso de modelos de aprendizaje automático y de series temporales, entre los cuales se encuentran:
 
 \begin{itemize}
-	\item \textbf{Linear Regression: } Un modelo de regresión lineal que busca la mejor relación lineal entre las variables independientes y la variable dependiente.
-	\item \textbf{Decision Tree: } Un modelo basado en árboles de decisión que segmenta los datos en subconjuntos homogéneos.
-	\item \textbf{Random Forest: } Un modelo de conjunto que utiliza múltiples árboles de decisión para mejorar la precisión de las predicciones.
-	\item \textbf{Support Vector Regression (SVR): } Un modelo de regresión que utiliza máquinas de soporte vectorial para encontrar la mejor línea de ajuste en un espacio de características de alta dimensión.
-	\item \textbf{XGBoost: } Un modelo de boosting de gradiente extremo que optimiza iterativamente los errores de predicción anteriores.
-	\item \textbf{ARIMA: } Un modelo de series temporales que captura las dependencias auto-regresivas y de medias móviles.
-	\item \textbf{LSTM: } Un tipo de red neuronal recurrente diseñada para manejar dependencias de largo plazo en series temporales.
-	\item \textbf{Prophet: } Un modelo desarrollado por Facebook que se especializa en la predicción de series temporales con componentes estacionales y días festivos.
-	
+    \item \textbf{Linear Regression:} Modelo de regresión lineal que busca establecer una relación lineal entre las variables independientes y la variable dependiente.
+    \item \textbf{Ridge y Lasso:} Variantes de la regresión lineal que incorporan regularización, permitiendo reducir el sobreajuste y mejorar la generalización del modelo.
+    \item \textbf{Decision Tree:} Modelo basado en árboles de decisión que divide los datos en subconjuntos más homogéneos mediante reglas de decisión.
+    \item \textbf{Random Forest:} Modelo de ensamble que combina múltiples árboles de decisión para mejorar la precisión y reducir la varianza.
+    \item \textbf{Extra Trees:} Similar a Random Forest, pero introduce mayor aleatoriedad en la construcción de los árboles, lo que puede mejorar la robustez del modelo.
+    \item \textbf{Gradient Boosting:} Modelo de ensamble que construye árboles de forma secuencial, corrigiendo los errores de los modelos anteriores.
+    \item \textbf{K-Nearest Neighbors (KNN):} Modelo basado en la similitud entre datos, que realiza predicciones considerando los valores más cercanos en el espacio de características.
+    \item \textbf{Support Vector Regression (SVR):} Modelo que utiliza máquinas de soporte vectorial para encontrar una función que se ajuste a los datos dentro de un margen de error tolerable.
+    \item \textbf{XGBoost:} Algoritmo de \textit{boosting} avanzado que optimiza iterativamente los errores, destacando por su alto rendimiento y eficiencia.
+    \item \textbf{ARIMA:} Modelo de series temporales que captura relaciones autorregresivas y de medias móviles en los datos.
+    \item \textbf{SARIMA:} Extensión de ARIMA que incorpora componentes estacionales, permitiendo modelar patrones repetitivos en el tiempo.
+    \item \textbf{Prophet:} Modelo desarrollado por Facebook, diseñado para capturar tendencias, estacionalidades y efectos especiales en series temporales.
 \end{itemize}
 
-Todos estos modelos se entrenarán con la misma finalidad: determinar cuál es el más óptimo para realizar las predicciones de las ventas semanales de la familia de productos de verduras. Esta evaluación se llevará a cabo utilizando métricas de rendimiento como el Error Cuadrático Medio (MSE), la Raíz del Error Cuadrático Medio (RMSE), R2 Y (error porcentual absoluto medio) MAPE. Además, se considerará la capacidad de cada modelo para capturar patrones estacionales y tendencias a largo plazo presentes en los datos de ventas.
+Todos estos modelos se entrenan con la misma finalidad: identificar cuál es el más adecuado para realizar predicciones de ventas para cada familia de productos. La selección del mejor modelo se basa en la comparación de métricas de rendimiento como el Error Cuadrático Medio (MSE), la Raíz del Error Cuadrático Medio (RMSE), el Coeficiente de Determinación ($R^2$) y el Error Porcentual Absoluto Medio (MAPE).
+
+Asimismo, se evalúa la capacidad de cada modelo para capturar patrones relevantes en los datos, como tendencias a largo plazo, variaciones estacionales y comportamientos específicos de cada familia de productos.
+
+% \section{Propuesta solución}
+
+% Esta propuesta, como se explicó anteriormente, implica un enfoque más granular y específico para cada familia de productos seleccionada. En lugar de aplicar un único modelo de predicción a todas las familias, se explorará la idoneidad de múltiples modelos para cada una, teniendo en cuenta sus características individuales y su historial de ventas. Entre estos modelos se encuentran los siguientes:
+
+% \begin{itemize}
+% 	\item \textbf{Linear Regression: } Un modelo de regresión lineal que busca la mejor relación lineal entre las variables independientes y la variable dependiente.
+% 	\item \textbf{Decision Tree: } Un modelo basado en árboles de decisión que segmenta los datos en subconjuntos homogéneos.
+% 	\item \textbf{Random Forest: } Un modelo de conjunto que utiliza múltiples árboles de decisión para mejorar la precisión de las predicciones.
+% 	\item \textbf{Support Vector Regression (SVR): } Un modelo de regresión que utiliza máquinas de soporte vectorial para encontrar la mejor línea de ajuste en un espacio de características de alta dimensión.
+% 	\item \textbf{XGBoost: } Un modelo de boosting de gradiente extremo que optimiza iterativamente los errores de predicción anteriores.
+% 	\item \textbf{ARIMA: } Un modelo de series temporales que captura las dependencias auto-regresivas y de medias móviles.
+% 	\item \textbf{LSTM: } Un tipo de red neuronal recurrente diseñada para manejar dependencias de largo plazo en series temporales.
+% 	\item \textbf{Prophet: } Un modelo desarrollado por Facebook que se especializa en la predicción de series temporales con componentes estacionales y días festivos.
+	
+% \end{itemize}
+
+% Todos estos modelos se entrenarán con la misma finalidad: determinar cuál es el más óptimo para realizar las predicciones de las ventas semanales de la familia de productos de verduras. Esta evaluación se llevará a cabo utilizando métricas de rendimiento como el Error Cuadrático Medio (MSE), la Raíz del Error Cuadrático Medio (RMSE), R2 Y (error porcentual absoluto medio) MAPE. Además, se considerará la capacidad de cada modelo para capturar patrones estacionales y tendencias a largo plazo presentes en los datos de ventas.
 
 
 %%%%CAMBIO%%%%%%%%%555
@@ -136,131 +160,270 @@ Una vez seleccionados los modelos, se procederá a definir los parámetros inici
 \section{Desarrollo de actividades. Aplicación de herramientas de solución}
 
 \subsection{Preprocesamiento de datos}
-Se realizará un análisis exhaustivo para identificar y cuantificar los datos faltantes en el conjunto de datos históricos. Este análisis se llevará a cabo por columnas para determinar qué variables tienen valores ausentes y en qué medida.
 
-%\subsection{Imputación de Datos Faltantes mediante KNN}
-%Para abordar los valores faltantes identificados, se empleará el algoritmo de imputación de vecinos más cercanos (KNN). Este método permite predecir y completar los valores faltantes utilizando información de variables similares. Se seleccionará un número adecuado de vecinos para garantizar la precisión de la imputación.
+En esta etapa inicial del proyecto se realiza la carga y lectura del conjunto de datos principal utilizado para el desarrollo del sistema predictivo de ventas. Para ello, se emplea la librería Polars, seleccionada por su alta eficiencia en el procesamiento de grandes volúmenes de información. El archivo cargado corresponde al historial de ventas denominado “tabla detalle.csv”, el cual contiene información histórica relacionada con las diferentes familias de productos analizadas en el estudio.
 
-%%%%%CAMBIO LISTO
+Durante la lectura del archivo se configuran parámetros orientados a mejorar la estabilidad del procesamiento y manejar posibles inconsistencias presentes en los datos sin interrumpir la ejecución. Asimismo, se desactiva la detección automática de fechas debido a variaciones en el formato temporal de algunos registros.
+
+Finalmente, se verifica la correcta carga del dataset mostrando sus dimensiones y una vista preliminar de los primeros registros. Como resultado, se obtiene un conjunto de datos compuesto por aproximadamente 7.25 millones de registros y 102 columnas, evidenciando el manejo de una base de datos de gran escala para el desarrollo del sistema de proyección de ventas.
+
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.4\textwidth]{2/figures/df_verdura_isnull.png}
-		\caption{Identificando las columnas con datos faltantes}
+		\includegraphics[width=0.4\textwidth]{4/Desa_ima/1.jpeg}
+		\caption{Carga y lectura del dataset}
 		\textit{Fuente: Elaboración propia}
 		\label{fig11}
 	\end{center}	
 \end{figure}
 
 \subsection{Selección de Columnas relevantes}
-Una vez completada la imputación de datos, se procederá a la selección de las columnas más relevantes para el análisis de predicción de ventas. En este caso, se considerarán las siguientes columnas como las más pertinentes:
 
+En esta etapa se presenta una vista preliminar del dataset procesado que será utilizado para el entrenamiento de los modelos predictivos. La Figura ~\ref{fig12} muestra los primeros registros del conjunto de datos denominado \texttt{df\_modelo}, el cual contiene información consolidada de ventas agrupadas por fecha y familia de productos.
 
-%%%%%CAMBIO DE COLUMNAS LISTO
-%%DATE, FAMLILY, TOTAL, LIISURE_DAYS,SUPPLIER, NUMTRANS
+El dataset está compuesto por variables fundamentales como la fecha de la transacción, la familia de productos, el total de ventas expresado en soles y el número de transacciones realizadas. Estas variables representan la base principal para el análisis temporal y la generación de proyecciones futuras.
 
-\begin{itemize}
-	\item Date: Fecha de transacción de venta.
-	\item Family\_id: Identificador unico del tipo de producto perecible
-	\item Total: Medida principal de las ventas totales.
-	\item Leisure\_days: Dia feriado por festividad gubernamental.
-	\item Supplier\_cost: Número de pagos que se hicieron a proveedores en el día.
-	\item Num\_transaction: Número de ventas en el día.
-\end{itemize}
-%%%CAMBIO LISSTO
+Asimismo, esta validación preliminar permite confirmar que los datos fueron estructurados correctamente antes de iniciar el proceso de modelamiento predictivo.
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.7\textwidth]{2/figures/variables_dfverdura.png}
-		\caption{Columnas de datos}
+		\includegraphics[width=0.4\textwidth]{4/Desa_ima/2.jpeg}
+		\caption{Visualización preliminar del dataset procesado}
 		\textit{Fuente: Elaboración propia}
-		\label{fig11}
-	\end{center}
-	
+		\label{fig12}
+	\end{center}	
 \end{figure}
-%%%CAMBIO LISTO
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=0.7\textwidth]{2/figures/historico_ventas.png}
-		\caption{Datos históricos de ventas}
-		\textit{Fuente: Elaboración propia}
-		\label{fig11}
-	\end{center}
-	
-\end{figure}
+
 
 \subsection{Seleccionamos los modelos a utilizar}
-En este escenario, se han seleccionado los siguientes modelos: Árbol de Decisión, Random Forest, SVR, XGBoost y Regresión Lineal. Antes de proceder con el entrenamiento de estos modelos, se dividirá los datos en conjuntos de entrenamiento y prueba, asignando el 80\% de los datos para entrenamiento y el 20\% restante para pruebas.
-%%CAMBIO LISTO
+
+En esta etapa se realiza una agregación de las ventas totales por familia de productos. Para ello, la información es agrupada utilizando la variable “FAMILIA”, permitiendo calcular la suma acumulada de ventas de cada categoría presente en el dataset.
+
+Posteriormente, los resultados son ordenados de forma descendente con el objetivo de identificar cuáles son las familias con mayor volumen de ingresos dentro de la empresa. Este análisis exploratorio resulta importante porque permite reconocer qué categorías poseen mayor participación en las ventas totales y cuáles tienen mayor relevancia para el proceso predictivo.
+
+Los resultados muestran que familias como “FRUTA”, “ABARRO”, “VERDUR” y “POLLO” concentran gran parte de las ventas históricas, evidenciando su importancia dentro del negocio.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.7\textwidth]{2/figures/train_test.png}
-		\caption{División de prueba y entrenamiento}
+		\includegraphics[width=0.4\textwidth]{4/Desa_ima/3.jpeg}
+		\caption{Análisis de ventas por familia de productos}
 		\textit{Fuente: Elaboración propia}
-		\label{fig11}
-	\end{center}	
-\end{figure}
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=0.7\textwidth]{2/figures/modelos.png}
-		\caption{Modelos elegidos}
-		\textit{Fuente: Elaboración propia}
-		\label{fig11}
+		\label{fig13}
 	\end{center}	
 \end{figure}
 
 
-A continuación se vera como se entrenan los modelos y las métricas que se eligieron que vendrían a ser RMSE, MSE, R2 y MAPE
-%LISTO
+En esta etapa se desarrolla un análisis visual de la evolución histórica de las ventas por familia de productos a lo largo del tiempo. Para ello, se construye un gráfico de barras agrupadas que permite comparar el comportamiento anual de las cinco familias con mayor volumen de ventas.
+
+El objetivo principal de esta visualización es identificar tendencias de crecimiento, variaciones en el comportamiento comercial y cambios en la participación de cada familia de productos durante los distintos años analizados.
+
+A partir de los resultados observados, se evidencia una tendencia creciente en las ventas totales conforme avanzan los años, especialmente desde el periodo 2020 en adelante. Asimismo, la familia FRUTA presenta uno de los mayores niveles de crecimiento en comparación con otras categorías.
+
+Por otro lado, se observa una disminución en los valores correspondientes al año 2026. Sin embargo, esta reducción se debe a que el periodo analizado aún se encuentra en curso y únicamente contiene información parcial del año, por lo que no representa una caída definitiva en las ventas.
+
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.7\textwidth]{2/figures/metricas_df.png}
-		\caption{Definicion de modelos  y métricas}
+		\includegraphics[width=0.4\textwidth]{4/Desa_ima/4.jpeg}
+		\caption{Evolución histórica de ventas por año}
 		\textit{Fuente: Elaboración propia}
-		\label{fig11}
-	\end{center}
-	
+		\label{fig14}
+	\end{center}	
 \end{figure}
 
-%\begin{figure}[H]
-%	\begin{center}
-%		\includegraphics[width=0.7\textwidth]{2/figures/mape2.png}
-%		\caption{}
-%		\label{fig11}
-%	\end{center}
-%	
-%\end{figure}
 
-A continuación se vera la comparación de todos los modelos y apartir de eso se eligira el mejor modelo para trabajar con una familia.
+En esta etapa se realiza el proceso de ingeniería de características sobre la serie temporal de ventas diarias. El objetivo consiste en generar variables adicionales que permitan al modelo identificar patrones históricos y mejorar la precisión de las proyecciones futuras.
 
+Para ello, se construyen medias móviles de 7 y 30 días, las cuales permiten suavizar fluctuaciones diarias y detectar tendencias de corto y mediano plazo. Asimismo, se incorporan variables temporales derivadas de la fecha, como año, mes, día de la semana y un indicador de fin de semana.
+
+De igual manera, se agregan variables rezagadas o \textit{lags}, como \texttt{lag\_1}, \texttt{lag\_7}, \texttt{lag\_14} y \texttt{lag\_30}, las cuales almacenan información de ventas anteriores. Estas variables son fundamentales en modelos de \textit{forecasting}, ya que permiten utilizar datos históricos para estimar el comportamiento futuro de la demanda.
+
+Finalmente, se observa la presencia de valores nulos en los primeros registros de algunas columnas rezagadas y medias móviles. Esto ocurre porque al inicio de la serie temporal no existen suficientes observaciones previas para calcular dichas métricas, lo cual constituye un comportamiento normal dentro del proceso de construcción de variables temporales.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.8\textwidth]{2/figures/comparacion_modelos.png}
-		\caption{Comparación de resultados}
-		\label{fig22}
-	\end{center}
-	
+		\includegraphics[width=0.4\textwidth]{4/Desa_ima/5.jpeg}
+		\caption{Ingeniería de características y construcción de variables temporales}
+		\textit{Fuente: Elaboración propia}
+		\label{fig15}
+	\end{center}	
 \end{figure}
 
+En esta etapa se realiza la preparación de los datos para el entrenamiento de los modelos de aprendizaje automático. Inicialmente, el dataset es convertido desde el formato Polars a Pandas debido a la compatibilidad de las librerías de machine learning utilizadas posteriormente.
+
+Posteriormente, se definen las variables predictoras que serán utilizadas por el modelo para aprender el comportamiento histórico de las ventas. Estas variables incluyen características temporales, rezagos históricos y medias móviles construidas previamente durante el preprocesamiento de datos.
+
+Asimismo, se define la variable objetivo denominada \texttt{ventas\_totales}, la cual representa el valor que el modelo deberá predecir. Finalmente, se separan las variables independientes (\(X\)) y la variable dependiente (\(y\)), obteniendo un total de 5{,}086 registros y 10 variables predictoras para el entrenamiento del sistema predictivo.
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.8\textwidth]{2/figures/modelos_completo.png}
-		\caption{Resultados de modelos}
-		\label{fig23}
-	\end{center}
-	
+		\includegraphics[width=0.4\textwidth]{4/Desa_ima/6.jpeg}
+		\caption{Preparación de datos para el entrenamiento}
+		\textit{Fuente: Elaboración propia}
+		\label{fig16}
+	\end{center}	
 \end{figure}
-%
-%\begin{figure}[H]
-%	\begin{center}
-%		\includegraphics[width=0.7\textwidth]{2/figures/metricas.png}
-%		\caption{}
-%		\label{fig231}
-%	\end{center}
-%	
-%\end{figure}
+
+
+En esta etapa se realiza la evaluación comparativa de los diferentes modelos predictivos utilizados para la proyección de ventas. El objetivo principal consiste en identificar cuál de los algoritmos ofrece el mejor desempeño al momento de estimar las ventas futuras de las familias de productos analizadas.
+
+Para el proceso de entrenamiento y comparación se utilizaron distintos modelos de aprendizaje automático y series temporales, entre ellos: Linear Regression, Ridge, Lasso, Decision Tree Regressor, Random Forest Regressor, Extra Trees Regressor, Gradient Boosting Regressor, K-Nearest Neighbors (KNN), Support Vector Regression (SVR), XGBoost, ARIMA, SARIMA y Prophet.
+
+Posteriormente, cada modelo fue evaluado mediante métricas estadísticas como MAE, MSE, RMSE y R², las cuales permiten medir la precisión de las predicciones generadas por cada algoritmo.
+
+Los resultados muestran que el modelo XGBoost obtuvo el mejor desempeño general, registrando los menores niveles de error y el mayor ajuste estadístico respecto a los demás modelos evaluados. Debido a ello, el sistema lo selecciona automáticamente como el modelo ganador para realizar las proyecciones futuras de ventas.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\textwidth]{4/Desa_ima/7.jpeg}
+		\caption{Evaluación comparativa de modelos predictivos}
+		\textit{Fuente: Elaboración propia}
+		\label{fig17}
+	\end{center}	
+\end{figure}
+
+
+En esta etapa se presenta la comparación entre las ventas reales y las predicciones generadas por el modelo seleccionado para la familia de productos “ABARRO”, una de las categorías con mayor participación dentro de las ventas totales de la empresa.
+
+El gráfico muestra tres componentes principales: los datos históricos utilizados para el entrenamiento del modelo, los datos reales correspondientes al periodo de prueba y las predicciones generadas automáticamente por el algoritmo seleccionado.
+
+El sistema implementado fue diseñado para realizar un proceso automático de selección de modelos predictivos. Para ello, el programa entrena múltiples algoritmos y posteriormente evalúa su desempeño mediante métricas estadísticas, seleccionando automáticamente el modelo con mejor rendimiento.
+
+En este caso, el modelo ganador fue utilizado para generar las predicciones mostradas en el gráfico. Asimismo, puede observarse que las predicciones siguen de manera aproximada la tendencia general de las ventas reales, demostrando la capacidad del modelo para aprender patrones históricos y utilizarlos para estimar escenarios futuros.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\textwidth]{4/Desa_ima/8.jpeg}
+		\caption{Comparación entre ventas reales y predicciones}
+		\textit{Fuente: Elaboración propia}
+		\label{fig18}
+	\end{center}	
+\end{figure}
+
+
+
+% \subsection{Preprocesamiento de datos}
+% Se realizará un análisis exhaustivo para identificar y cuantificar los datos faltantes en el conjunto de datos históricos. Este análisis se llevará a cabo por columnas para determinar qué variables tienen valores ausentes y en qué medida.
+
+% %\subsection{Imputación de Datos Faltantes mediante KNN}
+% %Para abordar los valores faltantes identificados, se empleará el algoritmo de imputación de vecinos más cercanos (KNN). Este método permite predecir y completar los valores faltantes utilizando información de variables similares. Se seleccionará un número adecuado de vecinos para garantizar la precisión de la imputación.
+
+% %%%%%CAMBIO LISTO
+% \begin{figure}[H]
+% 	\begin{center}
+% 		\includegraphics[width=0.4\textwidth]{2/figures/df_verdura_isnull.png}
+% 		\caption{Identificando las columnas con datos faltantes}
+% 		\textit{Fuente: Elaboración propia}
+% 		\label{fig11}
+% 	\end{center}	
+% \end{figure}
+
+% \subsection{Selección de Columnas relevantes}
+% Una vez completada la imputación de datos, se procederá a la selección de las columnas más relevantes para el análisis de predicción de ventas. En este caso, se considerarán las siguientes columnas como las más pertinentes:
+
+
+% %%%%%CAMBIO DE COLUMNAS LISTO
+% %%DATE, FAMLILY, TOTAL, LIISURE_DAYS,SUPPLIER, NUMTRANS
+
+% \begin{itemize}
+% 	\item Date: Fecha de transacción de venta.
+% 	\item Family\_id: Identificador unico del tipo de producto perecible
+% 	\item Total: Medida principal de las ventas totales.
+% 	\item Leisure\_days: Dia feriado por festividad gubernamental.
+% 	\item Supplier\_cost: Número de pagos que se hicieron a proveedores en el día.
+% 	\item Num\_transaction: Número de ventas en el día.
+% \end{itemize}
+% %%%CAMBIO LISSTO
+% \begin{figure}[H]
+% 	\begin{center}
+% 		\includegraphics[width=0.7\textwidth]{2/figures/variables_dfverdura.png}
+% 		\caption{Columnas de datos}
+% 		\textit{Fuente: Elaboración propia}
+% 		\label{fig11}
+% 	\end{center}
+	
+% \end{figure}
+% %%%CAMBIO LISTO
+% \begin{figure}[H]
+% 	\begin{center}
+% 		\includegraphics[width=0.7\textwidth]{2/figures/historico_ventas.png}
+% 		\caption{Datos históricos de ventas}
+% 		\textit{Fuente: Elaboración propia}
+% 		\label{fig11}
+% 	\end{center}
+	
+% \end{figure}
+
+% \subsection{Seleccionamos los modelos a utilizar}
+% En este escenario, se han seleccionado los siguientes modelos: Árbol de Decisión, Random Forest, SVR, XGBoost y Regresión Lineal. Antes de proceder con el entrenamiento de estos modelos, se dividirá los datos en conjuntos de entrenamiento y prueba, asignando el 80\% de los datos para entrenamiento y el 20\% restante para pruebas.
+% %%CAMBIO LISTO
+
+% \begin{figure}[H]
+% 	\begin{center}
+% 		\includegraphics[width=0.7\textwidth]{2/figures/train_test.png}
+% 		\caption{División de prueba y entrenamiento}
+% 		\textit{Fuente: Elaboración propia}
+% 		\label{fig11}
+% 	\end{center}	
+% \end{figure}
+
+% \begin{figure}[H]
+% 	\begin{center}
+% 		\includegraphics[width=0.7\textwidth]{2/figures/modelos.png}
+% 		\caption{Modelos elegidos}
+% 		\textit{Fuente: Elaboración propia}
+% 		\label{fig11}
+% 	\end{center}	
+% \end{figure}
+
+
+% A continuación se vera como se entrenan los modelos y las métricas que se eligieron que vendrían a ser RMSE, MSE, R2 y MAPE
+% %LISTO
+% \begin{figure}[H]
+% 	\begin{center}
+% 		\includegraphics[width=0.7\textwidth]{2/figures/metricas_df.png}
+% 		\caption{Definicion de modelos  y métricas}
+% 		\textit{Fuente: Elaboración propia}
+% 		\label{fig11}
+% 	\end{center}
+	
+% \end{figure}
+
+% %\begin{figure}[H]
+% %	\begin{center}
+% %		\includegraphics[width=0.7\textwidth]{2/figures/mape2.png}
+% %		\caption{}
+% %		\label{fig11}
+% %	\end{center}
+% %	
+% %\end{figure}
+
+% A continuación se vera la comparación de todos los modelos y apartir de eso se eligira el mejor modelo para trabajar con una familia.
+
+
+% \begin{figure}[H]
+% 	\begin{center}
+% 		\includegraphics[width=0.8\textwidth]{2/figures/comparacion_modelos.png}
+% 		\caption{Comparación de resultados}
+% 		\label{fig22}
+% 	\end{center}
+	
+% \end{figure}
+
+
+% \begin{figure}[H]
+% 	\begin{center}
+% 		\includegraphics[width=0.8\textwidth]{2/figures/modelos_completo.png}
+% 		\caption{Resultados de modelos}
+% 		\label{fig23}
+% 	\end{center}
+	
+% \end{figure}
+% %
+% %\begin{figure}[H]
+% %	\begin{center}
+% %		\includegraphics[width=0.7\textwidth]{2/figures/metricas.png}
+% %		\caption{}
+% %		\label{fig231}
+% %	\end{center}
+% %	
+% %\end{figure}
 
 
 
@@ -278,18 +441,20 @@ Raíz del error cuadrático medio (RMSE): El término utilizado para denotar el 
 
 Error Cuadrático Medio (MSE - Mean Squared Error): El MSE mide el promedio de los cuadrados de los errores entre las ventas reales y las ventas predichas por el modelo de regresión lineal. En otras palabras, indica cuán cerca están las ventas predichas de las ventas reales en términos de la diferencia cuadrada entre ellos.
 
-\begin{equation}  
-	\label{eq:MSE}
-	\hat{\text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
-	}
+\begin{equation}
+\label{eq:MSE}
+\widehat{\text{MSE}} =
+\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
 \end{equation}
 
 Error Porcentual Absoluto Medio (MAPE - Mean Absolute Percentage Error): El MAPE proporciona una medida de la precisión relativa del modelo de regresión lineal en términos porcentuales. Mide el promedio de los errores porcentuales absolutos entre las ventas reales y las ventas predichas. Esto te permite comprender cuánto se desvían, en promedio, las ventas predichas de las ventas reales en términos de porcentaje.
 
-\begin{equation}  
-	\label{eq:MAPE}
-	\hat{\text{MAPE} = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \times 100\%
-	}
+\begin{equation}
+\label{eq:MAPE}
+\widehat{\text{MAPE}} =
+\frac{1}{n} \sum_{i=1}^{n}
+\left| \frac{y_i - \hat{y}_i}{y_i} \right|
+\times 100\%
 \end{equation}
 
 Coeficiente de determinación: El valor del coeficiente de determinación (R2) oscila entre 0 y 1, reflejando la fracción de puntos en un conjunto de datos que se ajustan a la línea de regresión. Este coeficiente es una medida de la cantidad de variabilidad de la variable dependiente que puede ser explicada por el modelo de regresión. En el contexto de modelos estadísticos, R2 se emplea para predecir resultados futuros o validar hipótesis, siendo una herramienta crucial para evaluar la calidad del modelo y la proporción de variación en los resultados que este puede explicar. La formulación de R2 se presenta en la siguiente línea. (Bruce, P. et al. 2020)
@@ -300,29 +465,62 @@ Coeficiente de determinación: El valor del coeficiente de determinación (R2) o
 \end{equation}
 
 
-
 \subsection{Simulación de la predicción}
-Se realizo la simulación a la familia que tiene más relevancia ósea “VERDURAS” como se menciono en el anterior punto se utilizo el modelo de regresión lineal ya que mostro mejores resultados en los parámetros RMSE, MSE ,R2 y MAPE. A continuación muestro el código con el que se trabajo para realizar la simulación de la predicción
+En esta etapa se presenta la proyección de ventas para los próximos 30 días correspondiente a la familia de productos “ABARRO”, utilizando el modelo predictivo seleccionado automáticamente por el sistema.
 
-%%CAMBIO 
+El gráfico muestra tanto el comportamiento histórico reciente de las ventas como las predicciones futuras generadas por el modelo XGBoost. Las proyecciones se realizan considerando tendencias históricas, comportamiento reciente, variables temporales y patrones aprendidos durante el entrenamiento.
+
+Asimismo, las predicciones mantienen una tendencia coherente respecto al histórico reciente, indicando que el modelo logra capturar adecuadamente el comportamiento promedio de la demanda para esta familia de productos.
+
+Este tipo de proyección resulta útil para la toma de decisiones relacionadas con planificación de inventario, abastecimiento, compras y gestión comercial dentro de la empresa.
+
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.5\textwidth]{2/figures/resultadofinal_numerico.png}
-		\caption{Predicción numerica del mejor modelo}
+		\includegraphics[width=0.4\textwidth]{4/Desa_ima/9.jpeg}
+		\caption{Proyección de ventas a 30 días}
 		\textit{Fuente: Elaboración propia}
-		\label{fig231}
+		\label{fig19}
 	\end{center}	
 \end{figure}
 
 
+Finalmente, se presenta la tabla de pronóstico generada por el sistema predictivo, la cual contiene las estimaciones de ventas diarias para los próximos 30 días correspondientes a la familia de productos analizada.
+
+Cada registro incluye la fecha proyectada y el valor estimado de ventas en soles obtenido mediante el modelo XGBoost. Estas predicciones fueron generadas utilizando patrones históricos, tendencias recientes y variables temporales construidas durante el preprocesamiento de datos.
+
+La tabla permite visualizar detalladamente las proyecciones día por día, facilitando el análisis operativo y la planificación estratégica de la empresa. Asimismo, el sistema incorpora la opción de descargar el pronóstico en formato CSV, permitiendo exportar los resultados para su utilización en reportes y análisis complementarios.
+
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.9\textwidth]{2/figures/resultadofinal.png}
-		\caption{Predicción con el mejor modelo}
+		\includegraphics[width=0.4\textwidth]{4/Desa_ima/10.jpeg}
+		\caption{Tabla detallada del pronóstico}
 		\textit{Fuente: Elaboración propia}
-		\label{fig231}
+		\label{fig20}
 	\end{center}	
 \end{figure}
+
+% \subsection{Simulación de la predicción}
+% Se realizo la simulación a la familia que tiene más relevancia ósea “VERDURAS” como se menciono en el anterior punto se utilizo el modelo de regresión lineal ya que mostro mejores resultados en los parámetros RMSE, MSE ,R2 y MAPE. A continuación muestro el código con el que se trabajo para realizar la simulación de la predicción
+
+% %%CAMBIO 
+% \begin{figure}[H]
+% 	\begin{center}
+% 		\includegraphics[width=0.5\textwidth]{2/figures/resultadofinal_numerico.png}
+% 		\caption{Predicción numerica del mejor modelo}
+% 		\textit{Fuente: Elaboración propia}
+% 		\label{fig231}
+% 	\end{center}	
+% \end{figure}
+
+
+% \begin{figure}[H]
+% 	\begin{center}
+% 		\includegraphics[width=0.9\textwidth]{2/figures/resultadofinal.png}
+% 		\caption{Predicción con el mejor modelo}
+% 		\textit{Fuente: Elaboración propia}
+% 		\label{fig231}
+% 	\end{center}	
+% \end{figure}
 
 
 
