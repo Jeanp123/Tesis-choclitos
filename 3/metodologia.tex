@@ -10,7 +10,7 @@ Esta investigación adopta un enfoque cuantitativo, centrado principalmente en e
 Esta investigación es de tipo explicativa, ya que busca identificar los componentes y parámetros específicos que afectan la eficiencia de la cadena de suministro de la empresa Market Donna SAC. En particular, se centrará en el desarrollo e implementación de un sistema de pronóstico de demanda basado en modelos de Forecasting. El alcance se extiende a la evaluación del impacto de este sistema en la gestión de las órdenes de productos perecibles, analizando los beneficios en términos de optimización de inversión, reducción de costos y mejora de la eficiencia operativa.
 
 \subsection{Tipo}
-La investigación es de tipo no experimental, dado que se trabajará con datos históricos comprendidos entre el año 2012 Y 2026. A partir de este análisis, se desarrollará un modelo predictivo para mejorar la precisión en la estimación de la demanda de productos perecibles en Market Donna SAC y, así, orientar decisiones más efectivas. 
+La investigación es de tipo no experimental, dado que se trabajará con datos históricos comprendidos entre el año 2012 Y 2026. A partir de este análisis, se desarrollará un modelo predictivo para mejorar la precisión en la estimación de la demanda de productos en Market Donna SAC y, así, orientar decisiones más efectivas. 
 
 %\subsection{Enfoque cuantitativo}
 
@@ -56,7 +56,7 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 %	\endhead
 %	Independiente: Optimización en la toma de decisiones & Cantidad óptima de pedidos a realizar a los proveedores, con el fin de minimizar los costos operativos y los desperdicios, al mismo tiempo que se maximiza la disponibilidad de productos y se mejora la eficiencia del inventario  & Cantidad óptima de pedidos & pedido\ proveedor\ <\ demanda\\
 %	\hline
-%%	Dependiente: Demanda de productos perecibles & Cantidad específica de productos perecibles que se espera que los consumidores compren en un período de tiempo determinado, basada en datos históricos de ventas & Cantidad de productos & Número de pedidos \le Demanda\\
+%%	Dependiente: Demanda de productos & Cantidad específica de productos que se espera que los consumidores compren en un período de tiempo determinado, basada en datos históricos de ventas & Cantidad de productos & Número de pedidos \le Demanda\\
 %%	\hline
 %%	\multirow{4}{*}{Modelo \\ de regresión} & \multirow{4}{*}{Modelo con la capacidad de predecir la cantidad aproximada de demanda de productos}  & MSE & \\
 %	
@@ -84,7 +84,7 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 	%		\hline
 	%		Independiente: Optimización en la toma de decisiones & Cantidad óptima de pedidos a realizar a los proveedores, con el fin de minimizar los costos operativos y los desperdicios, al mismo tiempo que se maximiza la disponibilidad de productos y se mejora la eficiencia del inventario & Cantidad óptima de pedidos & Fórmula 1  \\
 	%		\hline
-	%		Dependiente: Demanda de productos perecibles & Cantidad específica de productos perecibles que se espera que los consumidores compren en un período de tiempo determinado, basada en datos históricos de ventas & Cantidad de productos & Fórmula 2  \\
+	%		Dependiente: Demanda de productos & Cantidad específica de productos que se espera que los consumidores compren en un período de tiempo determinado, basada en datos históricos de ventas & Cantidad de productos & Fórmula 2  \\
 	%		\hline
 	%		\multirow{3}{*}{Modelo de \\ regresión} & \multirow{3}{4cm}{Modelo con la capacidad de predecir la cantidad aproximada de demanda de productos} & \multirow{2}{*}{Combinadas} & Fórmula 3 \\
 	%		\cline{2-2} \cline{4-4}
@@ -129,12 +129,12 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 		%\end{itemize}
 		
 		\section{Técnicas de recolección de datos}
-		La recolección de datos para esta investigación se focalizó en la obtención de información sobre la categoría de verduras, la cual representa en promedio el 33 \% de la demanda diaria en Market Donna SAC. Esta categoría fue seleccionada estratégicamente debido a su relevancia en la demanda diaria y su corta vida útil, lo que la convierte en un componente esencial para el análisis de productos perecibles en la empresa.
+		La recolección de datos para esta investigación se focalizó en la obtención de información sobre la categoría de verduras, la cual representa en promedio el 33 \% de la demanda diaria en Market Donna SAC. Esta categoría fue seleccionada estratégicamente debido a su relevancia en la demanda diaria y su corta vida útil, lo que la convierte en un componente esencial para el análisis de productos en la empresa.
 		Para implementar el modelo de series de tiempo y realizar pronósticos de demanda diarios que contribuyan a maximizar los ingresos, se llevó a cabo una recopilación exhaustiva de datos históricos a través de un sistema de administración de bases de datos en SQL Server. Inicialmente, se desarrollaron consultas SQL específicas \ref{fig:querysql} para filtrar y extraer las tablas relevantes, tales como las de productos, precios, familias y códigos. Este proceso permitió estructurar y organizar la información de manera adecuada para su posterior análisis.
 		Posteriormente, se diseñó una consulta SQL \ref{fig:tablasql} avanzada que integró y combinó las tablas requeridas, garantizando la coherencia e integridad de los datos necesarios para construir los modelos de pronóstico de demanda. Esta metodología proporcionó un conjunto de datos preciso y completo, indispensable para la aplicación de técnicas avanzadas de series de tiempo.
 		El análisis incluyó el examen detallado de transacciones de productos de la categoría de verduras desde el año 2012 hasta 2026, brindando una perspectiva temporal amplia para identificar patrones y tendencias de demanda diaria a lo largo del tiempo. Además, se utilizó el sistema de punto de venta (POS) de la empresa para capturar datos en tiempo real sobre las transacciones, lo que permitió un seguimiento constante y detallado de la demanda en esta categoría.
 		Para mejorar la precisión de los datos, se revisaron registros continuos de los niveles de inventario de la categoría de verduras. Aunque la investigación se centra en la demanda y no en la gestión de inventarios, este seguimiento indirecto permitió observar cómo la demanda afecta la reposición de productos perecibles, lo cual es crucial para la planificación diaria en productos de alta rotación.
-		Estas estrategias de recolección de datos se diseñaron para ofrecer una visión integral y cuantitativa de la demanda de la categoría de verduras en Market Donna SAC, focalizándose en este grupo de productos perecibles que tiene un impacto significativo en las ventas diarias y en la eficiencia operativa general de la empresa.
+		Estas estrategias de recolección de datos se diseñaron para ofrecer una visión integral y cuantitativa de la demanda de la categoría de verduras en Market Donna SAC, focalizándose en este grupo de productos que tiene un impacto significativo en las ventas diarias y en la eficiencia operativa general de la empresa.
 		
 		
 		
@@ -196,7 +196,7 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 				\hline 
 				Técnica & Instrumento & Origen & Principales ventajas & Principales desventajas\\
 				\hline \hline
-				Datos de ventas históricas & Registro de ventas(2012-2026) & Registro de la empresa & Obtiene datos cuantitativos sobre las ventas históricas de productos perecibles & No proporciona informacion cualitativa sobre los patrones de la demanda  \\
+				Datos de ventas históricas & Registro de ventas(2012-2026) & Registro de la empresa & Obtiene datos cuantitativos sobre las ventas históricas de productos & No proporciona informacion cualitativa sobre los patrones de la demanda  \\
 				\hline
 				Sistemas de punto de venta (POS) & Hardware POS & Registro en tiempo real de transacciones & Ofrece datos continuos y actualizados sobre las ventas & Dependencia de la confiabilidad del sistema \\
 				\hline
