@@ -1,6 +1,6 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Índice de Figuras}{10}{chapter*.2}%
-\contentsline {chapter}{Índice de Tablas}{13}{chapter*.3}%
+\contentsline {chapter}{Índice de Tablas}{12}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}PLANTEAMIENTO DEL PROBLEMA}{14}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Descripción de la Realidad Problemática}{14}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Formulación del Problema}{16}{section.1.2}%
@@ -185,4 +185,4 @@
 \contentsline {section}{\numberline {6.1}Resultados}{138}{section.6.1}%
 \contentsline {chapter}{\numberline {7}CONCLUSIONES}{141}{chapter.7}%
 \contentsline {chapter}{Anexos}{142}{section*.57}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{147}{appendix*.63}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{154}{appendix*.69}%
