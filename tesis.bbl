@@ -50,6 +50,7 @@
       \field{type}{Tesis de grado}
       \field{year}{2021}
       \field{dateera}{ce}
+      \true{nocite}
     \endentry
     \entry{breiman2001randomforest}{article}{}{}
       \name{author}{1}{}{%
@@ -806,6 +807,7 @@
       \field{edition}{2}
       \field{title}{The Elements of Statistical Learning}
       \field{year}{2009}
+      \true{nocite}
     \endentry
     \entry{heizer2017operations}{book}{}{}
       \name{author}{3}{}{%
@@ -1100,6 +1102,7 @@
       \field{type}{Tesis doctoral}
       \field{year}{2020}
       \field{dateera}{ce}
+      \true{nocite}
     \endentry
     \entry{mell2011nist}{article}{}{}
       \name{author}{2}{}{%
@@ -1633,6 +1636,7 @@
       \field{type}{Tesis de grado}
       \field{year}{2021}
       \field{dateera}{ce}
+      \true{nocite}
     \endentry
     \entry{rodriguez2021estudio}{article}{}{}
       \name{author}{2}{}{%
@@ -1672,6 +1676,7 @@
       \field{title}{Estudio de pronóstico para la planeación, caso de estudio empresa distribuidora del sector farmacéutico}
       \field{volume}{20}
       \field{year}{2021}
+      \true{nocite}
       \field{pages}{59\bibrangedash 78}
       \range{pages}{20}
     \endentry
@@ -2245,6 +2250,7 @@
       \field{type}{Tesis de grado}
       \field{year}{2021}
       \field{dateera}{ce}
+      \true{nocite}
     \endentry
     \entry{breiman2001randomforest}{article}{}{}
       \name{author}{1}{}{%
@@ -3001,6 +3007,7 @@
       \field{edition}{2}
       \field{title}{The Elements of Statistical Learning}
       \field{year}{2009}
+      \true{nocite}
     \endentry
     \entry{heizer2017operations}{book}{}{}
       \name{author}{3}{}{%
@@ -3295,6 +3302,7 @@
       \field{type}{Tesis doctoral}
       \field{year}{2020}
       \field{dateera}{ce}
+      \true{nocite}
     \endentry
     \entry{mell2011nist}{article}{}{}
       \name{author}{2}{}{%
@@ -3828,6 +3836,7 @@
       \field{type}{Tesis de grado}
       \field{year}{2021}
       \field{dateera}{ce}
+      \true{nocite}
     \endentry
     \entry{rodriguez2021estudio}{article}{}{}
       \name{author}{2}{}{%
@@ -3867,6 +3876,7 @@
       \field{title}{Estudio de pronóstico para la planeación, caso de estudio empresa distribuidora del sector farmacéutico}
       \field{volume}{20}
       \field{year}{2021}
+      \true{nocite}
       \field{pages}{59\bibrangedash 78}
       \range{pages}{20}
     \endentry

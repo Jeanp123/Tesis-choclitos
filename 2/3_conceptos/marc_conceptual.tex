@@ -1,68 +1,152 @@
-\subsection{Predicción}
-“Es una herramienta de planificación que respalda a la gestión en sus esfuerzos por abordar la incertidumbre del futuro, muy principalmente en datos del pasado y presente, así como en el análisis de tendencias” (Rios Herrera, 2020)
+\subsection{Predicción de demanda}
+
+La predicción de demanda se entiende como el proceso mediante el cual se estima el comportamiento futuro de las ventas o requerimientos de productos a partir del análisis de datos históricos, patrones temporales y variables que pueden influir en el consumo. En el contexto de una empresa retail, esta predicción permite anticipar cuántas unidades de un producto podrían venderse en un periodo determinado, lo cual resulta fundamental para planificar compras, gestionar inventarios y reducir decisiones basadas únicamente en la intuición.
+
+En esta investigación, la predicción de demanda cumple un rol central, debido a que permite transformar los registros históricos de ventas en información útil para la toma de decisiones. A través de modelos de series temporales y machine learning, se busca identificar patrones de comportamiento en la demanda, tales como variaciones por días de la semana, estacionalidad, tendencias de crecimiento o disminución, y cambios asociados a factores externos. De esta manera, la predicción no solo permite estimar ventas futuras, sino también mejorar el proceso de reabastecimiento de productos en la empresa retail.
+
+\subsection{Demanda en empresas retail}
+
+La demanda en una empresa retail representa la cantidad de productos que los clientes están dispuestos a adquirir en un periodo determinado. Esta demanda puede variar de acuerdo con factores como el precio, la disponibilidad del producto, promociones, hábitos de consumo, días festivos, temporadas, ubicación del establecimiento y comportamiento del mercado.
+
+En el caso de productos de consumo frecuente o perecibles, la demanda suele presentar alta variabilidad, ya que los clientes pueden modificar sus compras según la necesidad diaria, la frescura del producto o las condiciones del entorno. Por ello, en el sector retail resulta necesario analizar la demanda desde una perspectiva dinámica, considerando que no todos los productos se comportan de la misma manera. Algunos productos presentan ventas constantes, mientras que otros muestran picos de consumo en determinados días o temporadas.
+
+Para la presente investigación, comprender la demanda permite establecer una base para seleccionar los datos adecuados, aplicar técnicas de análisis temporal y construir modelos predictivos que apoyen la planificación del reabastecimiento.
 
 \subsection{Pronóstico de demanda}
 
-El pronóstico de demanda es el proceso de estimar la cantidad futura de productos que serán requeridos en períodos posteriores, utilizando información histórica y técnicas estadísticas o de aprendizaje automático.
+El pronóstico de demanda es una estimación cuantitativa del comportamiento futuro de las ventas, elaborada mediante métodos estadísticos, modelos matemáticos o algoritmos de aprendizaje automático. A diferencia de una simple suposición, el pronóstico se basa en datos históricos y en la identificación de patrones que permiten proyectar escenarios futuros con determinado nivel de precisión.
+
+En una empresa retail, el pronóstico de demanda permite responder preguntas como: cuánto comprar, cuándo realizar un pedido, qué productos priorizar y cómo reducir el riesgo de faltantes o excesos de inventario. Por ello, el pronóstico se convierte en una herramienta de apoyo para la planificación operativa y estratégica.
+
+En esta investigación, el pronóstico de demanda se orienta a optimizar el reabastecimiento, utilizando modelos de series temporales y machine learning que permitan estimar la demanda futura con mayor precisión que los métodos tradicionales.
+
+\subsection{Series temporales}
+
+Una serie temporal es un conjunto de observaciones registradas de manera ordenada en el tiempo. En el contexto de ventas retail, una serie temporal puede estar formada por las ventas diarias, semanales o mensuales de un producto o familia de productos. Su principal característica es que cada dato se relaciona con un momento específico, lo que permite analizar la evolución de la demanda a lo largo del tiempo.
+
+El análisis de series temporales permite identificar patrones como tendencia, estacionalidad, ciclos y variaciones aleatorias. Estos elementos son importantes porque ayudan a comprender si la demanda aumenta, disminuye, se repite en ciertos periodos o presenta comportamientos irregulares. En el caso de una empresa retail, este análisis permite anticipar comportamientos futuros y mejorar la planificación de inventarios.
+
+En la presente investigación, las series temporales constituyen la base para el desarrollo de modelos predictivos, ya que permiten trabajar con datos históricos de ventas organizados cronológicamente.
+
+\subsection{Tendencia}
+
+La tendencia es el comportamiento general que sigue una serie temporal durante un periodo prolongado. Puede ser ascendente, descendente o estable. En el análisis de demanda, una tendencia ascendente indica que las ventas de un producto aumentan con el tiempo, mientras que una tendencia descendente muestra una disminución progresiva en el consumo.
+
+En el contexto retail, identificar la tendencia es importante porque permite reconocer productos con crecimiento sostenido, productos en disminución o productos con comportamiento estable. Esta información ayuda a tomar decisiones de compra y reabastecimiento más adecuadas. Por ejemplo, si un producto presenta una tendencia creciente, la empresa puede aumentar progresivamente sus pedidos; si presenta una tendencia decreciente, puede reducir sus compras para evitar sobrestock.
+
+% \subsection{Estacionalidad}
+
+% La estacionalidad se refiere a patrones que se repiten en intervalos regulares dentro de una serie temporal. En una empresa retail, la demanda puede variar según días de la semana, quincenas, fines de mes, temporadas escolares, campañas comerciales, feriados o cambios climáticos.
+
+% La identificación de la estacionalidad es fundamental para el reabastecimiento, ya que permite anticipar incrementos o reducciones de demanda en determinados periodos. Por ejemplo, algunos productos pueden venderse más los fines de semana, mientras que otros pueden aumentar su demanda en fechas festivas o temporadas específicas.
+
+% En esta investigación, la estacionalidad permite enriquecer el modelo predictivo, ya que ayuda a explicar variaciones recurrentes en las ventas y mejora la precisión del pronóstico.
+
+\subsection{Variación aleatoria o ruido}
+
+La variación aleatoria, también denominada ruido, corresponde a los cambios impredecibles que ocurren en una serie temporal y que no responden claramente a una tendencia o patrón estacional. En las ventas retail, estas variaciones pueden deberse a factores inesperados como cambios repentinos en el comportamiento del consumidor, problemas de abastecimiento, eventos externos, errores de registro o situaciones excepcionales del mercado.
+
+Aunque el ruido no siempre puede eliminarse por completo, es importante identificarlo y controlarlo durante el procesamiento de datos, ya que puede afectar la precisión del modelo predictivo. Un modelo adecuado debe ser capaz de reconocer los patrones principales sin ajustarse excesivamente a variaciones aleatorias.
+
+\subsection{Machine Learning}
+
+El machine learning, o aprendizaje automático, es una rama de la inteligencia artificial que permite a los sistemas aprender a partir de datos y mejorar su desempeño en una tarea específica sin ser programados manualmente para cada situación. En lugar de depender únicamente de reglas fijas, los algoritmos de machine learning identifican patrones en los datos históricos y los utilizan para realizar predicciones o clasificaciones.
+
+En el contexto de esta investigación, el machine learning se aplica a la predicción de demanda en una empresa retail. Su utilidad radica en que puede analizar grandes volúmenes de datos de ventas, detectar relaciones entre variables y generar pronósticos que apoyen la toma de decisiones sobre reabastecimiento. A diferencia de métodos tradicionales, algunos modelos de machine learning pueden capturar relaciones no lineales y comportamientos complejos de la demanda.
+
+Por ello, el machine learning representa una herramienta clave para mejorar la precisión del pronóstico, reducir errores de abastecimiento y fortalecer la gestión de inventarios.
+
+\subsection{Aprendizaje supervisado}
+
+El aprendizaje supervisado es un tipo de machine learning en el cual el modelo se entrena utilizando datos históricos que contienen variables de entrada y una variable objetivo conocida. En el caso de esta investigación, las variables de entrada pueden ser la fecha, día de la semana, mes, precio, cantidad vendida anteriormente o familia de producto, mientras que la variable objetivo corresponde a la demanda o cantidad vendida.
+
+El objetivo del aprendizaje supervisado es que el modelo aprenda la relación entre las variables explicativas y la demanda, para luego realizar predicciones sobre datos nuevos. En una empresa retail, este enfoque permite construir modelos capaces de estimar ventas futuras a partir del comportamiento pasado.
+
+\subsection{Modelos de regresión}
+
+Los modelos de regresión son técnicas utilizadas para predecir valores numéricos continuos. En el caso de la predicción de demanda, estos modelos permiten estimar la cantidad de productos que podrían venderse en un periodo futuro. A diferencia de los modelos de clasificación, que asignan categorías, los modelos de regresión generan valores cuantitativos.
+
+En esta investigación, los modelos de regresión son relevantes porque la demanda se expresa generalmente como una cantidad numérica de unidades vendidas. Por ello, algoritmos como regresión lineal, Random Forest Regressor, XGBoost Regressor, SVR o redes neuronales pueden utilizarse para estimar la demanda futura y comparar su desempeño mediante métricas de error.
+
+\subsection{Modelos de series temporales}
+
+Los modelos de series temporales son métodos diseñados para analizar datos ordenados cronológicamente y realizar pronósticos a partir de patrones históricos. Estos modelos consideran la dependencia temporal entre observaciones, es decir, reconocen que las ventas actuales pueden estar relacionadas con ventas pasadas.
+
+Entre los modelos de series temporales más utilizados se encuentran ARIMA, SARIMA, Prophet y modelos basados en suavizamiento exponencial. Estos enfoques permiten capturar componentes como tendencia, estacionalidad y autocorrelación. En el contexto de una empresa retail, estos modelos son útiles para pronosticar ventas futuras y apoyar decisiones de reabastecimiento.
+
+En esta investigación, los modelos de series temporales se emplean como una alternativa para analizar la evolución histórica de la demanda y compararla con modelos de machine learning.
+
+\subsection{Algoritmos predictivos}
+
+Los algoritmos predictivos son procedimientos computacionales que permiten analizar datos históricos y generar estimaciones sobre eventos futuros. En la predicción de demanda, estos algoritmos procesan información de ventas pasadas y variables relacionadas para identificar patrones que ayuden a estimar el comportamiento futuro del consumo.
+
+Dentro de esta investigación, los algoritmos predictivos permiten comparar distintos enfoques de modelamiento, tales como modelos estadísticos de series temporales y modelos de machine learning. Esta comparación resulta importante porque no todos los algoritmos presentan el mismo rendimiento frente a los mismos datos. Algunos pueden funcionar mejor cuando existe estacionalidad clara, mientras que otros pueden ser más adecuados cuando existen múltiples variables explicativas o relaciones no lineales.
+
+% \subsection{Ingeniería de características}
+
+% La ingeniería de características consiste en crear, transformar o seleccionar variables relevantes para mejorar el desempeño de un modelo predictivo. En el análisis de demanda retail, esta etapa puede incluir la creación de variables como día de la semana, mes, año, número de semana, feriado, ventas rezagadas, promedio móvil, variación porcentual o indicadores de temporada.
+
+% Esta etapa es fundamental porque la calidad de las variables utilizadas influye directamente en la precisión del modelo. Un conjunto adecuado de características permite que el algoritmo identifique mejor los patrones de comportamiento de la demanda. En esta investigación, la ingeniería de características contribuye a convertir los datos históricos de ventas en información útil para el entrenamiento de modelos de series temporales y machine learning.
+
+\subsection{Datos históricos}
+
+Los datos históricos son registros acumulados de eventos pasados que sirven como base para el análisis y la predicción. En una empresa retail, estos datos pueden incluir ventas realizadas, cantidades vendidas, precios, fechas de transacción, productos, categorías, proveedores, inventario disponible y otros elementos asociados a la operación comercial.
+
+En la presente investigación, los datos históricos de ventas son el insumo principal para construir los modelos predictivos. A partir de ellos, se identifican patrones de demanda, se entrena el modelo y se evalúa su capacidad para pronosticar ventas futuras. La calidad, cantidad y consistencia de estos datos son factores determinantes para obtener resultados confiables.
+
+\subsection{Preprocesamiento de datos}
+
+El preprocesamiento de datos es el conjunto de actividades orientadas a limpiar, transformar y preparar la información antes de utilizarla en un modelo predictivo. Esta etapa puede incluir la eliminación de duplicados, tratamiento de valores faltantes, corrección de errores, detección de valores atípicos, normalización de variables y organización temporal de los registros.
+
+En la predicción de demanda, el preprocesamiento es indispensable porque los datos de ventas pueden contener inconsistencias que afecten el rendimiento del modelo. Por ejemplo, registros incompletos, fechas incorrectas o valores extremos pueden generar pronósticos poco confiables. Por ello, esta investigación considera el preprocesamiento como una fase clave para mejorar la precisión de los modelos de series temporales y machine learning.
+
+\subsection{Entrenamiento del modelo}
+
+El entrenamiento del modelo es el proceso mediante el cual un algoritmo aprende patrones a partir de un conjunto de datos históricos. Durante esta etapa, el modelo ajusta sus parámetros internos con el propósito de reducir el error entre los valores reales y los valores predichos.
+
+En el contexto de esta investigación, el entrenamiento permite que el modelo aprenda el comportamiento de la demanda en la empresa retail. Para ello, se utilizan datos de ventas pasadas y variables asociadas al tiempo o al producto. Un entrenamiento adecuado permite que el modelo generalice mejor y sea capaz de realizar predicciones sobre periodos futuros.
+
+\subsection{Validación del modelo}
+
+La validación del modelo consiste en evaluar si el modelo predictivo es capaz de generar resultados confiables en datos que no fueron utilizados durante el entrenamiento. Esta etapa permite comprobar si el modelo realmente aprendió patrones útiles o si solo memorizó los datos históricos.
+
+En predicción de demanda, la validación debe respetar el orden temporal de los datos, ya que no sería adecuado utilizar información futura para predecir periodos pasados. Por ello, se suele dividir la información en conjuntos de entrenamiento y prueba considerando la secuencia cronológica. En esta investigación, la validación permite comparar el desempeño de los modelos y seleccionar aquel que presente mejores resultados para apoyar el reabastecimiento.
+
+\subsection{Métricas de evaluación}
+
+Las métricas de evaluación son indicadores que permiten medir el nivel de error o precisión de un modelo predictivo. En la predicción de demanda, estas métricas ayudan a comparar los valores pronosticados con los valores reales de ventas.
+
+Entre las métricas más utilizadas se encuentran el MAE, MSE, RMSE y MAPE. El MAE mide el error absoluto promedio; el MSE calcula el promedio de los errores elevados al cuadrado; el RMSE expresa el error en la misma unidad de la variable analizada; y el MAPE representa el error porcentual promedio. Estas métricas permiten determinar qué modelo ofrece un mejor desempeño y cuál resulta más útil para el proceso de reabastecimiento.
+
+\subsection{Precisión del modelo}
+
+La precisión del modelo hace referencia al grado de cercanía entre las predicciones generadas y los valores reales observados. En el contexto de predicción de demanda, un modelo más preciso permite estimar con mayor exactitud la cantidad de productos que se venderán en un periodo determinado.
+
+Una mayor precisión contribuye a mejorar la planificación de compras, reducir faltantes, evitar exceso de inventario y optimizar los recursos destinados al abastecimiento. Sin embargo, la precisión debe analizarse junto con la aplicabilidad del modelo, ya que un modelo muy complejo puede no ser necesariamente el más adecuado si resulta difícil de interpretar o implementar dentro de la empresa.
+
+\subsection{Reabastecimiento}
+
+El reabastecimiento es el proceso mediante el cual una empresa repone sus productos para mantener niveles adecuados de inventario y satisfacer la demanda de los clientes. Este proceso implica decidir qué productos comprar, en qué cantidad y en qué momento realizar el pedido.
+
+En una empresa retail, el reabastecimiento es una actividad crítica porque influye directamente en la disponibilidad de productos, la satisfacción del cliente, los costos operativos y la rentabilidad. Cuando el reabastecimiento se realiza sin información precisa, pueden generarse problemas como sobrestock, quiebre de stock, pérdidas por deterioro o compras innecesarias.
+
+En esta investigación, la optimización del reabastecimiento se busca mediante el uso de modelos predictivos que permitan anticipar la demanda y apoyar decisiones de compra más eficientes.
+
+\subsection{Inventario}
+
+El inventario representa el conjunto de productos almacenados por una empresa para su posterior venta o utilización. En el sector retail, el inventario permite garantizar la disponibilidad de productos para los clientes, pero también implica costos asociados al almacenamiento, control, manipulación y riesgo de deterioro.
+
+Una gestión adecuada del inventario busca mantener un equilibrio entre disponibilidad y eficiencia. Tener demasiado inventario puede generar sobrecostos y pérdidas, mientras que tener poco inventario puede ocasionar quiebres de stock y pérdida de ventas. En esta investigación, el inventario se relaciona directamente con la predicción de demanda, ya que un pronóstico más preciso permite definir mejores cantidades de reabastecimiento.
 
 \subsection{Sobrestock}
 
-El sobrestock es la situación en la que el nivel de inventario disponible supera significativamente la demanda esperada, generando inmovilización de capital, mayores costos de almacenamiento y riesgo de pérdidas.
+El sobrestock se produce cuando la empresa mantiene una cantidad de inventario superior a la demanda real. En productos perecibles o de alta rotación, este problema puede generar pérdidas económicas debido al deterioro, vencimiento, reducción de calidad, descuentos forzados o inmovilización de capital.
 
-\subsection{Toma de decisiones}
+En el contexto de esta investigación, el sobrestock representa uno de los problemas que se busca reducir mediante la predicción de demanda. Al contar con estimaciones más precisas sobre las ventas futuras, la empresa puede evitar compras excesivas y ajustar mejor sus pedidos a proveedores.
 
-La toma de decisiones es el proceso mediante el cual los responsables de una organización seleccionan alternativas de acción a partir del análisis de información disponible, objetivos operativos y restricciones del entorno.
+\subsection{Optimización del reabastecimiento}
 
-\subsection{Quiebre de stock}
+La optimización del reabastecimiento consiste en mejorar las decisiones relacionadas con la cantidad, frecuencia y momento de compra de productos, buscando equilibrar la disponibilidad de inventario con la reducción de costos y pérdidas. En una empresa retail, esta optimización permite mejorar el servicio al cliente, disminuir sobrestock, evitar quiebres de stock y reducir mermas.
 
-El quiebre de stock ocurre cuando la demanda no puede ser atendida debido a insuficiencia de inventario disponible. Esta situación puede ocasionar pérdida de ventas y disminución del nivel de servicio.
+En la presente investigación, la optimización del reabastecimiento se logra mediante el uso de modelos de series temporales y machine learning aplicados a la predicción de demanda. El propósito es que la empresa pueda tomar decisiones basadas en datos y no únicamente en experiencia o criterios subjetivos.
 
-
-\subsection{Modelos de regresión}
-“Modelo matemático que se utiliza para predecir una variable continua (como el precio de un producto o la demanda de un servicio) a partir de una o varias variables de entrada” (Roldán, 2020)
-
-\subsection{Modelos de clasificación}
-“Modelo matemático que se utiliza para predecir la pertenencia de una observación a una o varias categorías” (Martinez Heras, 2020)
-
-\subsection{Abastecimiento}
-“La función logística tiene la responsabilidad de proporcionar todos los recursos necesarios para asegurar el funcionamiento adecuado de una empresa, a incluir la supervisión de los procesos relacionados con la obtención de materias primas, la producción.” (\cite{lauramodelo2020})
-
-\subsection{Precisión del modelo}
-“Medida de qué tan bien se ajusta el modelo a los datos históricos y qué tan buena es su capacidad para predecir la demanda futura.” (Robles Rakov \& Valverde Campos, 2021)
-
-\subsection{Aprovisionamiento}
-“Es la función logística de una empresa que implica la gestión integral del suministro de materiales útiles para su operación, tal como la supervisión de los procesos involucrados en La adquisición de materias primas, la elaboración de productos, la fabricación, la distribución, el transporte y la entrega.” (Laura Huaita, 2020)
-
-\subsection{Eficiencia}
-“Está vinculado a la optimización de recursos con el objetivo de lograr un fin específico” (Robles Rakov \& Valverde Campos, 2021)
-
-\subsection{Gestión logística}
-“Se trata del conjunto de prácticas y métodos empleados para planificar, organizar, llevar a cabo y supervisar la administración de recursos (materiales, humanos, financieros) necesarios en cualquier proceso de producción o prestación de servicios. Esto abarca la gestión de inventarios, el transporte, la distribución, la administración de almacenes y la coordinación de los flujos de información y bienes” (\cite{Fierrotorres2022})
-
-\subsection{Eficacia}
-“La efectividad de la cadena de suministro se basa en la garantía de que la calidad, la cantidad y la puntualidad en la entrega sean netamente impecables.” (Robles Rakov \& Valverde Campos, 2021)
-
-\subsection{Series temporales}
-“Una red neuronal se conforma por un grupo de neuronas conectadas entre sí a través de enlaces. Cada neurona recibe como entradas las salidas de las neuronas de las capas previas, multiplicando cada una de estas entradas por un peso. Luego, se suman los resultados parciales y se calcula la salida mediante una función de activación.” (\cite{benites2021implementacion})
-
-\subsection{Especificidad}
-“Medida de la capacidad de un modelo para identificar correctamente valores negativos” (Higa Shimabukuro, 2021)
-
-\subsection{Automatización}
-“Aplicación de tecnología para realizar procesos o tareas de manera autónoma, sin intervención humana” (\cite{Fierrotorres2022})
-
-\subsection{Validación cruzada}
-“Método empleado para evaluar la capacidad predictiva de un modelo al dividir los datos en conjuntos de entrenamiento y prueba” (Rios Herrera, 2020)
-
-\section{Machine Learning}
-
-Machine Learning o aprendizaje automático es una rama de la inteligencia artificial que estudia el desarrollo de algoritmos y modelos capaces de identificar patrones a partir de datos y utilizar dichos patrones para realizar predicciones, clasificaciones o tomar decisiones sin haber sido programados explícitamente para cada tarea específica.(\cite{hastie2009elements})
-
-\subsection{Algoritmo de pronóstico}
-“Modelo matemático que utiliza técnicas estadísticas y de aprendizaje automático para predecir valores futuros” (\cite{rodriguez2021estudio})
-
-\subsection{Red neuronal artificial}
-“Modelo matemático inspirado en la estructura y función del cerebro humano, que se utiliza para procesar información y resolver problemas complejos” (\cite{benites2021implementacion})
-
-\subsection{Datos históricos}
-“Conjunto de datos previos que se utilizan para entrenar un modelo predictivo” (\cite{robles2021sistema})

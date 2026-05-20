@@ -10,41 +10,41 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Componentes de la serie temporal}}{64}{figure.caption.15}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Aplicaciónes de serie temporal}}{65}{figure.caption.16}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Organigrama Donna SAC}}{83}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Matriz interna y externa}}{90}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Business Model Canvas}}{91}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Organigrama Donna SAC}}{87}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Matriz interna y externa}}{94}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Business Model Canvas}}{95}{figure.caption.19}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Consulta SQL}}{95}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Tablas de ventas}}{96}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Metodología KDD}}{97}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Selección de tablas SQL}}{102}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Tablas de ventas}}{103}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Descripción cuantitativa}}{104}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Cuantificación de semanas}}{104}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Distribución de precio}}{105}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Correlación de variables}}{105}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Cronograma de actividades}}{117}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Consulta SQL}}{99}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Tablas de ventas}}{100}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Metodología KDD}}{101}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Selección de tablas SQL}}{106}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Tablas de ventas}}{107}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Descripción cuantitativa}}{108}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Cuantificación de semanas}}{108}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Distribución de precio}}{109}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Correlación de variables}}{109}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Cronograma de actividades}}{121}{figure.caption.35}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Familia de productos}}{120}{figure.caption.37}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Predicción Vs. valores actuales}}{123}{figure.caption.38}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Datos históricos de ventas}}{124}{figure.caption.39}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Datos históricos de ventas con 3 columnas agregadas}}{124}{figure.caption.40}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Ventas de la familia verduras}}{125}{figure.caption.41}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Parametros de los modelos elegidos}}{126}{figure.caption.42}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Carga y lectura del dataset}}{127}{figure.caption.43}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces preprocesamiento de la data}}{128}{figure.caption.44}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Gráfico de Outliers}}{129}{figure.caption.45}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Visualización preliminar del dataset procesado}}{129}{figure.caption.46}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Análisis de ventas por familia de productos}}{130}{figure.caption.47}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Evolución histórica de ventas por año}}{131}{figure.caption.48}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Ingeniería de características y construcción de variables temporales}}{132}{figure.caption.49}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Preparación de datos para el entrenamiento}}{133}{figure.caption.50}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Evaluación comparativa de modelos predictivos}}{134}{figure.caption.51}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Comparación entre ventas reales y predicciones}}{135}{figure.caption.52}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Proyección de ventas a 30 días}}{137}{figure.caption.53}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Tabla detallada del pronóstico}}{137}{figure.caption.54}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Familia de productos}}{124}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Predicción Vs. valores actuales}}{127}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Datos históricos de ventas}}{128}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Datos históricos de ventas con 3 columnas agregadas}}{128}{figure.caption.40}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Ventas de la familia verduras}}{129}{figure.caption.41}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Parametros de los modelos elegidos}}{130}{figure.caption.42}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Carga y lectura del dataset}}{131}{figure.caption.43}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces preprocesamiento de la data}}{132}{figure.caption.44}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Gráfico de Outliers}}{133}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Visualización preliminar del dataset procesado}}{133}{figure.caption.46}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Análisis de ventas por familia de productos}}{134}{figure.caption.47}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Evolución histórica de ventas por año}}{135}{figure.caption.48}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Ingeniería de características y construcción de variables temporales}}{136}{figure.caption.49}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Preparación de datos para el entrenamiento}}{137}{figure.caption.50}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Evaluación comparativa de modelos predictivos}}{138}{figure.caption.51}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Comparación entre ventas reales y predicciones}}{139}{figure.caption.52}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Proyección de ventas a 30 días}}{141}{figure.caption.53}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Tabla detallada del pronóstico}}{141}{figure.caption.54}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Gráfico de ventas reales vs predicción}}{139}{figure.caption.55}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Gráfico de ventas reales vs predicción}}{140}{figure.caption.56}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Gráfico de ventas reales vs predicción}}{143}{figure.caption.55}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Gráfico de ventas reales vs predicción}}{144}{figure.caption.56}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Arquitectura de Software}}{144}{figure.caption.59}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Arquitectura de Software}}{149}{figure.caption.59}%

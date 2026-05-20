@@ -3131,14 +3131,6 @@
     <bcf:citekey order="59" intorder="1">hyndman2018forecastingNV</bcf:citekey>
     <bcf:citekey order="60" intorder="1">chopra2019supply</bcf:citekey>
     <bcf:citekey order="61" intorder="1">heizer2017operations</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">lauramodelo2020</bcf:citekey>
-    <bcf:citekey order="63" intorder="1">Fierrotorres2022</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">benites2021implementacion</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">Fierrotorres2022</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">hastie2009elements</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">rodriguez2021estudio</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">benites2021implementacion</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">robles2021sistema</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
