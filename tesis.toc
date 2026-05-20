@@ -159,10 +159,10 @@
 \contentsline {subsection}{\numberline {4.3.7}Evaluación}{116}{subsection.4.3.7}%
 \contentsline {subsection}{\numberline {4.3.8}Despliegue}{118}{subsection.4.3.8}%
 \contentsline {section}{\numberline {4.4}Metodología para la medición de resultados de la implementación}{119}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Raíz del error cuadrático medio (RMSE)}{119}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Error cuadrático medio (MSE)}{119}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Error Porcentual Absoluto Medio (MAPE)}{120}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}MAE (Mean Absolute Error): }{120}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Error Absoluto Medio}{119}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Error Cuadrático Medio}{120}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Raíz del Error Cuadrático Medio}{120}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Error Porcentual Absoluto Medio}{120}{subsection.4.4.4}%
 \contentsline {subsection}{\numberline {4.4.5}Coeficiente de determinación}{120}{subsection.4.4.5}%
 \contentsline {section}{\numberline {4.5}Cronograma de actividades y presupuesto}{121}{section.4.5}%
 \contentsline {chapter}{\numberline {5}DESARROLLO DEL EXPERIMENTO}{123}{chapter.5}%
@@ -184,5 +184,5 @@
 \contentsline {chapter}{\numberline {6}ANÁLISIS DE RESULTADOS}{142}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Resultados}{142}{section.6.1}%
 \contentsline {chapter}{\numberline {7}CONCLUSIONES}{145}{chapter.7}%
-\contentsline {chapter}{Anexos}{146}{section*.57}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{159}{appendix*.69}%
+\contentsline {chapter}{Anexos}{147}{section*.57}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{160}{appendix*.69}%

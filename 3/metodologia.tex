@@ -655,48 +655,93 @@ Donde \( \bar{y} \) es la media de los valores reales \( y_i \).
 		%\end{itemize}
 		
 		\section{Metodología para la medición de resultados de la implementación}
-		\subsection{Raíz del error cuadrático medio (RMSE)}
-		El término utilizado para denotar el error que surge de la diferencia entre los valores predichos y los valores observados por un modelo o estimador es conocido como error cuadrático medio (RMSE). Esta medida se obtiene al calcular la raíz cuadrada de la media de los errores cuadráticos, lo cual refleja la disparidad entre los valores reales y los valores pronosticados. Es importante destacar que el RMSE, al ser siempre positivo, donde valores menores indican un ajuste más acertado de los datos al modelo. La formulación de este concepto se detalla en la siguiente sección.
+		Las métricas empleadas para evaluar la precisión de los modelos fueron el Error Absoluto Medio (MAE), el Error Cuadrático Medio (MSE), la Raíz del Error Cuadrático Medio (RMSE), el Error Porcentual Absoluto Medio (MAPE) y el coeficiente de determinación R$^2$. Estas métricas permitieron comparar las predicciones generadas por los modelos con los valores reales de demanda observados en el conjunto de prueba.
+
+\subsection{Error Absoluto Medio}
+
+El Error Absoluto Medio mide la magnitud promedio del error entre los valores reales y los valores pronosticados. Esta métrica permite interpretar el error en las mismas unidades de la variable objetivo, por lo que resulta útil para evaluar cuánto se desvía, en promedio, la predicción respecto a la demanda real.
+
+\begin{equation}
+MAE = \frac{1}{n}\sum_{i=1}^{n}|y_i-\hat{y}_i|
+\end{equation}
+
+\subsection{Error Cuadrático Medio}
+
+El Error Cuadrático Medio calcula el promedio de los errores elevados al cuadrado. Esta métrica penaliza con mayor intensidad los errores grandes, por lo que permite identificar modelos que presentan desviaciones significativas respecto a los valores reales.
+
+\begin{equation}
+MSE = \frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2
+\end{equation}
+
+\subsection{Raíz del Error Cuadrático Medio}
+
+La Raíz del Error Cuadrático Medio representa la raíz cuadrada del MSE. Su principal ventaja es que expresa el error en la misma unidad de la variable analizada, facilitando la interpretación del desempeño del modelo.
+
+\begin{equation}
+RMSE = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}
+\end{equation}
+
+\subsection{Error Porcentual Absoluto Medio}
+
+El Error Porcentual Absoluto Medio mide el error promedio en términos porcentuales. Esta métrica permite conocer qué tan alejada se encuentra la predicción respecto al valor real en términos relativos, lo cual facilita la comparación del desempeño entre modelos.
+
+\begin{equation}
+MAPE = \frac{1}{n}\sum_{i=1}^{n}\left|\frac{y_i-\hat{y}_i}{y_i}\right|\times 100
+\end{equation}
+
+\subsection{Coeficiente de determinación}
+
+El coeficiente de determinación permite medir la proporción de variabilidad de la demanda real que es explicada por el modelo. Un valor de R$^2$ más cercano a 1 indica una mayor capacidad explicativa del modelo sobre el comportamiento de la demanda.
+
+\begin{equation}
+R^2 = 1-\frac{\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}{\sum_{i=1}^{n}(y_i-\bar{y})^2}
+\end{equation}
 		
-		\begin{equation}  
-			\label{eq:RMSE}
-			\hat{y}_i = \sqrt{\frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{n}}
-		\end{equation}
 		
-		\subsection{Error cuadrático medio (MSE)}
-		El término utilizado para medir la discrepancia entre los valores observados y los valores predichos por un modelo o estimador es conocido como el \textit{Error Cuadrático Medio} (\textit{Mean Squared Error}, MSE). Esta métrica se calcula como el promedio de los cuadrados de las diferencias entre los valores reales y los valores estimados. El MSE proporciona una medida global del error del modelo, donde valores más bajos indican un mejor ajuste de los datos al modelo. Es importante destacar que el MSE siempre es no negativo, ya que los errores al cuadrado eliminan cualquier signo.
+		% \subsection{Raíz del error cuadrático medio (RMSE)}
+		% El término utilizado para denotar el error que surge de la diferencia entre los valores predichos y los valores observados por un modelo o estimador es conocido como error cuadrático medio (RMSE). Esta medida se obtiene al calcular la raíz cuadrada de la media de los errores cuadráticos, lo cual refleja la disparidad entre los valores reales y los valores pronosticados. Es importante destacar que el RMSE, al ser siempre positivo, donde valores menores indican un ajuste más acertado de los datos al modelo. La formulación de este concepto se detalla en la siguiente sección.
 		
-		La formulación matemática del MSE se presenta a continuación:
+		% \begin{equation}  
+		% 	\label{eq:RMSE}
+		% 	\hat{y}_i = \sqrt{\frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{n}}
+		% \end{equation}
 		
-		\begin{equation}
-		\text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
-		\end{equation}
+		% \subsection{Error cuadrático medio (MSE)}
+		% El término utilizado para medir la discrepancia entre los valores observados y los valores predichos por un modelo o estimador es conocido como el \textit{Error Cuadrático Medio} (\textit{Mean Squared Error}, MSE). Esta métrica se calcula como el promedio de los cuadrados de las diferencias entre los valores reales y los valores estimados. El MSE proporciona una medida global del error del modelo, donde valores más bajos indican un mejor ajuste de los datos al modelo. Es importante destacar que el MSE siempre es no negativo, ya que los errores al cuadrado eliminan cualquier signo.
 		
-		\subsection{Error Porcentual Absoluto Medio (MAPE)}
-		El \textit{Error Porcentual Absoluto Medio} (\textit{Mean Absolute Percentage Error}, MAPE) es una métrica utilizada para medir la precisión de un modelo de predicción. Representa el promedio de los errores absolutos expresados en porcentaje, lo que permite interpretar el error en términos relativos respecto a los valores observados. Es una medida ampliamente utilizada debido a su simplicidad y capacidad para comparar errores en diferentes escalas. 
+		% La formulación matemática del MSE se presenta a continuación:
 		
-		El MAPE se calcula mediante la siguiente fórmula:
+		% \begin{equation}
+		% \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+		% \end{equation}
 		
-		\begin{equation}
-		\text{MAPE} = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \cdot 100
-		\end{equation}
+		% \subsection{Error Porcentual Absoluto Medio (MAPE)}
+		% El \textit{Error Porcentual Absoluto Medio} (\textit{Mean Absolute Percentage Error}, MAPE) es una métrica utilizada para medir la precisión de un modelo de predicción. Representa el promedio de los errores absolutos expresados en porcentaje, lo que permite interpretar el error en términos relativos respecto a los valores observados. Es una medida ampliamente utilizada debido a su simplicidad y capacidad para comparar errores en diferentes escalas. 
+		
+		% El MAPE se calcula mediante la siguiente fórmula:
+		
+		% \begin{equation}
+		% \text{MAPE} = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \cdot 100
+		% \end{equation}
 		
 
-		\subsection{MAE (Mean Absolute Error): } El MAE es una métrica de evaluación para modelos de regresión que cuantifica el error promedio absoluto entre los valores reales y los valores predichos. Su funcionamiento consiste en calcular la diferencia entre cada valor real y su predicción, tomar el valor absoluto de cada error (para evitar cancelaciones entre errores positivos y negativos) y luego promediarlos. De esta manera, el MAE refleja la magnitud promedio del error del modelo, penalizando todos los errores de forma lineal y manteniendo las mismas unidades de la variable objetivo.
+		% \subsection{MAE (Mean Absolute Error): } El MAE es una métrica de evaluación para modelos de regresión que cuantifica el error promedio absoluto entre los valores reales y los valores predichos. Su funcionamiento consiste en calcular la diferencia entre cada valor real y su predicción, tomar el valor absoluto de cada error (para evitar cancelaciones entre errores positivos y negativos) y luego promediarlos. De esta manera, el MAE refleja la magnitud promedio del error del modelo, penalizando todos los errores de forma lineal y manteniendo las mismas unidades de la variable objetivo.
 
-		\begin{equation}
-		MAE = \frac{1}{n} \sum_{i=1}^{n} \left| y_i - \hat{y}_i \right|
-		\end{equation}
+		% \begin{equation}
+		% MAE = \frac{1}{n} \sum_{i=1}^{n} \left| y_i - \hat{y}_i \right|
+		% \end{equation}
 
 
-		\subsection{Coeficiente de determinación}
-		El valor del coeficiente de determinación (R2) oscila entre 0 y 1, reflejando la fracción de puntos en un conjunto de datos que se ajustan a la línea de regresión. Este coeficiente es una medida de la cantidad de variabilidad de la variable dependiente que puede ser explicada por el modelo de regresión. En el contexto de modelos estadísticos, R2 se emplea para predecir resultados futuros o validar hipótesis, siendo una herramienta crucial para evaluar la calidad del modelo y la proporción de variación en los resultados que este puede explicar. La formulación de R2 se presenta en la siguiente línea. (Bruce, P. et al. 2020)
+		% \subsection{Coeficiente de determinación}
+		% El valor del coeficiente de determinación (R2) oscila entre 0 y 1, reflejando la fracción de puntos en un conjunto de datos que se ajustan a la línea de regresión. Este coeficiente es una medida de la cantidad de variabilidad de la variable dependiente que puede ser explicada por el modelo de regresión. En el contexto de modelos estadísticos, R2 se emplea para predecir resultados futuros o validar hipótesis, siendo una herramienta crucial para evaluar la calidad del modelo y la proporción de variación en los resultados que este puede explicar. La formulación de R2 se presenta en la siguiente línea. (Bruce, P. et al. 2020)
 		
-		\begin{equation}  
-			\label{eq:r2}
-			\hat{R}^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n}(y_i- \bar{y})^2}
-		\end{equation}
+		% \begin{equation}  
+		% 	\label{eq:r2}
+		% 	\hat{R}^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n}(y_i- \bar{y})^2}
+		% \end{equation}
 		
+
+		En consecuencia, el modelo seleccionado fue aquel que presentó el mejor equilibrio entre bajo nivel de error, capacidad explicativa y aplicabilidad operativa para la planificación del reabastecimiento. De esta manera, la medición de resultados permitió verificar si la implementación del modelo predictivo contribuye a reducir la dependencia de decisiones empíricas y a fortalecer la planificación de pedidos a proveedores.
 		
 		
 		\section{Cronograma de actividades y presupuesto}

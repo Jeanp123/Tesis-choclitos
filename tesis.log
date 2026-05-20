@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.22)  20 MAY 2026 16:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.22)  20 MAY 2026 17:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1008,12 +1008,6 @@ LaTeX Warning: Label `fig11' multiply defined.
 
 LaTeX Warning: Label `fig11' multiply defined.
 
-
-LaTeX Warning: Label `eq:RMSE' multiply defined.
-
-
-LaTeX Warning: Label `eq:r2' multiply defined.
-
 ) (5/resultados.aux
 
 LaTeX Warning: Label `fig:real_vs_pred' multiply defined.
@@ -2009,20 +2003,20 @@ LaTeX Info: Redefining \. on input line 633.
 LaTeX Info: Redefining \% on input line 633.
 [118]
 
-LaTeX Info: Redefining \. on input line 668.
-LaTeX Info: Redefining \% on input line 668.
+LaTeX Info: Redefining \. on input line 671.
+LaTeX Info: Redefining \% on input line 671.
 [119]
 
-LaTeX Info: Redefining \. on input line 694.
-LaTeX Info: Redefining \% on input line 694.
+LaTeX Info: Redefining \. on input line 745.
+LaTeX Info: Redefining \% on input line 745.
 [120]
-<2/figures/crono_activ.png, id=1770, 456.95718pt x 392.96812pt>
+<2/figures/crono_activ.png, id=1771, 456.95718pt x 392.96812pt>
 File: 2/figures/crono_activ.png Graphic file (type png)
 <use 2/figures/crono_activ.png>
-Package pdftex.def Info: 2/figures/crono_activ.png  used on input line 706.
+Package pdftex.def Info: 2/figures/crono_activ.png  used on input line 751.
 (pdftex.def)             Requested size: 407.66833pt x 350.59198pt.
 
-Overfull \hbox (41.51158pt too wide) in paragraph at lines 717--733
+Overfull \hbox (41.51158pt too wide) in paragraph at lines 762--778
  [][]  
  []
 
@@ -2264,16 +2258,20 @@ LaTeX Info: Redefining \% on input line 240.
 
  (6/conclusion.tex
 Cap\'{\i }tulo 7.
-)
+
 
 [145
 
 
 
 
-]
+])
 
-[146
+LaTeX Info: Redefining \. on input line 241.
+LaTeX Info: Redefining \% on input line 241.
+[146]
+
+[147
 
 
 
@@ -2345,15 +2343,15 @@ Overfull \hbox (11.42342pt too wide) in paragraph at lines 7--31
 
 
 
-[147
+[148
 
 ]
 Overfull \vbox (11.45775pt too high) has occurred while \output is active []
 
 
 
-[148]
-<anexos/arquitectura.pdf, id=1924, 597.19106pt x 845.07718pt>
+[149]
+<anexos/arquitectura.pdf, id=1928, 597.19106pt x 845.07718pt>
 File: anexos/arquitectura.pdf Graphic file (type pdf)
 <use anexos/arquitectura.pdf>
 Package pdftex.def Info: anexos/arquitectura.pdf  used on input line 41.
@@ -2368,9 +2366,7 @@ Overfull \vbox (5.18346pt too high) has occurred while \output is active []
 
 
 
-[149 <./anexos/arquitectura.pdf>]
-
-[150]
+[150 <./anexos/arquitectura.pdf>]
 
 [151]
 
@@ -2379,29 +2375,27 @@ Overfull \vbox (5.18346pt too high) has occurred while \output is active []
 [153]
 
 [154]
+
+[155]
 Overfull \hbox (18.13293pt too wide) in paragraph at lines 274--287
  [][] 
  []
 
 
 
-[155]
-
 [156]
 
-[157])
+[157]
 
-[158]
+[158])
 
-[159
+[159]
+
+[160
 
 
 
 ]
-
-LaTeX Info: Redefining \. on input line 259.
-LaTeX Info: Redefining \% on input line 259.
-[160]
 
 LaTeX Info: Redefining \. on input line 259.
 LaTeX Info: Redefining \% on input line 259.
@@ -2411,9 +2405,13 @@ LaTeX Info: Redefining \. on input line 259.
 LaTeX Info: Redefining \% on input line 259.
 [162]
 
+LaTeX Info: Redefining \. on input line 259.
+LaTeX Info: Redefining \% on input line 259.
+[163]
+
 LaTeX Info: Redefining \. on input line 262.
 LaTeX Info: Redefining \% on input line 262.
-[163] (tesis.aux
+[164] (tesis.aux
 LaTeX Info: Redefining \sptext on input line 13.
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
@@ -2427,23 +2425,23 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 69BF17BA5B76D12FD4643D391B2D8673;41024.
+(rerunfilecheck)             Checksum: 3A4113FDF69D8B5FB678C28A56F07A93;40850.
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31454 strings out of 473522
- 618075 string characters out of 5714609
+ 31455 strings out of 473522
+ 618083 string characters out of 5714609
  1557890 words of memory out of 5000000
  53598 multiletter control sequences out of 15000+600000
  605526 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,15n,90p,1923b,3743s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\jpca0\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/jpca0/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (164 pages, 3864459 bytes).
+Output written on tesis.pdf (165 pages, 3865545 bytes).
 PDF statistics:
- 2230 PDF objects out of 2487 (max. 8388607)
- 569 named destinations out of 1000 (max. 500000)
+ 2234 PDF objects out of 2487 (max. 8388607)
+ 570 named destinations out of 1000 (max. 500000)
  1691 words of extra memory for PDF output out of 10000 (max. 10000000)
 
