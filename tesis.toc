@@ -151,38 +151,36 @@
 \contentsline {section}{\numberline {4.2}Técnicas de recolección de datos}{98}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Técnicas para el procesamiento y análisis de la información}{100}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Metodología de la implementación de la solución}{101}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Comprensión del negocio}{102}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Comprensión de los datos}{104}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Procesamiento}{110}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Transformación}{110}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}Modelamiento}{110}{subsection.4.3.6}%
-\contentsline {subsection}{\numberline {4.3.7}Evaluación}{116}{subsection.4.3.7}%
-\contentsline {subsection}{\numberline {4.3.8}Despliegue}{118}{subsection.4.3.8}%
-\contentsline {section}{\numberline {4.4}Metodología para la medición de resultados de la implementación}{119}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Error Absoluto Medio}{119}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Error Cuadrático Medio}{120}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Raíz del Error Cuadrático Medio}{120}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Error Porcentual Absoluto Medio}{120}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}Coeficiente de determinación}{120}{subsection.4.4.5}%
-\contentsline {section}{\numberline {4.5}Cronograma de actividades y presupuesto}{121}{section.4.5}%
-\contentsline {chapter}{\numberline {5}DESARROLLO DEL EXPERIMENTO}{123}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Determinación y evaluación de alternativas de solución}{123}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Propuesta solución}{125}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Planeamiento y descripción de actividades}{127}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Adquirir Base de Datos}{127}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Preprocesamiento de datos}{128}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Selección de algoritmos a utilizar}{129}{subsection.5.3.3}%
-\contentsline {subsubsection}{\numberline {5.3.3.1}Proceso de Entrenamiento y Evaluación de Modelos}{129}{subsubsection.5.3.3.1}%
-\contentsline {subsection}{\numberline {5.3.4}Definir parámetros}{130}{subsection.5.3.4}%
-\contentsline {section}{\numberline {5.4}Desarrollo de actividades. Aplicación de herramientas de solución}{131}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Adquisicion de datos}{131}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Preprocesamiento de datos}{132}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Selección de Columnas relevantes}{133}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Seleccionamos los modelos a utilizar}{134}{subsection.5.4.4}%
-\contentsline {section}{\numberline {5.5}Medición de la solución}{139}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Simulación de la predicción}{140}{subsection.5.5.1}%
-\contentsline {chapter}{\numberline {6}ANÁLISIS DE RESULTADOS}{142}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Resultados}{142}{section.6.1}%
-\contentsline {chapter}{\numberline {7}CONCLUSIONES}{145}{chapter.7}%
-\contentsline {chapter}{Anexos}{147}{section*.57}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{160}{appendix*.69}%
+\contentsline {subsection}{\numberline {4.3.2}Comprensión de los datos}{102}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Pre-Procesamiento}{104}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Modelamiento}{105}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Evaluación}{109}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Despliegue}{111}{subsection.4.3.6}%
+\contentsline {section}{\numberline {4.4}Metodología para la medición de resultados de la implementación}{113}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Error Absoluto Medio}{113}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Error Cuadrático Medio}{113}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Raíz del Error Cuadrático Medio}{114}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Error Porcentual Absoluto Medio}{114}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Coeficiente de determinación}{114}{subsection.4.4.5}%
+\contentsline {section}{\numberline {4.5}Cronograma de actividades y presupuesto}{115}{section.4.5}%
+\contentsline {chapter}{\numberline {5}DESARROLLO DEL EXPERIMENTO}{117}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Determinación y evaluación de alternativas de solución}{117}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Propuesta solución}{119}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Planeamiento y descripción de actividades}{121}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Adquirir Base de Datos}{121}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Preprocesamiento de datos}{122}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Selección de algoritmos a utilizar}{123}{subsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.3.1}Proceso de Entrenamiento y Evaluación de Modelos}{123}{subsubsection.5.3.3.1}%
+\contentsline {subsection}{\numberline {5.3.4}Definir parámetros}{124}{subsection.5.3.4}%
+\contentsline {section}{\numberline {5.4}Desarrollo de actividades. Aplicación de herramientas de solución}{125}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Adquisicion de datos}{125}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Preprocesamiento de datos}{126}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Selección de Columnas relevantes}{127}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Seleccionamos los modelos a utilizar}{128}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}Medición de la solución}{133}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Simulación de la predicción}{134}{subsection.5.5.1}%
+\contentsline {chapter}{\numberline {6}ANÁLISIS DE RESULTADOS}{136}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Resultados}{136}{section.6.1}%
+\contentsline {chapter}{\numberline {7}CONCLUSIONES}{139}{chapter.7}%
+\contentsline {chapter}{Anexos}{141}{section*.51}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{154}{appendix*.63}%
