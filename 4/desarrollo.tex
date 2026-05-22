@@ -161,9 +161,15 @@ Una vez seleccionados los modelos, se procederá a definir los parámetros inici
 
 \subsection{Adquisicion de datos}
 
-En esta etapa inicial del proyecto se realiza la carga y lectura del conjunto de datos principal utilizado para el desarrollo del sistema predictivo de ventas. Para ello, se emplea la librería Polars, seleccionada por su alta eficiencia en el procesamiento de grandes volúmenes de información. El archivo cargado corresponde al historial de ventas denominado “tabla detalle.csv”, el cual contiene información histórica relacionada con las diferentes familias de productos analizadas en el estudio.
+La adquisición de datos consistió en recopilar la información histórica de ventas de la empresa, inicialmente almacenada en archivos externos como hojas de cálculo o archivos CSV. Para el análisis predictivo se utilizaron principalmente las variables \textbf{FECHA}, \textbf{Sede}, \textbf{FAMILIA} y \textbf{ventas\_totales}, ya que estas permiten construir la serie temporal, segmentar la información por unidad operativa y definir la variable que será pronosticada.
 
-Durante la lectura del archivo se configuran parámetros orientados a mejorar la estabilidad del procesamiento y manejar posibles inconsistencias presentes en los datos sin interrumpir la ejecución. Asimismo, se desactiva la detección automática de fechas debido a variaciones en el formato temporal de algunos registros.
+Posteriormente, los datos fueron integrados en \textbf{Supabase}, una base de datos en la nube que permitió centralizar la información y mejorar su disponibilidad. Además, se organizaron tablas de usuarios y ventas, lo que permitió implementar un control de acceso por sede. Así, cada usuario puede visualizar únicamente los datos correspondientes a su sede, haciendo que el análisis y la predicción sean más específicos y seguros.
+
+
+
+% En esta etapa inicial del proyecto se realiza la carga y lectura del conjunto de datos principal utilizado para el desarrollo del sistema predictivo de ventas. Para ello, se emplea la librería Polars, seleccionada por su alta eficiencia en el procesamiento de grandes volúmenes de información. El archivo cargado corresponde al historial de ventas denominado “tabla detalle.csv”, el cual contiene información histórica relacionada con las diferentes familias de productos analizadas en el estudio.
+
+% Durante la lectura del archivo se configuran parámetros orientados a mejorar la estabilidad del procesamiento y manejar posibles inconsistencias presentes en los datos sin interrumpir la ejecución. Asimismo, se desactiva la detección automática de fechas debido a variaciones en el formato temporal de algunos registros.
 
 Finalmente, se verifica la correcta carga del dataset mostrando sus dimensiones y una vista preliminar de los primeros registros. Como resultado, se obtiene un conjunto de datos compuesto por aproximadamente 7.25 millones de registros y 102 columnas, evidenciando el manejo de una base de datos de gran escala para el desarrollo del sistema de proyección de ventas.
 
@@ -176,13 +182,23 @@ Finalmente, se verifica la correcta carga del dataset mostrando sus dimensiones 
 	\end{center}	
 \end{figure}
 
+\subsection{Partición de datos}
+Después de ordenar los datos cronológicamente, se realizó la partición del conjunto de datos en entrenamiento y prueba. Esta división se hizo respetando el orden temporal, debido a que en los modelos de series de tiempo no es correcto mezclar los datos aleatoriamente, ya que el objetivo es predecir valores futuros a partir de información pasada.
+
+El 80 \% de los datos fue utilizado para entrenar los modelos, mientras que el 20 \% restante fue destinado a la evaluación. Esta partición permitió simular un escenario real, donde el sistema aprende del historial de ventas y luego intenta predecir datos posteriores. De esta manera, se evaluó si el modelo podía anticipar correctamente el comportamiento futuro de la demanda.
+
+
 \subsection{Preprocesamiento de datos}
 
-Durante la etapa de preprocesamiento se realizaron diversas técnicas orientadas a mejorar la calidad de la información y optimizar el rendimiento de los modelos predictivos. En primer lugar, se efectuó la limpieza de datos, eliminando registros duplicados, corrigiendo inconsistencias y tratando valores nulos presentes en la base de datos histórica de ventas.
-Posteriormente, se realizó el agrupamiento de productos por familias, permitiendo consolidar la información comercial según categorías de productos perecibles, especialmente en la familia de verduras, con el objetivo de facilitar el análisis del comportamiento de la demanda y reducir la complejidad de los datos.
-Asimismo, se aplicó la transformación de variables temporales mediante la extracción de atributos relevantes de la fecha, tales como día, mes, año y día de la semana, permitiendo identificar patrones de estacionalidad y tendencias en las ventas.
-Adicionalmente, se implementó la generación de variables derivadas o lag features, utilizando información de ventas de períodos anteriores para mejorar la capacidad predictiva de los modelos de forecasting.
-También se efectuó el tratamiento de valores atípicos (outliers), con la finalidad de disminuir el impacto de registros anormales que pudieran afectar la precisión del modelo. Finalmente, se aplicaron técnicas de normalización sobre las variables numéricas para estandarizar los datos y mejorar el desempeño de los algoritmos de aprendizaje automático utilizados en la investigación.
+Durante la etapa de preprocesamiento se aplicaron diversas técnicas orientadas a preparar, limpiar y optimizar la información antes del entrenamiento de los modelos predictivos. En primer lugar, se realizó la limpieza de datos, normalizando los nombres de las columnas, corrigiendo formatos e inconsistencias, eliminando registros duplicados e inválidos y tratando los valores nulos presentes en la base de datos histórica de ventas. Asimismo, la columna \textit{FECHA} fue convertida a formato de fecha y la variable \textit{ventas\_totales} a formato numérico, permitiendo su correcto análisis en Python.
+
+Posteriormente, los datos fueron ordenados cronológicamente y filtrados según la sede y la familia de productos seleccionada. Además, se efectuó el agrupamiento de productos por familias, especialmente en la categoría de verduras, con el propósito de consolidar la información comercial, facilitar el análisis del comportamiento de la demanda y reducir la complejidad de los datos.
+
+De igual manera, se realizó la ingeniería y transformación de variables temporales mediante la extracción de atributos relevantes de la fecha, tales como año, mes, día y día de la semana, incluyendo también un indicador de fin de semana. Estas variables permitieron identificar patrones de estacionalidad y tendencias en las ventas.
+
+Adicionalmente, se implementó la generación de variables derivadas o \textit{lag features}, utilizando información de ventas de períodos anteriores mediante rezagos de 1, 7, 14 y 30 días, así como medias móviles de 7 y 30 días. Esto permitió que los modelos identificaran patrones diarios, semanales, quincenales y mensuales en la demanda, mejorando así su capacidad predictiva.
+
+Finalmente, se efectuó el tratamiento de valores atípicos (\textit{outliers}) para disminuir el impacto de registros anormales que pudieran afectar la precisión del modelo, y se aplicaron técnicas de normalización sobre las variables numéricas con el fin de estandarizar los datos y mejorar el desempeño de los algoritmos de aprendizaje automático utilizados en la investigación.
 
 \begin{figure}[H]
 	\begin{center}
@@ -253,15 +269,9 @@ Los resultados muestran que familias como “FRUTA”, “ABARRO”, “VERDUR�
 
 \subsection{Seleccionamos los modelos a utilizar}
 
+Para el desarrollo de la solución se evaluaron diferentes modelos de \textit{machine learning} y series temporales, con el objetivo de identificar cuál ofrecía mejores resultados en la predicción de ventas. Entre los modelos utilizados se consideraron Regresión Lineal, Ridge, Lasso, \textit{Decision Tree}, \textit{Random Forest}, \textit{Extra Trees}, \textit{Gradient Boosting}, KNN y SVR.
 
-
-En esta etapa se desarrolla un análisis visual de la evolución histórica de las ventas por familia de productos a lo largo del tiempo. Para ello, se construye un gráfico de barras agrupadas que permite comparar el comportamiento anual de las cinco familias con mayor volumen de ventas.
-
-El objetivo principal de esta visualización es identificar tendencias de crecimiento, variaciones en el comportamiento comercial y cambios en la participación de cada familia de productos durante los distintos años analizados.
-
-A partir de los resultados observados, se evidencia una tendencia creciente en las ventas totales conforme avanzan los años, especialmente desde el periodo 2020 en adelante. Asimismo, la familia FRUTA presenta uno de los mayores niveles de crecimiento en comparación con otras categorías.
-
-Por otro lado, se observa una disminución en los valores correspondientes al año 2026. Sin embargo, esta reducción se debe a que el periodo analizado aún se encuentra en curso y únicamente contiene información parcial del año, por lo que no representa una caída definitiva en las ventas.
+Además, se incluyeron modelos orientados a series temporales como ARIMA, SARIMA y Prophet, los cuales permiten capturar patrones históricos, tendencias y estacionalidades. Todos los modelos fueron entrenados usando las mismas variables predictoras y la misma variable objetivo, \textit{ventas\_totales}, para asegurar una comparación justa entre los algoritmos.
 
 \begin{figure}[H]
 	\begin{center}
@@ -306,11 +316,17 @@ Asimismo, se define la variable objetivo denominada \texttt{ventas\_totales}, la
 \end{figure}
 
 
-En esta etapa se realiza la evaluación comparativa de los diferentes modelos predictivos utilizados para la proyección de ventas. El objetivo principal consiste en identificar cuál de los algoritmos ofrece el mejor desempeño al momento de estimar las ventas futuras de las familias de productos analizadas.
+\subsection{Evaluación de los modelos}
 
-Para el proceso de entrenamiento y comparación se utilizaron distintos modelos de aprendizaje automático y series temporales, entre ellos: Linear Regression, Ridge, Lasso, Decision Tree Regressor, Random Forest Regressor, Extra Trees Regressor, Gradient Boosting Regressor, K-Nearest Neighbors (KNN), Support Vector Regression (SVR), XGBoost, ARIMA, SARIMA y Prophet.
+La evaluación de los modelos se realizó comparando las predicciones generadas con los valores reales del conjunto de prueba. Para medir el desempeño se utilizaron métricas como MAE, MSE, RMSE y R\textsuperscript{2}. Estas métricas permitieron analizar el error promedio, penalizar errores grandes, interpretar el error en la misma unidad de ventas y conocer qué tan bien el modelo explica la variabilidad de los datos.
 
-Posteriormente, cada modelo fue evaluado mediante métricas estadísticas como MAE, MSE, RMSE y R², las cuales permiten medir la precisión de las predicciones generadas por cada algoritmo.
+Con estos resultados se elaboró una comparación entre los modelos entrenados. El modelo ganador fue seleccionado considerando su desempeño general, es decir, buscando el menor nivel de error y una buena capacidad explicativa. Luego, el modelo con mejor rendimiento fue reentrenado con toda la información disponible para generar el pronóstico final.
+
+% En esta etapa se realiza la evaluación comparativa de los diferentes modelos predictivos utilizados para la proyección de ventas. El objetivo principal consiste en identificar cuál de los algoritmos ofrece el mejor desempeño al momento de estimar las ventas futuras de las familias de productos analizadas.
+
+% Para el proceso de entrenamiento y comparación se utilizaron distintos modelos de aprendizaje automático y series temporales, entre ellos: Linear Regression, Ridge, Lasso, Decision Tree Regressor, Random Forest Regressor, Extra Trees Regressor, Gradient Boosting Regressor, K-Nearest Neighbors (KNN), Support Vector Regression (SVR), XGBoost, ARIMA, SARIMA y Prophet.
+
+% Posteriormente, cada modelo fue evaluado mediante métricas estadísticas como MAE, MSE, RMSE y R², las cuales permiten medir la precisión de las predicciones generadas por cada algoritmo.
 
 Los resultados muestran que el modelo XGBoost obtuvo el mejor desempeño general, registrando los menores niveles de error y el mayor ajuste estadístico respecto a los demás modelos evaluados. Debido a ello, el sistema lo selecciona automáticamente como el modelo ganador para realizar las proyecciones futuras de ventas.
 
@@ -471,42 +487,42 @@ En este caso, el modelo ganador fue utilizado para generar las predicciones most
 
 
 
-\section{Medición de la solución}
-%%%%AGREGAR RMSE R2 LISTO
-Los parámetros que se utilizaron para poder elegir el mejor modelo son los siguientes:
+% \section{Medición de la solución}
+% %%%%AGREGAR RMSE R2 LISTO
+% Los parámetros que se utilizaron para poder elegir el mejor modelo son los siguientes:
 
-Raíz del error cuadrático medio (RMSE): El término utilizado para denotar el error que surge de la diferencia entre los valores predichos y los valores observados por un modelo o estimador es conocido como error cuadrático medio (RMSE). Esta medida se obtiene al calcular la raíz cuadrada de la media de los errores cuadráticos, lo cual refleja la disparidad entre los valores reales y los valores pronosticados. Es importante destacar que el RMSE, al ser siempre positivo, donde valores menores indican un ajuste más acertado de los datos al modelo. La formulación de este concepto se detalla en la siguiente sección.
+% Raíz del error cuadrático medio (RMSE): El término utilizado para denotar el error que surge de la diferencia entre los valores predichos y los valores observados por un modelo o estimador es conocido como error cuadrático medio (RMSE). Esta medida se obtiene al calcular la raíz cuadrada de la media de los errores cuadráticos, lo cual refleja la disparidad entre los valores reales y los valores pronosticados. Es importante destacar que el RMSE, al ser siempre positivo, donde valores menores indican un ajuste más acertado de los datos al modelo. La formulación de este concepto se detalla en la siguiente sección.
 
-\begin{equation}  
-	\label{eq:RMSE}
-	\hat{y}_i = \sqrt{\frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{n}}
-\end{equation}
+% \begin{equation}  
+% 	\label{eq:RMSE}
+% 	\hat{y}_i = \sqrt{\frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{n}}
+% \end{equation}
 
 
-Error Cuadrático Medio (MSE - Mean Squared Error): El MSE mide el promedio de los cuadrados de los errores entre las ventas reales y las ventas predichas por el modelo de regresión lineal. En otras palabras, indica cuán cerca están las ventas predichas de las ventas reales en términos de la diferencia cuadrada entre ellos.
+% Error Cuadrático Medio (MSE - Mean Squared Error): El MSE mide el promedio de los cuadrados de los errores entre las ventas reales y las ventas predichas por el modelo de regresión lineal. En otras palabras, indica cuán cerca están las ventas predichas de las ventas reales en términos de la diferencia cuadrada entre ellos.
 
-\begin{equation}
-\label{eq:MSE}
-\widehat{\text{MSE}} =
-\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
-\end{equation}
+% \begin{equation}
+% \label{eq:MSE}
+% \widehat{\text{MSE}} =
+% \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+% \end{equation}
 
-Error Porcentual Absoluto Medio (MAPE - Mean Absolute Percentage Error): El MAPE proporciona una medida de la precisión relativa del modelo de regresión lineal en términos porcentuales. Mide el promedio de los errores porcentuales absolutos entre las ventas reales y las ventas predichas. Esto te permite comprender cuánto se desvían, en promedio, las ventas predichas de las ventas reales en términos de porcentaje.
+% Error Porcentual Absoluto Medio (MAPE - Mean Absolute Percentage Error): El MAPE proporciona una medida de la precisión relativa del modelo de regresión lineal en términos porcentuales. Mide el promedio de los errores porcentuales absolutos entre las ventas reales y las ventas predichas. Esto te permite comprender cuánto se desvían, en promedio, las ventas predichas de las ventas reales en términos de porcentaje.
 
-\begin{equation}
-\label{eq:MAPE}
-\widehat{\text{MAPE}} =
-\frac{1}{n} \sum_{i=1}^{n}
-\left| \frac{y_i - \hat{y}_i}{y_i} \right|
-\times 100\%
-\end{equation}
+% \begin{equation}
+% \label{eq:MAPE}
+% \widehat{\text{MAPE}} =
+% \frac{1}{n} \sum_{i=1}^{n}
+% \left| \frac{y_i - \hat{y}_i}{y_i} \right|
+% \times 100\%
+% \end{equation}
 
-Coeficiente de determinación: El valor del coeficiente de determinación (R2) oscila entre 0 y 1, reflejando la fracción de puntos en un conjunto de datos que se ajustan a la línea de regresión. Este coeficiente es una medida de la cantidad de variabilidad de la variable dependiente que puede ser explicada por el modelo de regresión. En el contexto de modelos estadísticos, R2 se emplea para predecir resultados futuros o validar hipótesis, siendo una herramienta crucial para evaluar la calidad del modelo y la proporción de variación en los resultados que este puede explicar. La formulación de R2 se presenta en la siguiente línea. (Bruce, P. et al. 2020)
+% Coeficiente de determinación: El valor del coeficiente de determinación (R2) oscila entre 0 y 1, reflejando la fracción de puntos en un conjunto de datos que se ajustan a la línea de regresión. Este coeficiente es una medida de la cantidad de variabilidad de la variable dependiente que puede ser explicada por el modelo de regresión. En el contexto de modelos estadísticos, R2 se emplea para predecir resultados futuros o validar hipótesis, siendo una herramienta crucial para evaluar la calidad del modelo y la proporción de variación en los resultados que este puede explicar. La formulación de R2 se presenta en la siguiente línea. (Bruce, P. et al. 2020)
 
-\begin{equation}  
-	\label{eq:r2}
-	\hat{R}^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n}(y_i- \bar{y})^2}
-\end{equation}
+% \begin{equation}  
+% 	\label{eq:r2}
+% 	\hat{R}^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n}(y_i- \bar{y})^2}
+% \end{equation}
 
 
 \subsection{Simulación de la predicción}
@@ -578,3 +594,88 @@ La tabla permite visualizar detalladamente las proyecciones día por día, facil
 %		\label{fig11}
 %	\end{center}	
 %\end{figure}
+
+\subsection{Despliegue de la solución}
+
+Después de completar el proceso de adquisición, preparación, entrenamiento, evaluación y pronóstico, la solución fue desplegada mediante un dashboard interactivo desarrollado en \textit{Streamlit}. Este dashboard permitió presentar los resultados del análisis y del modelo predictivo de forma visual, ordenada y accesible para el usuario final.
+
+El despliegue integró tres elementos principales: la base de datos en \textit{Supabase}, el procesamiento en Python y la interfaz web en \textit{Streamlit}. \textit{Supabase} fue utilizado como repositorio central de datos, almacenando la información de usuarios y ventas. Python fue utilizado para realizar la limpieza de datos, generación de variables, entrenamiento de modelos, evaluación y pronóstico. \textit{Streamlit} fue utilizado para construir la interfaz visual mediante la cual el usuario puede interactuar con el sistema.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{4/despl_ima/d1.jpeg}
+		% \includegraphics[width=0.6\textwidth]{4/despl_ima/d2.jpeg}
+		% \includegraphics[width=0.6\textwidth]{4/despl_ima/d3.jpeg}
+		% \caption{Base de datos en Supabase}
+		% \textit{Fuente: Elaboración propia}
+		% \label{fig21}
+	\end{center}	
+\end{figure}
+
+
+\begin{figure}[H]
+	\begin{center}
+		% \includegraphics[width=0.6\textwidth]{4/despl_ima/d1.jpeg}
+		\includegraphics[width=0.6\textwidth]{4/despl_ima/d2.jpeg}
+		% \includegraphics[width=0.6\textwidth]{4/despl_ima/d3.jpeg}
+		\caption{Base de datos en Supabase}
+		\textit{Fuente: Elaboración propia}
+		\label{fig21}
+	\end{center}	
+\end{figure}
+
+El sistema inicia con un formulario de acceso. El usuario ingresa sus credenciales y estas son validadas con la tabla de usuarios almacenada en \textit{Supabase}. Si los datos son correctos, el sistema identifica la sede asociada al usuario y carga únicamente la información correspondiente a dicha sede. Esta lógica permite implementar un control de acceso por sede, evitando que un usuario visualice información de otras unidades operativas.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{4/despl_ima/d3.jpeg}
+		\includegraphics[width=0.75\textwidth]{4/despl_ima/d4.jpeg}
+		% \includegraphics[width=0.6\textwidth]{4/despl_ima/d3.jpeg}
+		\caption{Control de acceso y base de datos en Supabase}
+		\textit{Fuente: Elaboración propia}
+		\label{fig22}
+	\end{center}	
+\end{figure}
+
+
+Una vez dentro del dashboard, el usuario puede seleccionar la familia de productos que desea analizar. A partir de esta selección, el sistema filtra la información, prepara los datos y muestra diferentes secciones de análisis. Entre las principales funcionalidades se encuentran el resumen ejecutivo de ventas, el análisis por día de la semana, la participación porcentual diaria, el promedio mensual, el crecimiento anual, la serie histórica, la evaluación del modelo predictivo, la comparación entre ventas reales y predichas, y el pronóstico de ventas a 30 días.
+
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{4/despl_ima/d8.jpeg}
+		% \includegraphics[width=0.6\textwidth]{4/despl_ima/d6.jpeg}
+		% \includegraphics[width=0.6\textwidth]{4/despl_ima/d3.jpeg}
+		\caption{Dashboard de análisis}
+		\textit{Fuente: Elaboración propia}
+		\label{fig23}
+	\end{center}	
+\end{figure}
+
+
+El despliegue permite que el sistema funcione como una herramienta operativa para el administrador de cada sede. En lugar de trabajar únicamente con archivos manuales o cálculos aislados, el usuario puede acceder a una plataforma web, revisar el comportamiento histórico de las ventas y obtener una estimación futura que apoye la planificación del pedido a proveedores.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{4/despl_ima/d7.jpeg}
+		% \includegraphics[width=0.6\textwidth]{4/despl_ima/d4.jpeg}
+		% \includegraphics[width=0.6\textwidth]{4/despl_ima/d3.jpeg}
+		\caption{Log in de Dashboard}
+		\textit{Fuente: Elaboración propia}
+		\label{fig24}
+	\end{center}	
+\end{figure}
+
+Además, la integración con \textit{Supabase} permite que la información pueda actualizarse con nuevos registros de ventas. Conforme la empresa incorpore datos recientes, el sistema podrá procesarlos nuevamente y generar predicciones más actualizadas. Esto permite que el modelo mantenga una relación continua con la operación real de la empresa y no se limite a un análisis estático.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{4/despl_ima/d5.jpeg}
+		% \includegraphics[width=0.6\textwidth]{4/despl_ima/d4.jpeg}
+		% \includegraphics[width=0.6\textwidth]{4/despl_ima/d3.jpeg}
+		\caption{Key de API 12222para conexión entre Supabase y Python}
+		\textit{Fuente: Elaboración propia}
+		\label{fig25}
+	\end{center}	
+\end{figure}
+
+En conjunto, el despliegue de la solución permite transformar el modelo predictivo en una herramienta funcional, accesible y útil para la toma de decisiones. De esta manera, el proyecto no se limita a la construcción técnica de modelos, sino que culmina en una solución aplicada que permite mejorar la planificación de compras, reducir la incertidumbre en el reabastecimiento y apoyar una gestión más eficiente de productos perecibles.

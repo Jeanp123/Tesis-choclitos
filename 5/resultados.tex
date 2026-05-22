@@ -48,6 +48,20 @@ En términos prácticos, la predicción de ventas se convierte en una herramient
 
 Finalmente, los resultados demuestran que la aplicación de modelos predictivos en Market Dona puede contribuir significativamente a mejorar la gestión de inventario y el proceso de abastecimiento. El uso del modelo Linear Regression permitió obtener predicciones suficientemente precisas para apoyar la elaboración de presupuestos de compra, ayudando a reducir el sobrestock y minimizar la falta de productos, generando así un impacto positivo en las ventas y en la administración general de la empresa.
 
+\section{Experiencia del usuario y uso operativo del sistema}
+
+El sistema predictivo propuesto fue diseñado para que cada administrador de sede de Donna S.A.C. pueda tomar decisiones semanales más informadas en el pedido de productos perecibles. Su principal objetivo es estimar la demanda futura y permitir un presupuesto de compra ajustado a las necesidades reales de la operación.
+
+En cada ciclo semanal, el administrador ingresa al sistema para cargar o actualizar los datos de ventas recientes. Esta información se integra al histórico de ventas, asegurando que la base de datos refleje el comportamiento más reciente de la demanda. Con cada actualización, el sistema procesa los datos, construye variables relevantes como día de la semana, mes, rezagos de ventas y medias móviles, y genera nuevas predicciones que consideran patrones recientes y tendencias temporales.
+
+A partir de estas proyecciones, el administrador puede determinar la cantidad de productos a solicitar a los proveedores. Si la predicción indica una mayor demanda, el presupuesto de compra puede incrementarse de manera controlada; si la demanda esperada es menor, se reduce el pedido para evitar exceso de inventario, deterioro de productos y pérdidas económicas.
+
+Además, el sistema ofrece herramientas visuales como métricas, gráficos comparativos y tablas de predicción, lo que facilita la interpretación de los resultados y la comparación entre ventas reales y pronosticadas. La posibilidad de exportar los pronósticos permite utilizar la información en reportes internos o en la planificación de compras, fortaleciendo la gestión operativa.
+
+Con el uso continuo, la base de datos se enriquece y el modelo se actualiza periódicamente, mejorando su precisión y adaptándose a cambios en el comportamiento de la demanda. De esta manera, el administrador no solo consulta una predicción, sino que participa en un ciclo constante de actualización, análisis y mejora del proceso de abastecimiento.
+
+En resumen, el sistema proporciona un apoyo práctico y confiable en la gestión de productos perecibles, reduciendo la incertidumbre en la compra, optimizando el presupuesto semanal y minimizando riesgos asociados al sobrestock y quiebres de inventario. Su implementación contribuye a decisiones más precisas, ordenadas y basadas en datos, fortaleciendo la eficiencia y la rentabilidad de cada sede.
+
 
 
 % A continuación de muestran los resultados obtenidos a partir de la metodología seguida. Estos resultados abarcan diferentes modelos de predicción como LSTM, Prophet, SVR, ARIMA, Linear Regression, Random Forest, Decision Tree, XGBoost. 

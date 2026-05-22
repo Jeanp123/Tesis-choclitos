@@ -413,65 +413,65 @@ El valor óptimo de $\gamma_m$ se obtiene resolviendo:
 Finalmente, el modelo se actualiza iterativamente hasta alcanzar el número de iteraciones deseado o un criterio de convergencia.
 
 
-\subsubsection{Prophet}
+% \subsubsection{Prophet}
 
-Prophet es un modelo diseñado para realizar pronósticos de series temporales, destacándose por su robustez y flexibilidad para manejar patrones complejos, estacionalidades y datos con valores atípicos. Está pensado para ser intuitivo y fácil de ajustar, permitiendo su uso tanto por expertos como por no especialistas en análisis estadístico. (\cite{hoarau2022time})
+% Prophet es un modelo diseñado para realizar pronósticos de series temporales, destacándose por su robustez y flexibilidad para manejar patrones complejos, estacionalidades y datos con valores atípicos. Está pensado para ser intuitivo y fácil de ajustar, permitiendo su uso tanto por expertos como por no especialistas en análisis estadístico. (\cite{hoarau2022time})
 
-Prophet descompone una serie temporal \( y(t) \) en tres componentes principales, sumados a un término de error aleatorio:
+% Prophet descompone una serie temporal \( y(t) \) en tres componentes principales, sumados a un término de error aleatorio:
 
-\begin{equation}
-y(t) = T(t) + S(t) + H(t) + \varepsilon_t
-\end{equation}
+% \begin{equation}
+% y(t) = T(t) + S(t) + H(t) + \varepsilon_t
+% \end{equation}
 
-Donde:
-\( T(t) \): Describe la tendencia o evolución a largo plazo de la serie.
-\( S(t) \): Captura los patrones estacionales recurrentes.
-\( H(t) \): Representa los efectos asociados a eventos específicos o festivos.
-\( \varepsilon_t \): Corresponde al ruido aleatorio, que se modela como ruido gaussiano con media cero.
+% Donde:
+% \( T(t) \): Describe la tendencia o evolución a largo plazo de la serie.
+% \( S(t) \): Captura los patrones estacionales recurrentes.
+% \( H(t) \): Representa los efectos asociados a eventos específicos o festivos.
+% \( \varepsilon_t \): Corresponde al ruido aleatorio, que se modela como ruido gaussiano con media cero.
 
-Componente de Tendencia (\( T(t) \))
-El modelo permite dos enfoques para capturar tendencias:
+% Componente de Tendencia (\( T(t) \))
+% El modelo permite dos enfoques para capturar tendencias:
 
-1. Crecimiento Lineal: Modela la tendencia como una línea recta con puntos de cambio:
-\begin{equation}
-T(t) = (k + a(t) \delta)t + (m + a(t)\gamma)
-\end{equation}
-Donde:
-\( k \) es la tasa de crecimiento inicial.
-\( m \) es el intercepto inicial.
-\( a(t) \) indica si hay puntos de cambio en \( t \).
-\( \delta \) y \( \gamma \) ajustan la pendiente e intercepto en dichos puntos.
+% 1. Crecimiento Lineal: Modela la tendencia como una línea recta con puntos de cambio:
+% \begin{equation}
+% T(t) = (k + a(t) \delta)t + (m + a(t)\gamma)
+% \end{equation}
+% Donde:
+% \( k \) es la tasa de crecimiento inicial.
+% \( m \) es el intercepto inicial.
+% \( a(t) \) indica si hay puntos de cambio en \( t \).
+% \( \delta \) y \( \gamma \) ajustan la pendiente e intercepto en dichos puntos.
 
-2. Crecimiento Logístico: Se utiliza cuando el crecimiento está limitado por una capacidad máxima \( C \):
-\begin{equation}
-T(t) = \frac{C}{1 + \exp(-k(t - m))}
-\end{equation}
-Aquí:
-\( C \) es el valor máximo alcanzable.
-\( k \) es la tasa de crecimiento.
-\( m \) es el tiempo en el que la serie alcanza la mitad de \( C \).
+% 2. Crecimiento Logístico: Se utiliza cuando el crecimiento está limitado por una capacidad máxima \( C \):
+% \begin{equation}
+% T(t) = \frac{C}{1 + \exp(-k(t - m))}
+% \end{equation}
+% Aquí:
+% \( C \) es el valor máximo alcanzable.
+% \( k \) es la tasa de crecimiento.
+% \( m \) es el tiempo en el que la serie alcanza la mitad de \( C \).
 
-Componente Estacional (\( S(t) \))
-La estacionalidad se representa mediante una combinación de funciones seno y coseno, que permiten capturar patrones periódicos:
+% Componente Estacional (\( S(t) \))
+% La estacionalidad se representa mediante una combinación de funciones seno y coseno, que permiten capturar patrones periódicos:
 
-\begin{equation}
-S(t) = \sum_{n=1}^{N} \left[ a_n \cos\left(\frac{2 \pi n t}{P}\right) + b_n \sin\left(\frac{2 \pi n t}{P}\right) \right]
-\end{equation}
+% \begin{equation}
+% S(t) = \sum_{n=1}^{N} \left[ a_n \cos\left(\frac{2 \pi n t}{P}\right) + b_n \sin\left(\frac{2 \pi n t}{P}\right) \right]
+% \end{equation}
 
-Donde:
-\( P \) es el periodo del ciclo estacional (por ejemplo, 365 días para patrones anuales).
-\( a_n \) y \( b_n \) son coeficientes que determinan la amplitud y la forma del patrón.
+% Donde:
+% \( P \) es el periodo del ciclo estacional (por ejemplo, 365 días para patrones anuales).
+% \( a_n \) y \( b_n \) son coeficientes que determinan la amplitud y la forma del patrón.
 
-Componente de Eventos y Festividades (\( H(t) \)). 
-Este componente permite incluir efectos asociados a eventos específicos, modelados como variables indicadoras:
+% Componente de Eventos y Festividades (\( H(t) \)). 
+% Este componente permite incluir efectos asociados a eventos específicos, modelados como variables indicadoras:
 
-\begin{equation}
-H(t) = \sum_{i=1}^{L} \text{indicador}(t \in \text{evento}_i) \cdot \beta_i
-\end{equation}
+% \begin{equation}
+% H(t) = \sum_{i=1}^{L} \text{indicador}(t \in \text{evento}_i) \cdot \beta_i
+% \end{equation}
 
-Donde:
-\( \text{evento}_i \) representa un evento particular.
-\( \beta_i \) es la magnitud del impacto causado por dicho evento.
+% Donde:
+% \( \text{evento}_i \) representa un evento particular.
+% \( \beta_i \) es la magnitud del impacto causado por dicho evento.
 
 
 

@@ -464,7 +464,7 @@ Finalmente, el preprocesamiento permitió obtener un conjunto de datos estructur
 			\item \textbf{SVR: } SVR es una variante de las máquinas de vectores de soporte (SVM) adaptada para problemas de regresión. A diferencia de los métodos de regresión lineal, SVR utiliza vectores de soporte en un espacio de alta dimensión para predecir valores continuos, buscando la función que mejor se ajuste a los datos mientras mantiene un margen de error aceptable.
 			\item \textbf{RANDOM FOREST: } Random Forest es un conjunto de árboles de decisión, donde cada árbol es construido de manera independiente y con muestras de datos aleatorias. La predicción final se obtiene por votación o promediando las predicciones individuales de los árboles, lo que mejora la precisión y reduce el sobreajuste.
 			\item \textbf{DECISION TREE: } Un árbol de decisión es una estructura de modelo de aprendizaje automático que divide un conjunto de datos en subconjuntos más pequeños basados en características específicas de las variables predictoras. Cada nodo representa una característica y cada hoja representa un resultado o decisión.
-			\item \textbf{PROPHET: } Prophet es un modelo desarrollado por Facebook para realizar pronósticos de series temporales. Es especialmente útil cuando se cuenta con datos estacionales, festivos o fluctuaciones regulares, y permite manejar datos con puntos faltantes o valores atípicos. Es fácil de usar y flexible para ajustar tendencias y patrones estacionales.
+			% \item \textbf{PROPHET: } Prophet es un modelo desarrollado por Facebook para realizar pronósticos de series temporales. Es especialmente útil cuando se cuenta con datos estacionales, festivos o fluctuaciones regulares, y permite manejar datos con puntos faltantes o valores atípicos. Es fácil de usar y flexible para ajustar tendencias y patrones estacionales.
 			\item \textbf{GRADIENT BOOSTING: } Gradient Boosting es un algoritmo de aprendizaje supervisado que construye modelos de forma secuencial, donde cada nuevo modelo corrige los errores del anterior. Utiliza árboles de decisión como modelos base y optimiza una función de pérdida mediante el descenso de gradiente, logrando alta precisión en tareas de regresión y clasificación.
 
 \item \textbf{KNN (K-Nearest Neighbors): } KNN es un algoritmo de aprendizaje basado en instancias que realiza predicciones basándose en los datos más cercanos en el espacio de características. Para regresión, el valor predicho se obtiene como el promedio de los valores de sus vecinos más cercanos, lo que lo hace simple pero efectivo en ciertos contextos.
@@ -476,32 +476,32 @@ Finalmente, el preprocesamiento permitió obtener un conjunto de datos estructur
 \item \textbf{SARIMA: } SARIMA (Seasonal ARIMA) es una extensión del modelo ARIMA que incorpora componentes estacionales. Permite modelar tanto patrones no estacionales como estacionales en series temporales, siendo útil cuando los datos presentan ciclos repetitivos a lo largo del tiempo.
 		\end{itemize}
 		
-		Con base en la revisión de estudios previos, se observó que los modelos LSTM, Regresión Lineal y Árbol de Decisión ofrecieron los mejores resultados en experimentos similares. Dado que el objetivo de la investigación era implementar un modelo de regresión, se decidió utilizar Regresion Lineal para el análisis de los datos estructurados.
+		% Con base en la revisión de estudios previos, se observó que los modelos LSTM, Regresión Lineal y Árbol de Decisión ofrecieron los mejores resultados en experimentos similares. Dado que el objetivo de la investigación era implementar un modelo de regresión, se decidió utilizar Regresion Lineal para el análisis de los datos estructurados.
 		
-		\textbf{Diseño de la Arquitectura Regresion Lineal Multiple}
+		% \textbf{Diseño de la Arquitectura Regresion Lineal Multiple}
 		
-		La ecuación general de la regresión lineal múltiple se define como:  
+		% La ecuación general de la regresión lineal múltiple se define como:  
 		
-		\begin{equation}
-		Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \cdots + \beta_n X_n + \epsilon
-		\end{equation}
+		% \begin{equation}
+		% Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \cdots + \beta_n X_n + \epsilon
+		% \end{equation}
 		
-		Donde:  
-		\begin{itemize}
-			\item \( Y \): Variable dependiente o respuesta.
-			\item \( X_1, X_2, \dots, X_n \): Variables independientes o explicativas.
-			\item \( \beta_0 \): Intercepto o término constante.
-			\item \( \beta_1, \beta_2, \dots, \beta_n \): Coeficientes de las variables independientes, que representan su contribución al valor de \( Y \).
-			\item \( \epsilon \): Error residual, que captura las desviaciones no explicadas por el modelo.
-		\end{itemize}
+		% Donde:  
+		% \begin{itemize}
+		% 	\item \( Y \): Variable dependiente o respuesta.
+		% 	\item \( X_1, X_2, \dots, X_n \): Variables independientes o explicativas.
+		% 	\item \( \beta_0 \): Intercepto o término constante.
+		% 	\item \( \beta_1, \beta_2, \dots, \beta_n \): Coeficientes de las variables independientes, que representan su contribución al valor de \( Y \).
+		% 	\item \( \epsilon \): Error residual, que captura las desviaciones no explicadas por el modelo.
+		% \end{itemize}
 		
-		El objetivo es estimar los coeficientes \( \beta_0, \beta_1, \dots, \beta_n \) que minimicen la suma de los errores al cuadrado (Método de Mínimos Cuadrados Ordinarios):  
+		% El objetivo es estimar los coeficientes \( \beta_0, \beta_1, \dots, \beta_n \) que minimicen la suma de los errores al cuadrado (Método de Mínimos Cuadrados Ordinarios):  
 		
-		\begin{equation}
-		\text{Minimizar: } \sum_{i=1}^m \left( Y_i - \hat{Y}_i \right)^2
-		\end{equation}
+		% \begin{equation}
+		% \text{Minimizar: } \sum_{i=1}^m \left( Y_i - \hat{Y}_i \right)^2
+		% \end{equation}
 		
-		Donde \( \hat{Y}_i \) es el valor predicho para la \( i \)-ésima observación.  
+		% Donde \( \hat{Y}_i \) es el valor predicho para la \( i \)-ésima observación.  
 		
 %		Para diseñar la arquitectura del modelo LSTM, se evaluaron diversas metodologías y estrategias. Finalmente, se seleccionaron las siguientes 12 pautas fundamentales para su implementación:
 %		
@@ -521,9 +521,11 @@ Finalmente, el preprocesamiento permitió obtener un conjunto de datos estructur
 %			
 %		\end{enumerate}
 		
-		\textbf{Entregable: } Modelo Regresion Lineal para el pronostico de ventas.
+		% \textbf{Entregable: } Modelo Regresion Lineal para el pronostico de ventas.
 		
-		\textbf{Actividad 2: } Seleccionar las métricas para la evaluación del modelo
+		\textbf{Actividad 2: }
+		
+		Seleccionar las métricas para la evaluación del modelo
 		En esta actividad, se llevó a cabo una investigación basada en el estado del arte para identificar las métricas ma´s utilizadas en investigaciones previas. Se encontró que las métricas más frecuentemente empleadas fueron las siguientes:
 		
 		
@@ -534,13 +536,13 @@ Finalmente, el preprocesamiento permitió obtener un conjunto de datos estructur
 		\item \textbf{R2: } Calcula el coeficiente de determinación, que mide la proporción de la variabilidad en los datos que es explicada por el modelo. Un valor de R2 cercano a 1 indica un buen ajuste del modelo a los datos, mientras que un valor cercano a 0 indica un ajuste pobre.
 		\end{itemize}
 		
-		De acuerdo a la anterior lista, estas métricas ayudarán a:
+		% De acuerdo a la anterior lista, estas métricas ayudarán a:
 		
-		\begin{itemize}
-			\item Evaluar la precisión y el rendimiento de modelos predictivos en comparación con los valores reales.
-			\item Cuantificar el nivel de error y la discrepancia entre las predicciones del modelo y los datos observados.
-			\item Optimizar y ajustar los parámetros del modelo para minimizar el error y mejorar la precisión de las predicciones.
-		\end{itemize}
+		% \begin{itemize}
+		% 	\item Evaluar la precisión y el rendimiento de modelos predictivos en comparación con los valores reales.
+		% 	\item Cuantificar el nivel de error y la discrepancia entre las predicciones del modelo y los datos observados.
+		% 	\item Optimizar y ajustar los parámetros del modelo para minimizar el error y mejorar la precisión de las predicciones.
+		% \end{itemize}
 		
 % 		Estas métricas proporcionan una base sólida para la evaluación rigurosa de modelos predictivos en diversas aplicaciones, facilitando la toma de decisiones informadas y la mejora continua del rendimiento del modelo.\\
 		
@@ -633,7 +635,7 @@ Finalmente, el preprocesamiento permitió obtener un conjunto de datos estructur
 		Los experimentos no solo se centraron en la optimización de hiperparámetros, sino también en la selección de técnicas de preprocesamiento de datos y ajustes de arquitectura del modelo. Cada iteración fue diseñada para obtener insights valiosos sobre qué configuraciones maximizan la capacidad del modelo para realizar pronósticos precisos y confiables de las ventas semanales.
 		Este enfoque riguroso y metódico no solo aseguró la mejora continua del rendimiento predictivo, sino que también proporcionó una base sólida para la toma de decisiones informadas sobre la implementación y refinamiento del modelo finalmente seleccionado.\\
 		
-		\textbf{Entregable: } Modelo Regresión Lineal Entrenado y Ajustado.
+		% \textbf{Entregable: } Modelo Regresión Lineal Entrenado y Ajustado.
 		
 		\textbf{Actividad 2: } Interpretar las métricas obtenidas.\\
 		En esta actividad, se procedió inicialmente a realizar un análisis exhaustivo de las métricas obtenidas del modelo Regresion Lineal entrenado y ajustado. Estas métricas fueron meticulosamente calculadas para evaluar el desempeño del modelo en la predicción precisa de las ventas semanales, utilizando datos históricos recopilados durante aproximadamente 5 años.\\
@@ -641,7 +643,7 @@ Finalmente, el preprocesamiento permitió obtener un conjunto de datos estructur
 		El estudio detallado de estas métricas permitió extraer conclusiones significativas sobre la capacidad del modelo para capturar variaciones y patrones en las ventas semanales. Además, facilitó la identificación de posibles áreas de mejora en términos de ajustes adicionales de hiperparámetros o refinamientos en la arquitectura del modelo Regresión Lineal.
 		Este análisis crítico y sistemático es esencial para tomar decisiones informadas sobre la implementación y el desarrollo continuo del modelo Regresión Lineal en aplicaciones futuras de pronóstico de ventas. Asimismo, asegura un mejor rendimiento predictivo y una mayor precisión en la proyección de tendencias comerciales, beneficiando así la toma de decisiones estratégicas en el contexto empresarial.\\
 		
-		\textbf{Entregable: } Resultados de las métricas  MSE, RMSE, MAPE.
+		% \textbf{Entregable: } Resultados de las métricas  MSE, RMSE, MAPE.
 		
 		\subsection{Despliegue}
 		En la última fase de la metodología seguida, se implementó el modelo propuesto después de completar su entrenamiento y evaluación correspondiente. Esta etapa final fue crucial para poner a prueba la capacidad predictiva del modelo en un entorno operativo real. Las actividades detalladas realizadas durante esta fase se describen en la Tabla \ref{tab:fase_despl}, proporcionando una visión completa de los pasos ejecutados para asegurar la integración efectiva del modelo en la aplicación práctica.
@@ -702,20 +704,96 @@ Finalmente, el preprocesamiento permitió obtener un conjunto de datos estructur
 		%	\item and like this.
 		%\end{itemize}
 		
-		\section{Metodología para la medición de resultados de la implementación}
-		Las métricas empleadas para evaluar la precisión de los modelos fueron el Error Absoluto Medio (MAE), el Error Cuadrático Medio (MSE), la Raíz del Error Cuadrático Medio (RMSE), el Error Porcentual Absoluto Medio (MAPE) y el coeficiente de determinación R$^2$. Estas métricas permitieron comparar las predicciones generadas por los modelos con los valores reales de demanda observados en el conjunto de prueba.
+
+
+% 	\section{PRIMERA OPCION}
+% 		\section{Metodología para la medición de resultados de la implementación}
+% 		Las métricas empleadas para evaluar la precisión de los modelos fueron el Error Absoluto Medio (MAE), el Error Cuadrático Medio (MSE), la Raíz del Error Cuadrático Medio (RMSE), el Error Porcentual Absoluto Medio (MAPE) y el coeficiente de determinación R$^2$. Estas métricas permitieron comparar las predicciones generadas por los modelos con los valores reales de demanda observados en el conjunto de prueba.
+
+% \subsection{Error Absoluto Medio}
+
+% El Error Absoluto Medio mide la magnitud promedio del error entre los valores reales y los valores pronosticados. Esta métrica permite interpretar el error en las mismas unidades de la variable objetivo, por lo que resulta útil para evaluar cuánto se desvía, en promedio, la predicción respecto a la demanda real.
+
+% \begin{equation}
+% MAE = \frac{1}{n}\sum_{i=1}^{n}|y_i-\hat{y}_i|
+% \end{equation}
+
+% \subsection{Error Cuadrático Medio}
+
+% El Error Cuadrático Medio calcula el promedio de los errores elevados al cuadrado. Esta métrica penaliza con mayor intensidad los errores grandes, por lo que permite identificar modelos que presentan desviaciones significativas respecto a los valores reales.
+
+% \begin{equation}
+% MSE = \frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2
+% \end{equation}
+
+% \subsection{Raíz del Error Cuadrático Medio}
+
+% La Raíz del Error Cuadrático Medio representa la raíz cuadrada del MSE. Su principal ventaja es que expresa el error en la misma unidad de la variable analizada, facilitando la interpretación del desempeño del modelo.
+
+% \begin{equation}
+% RMSE = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}
+% \end{equation}
+
+% \subsection{Error Porcentual Absoluto Medio}
+
+% El Error Porcentual Absoluto Medio mide el error promedio en términos porcentuales. Esta métrica permite conocer qué tan alejada se encuentra la predicción respecto al valor real en términos relativos, lo cual facilita la comparación del desempeño entre modelos.
+
+% \begin{equation}
+% MAPE = \frac{1}{n}\sum_{i=1}^{n}\left|\frac{y_i-\hat{y}_i}{y_i}\right|\times 100
+% \end{equation}
+
+% \subsection{Coeficiente de determinación}
+
+% El coeficiente de determinación permite medir la proporción de variabilidad de la demanda real que es explicada por el modelo. Un valor de R$^2$ más cercano a 1 indica una mayor capacidad explicativa del modelo sobre el comportamiento de la demanda.
+
+% \begin{equation}
+% R^2 = 1-\frac{\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}{\sum_{i=1}^{n}(y_i-\bar{y})^2}
+% \end{equation}
+		
+
+% \section{SEGUNDA OPCION}
+
+\section{Metodología para la medición de resultados de la implementación}
+
+La medición de los resultados de la implementación se realizó con el propósito de evaluar si los modelos de series temporales y Machine Learning contribuyen a mejorar la toma de decisiones en el proceso de pedido a proveedores de la empresa Donna S.A.C. Para ello, no solo se consideró la precisión estadística de los modelos, sino también su relación con los problemas y objetivos específicos de la investigación, tales como la consistencia de la base de datos histórica, la efectividad del preprocesamiento, la identificación de variables influyentes y la selección del modelo con mejor desempeño para apoyar el reabastecimiento.
+
+% En ese sentido, la evaluación de resultados se organizó en cuatro criterios principales. Primero, se verificó la calidad y consistencia de los datos históricos utilizados para el entrenamiento de los modelos, considerando la presencia de valores nulos, registros duplicados, valores atípicos y continuidad temporal. Segundo, se evaluó el efecto del preprocesamiento de datos, comparando el rendimiento de los modelos antes y después de aplicar técnicas de limpieza, transformación y generación de variables temporales. Tercero, se analizaron las variables que aportaron mayor información al comportamiento de la demanda, como el día de la semana, el mes, los rezagos de ventas y los promedios móviles. Finalmente, se compararon los modelos predictivos mediante métricas de error y capacidad explicativa, con el fin de seleccionar aquel que presente mayor precisión y aplicabilidad para el proceso de pedido a proveedores.
+
+Las métricas empleadas para evaluar la precisión de los modelos fueron el Error Absoluto Medio (MAE), el Error Cuadrático Medio (MSE), la Raíz del Error Cuadrático Medio (RMSE), el Error Porcentual Absoluto Medio (MAPE) y el coeficiente de determinación R$^2$. Estas métricas permitieron comparar las predicciones generadas por los modelos con los valores reales de demanda observados en el conjunto de prueba. De esta manera, se pudo determinar qué modelo se aproxima mejor al comportamiento real de la demanda y cuál resulta más útil para reducir errores en la planificación del abastecimiento.
+
+% Asimismo, la selección del modelo no se basó únicamente en obtener el menor error, sino también en su utilidad práctica dentro del contexto empresarial. Por ello, se consideró que un modelo es adecuado cuando permite estimar la demanda futura con un margen de error aceptable, facilita la planificación semanal de pedidos y contribuye a evitar problemas como sobrestock, quiebres de stock o pérdidas por productos perecibles.
+
+% \subsection{Relación entre objetivos de investigación y criterios de medición}
+
+% Para asegurar que la medición de resultados esté alineada con los objetivos de la investigación, se estableció la siguiente relación metodológica:
+
+% \begin{itemize}
+%     \item Para el objetivo relacionado con la consistencia de la base de datos histórica, se evaluó la calidad de los datos antes del entrenamiento, considerando registros incompletos, duplicados, valores atípicos y continuidad de la serie temporal.
+    
+%     \item Para el objetivo relacionado con las técnicas de preprocesamiento, se comparó el desempeño de los modelos utilizando los datos procesados, con el fin de verificar si la limpieza, transformación y creación de variables temporales mejoraron la precisión predictiva.
+    
+%     \item Para el objetivo relacionado con las variables influyentes en la demanda, se analizaron las variables temporales e históricas utilizadas por los modelos, tales como día de la semana, mes, ventas pasadas, rezagos y promedios móviles.
+    
+%     \item Para el objetivo relacionado con la selección del mejor modelo de forecasting, se compararon los resultados obtenidos por cada algoritmo mediante métricas cuantitativas de error y ajuste, seleccionando aquel que presentó mejor equilibrio entre precisión y aplicabilidad para la toma de decisiones.
+% \end{itemize}
 
 \subsection{Error Absoluto Medio}
 
-El Error Absoluto Medio mide la magnitud promedio del error entre los valores reales y los valores pronosticados. Esta métrica permite interpretar el error en las mismas unidades de la variable objetivo, por lo que resulta útil para evaluar cuánto se desvía, en promedio, la predicción respecto a la demanda real.
+El Error Absoluto Medio mide la magnitud promedio del error entre los valores reales y los valores pronosticados. Esta métrica permite interpretar el error en las mismas unidades de la variable objetivo, por lo que resulta útil para conocer cuánto se desvía, en promedio, la predicción respecto a la demanda real.
+
+En el contexto de esta investigación, el MAE permite estimar la diferencia promedio entre la cantidad real demandada y la cantidad pronosticada por el modelo. Por ello, esta métrica se relaciona directamente con la toma de decisiones en el pedido a proveedores, ya que un menor MAE indica que el modelo puede apoyar una planificación de compras más cercana a la demanda real.
 
 \begin{equation}
 MAE = \frac{1}{n}\sum_{i=1}^{n}|y_i-\hat{y}_i|
 \end{equation}
 
+Donde $y_i$ representa el valor real de la demanda, $\hat{y}_i$ representa el valor pronosticado por el modelo y $n$ corresponde al número total de observaciones evaluadas.
+
 \subsection{Error Cuadrático Medio}
 
 El Error Cuadrático Medio calcula el promedio de los errores elevados al cuadrado. Esta métrica penaliza con mayor intensidad los errores grandes, por lo que permite identificar modelos que presentan desviaciones significativas respecto a los valores reales.
+
+Para la investigación, el MSE permite detectar si un modelo genera errores elevados en determinados periodos de demanda. Esto es importante porque, en productos perecibles, una predicción muy alejada de la demanda real puede ocasionar exceso de inventario, merma o falta de productos disponibles para la venta.
 
 \begin{equation}
 MSE = \frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2
@@ -725,6 +803,8 @@ MSE = \frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2
 
 La Raíz del Error Cuadrático Medio representa la raíz cuadrada del MSE. Su principal ventaja es que expresa el error en la misma unidad de la variable analizada, facilitando la interpretación del desempeño del modelo.
 
+En esta investigación, el RMSE permite evaluar la magnitud del error considerando una mayor penalización para predicciones muy alejadas del valor real. Por esta razón, resulta útil para seleccionar modelos más estables y confiables en la planificación del reabastecimiento.
+
 \begin{equation}
 RMSE = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}
 \end{equation}
@@ -732,6 +812,8 @@ RMSE = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}
 \subsection{Error Porcentual Absoluto Medio}
 
 El Error Porcentual Absoluto Medio mide el error promedio en términos porcentuales. Esta métrica permite conocer qué tan alejada se encuentra la predicción respecto al valor real en términos relativos, lo cual facilita la comparación del desempeño entre modelos.
+
+En el presente estudio, el MAPE permite interpretar el error de predicción de forma porcentual, lo cual resulta práctico para evaluar si el modelo mantiene un margen de error aceptable para la empresa. Un MAPE menor indica que el modelo tiene mayor precisión relativa y, por tanto, puede ser más útil para decidir cuánto pedir a los proveedores.
 
 \begin{equation}
 MAPE = \frac{1}{n}\sum_{i=1}^{n}\left|\frac{y_i-\hat{y}_i}{y_i}\right|\times 100
@@ -741,10 +823,16 @@ MAPE = \frac{1}{n}\sum_{i=1}^{n}\left|\frac{y_i-\hat{y}_i}{y_i}\right|\times 100
 
 El coeficiente de determinación permite medir la proporción de variabilidad de la demanda real que es explicada por el modelo. Un valor de R$^2$ más cercano a 1 indica una mayor capacidad explicativa del modelo sobre el comportamiento de la demanda.
 
+En esta investigación, el R$^2$ permite evaluar qué tan bien el modelo logra representar los patrones históricos de la demanda. Esta métrica se relaciona con el objetivo de analizar las variables que influyen en el comportamiento de la demanda, ya que un mayor valor de R$^2$ indica que las variables utilizadas aportan información relevante para explicar las variaciones de las ventas.
+
 \begin{equation}
 R^2 = 1-\frac{\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}{\sum_{i=1}^{n}(y_i-\bar{y})^2}
 \end{equation}
-		
+
+Donde $\bar{y}$ representa el promedio de los valores reales de la demanda.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 		
 		% \subsection{Raíz del error cuadrático medio (RMSE)}
 		% El término utilizado para denotar el error que surge de la diferencia entre los valores predichos y los valores observados por un modelo o estimador es conocido como error cuadrático medio (RMSE). Esta medida se obtiene al calcular la raíz cuadrada de la media de los errores cuadráticos, lo cual refleja la disparidad entre los valores reales y los valores pronosticados. Es importante destacar que el RMSE, al ser siempre positivo, donde valores menores indican un ajuste más acertado de los datos al modelo. La formulación de este concepto se detalla en la siguiente sección.

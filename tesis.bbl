@@ -2026,6 +2026,7 @@
       \field{title}{A Comparative Analysis based approach for Bitcoin Price Forecasting}
       \field{volume}{10}
       \field{year}{2021}
+      \true{nocite}
       \field{pages}{650\bibrangedash 654}
       \range{pages}{5}
     \endentry
@@ -2078,6 +2079,7 @@
       \field{title}{A comparative analysis based approach for Bitcoin price forecasting}
       \field{volume}{10}
       \field{year}{2021}
+      \true{nocite}
     \endentry
     \entry{wang2005support}{book}{}{}
       \name{author}{1}{}{%
@@ -4226,6 +4228,7 @@
       \field{title}{A Comparative Analysis based approach for Bitcoin Price Forecasting}
       \field{volume}{10}
       \field{year}{2021}
+      \true{nocite}
       \field{pages}{650\bibrangedash 654}
       \range{pages}{5}
     \endentry
@@ -4278,6 +4281,7 @@
       \field{title}{A comparative analysis based approach for Bitcoin price forecasting}
       \field{volume}{10}
       \field{year}{2021}
+      \true{nocite}
     \endentry
     \entry{wang2005support}{book}{}{}
       \name{author}{1}{}{%

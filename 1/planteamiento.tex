@@ -4,19 +4,19 @@
 
 A nivel mundial, la predicción de la demanda de productos enfrenta desafíos significativos debido a la interacción de múltiples factores, entre ellos la variabilidad en los patrones de consumo, la influencia de variables externas, la disponibilidad limitada de datos completos y precisos, la corta vida útil de los productos y los costos derivados de errores en el abastecimiento. En este contexto, una estimación inexacta de la demanda puede traducirse en sobrestock, quiebre de inventario, deterioro de productos y pérdidas económicas, afectando directamente la rentabilidad y la eficiencia operativa de la cadena de suministro. Por ello, mejorar la precisión del pronóstico en productos se ha convertido en una necesidad estratégica para las empresas del sector retail, especialmente en aquellas que operan con productos frescos y de alta rotación (\cite{foodbank}; \cite{FAO2011}; \cite{ElMadini2024}).
 
-Diversos estudios han evidenciado que, en el caso de productos perecibles, la demanda no depende únicamente del comportamiento histórico de ventas, sino también de factores como las condiciones climáticas, la estacionalidad, las promociones, los días festivos y las variaciones en los hábitos de consumo. Esta complejidad limita la utilidad de enfoques estáticos o tradicionales cuando se busca anticipar con precisión el comportamiento del mercado. En consecuencia, la incorporación de técnicas más sofisticadas de análisis de datos y modelos predictivos se vuelve fundamental para reducir el desperdicio, optimizar la reposición y sostener mejores niveles de servicio al cliente (\cite{foodbank}; \cite{ElMadini2024}).
+Diversos estudios han evidenciado que, en el caso de productos, la demanda no depende únicamente del comportamiento histórico de ventas, sino también de factores como las condiciones climáticas, la estacionalidad, las promociones, los días festivos y las variaciones en los hábitos de consumo. Esta complejidad limita la utilidad de enfoques estáticos o tradicionales cuando se busca anticipar con precisión el comportamiento del mercado. En consecuencia, la incorporación de técnicas más sofisticadas de análisis de datos y modelos predictivos se vuelve fundamental para reducir el desperdicio, optimizar la reposición y sostener mejores niveles de servicio al cliente (\cite{foodbank}; \cite{ElMadini2024}).
 
 En este contexto, la aplicación de analisis de datos y modelos de pronóstico se presenta como una solución estratégica para fortalecer la planificación del abastecimiento. Bajo esta premisa, la utilización de pronósticos en productos permite planificar de mejor forma el proceso de abastecimiento a través de métodos cuantitativos, identificando patrones de comportamiento y estacionalidad en las series de tiempo. Sin embargo, otro desafío importante radica en la capacidad de las empresas para aprovechar al máximo los datos disponibles. Muchas empresas peruanas, especialmente las pequeñas y medianas, aún presentan limitaciones en infraestructura, capacidades digitales y experiencia analítica para implementar eficazmente soluciones de análisis de información. Aunque el país ha mostrado avances en materia de transformación digital, los esfuerzos para consolidar una adopción más amplia y efectiva de estas herramientas siguen siendo insuficientes (\cite{HerediaCEPAL}; \cite{CEPAL2021}).
 
-La decisión de incorporar Machine Learning se fundamenta en la necesidad de abordar problemas específicos en el manejo del stock y en la toma de decisiones empresariales. Como se ha señalado, los modelos de pronóstico constituyen procedimientos matemáticos orientados a anticipar eventos futuros a partir del análisis de patrones (\cite{MINTARYA202396}). En ese sentido, su aplicación permite mejorar la precisión de la proyección de ventas futuras, aspecto crítico para la estrategia empresarial y la gestión operativa. Además, la comparación de algoritmos como Random Forest, regresión lineal, ARIMA y redes neuronales ofrece la posibilidad de identificar qué enfoque resulta más adecuado en términos de precisión y aplicabilidad dentro de un contexto minorista caracterizado por productos perecibles, demanda variable y necesidad de respuesta rápida ante cambios del mercado.
+La decisión de incorporar Machine Learning se fundamenta en la necesidad de abordar problemas específicos en el manejo del stock y en la toma de decisiones empresariales. Como se ha señalado, los modelos de pronóstico constituyen procedimientos matemáticos orientados a anticipar eventos futuros a partir del análisis de patrones (\cite{MINTARYA202396}). En ese sentido, su aplicación permite mejorar la precisión de la proyección de ventas futuras, aspecto crítico para la estrategia empresarial y la gestión operativa. Además, la comparación de algoritmos como Random Forest, regresión lineal, ARIMA y redes neuronales ofrece la posibilidad de identificar qué enfoque resulta más adecuado en términos de precisión y aplicabilidad dentro de un contexto minorista caracterizado por productos, demanda variable y necesidad de respuesta rápida ante cambios del mercado.
 
 En Perú, las empresas que han incrementado sus operaciones también han visto crecer el volumen de información que generan, lo cual exige una mayor capacidad para procesar, interpretar y convertir esos datos en decisiones oportunas. En el caso de Donna S.A.C., esta situación adquiere una importancia especial, ya que la empresa enfrenta dificultades en la gestión del stock y en la toma de decisiones vinculadas al pedido a proveedores. La falta de establecimiento de cantidades óptimas para satisfacer la demanda, así como la limitada identificación de productos más rentables, evidencian debilidades en la planificación y en el uso estratégico de la información disponible (\cite{Bancomundial}).
 
-Esta problemática resulta aún más crítica al tratarse de productos perecibles, donde un error de estimación no solo impacta el inventario, sino también la calidad del producto, la disponibilidad para el cliente y el nivel de merma. En el presente estudio, la categoría de verduras adquiere especial relevancia, ya que representa en promedio el 33\% de la demanda diaria en Market Donna S.A.C. y, debido a su corta vida útil, requiere decisiones de reposición más precisas y oportunas. El análisis de esta categoría permite observar con mayor claridad las variaciones diarias en la demanda, así como los efectos de factores como estacionalidad, días de la semana, promociones y otros eventos externos, los cuales pueden influir en la precisión del modelo predictivo ( \cite{ElMadini2024}).
+Esta problemática resulta aún más crítica al tratarse de productos, donde un error de estimación no solo impacta el inventario, sino también la calidad del producto, la disponibilidad para el cliente y el nivel de merma. En el presente estudio, la categoría de verduras adquiere especial relevancia, ya que representa en promedio el 33\% de la demanda diaria en Market Donna S.A.C. y, debido a su corta vida útil, requiere decisiones de reposición más precisas y oportunas. El análisis de esta categoría permite observar con mayor claridad las variaciones diarias en la demanda, así como los efectos de factores como estacionalidad, días de la semana, promociones y otros eventos externos, los cuales pueden influir en la precisión del modelo predictivo ( \cite{ElMadini2024}).
 
 A pesar de la importancia que tiene la predicción de la demanda en este entorno dinámico, aún se observa una marcada necesidad de fortalecer la implementación de modelos predictivos y técnicas de minería de datos en empresas de este tipo. En Donna S.A.C., la toma de decisiones basada en criterios subjetivos limita la capacidad de anticipar patrones de consumo y reduce la eficiencia del proceso de abastecimiento. Por ello, se evidencia la necesidad de implementar un modelo predictivo de la demanda de productos que permita mejorar la gestión de inventario y optimizar la toma de decisiones en el proceso de pedido a proveedores. De esta manera, no solo se busca incrementar la precisión del pronóstico, sino también contribuir a una planificación más eficiente, a la reducción de pérdidas y al fortalecimiento de la rentabilidad y competitividad de la empresa.
 
-% A nivel mundial, la predicción de la demanda de productos enfrenta desafíos significativos debido a la complejidad de los factores externos, la disponibilidad limitada de datos completos y precisos, la variabilidad en la vida útil de los productos, la naturaleza estática de muchos modelos predictivos, los desafíos logísticos y de distribución, así como los costos asociados con errores en las predicciones. Mejorar la rentabilidad en este contexto requiere el desarrollo de modelos más sofisticados que consideren estos desafíos y una gestión efectiva de la cadena de suministro para minimizar los riesgos financieros asociados con la incertidumbre en la demanda. Por ejemplo, un estudio realizado en China examinó la importancia de la precisión en las predicciones para evitar pérdidas en la industria de alimentos en el contexto de la rentabilidad empresarial (\cite{foodbank}). Además, en un trabajo llevado a cabo en Estados Unidos, se destacó la influencia de factores externos como las condiciones climáticas y los cambios en los hábitos de consumo en la demanda de productos perecibles, lo cual impacta directamente en la rentabilidad de las empresas. Estas investigaciones reflejan la preocupación global por mejorar la capacidad predictiva en el ámbito de los productos para optimizar la rentabilidad en un contexto empresarial cada vez más competitivo.
+% A nivel mundial, la predicción de la demanda de productos enfrenta desafíos significativos debido a la complejidad de los factores externos, la disponibilidad limitada de datos completos y precisos, la variabilidad en la vida útil de los productos, la naturaleza estática de muchos modelos predictivos, los desafíos logísticos y de distribución, así como los costos asociados con errores en las predicciones. Mejorar la rentabilidad en este contexto requiere el desarrollo de modelos más sofisticados que consideren estos desafíos y una gestión efectiva de la cadena de suministro para minimizar los riesgos financieros asociados con la incertidumbre en la demanda. Por ejemplo, un estudio realizado en China examinó la importancia de la precisión en las predicciones para evitar pérdidas en la industria de alimentos en el contexto de la rentabilidad empresarial (\cite{foodbank}). Además, en un trabajo llevado a cabo en Estados Unidos, se destacó la influencia de factores externos como las condiciones climáticas y los cambios en los hábitos de consumo en la demanda de productos, lo cual impacta directamente en la rentabilidad de las empresas. Estas investigaciones reflejan la preocupación global por mejorar la capacidad predictiva en el ámbito de los productos para optimizar la rentabilidad en un contexto empresarial cada vez más competitivo.
 
 % En este contexto, la aplicación de minería de datos y modelos de pronóstico se presenta como una solución estratégica. ``Bajo esta premisa, la utilización de pronósticos en estos productos ayudará a planificar de mejor forma el proceso de abastecimiento, a través de métodos cuantitativos. Para llevar a cabo este estudio se aplica un análisis de autocorrelación a todas las series de tiempo, con el fin de verificar la estacionalidad o aleatoriedad de los productos''. Otro desafío importante es la capacidad de las empresas para aprovechar al máximo los datos disponibles. Muchas empresas peruanas, especialmente las pequeñas y medianas, pueden carecer de la infraestructura y la experiencia necesarias para implementar eficazmente soluciones de análisis de información. Aunque Perú ya cuenta con dos ediciones de la Agenda Digital y ha manifestado un notable interés político en promover el uso de las TIC y el crecimiento de la Sociedad de la Información, los esfuerzos por establecer un marco institucional y una política completa que impulse la transformación digital del país aún no han sido suficientes (\cite{HerediaCEPAL}). Esto puede deberse a limitaciones presupuestarias, falta de talento especializado o simplemente falta de conocimiento sobre las ventajas que pueden ofrecer estas tecnologías. Además, el aspecto regulatorio y de privacidad también es un factor crucial. A medida que las empresas recopilan y analizan grandes cantidades de datos, es fundamental garantizar que lo hagan de manera ética y cumpliendo con las leyes de protección de datos. En Perú, como en muchos otros lugares, la regulación en torno a la privacidad de los datos está en constante evolución, lo que puede plantear desafíos adicionales para las empresas que buscan aprovechar el potencial del análisis.
 
@@ -86,18 +86,18 @@ A pesar de la importancia que tiene la predicción de la demanda en este entorno
 
 \subsection{Problema General}
 \newcommand{\ProblemaGeneral}{
-	¿Como la implementación de un modelo predictivo de la demanda de productos beneficiará la toma de decisiones en el proceso del pedido a los proveedores en la empresa Donna SAC?  
+	¿Como la implementación de modelos de series temporales y Machine Learning beneficiará la toma de decisiones en el proceso del pedido a los proveedores en la empresa Donna SAC?  
 }
 \ProblemaGeneral
 \subsection{Problemas Espec\'{i}ficos}
 \newcommand{\Pbone}{
-¿Cómo influye la calidad de la base de datos histórica en la precisión de los modelos predictivos de demanda de productos perecibles?
+¿Cómo influye la consistencia de la base de datos histórica en la precisión de los modelos predictivos de demanda de productos?
 }
 \newcommand{\Pbtwo}{
-¿Qué técnicas de preprocesamiento de datos permiten mejorar el rendimiento de los modelos de predicción de demanda en productos perecibles?
+¿Qué técnicas de preprocesamiento de datos permiten mejorar el rendimiento de los modelos de predicción de demanda en productos?
 }
 \newcommand{\Pbthree}{
-¿Qué variables influyen significativamente en el comportamiento de la demanda de productos perecibles en la empresa Donna S.A.C.?
+¿Qué variables influyen significativamente en el comportamiento de la demanda de productos en la empresa Donna S.A.C.?
 }
 \newcommand{\Pbfour}{
 ¿Qué modelo de forecasting presenta mejores resultados en términos de precisión y aplicabilidad para optimizar la toma de decisiones en el pedido a proveedores?		
@@ -118,18 +118,19 @@ A pesar de la importancia que tiene la predicción de la demanda en este entorno
 %Para la formulación de los objetivos de la presente investigación se elaboró un «árbol de objetivos» (véase Anexo 2) 
 \subsection{Objetivo General}
 \newcommand{\ObjetivoGeneral}{
-Implementar un modelo predictivo de la demanda de productos que beneficie la toma de decisiones en el proceso del pedido a los proveedores en la empresa Donna SAC.
+Implementar modelos de series temporales y Machine Learning que beneficien la toma de decisiones en el proceso del pedido a los proveedores en la empresa Donna SAC.
+
 }
 \ObjetivoGeneral
 \subsection{Objetivos Espec\'{i}ficos}
 \newcommand{\Objone}{
-Determinar cómo la calidad de la base de datos histórica influye en la precisión de los modelos predictivos de demanda de productos perecibles.
+Determinar cómo la consistencia de la base de datos histórica influye en la precisión de los modelos predictivos de demanda de productos.
 }
 \newcommand{\Objtwo}{	
-Identificar las técnicas de preprocesamiento de datos más efectivas para mejorar el rendimiento de los modelos de predicción de demanda en productos perecibles.
+Identificar las técnicas de preprocesamiento de datos más efectivas para mejorar el rendimiento de los modelos de predicción de demanda en productos.
 }
 \newcommand{\Objthree}{
-Analizar las variables que influyen significativamente en el comportamiento de la demanda de productos perecibles en la empresa Donna S.A.C.
+Analizar las variables que influyen significativamente en el comportamiento de la demanda de productos en la empresa Donna S.A.C.
 }
 \newcommand{\Objfour}{
 Evaluar qué modelo de forecasting presenta mejores resultados en términos de precisión y aplicabilidad para optimizar la toma de decisiones en el pedido a proveedores.
@@ -160,7 +161,7 @@ Esta investigación surge en respuesta a la imperante necesidad de optimizar el 
  La metodología incluirá:
  
  \newcommand{\Mone}{
- 	Recopilación de datos históricos de ventas de productos perecibles.}
+ 	Recopilación de datos históricos de ventas de productos.}
  \newcommand{\Mtwo}{
  	Identificación y recopilación de variables externas relevantes que puedan influir en la demanda (por ejemplo, eventos especiales, condiciones climáticas, tendencias de mercado). 
  }
@@ -185,7 +186,7 @@ Esta investigación surge en respuesta a la imperante necesidad de optimizar el 
 \section{Delimitación del Estudio}
 
 \subsection{Espacial}
-La presente investigación se desarrolla en la empresa Market Donna S.A.C., ubicada en el distrito de Breña, provincia y departamento de Lima, cuya actividad principal es la comercialización de productos de supermercado. Dentro de este contexto empresarial, el estudio se delimita específicamente al análisis de la información de ventas correspondiente a la categoría de productos perecibles, con énfasis en la familia de productos, por ser una de las categorías de mayor relevancia operativa y comercial dentro de la empresa. Esta delimitación espacial permite contextualizar la propuesta en un entorno real de retail y enfocar el análisis en un segmento representativo del comportamiento de la demanda.
+La presente investigación se desarrolla en la empresa Market Donna S.A.C., ubicada en el distrito de Breña, provincia y departamento de Lima, cuya actividad principal es la comercialización de productos de supermercado. Dentro de este contexto empresarial, el estudio se delimita específicamente al análisis de la información de ventas correspondiente a la categoría de productos, con énfasis en la familia de productos, por ser una de las categorías de mayor relevancia operativa y comercial dentro de la empresa. Esta delimitación espacial permite contextualizar la propuesta en un entorno real de retail y enfocar el análisis en un segmento representativo del comportamiento de la demanda.
 
 % Se realizará en la empresa Donna S.A.C. ubicada en el distrito de Breña, Provincia y Departamento de Lima. Teniendo como giro principal la venta de productos de supermercado. 
 
@@ -201,18 +202,18 @@ La presente, realizada en la empresa Donna S.A.C., se enfoca en la implementaci�
 
 \subsection{Hipótesis General}
 \newcommand{\HipotesisGeneral}{
-La implementación de un modelo predictivo de la demanda de productos beneficiara en la toma de decisiones en el proceso de pedido a los proveedores en la empresa Donna SAC.
+La implementación de modelos de series temporales y Machine Learning beneficiara en la toma de decisiones en el proceso de pedido a los proveedores en la empresa Donna SAC.
 }
 \HipotesisGeneral
 \subsection{Hipótesis Específicas}
 \newcommand{\Hone}{
-La calidad de la base de datos histórica influye significativamente en la precisión de los modelos predictivos de demanda de productos perecibles.
+La consistencia de la base de datos histórica influye significativamente en la precisión de los modelos predictivos de demanda de productos.
 }
 \newcommand{\Htwo}{
 Las técnicas de preprocesamiento de datos, como la normalización, tratamiento de valores atípicos y selección de características, mejoran el rendimiento de los modelos de predicción de demanda.
 }
 \newcommand{\Hthree}{
-Variables como estacionalidad, promociones, días festivos y volumen de ventas influyen significativamente en el comportamiento de la demanda de productos perecibles.
+Variables como estacionalidad, promociones, días festivos y volumen de ventas influyen significativamente en el comportamiento de la demanda de productos.
 }
 \newcommand{\Hfour}{
 Los modelos avanzados de forecasting presentan mejores resultados de precisión y aplicabilidad en comparación con otros métodos de aprendizaje automático para optimizar la toma de decisiones en el pedido a proveedores.

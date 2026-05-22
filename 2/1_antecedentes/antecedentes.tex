@@ -66,88 +66,95 @@ En la metodología siguen diversos pasos para el análisis y pronostico.
 
 %%%%%%%%%%%%%%%%%%%%%12
 
+\subsection{}
+\subsubsection{Planteamiento del Problema y objetivo}
+\subsubsection{Base de datos de los autores}
+\subsubsection{Metodología empleada por los autores}
+\subsubsection{Resultados obtenidos}
+
+
 %\subsection{Estudio sobre Pronósticos de Ventas utilizando Series Temporales del Producto Nutrileche de la Empresa "Decar" S.A}
 %
 %Rodríguez, T (2018), en su estudio, ubicada en la ciudad de Machala. \textbf{Objetivo:} Conocer el pronóstico de ventas del producto en la empresa mediante el uso de series temporales. \textbf{Metodología}: El enfoque utilizado en el estudio fue de campo, empleando un modelo estadístico y técnicas cuantitativas. \textbf{Resultados:} Al aplicar el método del promedio móvil simple, se proyectó que las ventas para noviembre de 2017 alcanzarían los \$ 59352,99, con una desviación estándar de \$2834,61. Se tomaron en cuenta datos históricos desde octubre de 2016 hasta octubre de 2017. \textbf{Conclusiones:} Se llevaron a cabo tres métodos de pronóstico de ventas utilizando series temporales: promedio móvil simple, promedio móvil ponderado y suavización exponencial simple. Mediante diversas proyecciones, se obtuvieron datos significativos para análisis y toma de decisiones precisa.
 
-\subsection{ Comparative Analysis based approach for Bitcoin Price Forecasting \citep{wadalkar2021bitcoin} }
+% \subsection{ Comparative Analysis based approach for Bitcoin Price Forecasting \citep{wadalkar2021bitcoin} }
 
-\subsubsection{Planteamiento del Problema y Objetivo}
+% \subsubsection{Planteamiento del Problema y Objetivo}
 
-En los últimos años, el avance de las tecnologías financieras (FinTech) ha transformado significativamente la manera en que se realizan las transacciones económicas a nivel global. Dentro de este contexto, las criptomonedas han emergido como una alternativa innovadora a los sistemas financieros tradicionales, siendo el Bitcoin una de las más representativas debido a su descentralización, alta capitalización de mercado y creciente adopción por parte de inversionistas y usuarios.
+% En los últimos años, el avance de las tecnologías financieras (FinTech) ha transformado significativamente la manera en que se realizan las transacciones económicas a nivel global. Dentro de este contexto, las criptomonedas han emergido como una alternativa innovadora a los sistemas financieros tradicionales, siendo el Bitcoin una de las más representativas debido a su descentralización, alta capitalización de mercado y creciente adopción por parte de inversionistas y usuarios.
 
-No obstante, uno de los principales desafíos asociados al Bitcoin es la alta volatilidad de su precio. A diferencia de los activos financieros convencionales, el valor del Bitcoin no está regulado por entidades gubernamentales ni depende directamente de indicadores macroeconómicos tradicionales. En cambio, su comportamiento se ve influenciado por factores como la oferta y demanda, la percepción del mercado, eventos globales, y el sentimiento de los inversionistas, lo que genera fluctuaciones abruptas en cortos periodos de tiempo. Estas características hacen que la predicción de su precio sea una tarea compleja y poco precisa utilizando métodos convencionales.
+% No obstante, uno de los principales desafíos asociados al Bitcoin es la alta volatilidad de su precio. A diferencia de los activos financieros convencionales, el valor del Bitcoin no está regulado por entidades gubernamentales ni depende directamente de indicadores macroeconómicos tradicionales. En cambio, su comportamiento se ve influenciado por factores como la oferta y demanda, la percepción del mercado, eventos globales, y el sentimiento de los inversionistas, lo que genera fluctuaciones abruptas en cortos periodos de tiempo. Estas características hacen que la predicción de su precio sea una tarea compleja y poco precisa utilizando métodos convencionales.
 
-Adicionalmente, los enfoques tradicionales de predicción financiera presentan limitaciones al abordar series temporales altamente no lineales y con patrones impredecibles, como es el caso del Bitcoin. Diversas investigaciones han intentado modelar este comportamiento utilizando técnicas de aprendizaje automático y modelos estadísticos; sin embargo, muchas de ellas se basan en el uso de uno o dos modelos, lo que restringe la capacidad de generalización y reduce la precisión de los resultados obtenidos.
+% Adicionalmente, los enfoques tradicionales de predicción financiera presentan limitaciones al abordar series temporales altamente no lineales y con patrones impredecibles, como es el caso del Bitcoin. Diversas investigaciones han intentado modelar este comportamiento utilizando técnicas de aprendizaje automático y modelos estadísticos; sin embargo, muchas de ellas se basan en el uso de uno o dos modelos, lo que restringe la capacidad de generalización y reduce la precisión de los resultados obtenidos.
 
-En este sentido, surge la necesidad de implementar enfoques más robustos que permitan mejorar la exactitud en la predicción del precio del Bitcoin. La integración de múltiples modelos y la comparación de sus resultados se presenta como una alternativa viable para identificar el método más eficiente en escenarios de alta volatilidad.
+% En este sentido, surge la necesidad de implementar enfoques más robustos que permitan mejorar la exactitud en la predicción del precio del Bitcoin. La integración de múltiples modelos y la comparación de sus resultados se presenta como una alternativa viable para identificar el método más eficiente en escenarios de alta volatilidad.
 
-Por lo tanto, el objetivo principal del estudio es analizar y comparar el desempeño de diferentes modelos de predicción, tanto estadísticos como de aprendizaje automático, con el fin de determinar cuál de ellos ofrece mejores resultados en la estimación del comportamiento futuro del precio del Bitcoin. Asimismo, se busca optimizar la precisión de las predicciones mediante el uso de intervalos de tiempo más cortos, permitiendo una mejor adaptación a la naturaleza dinámica y cambiante del mercado de criptomonedas.
+% Por lo tanto, el objetivo principal del estudio es analizar y comparar el desempeño de diferentes modelos de predicción, tanto estadísticos como de aprendizaje automático, con el fin de determinar cuál de ellos ofrece mejores resultados en la estimación del comportamiento futuro del precio del Bitcoin. Asimismo, se busca optimizar la precisión de las predicciones mediante el uso de intervalos de tiempo más cortos, permitiendo una mejor adaptación a la naturaleza dinámica y cambiante del mercado de criptomonedas.
 
-\subsubsection{Base de Datos}
+% \subsubsection{Base de Datos}
 
-Para el desarrollo del estudio, los autores utilizaron el \textit{Bitcoin Historical Dataset}, el cual contiene información histórica desde el 1 de enero de 2012 hasta el 31 de diciembre de 2020 \cite{wadalkar2021}.
+% Para el desarrollo del estudio, los autores utilizaron el \textit{Bitcoin Historical Dataset}, el cual contiene información histórica desde el 1 de enero de 2012 hasta el 31 de diciembre de 2020 \cite{wadalkar2021}.
 
-Este conjunto de datos incluye:
-\begin{multicols}{2}
-\begin{itemize}
-    \item Precios de apertura (Open)
-    \item Precio máximo (High)
-    \item Precio mínimo (Low)
-    \item Precio de cierre (Close)
-    \item Volumen de transacciones de Bitcoin
-    \item Volumen en moneda correspondiente
-\end{itemize}
-\end{multicols}
+% Este conjunto de datos incluye:
+% \begin{multicols}{2}
+% \begin{itemize}
+%     \item Precios de apertura (Open)
+%     \item Precio máximo (High)
+%     \item Precio mínimo (Low)
+%     \item Precio de cierre (Close)
+%     \item Volumen de transacciones de Bitcoin
+%     \item Volumen en moneda correspondiente
+% \end{itemize}
+% \end{multicols}
 
-Estos datos son fundamentales para el análisis de series temporales, ya que permiten identificar patrones históricos y tendencias del comportamiento del mercado.
+% Estos datos son fundamentales para el análisis de series temporales, ya que permiten identificar patrones históricos y tendencias del comportamiento del mercado.
 
-\subsubsection{Metodología empleada por los autores}
+% \subsubsection{Metodología empleada por los autores}
 
-La metodología aplicada se basó en un enfoque de análisis comparativo, donde se evaluaron cuatro modelos distintos:
+% La metodología aplicada se basó en un enfoque de análisis comparativo, donde se evaluaron cuatro modelos distintos:
 
-\begin{itemize}
-    \item \textbf{LSTM (Long Short-Term Memory):} red neuronal recurrente capaz de capturar dependencias a largo plazo en series temporales.
-    \item \textbf{XGBoost:} algoritmo basado en árboles de decisión que optimiza errores mediante \textit{boosting}.
-    \item \textbf{Facebook Prophet:} modelo aditivo que considera tendencia, estacionalidad y efectos externos.
-    \item \textbf{ARIMA:} modelo estadístico clásico para series temporales basado en autorregresión y promedios móviles.
-\end{itemize}
+% \begin{itemize}
+%     \item \textbf{LSTM (Long Short-Term Memory):} red neuronal recurrente capaz de capturar dependencias a largo plazo en series temporales.
+%     \item \textbf{XGBoost:} algoritmo basado en árboles de decisión que optimiza errores mediante \textit{boosting}.
+%     \item \textbf{Facebook Prophet:} modelo aditivo que considera tendencia, estacionalidad y efectos externos.
+%     \item \textbf{ARIMA:} modelo estadístico clásico para series temporales basado en autorregresión y promedios móviles.
+% \end{itemize}
 
-El proceso metodológico incluyó las siguientes etapas:
+% El proceso metodológico incluyó las siguientes etapas:
 
-\begin{enumerate}
-    \item Selección del dataset
-    \item Preprocesamiento de datos
-    \item División en datos de entrenamiento y prueba
-    \item Entrenamiento de los modelos
-    \item Comparación de resultados mediante métricas de error
-\end{enumerate}
+% \begin{enumerate}
+%     \item Selección del dataset
+%     \item Preprocesamiento de datos
+%     \item División en datos de entrenamiento y prueba
+%     \item Entrenamiento de los modelos
+%     \item Comparación de resultados mediante métricas de error
+% \end{enumerate}
 
-Además, los autores implementaron una mejora metodológica importante al dividir los datos en intervalos pequeños y realizar predicciones de corto plazo (2 días), lo cual permitió mejorar la precisión de los modelos \cite{wadalkar2021}.
+% Además, los autores implementaron una mejora metodológica importante al dividir los datos en intervalos pequeños y realizar predicciones de corto plazo (2 días), lo cual permitió mejorar la precisión de los modelos \cite{wadalkar2021}.
 
-Para evaluar el rendimiento, se utilizaron dos métricas principales:
-\begin{multicols}{2}    
-\begin{itemize}
-    \item MAE (Error Absoluto Medio)
-    \item MSE (Error Cuadrático Medio)
-\end{itemize}
-\end{multicols}
+% Para evaluar el rendimiento, se utilizaron dos métricas principales:
+% \begin{multicols}{2}    
+% \begin{itemize}
+%     \item MAE (Error Absoluto Medio)
+%     \item MSE (Error Cuadrático Medio)
+% \end{itemize}
+% \end{multicols}
 
-\subsubsection{Resultados Obtenidos}
+% \subsubsection{Resultados Obtenidos}
 
-Los resultados del estudio demostraron diferencias significativas en el desempeño de los modelos evaluados. Los valores obtenidos fueron los siguientes:
+% Los resultados del estudio demostraron diferencias significativas en el desempeño de los modelos evaluados. Los valores obtenidos fueron los siguientes:
 
-\begin{itemize}
-    \item LSTM: MAE $\approx$ 281.84, MSE $\approx$ 118736.68
-    \item XGBoost: MAE $\approx$ 273.17, MSE $\approx$ 190613.16
-    \item Prophet: MAE $\approx$ 419.39, MSE $\approx$ 334612.50
-    \item \textbf{ARIMA: MAE $\approx$ 153.55, MSE $\approx$ 43231.80}
-\end{itemize}
+% \begin{itemize}
+%     \item LSTM: MAE $\approx$ 281.84, MSE $\approx$ 118736.68
+%     \item XGBoost: MAE $\approx$ 273.17, MSE $\approx$ 190613.16
+%     \item Prophet: MAE $\approx$ 419.39, MSE $\approx$ 334612.50
+%     \item \textbf{ARIMA: MAE $\approx$ 153.55, MSE $\approx$ 43231.80}
+% \end{itemize}
 
-%\subsubsection{Planteamiento del Problema y objetivo}
-%\subsubsection{Base de datos de los autores}
-%\subsubsection{Metodología empleada por los autores}
-%\subsubsection{Resultados obtenidos}
+% %\subsubsection{Planteamiento del Problema y objetivo}
+% %\subsubsection{Base de datos de los autores}
+% %\subsubsection{Metodología empleada por los autores}
+% %\subsubsection{Resultados obtenidos}
 
 
 \subsection{Effects of data time lag in a decision-making system using machine learning for pork price prediction \citep{suaza2023pork} }
