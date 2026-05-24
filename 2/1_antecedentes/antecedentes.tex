@@ -66,12 +66,94 @@ En la metodología siguen diversos pasos para el análisis y pronostico.
 
 %%%%%%%%%%%%%%%%%%%%%12
 
-\subsection{}
+\section{Food Sales Prediction Strategy Using Machine Learning and Deep Learning Algorithms \citep{foodsales2023}}
 \subsubsection{Planteamiento del Problema y objetivo}
+
+El estudio desarrollado por diversos autores abordó el problema de la predicción de ventas de productos alimenticios mediante técnicas de \textit{forecasting}, \textit{Machine Learning} y \textit{Deep Learning}. Los investigadores señalan que las empresas dedicadas a la comercialización de alimentos enfrentan dificultades para estimar con precisión la demanda futura, lo cual puede ocasionar pérdidas económicas debido al desperdicio de productos perecibles, exceso de inventario o escasez de productos para los consumidores.
+
+El objetivo principal de la investigación fue desarrollar una estrategia de predicción de ventas que permitiera identificar los algoritmos con mayor precisión y eficiencia para el pronóstico de demanda alimentaria. Para ello, se analizaron distintos modelos predictivos basados en técnicas de inteligencia artificial, con el propósito de optimizar la gestión de inventarios y mejorar la toma de decisiones empresariales.
+
+Asimismo, el estudio buscó determinar el impacto de la correlación entre variables dentro de diferentes conjuntos de datos, evaluando cómo dichas relaciones afectan el desempeño de los modelos predictivos. Como aplicación final, los autores realizaron predicciones futuras sobre cantidades de productos alimenticios utilizando información histórica de ventas.
+
+
 \subsubsection{Base de datos de los autores}
+
+La investigación utilizó cuatro conjuntos de datos relacionados con ventas de alimentos y productos comerciales. Los tres primeros \textit{datasets} fueron empleados para comparar el desempeño de diversos algoritmos de predicción, mientras que el cuarto \textit{dataset} fue utilizado para realizar pruebas reales de \textit{forecasting} sobre producción y ventas futuras.
+
+El primer conjunto de datos provenía de la plataforma Alibaba Tianchi y contenía información de ventas de alimentos correspondientes al año 2019. Este \textit{dataset} estaba conformado por aproximadamente 1000 registros y 15 variables relacionadas con categorías de productos, cantidades y precios.
+
+El segundo \textit{dataset} fue obtenido desde Kaggle y contenía información de ventas de alimentos de diez tiendas ubicadas en diferentes zonas geográficas. Este conjunto contaba con aproximadamente 8523 registros y 12 atributos asociados a precios, tipos de productos y establecimientos.
+
+El tercer conjunto de datos también provenía de Kaggle y estaba relacionado con ventas de diferentes categorías y subcategorías de alimentos en distintas ciudades, incluyendo alrededor de 9995 registros y 10 atributos.
+
+Finalmente, el cuarto \textit{dataset} correspondía a ventas de dátiles en Iraq entre los años 2002 y 2020, incluyendo variables como cantidades producidas, precios, tipos de productos y número de árboles de palma. Este conjunto de datos fue utilizado para validar el modelo propuesto y realizar predicciones futuras de producción y ventas.
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.7\textwidth]{2/1_antecedentes/img/Dt_foodsales.jpg}
+        \caption{Base de datos de los autores}
+        \label{fig10}
+    \end{center}
+\end{figure}
+
 \subsubsection{Metodología empleada por los autores}
+
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.7\textwidth]{2/1_antecedentes/img/M_foodsales.jpg}
+        \caption{Metodología empleada por los autores}
+        \label{fig11}
+    \end{center}
+\end{figure}
+
+\begin{itemize}
+
+    \item \textbf{Modelos utilizados:}
+
+    La metodología incluyó la aplicación y comparación de múltiples algoritmos de \textit{Machine Learning} y \textit{Deep Learning} orientados a tareas de regresión y \textit{forecasting}. Entre los modelos utilizados se encuentran \textit{Linear Regression}, \textit{Decision Tree}, \textit{Random Forest}, \textit{K-Nearest Neighbors}, \textit{Gradient Boosting Regression}, \textit{Bayesian Ridge Regression}, \textit{Support Vector Regression} y modelos de \textit{Deep Learning} como \textit{LSTM}.
+
+    \item \textbf{Etapas del proceso:}
+
+    El proceso metodológico comenzó con la carga de múltiples \textit{datasets} relacionados con ventas de alimentos. Posteriormente, se realizó la visualización de datos mediante gráficos y diagramas para comprender el comportamiento de las variables. Luego se efectuó el preprocesamiento de datos, incluyendo limpieza, normalización y análisis de correlación entre variables mediante mapas de calor (\textit{Heatmaps}). Finalmente, los \textit{datasets} fueron ingresados a trece algoritmos distintos para comparar su rendimiento predictivo utilizando métricas de evaluación.
+
+    \item \textbf{Herramientas y tecnologías utilizadas:}
+
+    Los autores utilizaron el lenguaje de programación Python junto con librerías especializadas en ciencia de datos y \textit{Machine Learning}. Entre las herramientas empleadas destacan \texttt{pandas} y \texttt{NumPy} para el procesamiento de datos, \texttt{Seaborn} y \texttt{Matplotlib} para visualización gráfica, y bibliotecas de aprendizaje automático para entrenamiento y evaluación de modelos predictivos.
+
+    \item \textbf{Procedimientos implementados:}
+
+    Los procedimientos incluyeron análisis exploratorio de datos, evaluación de correlación entre variables, entrenamiento independiente de cada modelo y comparación de resultados mediante métricas de error. Los autores realizaron diferentes pruebas sobre \textit{datasets} con distintos niveles de correlación para determinar qué algoritmos ofrecían mejores resultados bajo determinadas condiciones de los datos.
+
+    \item \textbf{Evaluación de resultados:}
+
+    Para medir el desempeño de los modelos predictivos, se utilizaron métricas de evaluación como RMSE (\textit{Root Mean Square Error}), MAE (\textit{Mean Absolute Error}), MSE (\textit{Mean Squared Error}) y otros indicadores de precisión. Estas métricas permitieron comparar objetivamente la eficiencia de cada algoritmo en tareas de \textit{forecasting} y predicción de ventas.
+
+\end{itemize}
+
 \subsubsection{Resultados obtenidos}
 
+Los resultados demostraron que los modelos basados en técnicas de \textit{Machine Learning} y \textit{Deep Learning} obtuvieron una alta precisión en la predicción de ventas y demanda alimentaria. Los autores concluyeron que algoritmos \textit{ensemble} como \textit{Random Forest} y \textit{Gradient Boosting Regression} presentaron un desempeño superior frente a modelos tradicionales en diversos escenarios.
+
+Asimismo, los modelos de \textit{Deep Learning} como \textit{LSTM} mostraron una gran capacidad para capturar patrones temporales complejos y realizar predicciones de largo plazo con mayor precisión.
+
+Finalmente, el estudio concluyó que la combinación de técnicas de \textit{forecasting}, \textit{Machine Learning} y análisis de variables permite mejorar significativamente la predicción de demanda, optimizando la gestión de inventarios y reduciendo pérdidas económicas en empresas del sector alimentario. Este antecedente guarda relación con la presente investigación debido a que ambos trabajos buscan desarrollar modelos predictivos basados en datos históricos para estimar la demanda futura mediante técnicas de aprendizaje automático.
+
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.7\textwidth]{2/1_antecedentes/img/R_foodsales.jpg}
+        \caption{Resultados obtenidos en el antecedente}
+        \label{fig12}
+    \end{center}
+\end{figure}
+
+
+\subsection{}
+% \subsubsection{Planteamiento del Problema y objetivo}
+% \subsubsection{Base de datos de los autores}
+% \subsubsection{Metodología empleada por los autores}
+% \subsubsection{Resultados obtenidos}
 
 %\subsection{Estudio sobre Pronósticos de Ventas utilizando Series Temporales del Producto Nutrileche de la Empresa "Decar" S.A}
 %

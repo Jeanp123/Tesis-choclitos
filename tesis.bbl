@@ -1140,6 +1140,47 @@
       \field{year}{2011}
       \true{nocite}
     \endentry
+    \entry{foodsales2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=aecc2d3e5b08f2ee7fe879bbcf8647f9}{%
+           family={Merdas},
+           familyi={M\bibinitperiod},
+           given={Hussam},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=584562f5fd5aea6575cae752a1ab5437}{%
+           family={Hameed\bibnamedelima Mousa},
+           familyi={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Ayad},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{56e59460a36b7fd5342ce2df8f0c3699}
+      \strng{fullhash}{56e59460a36b7fd5342ce2df8f0c3699}
+      \strng{fullhashraw}{56e59460a36b7fd5342ce2df8f0c3699}
+      \strng{bibnamehash}{56e59460a36b7fd5342ce2df8f0c3699}
+      \strng{authorbibnamehash}{56e59460a36b7fd5342ce2df8f0c3699}
+      \strng{authornamehash}{56e59460a36b7fd5342ce2df8f0c3699}
+      \strng{authorfullhash}{56e59460a36b7fd5342ce2df8f0c3699}
+      \strng{authorfullhashraw}{56e59460a36b7fd5342ce2df8f0c3699}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Electrical and Computer Engineering (IJECE)}
+      \field{month}{12}
+      \field{title}{Food sales prediction model using machine learning techniques}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{pages}{6578}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.11591/ijece.v13i6.pp6578-6585
+      \endverb
+    \endentry
     \entry{MINTARYA202396}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=48f5f191af58a3b7537a738cccf6179d}{%
@@ -3341,6 +3382,47 @@
       \field{title}{The NIST Definition of Cloud Computing}
       \field{year}{2011}
       \true{nocite}
+    \endentry
+    \entry{foodsales2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=aecc2d3e5b08f2ee7fe879bbcf8647f9}{%
+           family={Merdas},
+           familyi={M\bibinitperiod},
+           given={Hussam},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=584562f5fd5aea6575cae752a1ab5437}{%
+           family={Hameed\bibnamedelima Mousa},
+           familyi={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Ayad},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{56e59460a36b7fd5342ce2df8f0c3699}
+      \strng{fullhash}{56e59460a36b7fd5342ce2df8f0c3699}
+      \strng{fullhashraw}{56e59460a36b7fd5342ce2df8f0c3699}
+      \strng{bibnamehash}{56e59460a36b7fd5342ce2df8f0c3699}
+      \strng{authorbibnamehash}{56e59460a36b7fd5342ce2df8f0c3699}
+      \strng{authornamehash}{56e59460a36b7fd5342ce2df8f0c3699}
+      \strng{authorfullhash}{56e59460a36b7fd5342ce2df8f0c3699}
+      \strng{authorfullhashraw}{56e59460a36b7fd5342ce2df8f0c3699}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Electrical and Computer Engineering (IJECE)}
+      \field{month}{12}
+      \field{title}{Food sales prediction model using machine learning techniques}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{pages}{6578}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.11591/ijece.v13i6.pp6578-6585
+      \endverb
     \endentry
     \entry{MINTARYA202396}{article}{}{}
       \name{author}{5}{}{%
