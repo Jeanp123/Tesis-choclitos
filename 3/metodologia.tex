@@ -129,16 +129,39 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 		%\end{itemize}
 		
 		\section{Técnicas de recolección de datos}
-		La recolección de datos para esta investigación se focalizó en la obtención de información sobre la categoría de verduras, la cual representa en promedio el 33 \% de la demanda diaria en Market Donna SAC. Esta categoría fue seleccionada estratégicamente debido a su relevancia en la demanda diaria y su corta vida útil, lo que la convierte en un componente esencial para el análisis de productos en la empresa.
-		Para implementar el modelo de series de tiempo y realizar pronósticos de demanda diarios que contribuyan a maximizar los ingresos, se llevó a cabo una recopilación exhaustiva de datos históricos a través de un sistema de administración de bases de datos en SQL Server. Inicialmente, se desarrollaron consultas SQL específicas \ref{fig:querysql} para filtrar y extraer las tablas relevantes, tales como las de productos, precios, familias y códigos. Este proceso permitió estructurar y organizar la información de manera adecuada para su posterior análisis.
-		Posteriormente, se diseñó una consulta SQL \ref{fig:tablasql} avanzada que integró y combinó las tablas requeridas, garantizando la coherencia e integridad de los datos necesarios para construir los modelos de pronóstico de demanda. Esta metodología proporcionó un conjunto de datos preciso y completo, indispensable para la aplicación de técnicas avanzadas de series de tiempo.
-		El análisis incluyó el examen detallado de transacciones de productos de la categoría de verduras desde el año 2012 hasta 2026, brindando una perspectiva temporal amplia para identificar patrones y tendencias de demanda diaria a lo largo del tiempo. Además, se utilizó el sistema de punto de venta (POS) de la empresa para capturar datos en tiempo real sobre las transacciones, lo que permitió un seguimiento constante y detallado de la demanda en esta categoría.
-		Para mejorar la precisión de los datos, se revisaron registros continuos de los niveles de inventario de la categoría de verduras. Aunque la investigación se centra en la demanda y no en la gestión de inventarios, este seguimiento indirecto permitió observar cómo la demanda afecta la reposición de productos perecibles, lo cual es crucial para la planificación diaria en productos de alta rotación.
-		Estas estrategias de recolección de datos se diseñaron para ofrecer una visión integral y cuantitativa de la demanda de la categoría de verduras en Market Donna SAC, focalizándose en este grupo de productos que tiene un impacto significativo en las ventas diarias y en la eficiencia operativa general de la empresa.
 		
-		
-		
-		\begin{figure}[H]
+		La etapa de recolección de datos constituyó uno de los componentes más críticos y fundamentales de la presente investigación, debido a que la calidad, consistencia y confiabilidad de la información histórica determinan directamente el desempeño y la precisión de los modelos de predicción de demanda. En investigaciones basadas en modelos de series temporales y algoritmos de Machine Learning, la disponibilidad de datos históricos estructurados y representativos resulta indispensable para identificar patrones de comportamiento, tendencias estacionales, variaciones cíclicas y fluctuaciones de consumo asociadas a la dinámica comercial de una empresa retail.
+
+
+			\subsection{Selección de la Categoría de Estudio}
+
+			La elección de los todos los productos respondió a criterios operacionales y analíticos 
+			orientados a maximizar la relevancia del estudio. Desde el punto de vista comercial, 
+			los productos presentan una alta rotación diaria, sensibilidad a factores externos y 
+			variabilidad significativa en los niveles de demanda. Estas características la convierten 
+			en un escenario adecuado para la aplicación de técnicas de pronóstico basadas en series 
+			temporales y aprendizaje automático.
+
+			Adicionalmente, debido a la naturaleza perecible de los productos, una estimación inadecuada 
+			de la demanda puede generar consecuencias importantes para la empresa, tales como sobrestock,
+			pérdidas por vencimiento, desabastecimiento y reducción en los niveles de satisfacción del 
+			cliente. Por ello, el análisis permite evaluar el impacto real que pueden tener los modelos
+			predictivos sobre la optimización del proceso de reabastecimiento.
+
+			\subsection{Extracción de Datos desde SQL Server}
+
+			Para implementar los modelos de predicción de demanda, se realizó una recopilación exhaustiva 
+			de información histórica utilizando el sistema de administración de bases de datos SQL Server
+			empleado por la empresa. Esta etapa implicó el diseño y ejecución de consultas SQL 
+			especializadas orientadas a la extracción, filtrado y consolidación de datos provenientes de
+			múltiples tablas relacionales.
+
+			Inicialmente, se desarrollaron consultas SQL específicas \ref{fig:querysql} destinadas a identificar y extraer la información relevante asociada a productos, categorías, familias, códigos internos, precios de venta y registros transaccionales. Este procedimiento permitió depurar información redundante, eliminar inconsistencias y estructurar adecuadamente los datos requeridos para el análisis posterior.
+
+			Posteriormente, se diseñó una consulta SQL avanzada \ref{fig:tablasql} que integró las diferentes tablas relacionales mediante operaciones de unión (\textit{JOIN}), filtros condicionales y criterios de normalización de datos. Esta integración permitió consolidar un conjunto de datos centralizado, consistente y coherente, garantizando la integridad referencial necesaria para la construcción de modelos de pronóstico de demanda.
+
+
+			\begin{figure}[H]
 			\begin{center}
 				\includegraphics[width=0.9\textwidth]{3/figures/querysql.jpg}
 				\caption{Consulta SQL}
@@ -148,7 +171,20 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 		\end{figure}
 		
 		
-		\begin{figure}[H]
+	
+			\subsection{Construcción del Dataset Histórico}
+
+			Como parte del proceso de preparación de datos, se consolidó información histórica 
+			correspondiente a las transacciones de ventas de productos de la categoría de verduras, abarrotes, 
+			frutas, lacteos, articulos de limpieza, carnes, bebidas, condimentos, embutidos, entro otros
+			desde el año 2012 hasta el año 2026. La amplitud temporal del conjunto de datos permitió disponer de una perspectiva histórica extensa, indispensable para identificar patrones de comportamiento de la demanda a corto, mediano y largo plazo.
+
+			El análisis temporal de esta información permitió detectar tendencias de crecimiento, patrones estacionales, variaciones semanales, fluctuaciones asociadas a campañas comerciales y cambios en el comportamiento de consumo de los clientes. Estos elementos representan variables fundamentales para el entrenamiento y validación de modelos de series temporales y algoritmos predictivos.
+
+			Asimismo, la utilización de un horizonte histórico amplio permitió reducir el sesgo estadístico y mejorar la capacidad de generalización de los modelos de Machine Learning, facilitando la captura de relaciones complejas entre las variables analizadas.
+
+
+	\begin{figure}[H]
 			\begin{center}
 				\includegraphics[width=0.5\textwidth]{3/figures/tablaSQL.jpg}
 				\caption{Tablas de ventas}
@@ -156,6 +192,45 @@ Además, el análisis de estas transacciones ofrece la oportunidad de estudiar l
 				\label{fig:tablasql}
 			\end{center}	
 		\end{figure}
+
+			\subsection{Integración de Datos del Sistema POS}
+
+			Complementariamente, se utilizaron registros provenientes del sistema de punto de venta (POS)
+			de la empresa para capturar información transaccional en tiempo real relacionada con 
+			las ventas diarias. Esta integración permitió obtener datos detallados sobre frecuencia de 
+			compra, volumen de ventas, horarios de mayor demanda y comportamiento operativo de los productos analizados.
+
+			La incorporación de información del sistema POS fortaleció la precisión del conjunto de datos, debido a que proporcionó registros actualizados y directamente vinculados con las operaciones comerciales reales de la empresa. Además, permitió realizar un seguimiento continuo del comportamiento de la demanda y validar la consistencia de los datos históricos extraídos desde SQL Server.
+
+			\subsection{Validación y Control de Calidad de los Datos}
+
+			Con el objetivo de garantizar la confiabilidad de la información utilizada en la investigación, se ejecutaron procesos de validación y control de calidad de datos. Estas actividades incluyeron la identificación de registros duplicados, tratamiento de valores nulos, detección de inconsistencias temporales y verificación de integridad entre tablas relacionadas.
+
+			Aunque el enfoque principal de la investigación se centra en la predicción de la demanda y no en la gestión de inventarios, este análisis complementario permitió comprender indirectamente la relación existente entre la demanda diaria y las necesidades de reposición de productos perecibles.
+
+			Este seguimiento resultó especialmente relevante debido a que los productos de alta rotación requieren procesos de abastecimiento frecuentes y precisos para minimizar pérdidas operativas y garantizar disponibilidad constante para los clientes.
+
+			\subsection{Importancia de la Recolección de Datos en la Investigación}
+
+			La recolección y preparación de datos representó una fase estratégica dentro del desarrollo de la investigación, debido a que constituyó la base sobre la cual se construyeron los modelos de predicción de demanda. La precisión de los algoritmos de series temporales y Machine Learning depende directamente de la calidad y representatividad de los datos históricos utilizados durante el entrenamiento y validación de los modelos.
+
+			En consecuencia, la implementación de procedimientos rigurosos de extracción, integración, validación y consolidación de información permitió disponer de un dataset robusto y confiable, capaz de soportar el desarrollo de modelos predictivos orientados a optimizar el reabastecimiento de productos en Market Donna SAC.
+
+			Finalmente, las estrategias de recolección de datos desarrolladas en esta investigación
+			proporcionaron una visión integral, cuantitativa y temporal del comportamiento de la 
+			demanda, permitiendo establecer una base sólida para la aplicación 
+			de técnicas avanzadas de análisis predictivo y toma de decisiones en entornos retail.
+
+		% La recolección de datos para esta investigación se focalizó en la obtención de información sobre la categoría de verduras, la cual representa en promedio el 33 \% de la demanda diaria en Market Donna SAC. Esta categoría fue seleccionada estratégicamente debido a su relevancia en la demanda diaria y su corta vida útil, lo que la convierte en un componente esencial para el análisis de productos en la empresa.
+		% Para implementar el modelo de series de tiempo y realizar pronósticos de demanda diarios que contribuyan a maximizar los ingresos, se llevó a cabo una recopilación exhaustiva de datos históricos a través de un sistema de administración de bases de datos en SQL Server. Inicialmente, se desarrollaron consultas SQL específicas \ref{fig:querysql} para filtrar y extraer las tablas relevantes, tales como las de productos, precios, familias y códigos. Este proceso permitió estructurar y organizar la información de manera adecuada para su posterior análisis.
+		% Posteriormente, se diseñó una consulta SQL \ref{fig:tablasql} avanzada que integró y combinó las tablas requeridas, garantizando la coherencia e integridad de los datos necesarios para construir los modelos de pronóstico de demanda. Esta metodología proporcionó un conjunto de datos preciso y completo, indispensable para la aplicación de técnicas avanzadas de series de tiempo.
+		% El análisis incluyó el examen detallado de transacciones de productos de la categoría de verduras desde el año 2012 hasta 2026, brindando una perspectiva temporal amplia para identificar patrones y tendencias de demanda diaria a lo largo del tiempo. Además, se utilizó el sistema de punto de venta (POS) de la empresa para capturar datos en tiempo real sobre las transacciones, lo que permitió un seguimiento constante y detallado de la demanda en esta categoría.
+		% Para mejorar la precisión de los datos, se revisaron registros continuos de los niveles de inventario de la categoría de verduras. Aunque la investigación se centra en la demanda y no en la gestión de inventarios, este seguimiento indirecto permitió observar cómo la demanda afecta la reposición de productos perecibles, lo cual es crucial para la planificación diaria en productos de alta rotación.
+		% Estas estrategias de recolección de datos se diseñaron para ofrecer una visión integral y cuantitativa de la demanda de la categoría de verduras en Market Donna SAC, focalizándose en este grupo de productos que tiene un impacto significativo en las ventas diarias y en la eficiencia operativa general de la empresa.
+		
+		
+		
+		
 		
 		
 		
@@ -755,27 +830,95 @@ Finalmente, el preprocesamiento permitió obtener un conjunto de datos estructur
 
 \section{Metodología para la medición de resultados de la implementación}
 
-La medición de los resultados de la implementación se realizó con el propósito de evaluar si los modelos de series temporales y Machine Learning contribuyen a mejorar la toma de decisiones en el proceso de pedido a proveedores de la empresa Donna S.A.C. Para ello, no solo se consideró la precisión estadística de los modelos, sino también su relación con los problemas y objetivos específicos de la investigación, tales como la consistencia de la base de datos histórica, la efectividad del preprocesamiento, la identificación de variables influyentes y la selección del modelo con mejor desempeño para apoyar el reabastecimiento.
+La medición de los resultados de la implementación se desarrolló mediante un procedimiento metodológico orientado
+a verificar si las preguntas específicas de la investigación fueron respondidas a partir del trabajo realizado 
+durante la construcción, evaluación y despliegue del modelo predictivo. Para ello, se tomó como punto de partida
+la relación entre los problemas específicos, los objetivos específicos y las actividades ejecutadas en las fases 
+de comprensión de datos, preprocesamiento, modelamiento, evaluación y despliegue de la solución. Bajo este 
+enfoque, la medición no se limitó únicamente a calcular métricas de precisión, sino que buscó demostrar, de 
+manera ordenada y sustentada, cómo cada etapa del proceso permitió obtener evidencia suficiente para responder 
+las interrogantes planteadas en el estudio.
 
-% En ese sentido, la evaluación de resultados se organizó en cuatro criterios principales. Primero, se verificó la calidad y consistencia de los datos históricos utilizados para el entrenamiento de los modelos, considerando la presencia de valores nulos, registros duplicados, valores atípicos y continuidad temporal. Segundo, se evaluó el efecto del preprocesamiento de datos, comparando el rendimiento de los modelos antes y después de aplicar técnicas de limpieza, transformación y generación de variables temporales. Tercero, se analizaron las variables que aportaron mayor información al comportamiento de la demanda, como el día de la semana, el mes, los rezagos de ventas y los promedios móviles. Finalmente, se compararon los modelos predictivos mediante métricas de error y capacidad explicativa, con el fin de seleccionar aquel que presente mayor precisión y aplicabilidad para el proceso de pedido a proveedores.
+En primer lugar, para abordar la pregunta relacionada con la influencia de la consistencia de la base de datos 
+histórica en la precisión de los modelos predictivos, se inició con la revisión estructural de la información 
+disponible. Esta etapa consistió en analizar la calidad de los registros históricos de ventas, verificando la 
+existencia de valores nulos, duplicados, inconsistencias en fechas, datos atípicos y continuidad temporal de 
+la información. El límite metodológico de esta evaluación estuvo determinado por los datos disponibles en la 
+empresa Donna S.A.C., por lo que el análisis se centró únicamente en la información registrada en la base de 
+datos interna y no en fuentes externas. A partir de esta revisión, se estableció si la información histórica 
+reunía condiciones mínimas de confiabilidad para ser utilizada en modelos de series temporales y Machine Learning.
+En consecuencia, la respuesta a esta pregunta se construyó observando cómo la depuración, organización y 
+estructuración de los datos permitieron mejorar la estabilidad del conjunto de entrenamiento y reducir posibles
+distorsiones en los resultados predictivos.
 
-Las métricas empleadas para evaluar la precisión de los modelos fueron el Error Absoluto Medio (MAE), el Error Cuadrático Medio (MSE), la Raíz del Error Cuadrático Medio (RMSE), el Error Porcentual Absoluto Medio (MAPE) y el coeficiente de determinación R$^2$. Estas métricas permitieron comparar las predicciones generadas por los modelos con los valores reales de demanda observados en el conjunto de prueba. De esta manera, se pudo determinar qué modelo se aproxima mejor al comportamiento real de la demanda y cuál resulta más útil para reducir errores en la planificación del abastecimiento.
+Posteriormente, para responder la pregunta sobre qué técnicas de preprocesamiento permitieron mejorar el 
+rendimiento de los modelos de predicción de demanda, se ejecutó una secuencia de actividades orientadas a 
+transformar los datos originales en un conjunto apto para el entrenamiento de algoritmos predictivos. Este 
+procedimiento incluyó la limpieza de registros, el tratamiento de valores faltantes, la corrección de 
+inconsistencias, el manejo de valores atípicos, la agregación de ventas por fecha, la selección de variables 
+relevantes y la generación de variables temporales. El límite de esta fase estuvo dado por la naturaleza 
+histórica y transaccional de la información, por lo que las transformaciones aplicadas se orientaron a conservar 
+la estructura temporal de la demanda sin alterar el comportamiento real de los datos. Desde el punto de vista 
+metodológico, estas técnicas fueron evaluadas según su aporte al rendimiento del modelo, comparando los resultados
+obtenidos luego del procesamiento de la información y verificando si las predicciones generadas se aproximaban 
+de manera más consistente a los valores reales observados.
 
-% Asimismo, la selección del modelo no se basó únicamente en obtener el menor error, sino también en su utilidad práctica dentro del contexto empresarial. Por ello, se consideró que un modelo es adecuado cuando permite estimar la demanda futura con un margen de error aceptable, facilita la planificación semanal de pedidos y contribuye a evitar problemas como sobrestock, quiebres de stock o pérdidas por productos perecibles.
+Asimismo, para tratar la pregunta referida a las variables que influyen significativamente en el comportamiento
+de la demanda de productos, se desarrolló un análisis exploratorio de datos y un proceso de ingeniería de 
+características. Esta etapa permitió examinar el comportamiento histórico de las ventas e identificar patrones 
+asociados al tiempo, tales como año, mes, día, día de la semana, fines de semana, rezagos de ventas y promedios 
+móviles. El límite metodológico de esta identificación se estableció en función de las variables disponibles y 
+derivables a partir de la base histórica de ventas, evitando incorporar factores externos que no estuvieran 
+registrados de manera sistemática en la empresa. La respuesta a esta pregunta se construyó evaluando la utilidad 
+de dichas variables dentro del proceso predictivo, es decir, observando si contribuían a capturar tendencias, 
+estacionalidades o comportamientos recurrentes en la demanda. De esta manera, las variables seleccionadas fueron 
+consideradas relevantes en la medida en que aportaron información útil para mejorar la capacidad explicativa y 
+predictiva del modelo.
 
-% \subsection{Relación entre objetivos de investigación y criterios de medición}
+Finalmente, para responder la pregunta relacionada con qué modelo de \textit{forecasting} presentó mejores 
+resultados en términos de precisión y aplicabilidad para optimizar la toma de decisiones en el pedido a 
+proveedores, se realizó una comparación metodológica entre los modelos implementados. Cada modelo fue entrenado 
+y evaluado bajo condiciones equivalentes, utilizando el mismo conjunto de datos procesado, la misma variable 
+objetivo y criterios de evaluación comparables. El límite de esta comparación estuvo definido por los algoritmos 
+seleccionados para el estudio y por el horizonte de predicción establecido para el análisis de demanda. 
+La medición se realizó mediante métricas cuantitativas como el Error Absoluto Medio, el Error Cuadrático Medio, 
+la Raíz del Error Cuadrático Medio, el Error Porcentual Absoluto Medio y el coeficiente de determinación. Estas 
+métricas permitieron comparar la diferencia entre los valores reales y los valores pronosticados, identificando 
+el modelo con menor error y mejor ajuste. No obstante, la selección del modelo más adecuado no se basó únicamente 
+en el resultado numérico, sino también en su aplicabilidad dentro del contexto operativo de Donna S.A.C., 
+considerando su capacidad para apoyar decisiones vinculadas al reabastecimiento y al pedido a proveedores.
 
-% Para asegurar que la medición de resultados esté alineada con los objetivos de la investigación, se estableció la siguiente relación metodológica:
+En conjunto, la metodología de medición permitió establecer una trazabilidad entre las preguntas específicas de 
+investigación y las actividades desarrolladas durante la implementación. Primero, se evaluó la consistencia de 
+los datos históricos; luego, se aplicaron técnicas de preprocesamiento para mejorar la calidad de la información; 
+posteriormente, se identificaron variables relevantes para explicar el comportamiento de la demanda; y, 
+finalmente, se compararon los modelos predictivos mediante métricas de evaluación. Este procedimiento permitió 
+responder las preguntas específicas de forma gradual, objetiva y sustentada, demostrando que los resultados 
+obtenidos no fueron producto de una evaluación aislada, sino de un proceso metodológico integral orientado a 
+validar la utilidad del modelo predictivo en la toma de decisiones para el pedido a proveedores de Donna S.A.C.
 
-% \begin{itemize}
-%     \item Para el objetivo relacionado con la consistencia de la base de datos histórica, se evaluó la calidad de los datos antes del entrenamiento, considerando registros incompletos, duplicados, valores atípicos y continuidad de la serie temporal.
+
+% La medición de los resultados de la implementación se realizó con el propósito de evaluar si los modelos de series temporales y Machine Learning contribuyen a mejorar la toma de decisiones en el proceso de pedido a proveedores de la empresa Donna S.A.C. Para ello, no solo se consideró la precisión estadística de los modelos, sino también su relación con los problemas y objetivos específicos de la investigación, tales como la consistencia de la base de datos histórica, la efectividad del preprocesamiento, la identificación de variables influyentes y la selección del modelo con mejor desempeño para apoyar el reabastecimiento.
+
+% % En ese sentido, la evaluación de resultados se organizó en cuatro criterios principales. Primero, se verificó la calidad y consistencia de los datos históricos utilizados para el entrenamiento de los modelos, considerando la presencia de valores nulos, registros duplicados, valores atípicos y continuidad temporal. Segundo, se evaluó el efecto del preprocesamiento de datos, comparando el rendimiento de los modelos antes y después de aplicar técnicas de limpieza, transformación y generación de variables temporales. Tercero, se analizaron las variables que aportaron mayor información al comportamiento de la demanda, como el día de la semana, el mes, los rezagos de ventas y los promedios móviles. Finalmente, se compararon los modelos predictivos mediante métricas de error y capacidad explicativa, con el fin de seleccionar aquel que presente mayor precisión y aplicabilidad para el proceso de pedido a proveedores.
+
+% Las métricas empleadas para evaluar la precisión de los modelos fueron el Error Absoluto Medio (MAE), el Error Cuadrático Medio (MSE), la Raíz del Error Cuadrático Medio (RMSE), el Error Porcentual Absoluto Medio (MAPE) y el coeficiente de determinación R$^2$. Estas métricas permitieron comparar las predicciones generadas por los modelos con los valores reales de demanda observados en el conjunto de prueba. De esta manera, se pudo determinar qué modelo se aproxima mejor al comportamiento real de la demanda y cuál resulta más útil para reducir errores en la planificación del abastecimiento.
+
+% % Asimismo, la selección del modelo no se basó únicamente en obtener el menor error, sino también en su utilidad práctica dentro del contexto empresarial. Por ello, se consideró que un modelo es adecuado cuando permite estimar la demanda futura con un margen de error aceptable, facilita la planificación semanal de pedidos y contribuye a evitar problemas como sobrestock, quiebres de stock o pérdidas por productos perecibles.
+
+% % \subsection{Relación entre objetivos de investigación y criterios de medición}
+
+% % Para asegurar que la medición de resultados esté alineada con los objetivos de la investigación, se estableció la siguiente relación metodológica:
+
+% % \begin{itemize}
+% %     \item Para el objetivo relacionado con la consistencia de la base de datos histórica, se evaluó la calidad de los datos antes del entrenamiento, considerando registros incompletos, duplicados, valores atípicos y continuidad de la serie temporal.
     
-%     \item Para el objetivo relacionado con las técnicas de preprocesamiento, se comparó el desempeño de los modelos utilizando los datos procesados, con el fin de verificar si la limpieza, transformación y creación de variables temporales mejoraron la precisión predictiva.
+% %     \item Para el objetivo relacionado con las técnicas de preprocesamiento, se comparó el desempeño de los modelos utilizando los datos procesados, con el fin de verificar si la limpieza, transformación y creación de variables temporales mejoraron la precisión predictiva.
     
-%     \item Para el objetivo relacionado con las variables influyentes en la demanda, se analizaron las variables temporales e históricas utilizadas por los modelos, tales como día de la semana, mes, ventas pasadas, rezagos y promedios móviles.
+% %     \item Para el objetivo relacionado con las variables influyentes en la demanda, se analizaron las variables temporales e históricas utilizadas por los modelos, tales como día de la semana, mes, ventas pasadas, rezagos y promedios móviles.
     
-%     \item Para el objetivo relacionado con la selección del mejor modelo de forecasting, se compararon los resultados obtenidos por cada algoritmo mediante métricas cuantitativas de error y ajuste, seleccionando aquel que presentó mejor equilibrio entre precisión y aplicabilidad para la toma de decisiones.
-% \end{itemize}
+% %     \item Para el objetivo relacionado con la selección del mejor modelo de forecasting, se compararon los resultados obtenidos por cada algoritmo mediante métricas cuantitativas de error y ajuste, seleccionando aquel que presentó mejor equilibrio entre precisión y aplicabilidad para la toma de decisiones.
+% % \end{itemize}
 
 \subsection{Error Absoluto Medio}
 

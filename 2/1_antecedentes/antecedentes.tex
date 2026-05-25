@@ -66,7 +66,7 @@ En la metodología siguen diversos pasos para el análisis y pronostico.
 
 %%%%%%%%%%%%%%%%%%%%%12
 
-\section{Food Sales Prediction Strategy Using Machine Learning and Deep Learning Algorithms \citep{foodsales2023}}
+\subsection{Food Sales Prediction Strategy Using Machine Learning and Deep Learning Algorithms \citep{foodsales2023}}
 \subsubsection{Planteamiento del Problema y objetivo}
 
 El estudio desarrollado por diversos autores abordó el problema de la predicción de ventas de productos alimenticios mediante técnicas de \textit{forecasting}, \textit{Machine Learning} y \textit{Deep Learning}. Los investigadores señalan que las empresas dedicadas a la comercialización de alimentos enfrentan dificultades para estimar con precisión la demanda futura, lo cual puede ocasionar pérdidas económicas debido al desperdicio de productos perecibles, exceso de inventario o escasez de productos para los consumidores.
@@ -149,7 +149,49 @@ Finalmente, el estudio concluyó que la combinación de técnicas de \textit{for
 \end{figure}
 
 
-\subsection{}
+\subsection{Modelo predictivo de ventas usando aprendizaje automático (Machine Learning) para pronosticar las ventas diarias de una empresa}
+
+\subsubsection{Planteamiento del problema y objetivo}
+
+La tesis desarrollada por Baron Jaramillo (2024), en la Universidad Nacional Abierta y a Distancia -- UNAD de Colombia, aborda el problema de la predicción de ventas diarias en una empresa comercial mediante el uso de técnicas de aprendizaje automático. El estudio parte de la necesidad de mejorar la capacidad de las organizaciones para anticipar el comportamiento futuro de sus ventas, considerando que una estimación imprecisa puede afectar la planificación de inventarios, la asignación de recursos, la gestión operativa y la toma de decisiones estratégicas.
+
+El problema central identificado por el autor se relaciona con las limitaciones que presentan los métodos tradicionales de pronóstico cuando deben capturar patrones complejos de series temporales, especialmente aquellos asociados a estacionalidad, días festivos, vacaciones y variaciones propias del comportamiento comercial. Frente a ello, se plantea el uso de modelos de Machine Learning como una alternativa para mejorar la precisión de los pronósticos y generar información útil para la gestión empresarial.
+
+El objetivo general de la investigación fue evaluar la efectividad de un modelo de Machine Learning implementado mediante el algoritmo Facebook Prophet para la predicción de ventas diarias en una empresa del sector comercial. Asimismo, el trabajo buscó comparar dicho modelo con métodos tradicionales de series temporales, como ARIMA y SARIMA, empleando métricas de evaluación que permitieran determinar el nivel de precisión y ajuste de cada modelo.
+
+Este antecedente guarda relación con la presente investigación, debido a que ambos estudios emplean técnicas de predicción basadas en datos históricos de ventas para apoyar la toma de decisiones empresariales. Además, ambos trabajos consideran la comparación de modelos predictivos y el uso de métricas cuantitativas como parte fundamental para determinar qué enfoque ofrece mejores resultados en términos de precisión y aplicabilidad.
+
+\subsubsection{Base de datos de los autores}
+
+La investigación utilizó una base de datos histórica de ventas diarias de una empresa comercial. Según el autor, el conjunto de datos empleado permitió simular el rol de un científico de datos dentro del área de ventas, con el propósito de predecir ventas futuras a partir de información histórica. La base de datos consideró registros asociados a tiendas comerciales, fechas y ventas, permitiendo estructurar una serie temporal orientada al análisis predictivo.
+
+Dentro del proceso de análisis, el autor examinó la información disponible para identificar el número de registros, los tipos de datos, la presencia de valores nulos y las características generales del conjunto de datos. Posteriormente, se realizaron gráficos exploratorios para observar el comportamiento histórico de las ventas, así como patrones relacionados con el día, mes y año. Este procedimiento permitió identificar tendencias, variaciones y posibles comportamientos estacionales dentro de la serie de ventas.
+
+La base de datos cumplió un papel fundamental en la investigación, ya que permitió entrenar y evaluar los modelos predictivos. Asimismo, la información histórica fue transformada y adaptada para cumplir con los requerimientos del algoritmo Facebook Prophet, el cual exige que las columnas de fecha y ventas sean renombradas como \textit{ds} y \textit{y}, respectivamente.
+
+\subsubsection{Metodología empleada por los autores}
+
+La metodología empleada por Baron Jaramillo (2024) se basó en el enfoque CRISP-DM, el cual proporciona una secuencia estructurada para el desarrollo de proyectos de minería de datos y Machine Learning. El proceso metodológico incluyó etapas de recolección, comprensión, preprocesamiento, modelamiento, evaluación y comparación de resultados.
+
+En primer lugar, se realizó la recolección y carga del conjunto de datos históricos de ventas. Posteriormente, se efectuó una revisión de la estructura de la base de datos, identificando los campos disponibles, tipos de datos, número de registros y existencia de valores nulos. Esta fase permitió determinar si la información era adecuada para el análisis de series temporales y para el entrenamiento de modelos predictivos.
+
+En segundo lugar, se desarrolló el análisis exploratorio de datos, mediante estadísticas descriptivas, mapas de calor, histogramas y gráficos de comportamiento histórico. A partir de este análisis, se identificaron patrones temporales en las ventas, tales como variaciones por día, mes y año. También se observó la existencia de comportamientos particulares en determinados periodos, como meses con mayores niveles de venta y tendencias decrecientes en ciertos tramos de la serie.
+
+En tercer lugar, se implementó el modelo Facebook Prophet. Para ello, el autor preparó la base de datos renombrando las columnas principales de fecha y ventas, aplicó transformaciones sobre la serie temporal y entrenó el modelo mediante el método \textit{fit()}. Luego, se generó un pronóstico a treinta días utilizando la función \textit{make\_future\_dataframe}, con el fin de estimar el comportamiento futuro de las ventas.
+
+Posteriormente, el autor incorporó días feriados y periodos de vacaciones dentro del modelo Prophet, con el objetivo de evaluar si estos factores mejoraban la precisión del pronóstico. Esta etapa permitió analizar la influencia de eventos especiales en la predicción de ventas y observar si su inclusión generaba cambios significativos en las métricas de evaluación.
+
+Finalmente, se desarrollaron modelos tradicionales de comparación, específicamente ARIMA y SARIMA. Estos modelos fueron implementados para contrastar su rendimiento frente al modelo Facebook Prophet. La comparación se realizó utilizando métricas como el Error Cuadrático Medio (MSE), la Raíz del Error Cuadrático Medio (RMSE), el Error Absoluto Medio (MAE), el Error Porcentual Absoluto Medio (MAPE) y el coeficiente de determinación R\textsuperscript{2}.
+
+\subsubsection{Resultados obtenidos}
+
+Los resultados obtenidos por Baron Jaramillo (2024) evidenciaron diferencias importantes entre los modelos evaluados. En la comparación general, el modelo ARIMA obtuvo los menores valores en MSE, RMSE y MAE, lo que indicó un mejor desempeño en términos de error absoluto y cuadrático. Por otro lado, los modelos Facebook Prophet, tanto con feriados como sin feriados, presentaron mejores resultados en MAPE y en el coeficiente de determinación R\textsuperscript{2}.
+
+En el caso de Facebook Prophet sin feriados ni vacaciones, el modelo obtuvo un MSE de 0.042068, RMSE de 0.205106, MAE de 0.159263, MAPE de 0.018904 y R\textsuperscript{2} de 0.261623. Por su parte, Facebook Prophet con feriados y vacaciones obtuvo un MSE de 0.042112, RMSE de 0.205211, MAE de 0.159111, MAPE de 0.018881 y R\textsuperscript{2} de 0.265667. Estos resultados mostraron que la inclusión de feriados y vacaciones produjo una mejora leve en algunas métricas, aunque no representó un cambio significativo en el rendimiento general del modelo.
+
+El modelo ARIMA presentó un MSE de 0.026233, RMSE de 0.161967, MAE de 0.136773, MAPE de 1.595034 y R\textsuperscript{2} de 0.006082. Estos valores indicaron que ARIMA tuvo un mejor desempeño en errores absolutos y cuadráticos, pero menor capacidad explicativa respecto a los modelos Prophet. En cambio, SARIMA presentó un desempeño inferior, con errores significativamente más altos, especialmente en MSE, RMSE, MAE y MAPE.
+
+Como conclusión, el autor señala que la elección del modelo depende del criterio de evaluación priorizado. Si el objetivo principal es reducir el error absoluto y cuadrático, ARIMA resulta más conveniente. Sin embargo, si se prioriza la precisión relativa porcentual y el ajuste general del modelo, Facebook Prophet presenta mejores condiciones. Este antecedente resulta relevante para la presente investigación porque demuestra la importancia de comparar modelos predictivos mediante diferentes métricas y de considerar no solo el menor error numérico, sino también la aplicabilidad del modelo dentro del contexto empresarial.
 % \subsubsection{Planteamiento del Problema y objetivo}
 % \subsubsection{Base de datos de los autores}
 % \subsubsection{Metodología empleada por los autores}
